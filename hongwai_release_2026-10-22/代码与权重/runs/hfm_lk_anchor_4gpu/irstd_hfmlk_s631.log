@@ -1,0 +1,16 @@
+/home/cx/hongwai/irstd-lab/scripts/train_hfm_lk_anchor_refiner_from_cache.py:193: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  scaler = torch.cuda.amp.GradScaler(enabled=args.amp and device.type == "cuda")
+/home/cx/hongwai/irstd-lab/scripts/train_hfm_lk_anchor_refiner_from_cache.py:217: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(enabled=args.amp and device.type == "cuda"):
+{"epoch": 1, "loss": 0.9145741047013133, "lr": 0.0001872724133595217, "seconds": 565.3113834857941}
+/home/cx/hongwai/irstd-lab/scripts/train_hfm_lk_anchor_refiner_from_cache.py:239: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.no_grad(), torch.cuda.amp.autocast(enabled=args.amp and device.type == "cuda"):
+{"epoch": 2, "eval": {"IRSTD-1K": {"Fa": 6.2624613444010414e-06, "Pd": 0.9344262295081968, "mIoU": 0.7333265243591053, "nIoU": 0.6694762418275234, "pixAcc": 0.8588516712188721, "threshold": 0.46}}, "loss": 0.912519250091761, "lr": 0.00015250000000000002, "seconds": 566.6436941623688}
+/home/cx/hongwai/irstd-lab/scripts/train_hfm_lk_anchor_refiner_from_cache.py:217: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(enabled=args.amp and device.type == "cuda"):
+{"epoch": 3, "loss": 0.9120326742823269, "lr": 0.000105, "seconds": 564.2692902088165}
+/home/cx/hongwai/irstd-lab/scripts/train_hfm_lk_anchor_refiner_from_cache.py:239: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.no_grad(), torch.cuda.amp.autocast(enabled=args.amp and device.type == "cuda"):
+{"epoch": 4, "eval": {"IRSTD-1K": {"Fa": 6.580352783203125e-06, "Pd": 0.9344262295081968, "mIoU": 0.7334220221039706, "nIoU": 0.6699359505286878, "pixAcc": 0.8572966456413269, "threshold": 0.46}}, "loss": 0.9117896375746459, "lr": 5.750000000000002e-05, "seconds": 562.4288399219513}
+{"epoch": 5, "loss": 0.9114774734777596, "lr": 2.2727586640478323e-05, "seconds": 563.0729167461395}
+{"epoch": 6, "eval": {"IRSTD-1K": {"Fa": 5.690256754557292e-06, "Pd": 0.9344262295081968, "mIoU": 0.7333675038441825, "nIoU": 0.6714500451248061, "pixAcc": 0.8557416200637817, "threshold": 0.46}}, "loss": 0.9113504866978291, "lr": 1e-05, "seconds": 565.4461426734924}

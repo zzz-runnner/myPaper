@@ -1,0 +1,14 @@
+/home/cx/hongwai/irstd-lab/scripts/train_dhif_anchor_refiner_from_cache.py:151: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  scaler = torch.cuda.amp.GradScaler(enabled=args.amp and device.type == "cuda")
+/home/cx/hongwai/irstd-lab/scripts/train_dhif_anchor_refiner_from_cache.py:175: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(enabled=args.amp and device.type == "cuda"):
+{"epoch": 1, "loss": 0.90352974538658, "lr": 0.00017349170002971503, "seconds": 414.15443873405457}
+/home/cx/hongwai/irstd-lab/scripts/train_dhif_anchor_refiner_from_cache.py:197: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.no_grad(), torch.cuda.amp.autocast(enabled=args.amp and device.type == "cuda"):
+{"epoch": 2, "eval": {"IRSTD-1K": {"Fa": 1.28864648923352e-05, "Pd": 0.9494949494949495, "mIoU": 0.7236597327921529, "nIoU": 0.6678236288797073, "pixAcc": 0.8824499845504761, "threshold": 0.38}}, "loss": 0.9016645768910717, "lr": 0.0001549576297914498, "seconds": 414.24475622177124}
+/home/cx/hongwai/irstd-lab/scripts/train_dhif_anchor_refiner_from_cache.py:175: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(enabled=args.amp and device.type == "cuda"):
+{"epoch": 3, "loss": 0.9013434859939577, "lr": 0.0001272194334672152, "seconds": 414.06135416030884}
+/home/cx/hongwai/irstd-lab/scripts/train_dhif_anchor_refiner_from_cache.py:197: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.no_grad(), torch.cuda.amp.autocast(enabled=args.amp and device.type == "cuda"):
+{"epoch": 4, "eval": {"IRSTD-1K": {"Fa": 1.2696678958722015e-05, "Pd": 0.9494949494949495, "mIoU": 0.7207715963097567, "nIoU": 0.661807101069362, "pixAcc": 0.8861621022224426, "threshold": 0.38}}, "loss": 0.9010561333351317, "lr": 9.45e-05, "seconds": 413.96123123168945}

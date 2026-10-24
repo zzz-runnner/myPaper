@@ -1,0 +1,132 @@
+{
+  "args": {
+    "dataset_dir": "/home/cx/hongwai/irstd-lab/datasets",
+    "train_cache_spec": [
+      "IRSTD-1K|/home/cx/hongwai/irstd-lab/reports/fusion_cache_bgm_rpcanet_train_a/IRSTD-1K__train.npz",
+      "NUAA-SIRST|/home/cx/hongwai/irstd-lab/reports/fusion_cache_official_mamba_teacher_nuaa/NUAA-SIRST__train.npz",
+      "NUDT-SIRST|/home/cx/hongwai/irstd-lab/reports/fusion_cache_bgm_rpcanet_train_b_test/NUDT-SIRST__train.npz",
+      "SIRST3|/home/cx/hongwai/irstd-lab/reports/fusion_cache_bgm_rpcanet_train_b_test/SIRST3__train.npz"
+    ],
+    "test_cache_spec": [
+      "NUAA-SIRST|/home/cx/hongwai/irstd-lab/reports/fusion_cache_official_mamba_teacher_nuaa/NUAA-SIRST__test.npz"
+    ],
+    "teacher_mode": "official_mamba_fused,strong_fusion",
+    "epochs": 4,
+    "batch_size": 2,
+    "patch_size": 512,
+    "base_channels": 48,
+    "lr": 4e-05,
+    "residual_scale": 0.06,
+    "anchor_weight": 0.16,
+    "pos_weight": 30.0,
+    "hard_clutter_weight": 0.0,
+    "hard_clutter_threshold": 0.35,
+    "miss_weight": 0.25,
+    "miss_threshold": 0.2,
+    "uncertainty_weight": 0.0,
+    "rank_weight": 0.0,
+    "rank_margin": 0.35,
+    "rank_topk": 512,
+    "fp_topk_weight": 0.0,
+    "fp_topk_ratio": 0.002,
+    "fp_topk_min": 128,
+    "pos_peak_weight": 0.0,
+    "pos_peak_margin": 4.0,
+    "weighted_dice": true,
+    "thresholds": "0.468,0.476,0.480,0.488,0.496,0.504,0.512,0.520,0.540",
+    "eval_interval": 1,
+    "max_train_samples_per_cache": 0,
+    "eval_max_samples": 0,
+    "focus_dataset": "NUAA-SIRST",
+    "focus_patch_prob": 0.5,
+    "focus_hard_threshold": 0.45,
+    "focus_miss_threshold": 0.18,
+    "copy_paste_prob": 0.0,
+    "copy_paste_max_area": 96,
+    "seed": 20260618,
+    "device": "cuda:0",
+    "amp": true,
+    "resume_checkpoint": "/home/cx/hongwai/irstd-lab/runs/strong_fusion_hfmlk_nuaa_4gpu/nuaa_strong_fusion_s703/best.pth.tar",
+    "output_dir": "/home/cx/hongwai/irstd-lab/runs/hfmlk_official_mamba_teacher_nuaa_4gpu/nuaa_official_mamba_focus_s964"
+  },
+  "best": {
+    "epoch": 1,
+    "mean_mIoU": 0.8208594351027585,
+    "eval": {
+      "NUAA-SIRST": {
+        "threshold": 0.512,
+        "pixAcc": 0.8904387354850769,
+        "mIoU": 0.8208594351027585,
+        "nIoU": 0.8201658719226099,
+        "Pd": 0.9771863117870723,
+        "Fa": 7.889098212961472e-06
+      }
+    }
+  },
+  "history": [
+    {
+      "epoch": 1,
+      "loss": 1.0402297530421067,
+      "lr": 3.4435028842544406e-05,
+      "seconds": 585.2705512046814,
+      "eval": {
+        "NUAA-SIRST": {
+          "threshold": 0.512,
+          "pixAcc": 0.8904387354850769,
+          "mIoU": 0.8208594351027585,
+          "nIoU": 0.8201658719226099,
+          "Pd": 0.9771863117870723,
+          "Fa": 7.889098212961472e-06
+        }
+      }
+    },
+    {
+      "epoch": 2,
+      "loss": 1.040186231026786,
+      "lr": 2.1000000000000002e-05,
+      "seconds": 584.5154626369476,
+      "eval": {
+        "NUAA-SIRST": {
+          "threshold": 0.512,
+          "pixAcc": 0.8903195261955261,
+          "mIoU": 0.8207495329157051,
+          "nIoU": 0.8201439334381204,
+          "Pd": 0.9771863117870723,
+          "Fa": 7.889098212961472e-06
+        }
+      }
+    },
+    {
+      "epoch": 3,
+      "loss": 1.0401475920490832,
+      "lr": 7.5649711574555986e-06,
+      "seconds": 583.4276216030121,
+      "eval": {
+        "NUAA-SIRST": {
+          "threshold": 0.512,
+          "pixAcc": 0.8904387354850769,
+          "mIoU": 0.8208594351027585,
+          "nIoU": 0.8201658719226099,
+          "Pd": 0.9771863117870723,
+          "Fa": 7.889098212961472e-06
+        }
+      }
+    },
+    {
+      "epoch": 4,
+      "loss": 1.0401000412967865,
+      "lr": 2.0000000000000003e-06,
+      "seconds": 582.6973609924316,
+      "eval": {
+        "NUAA-SIRST": {
+          "threshold": 0.512,
+          "pixAcc": 0.8904387354850769,
+          "mIoU": 0.8208594351027585,
+          "nIoU": 0.8201658719226099,
+          "Pd": 0.9771863117870723,
+          "Fa": 7.889098212961472e-06
+        }
+      }
+    }
+  ]
+}

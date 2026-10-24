@@ -1,0 +1,135 @@
+{
+  "weights": "/home/cx/hongwai/irstd-lab/runs/mtmlnet_full_4gpu/mtm_full_s512_b3_adamw_b/weights/best.pt",
+  "dataset": "IRSTD-1K",
+  "base_size": 512,
+  "num_images": 201,
+  "best_threshold": "0.020",
+  "best": {
+    "mIoU": 22.13736768330997,
+    "precision": 42.71591121059504,
+    "recall": 31.48415480855159,
+    "intersection": 4580,
+    "union": 20689,
+    "pred_pixels": 10722,
+    "gt_pixels": 14547
+  },
+  "by_threshold": {
+    "0.020": {
+      "mIoU": 22.13736768330997,
+      "precision": 42.71591121059504,
+      "recall": 31.48415480855159,
+      "intersection": 4580,
+      "union": 20689,
+      "pred_pixels": 10722,
+      "gt_pixels": 14547
+    },
+    "0.050": {
+      "mIoU": 17.62688215801407,
+      "precision": 53.32395357017236,
+      "recall": 20.842785454045508,
+      "intersection": 3032,
+      "union": 17201,
+      "pred_pixels": 5686,
+      "gt_pixels": 14547
+    },
+    "0.080": {
+      "mIoU": 14.305202455509395,
+      "precision": 59.351685104193464,
+      "recall": 15.858939987626314,
+      "intersection": 2307,
+      "union": 16127,
+      "pred_pixels": 3887,
+      "gt_pixels": 14547
+    },
+    "0.100": {
+      "mIoU": 12.550787201625191,
+      "precision": 62.13073538654934,
+      "recall": 13.590431016704475,
+      "intersection": 1977,
+      "union": 15752,
+      "pred_pixels": 3182,
+      "gt_pixels": 14547
+    },
+    "0.150": {
+      "mIoU": 9.677207284202222,
+      "precision": 68.91385767790263,
+      "recall": 10.118924864233175,
+      "intersection": 1472,
+      "union": 15211,
+      "pred_pixels": 2136,
+      "gt_pixels": 14547
+    },
+    "0.200": {
+      "mIoU": 7.693337797120857,
+      "precision": 74.75601821730645,
+      "recall": 7.898535780573314,
+      "intersection": 1149,
+      "union": 14935,
+      "pred_pixels": 1537,
+      "gt_pixels": 14547
+    },
+    "0.300": {
+      "mIoU": 4.820178122238086,
+      "precision": 81.40068886337542,
+      "recall": 4.873857152677528,
+      "intersection": 709,
+      "union": 14709,
+      "pred_pixels": 871,
+      "gt_pixels": 14547
+    },
+    "0.400": {
+      "mIoU": 2.905982905982906,
+      "precision": 84.49304174950298,
+      "recall": 2.9215645837629753,
+      "intersection": 425,
+      "union": 14625,
+      "pred_pixels": 503,
+      "gt_pixels": 14547
+    },
+    "0.500": {
+      "mIoU": 1.6867800329127811,
+      "precision": 86.92579505300353,
+      "recall": 1.6910703237780984,
+      "intersection": 246,
+      "union": 14584,
+      "pred_pixels": 283,
+      "gt_pixels": 14547
+    },
+    "0.600": {
+      "mIoU": 1.0645604395604396,
+      "precision": 92.26190476190477,
+      "recall": 1.0655117893723791,
+      "intersection": 155,
+      "union": 14560,
+      "pred_pixels": 168,
+      "gt_pixels": 14547
+    },
+    "0.700": {
+      "mIoU": 0.47429199890019247,
+      "precision": 98.57142857142858,
+      "recall": 0.4743246030109301,
+      "intersection": 69,
+      "union": 14548,
+      "pred_pixels": 70,
+      "gt_pixels": 14547
+    },
+    "0.800": {
+      "mIoU": 0.04811988726197842,
+      "precision": 100.0,
+      "recall": 0.04811988726197842,
+      "intersection": 7,
+      "union": 14547,
+      "pred_pixels": 7,
+      "gt_pixels": 14547
+    },
+    "0.900": {
+      "mIoU": 0.00687426960885406,
+      "precision": 100.0,
+      "recall": 0.00687426960885406,
+      "intersection": 1,
+      "union": 14547,
+      "pred_pixels": 1,
+      "gt_pixels": 14547
+    }
+  }
+}

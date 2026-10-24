@@ -1,0 +1,42 @@
+/home/cx/hongwai/irstd-lab/scripts/train_hfm_lk_anchor_refiner_from_cache.py:193: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  scaler = torch.cuda.amp.GradScaler(enabled=args.amp and device.type == "cuda")
+/home/cx/hongwai/irstd-lab/scripts/train_hfm_lk_anchor_refiner_from_cache.py:217: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(enabled=args.amp and device.type == "cuda"):
+Traceback (most recent call last):
+  File "/home/cx/hongwai/irstd-lab/scripts/train_hfm_lk_anchor_refiner_from_cache.py", line 262, in <module>
+    main()
+  File "/home/cx/hongwai/irstd-lab/scripts/train_hfm_lk_anchor_refiner_from_cache.py", line 218, in main
+    residual = args.residual_scale * torch.tanh(model(feat))
+  File "/home/cx/hongwai/irstd-lab/envs/irstd/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/cx/hongwai/irstd-lab/envs/irstd/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/cx/hongwai/irstd-lab/scripts/train_hfm_lk_anchor_refiner_from_cache.py", line 128, in forward
+    e3 = self.e3(F.max_pool2d(e2, 2))
+  File "/home/cx/hongwai/irstd-lab/envs/irstd/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/cx/hongwai/irstd-lab/envs/irstd/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/cx/hongwai/irstd-lab/scripts/train_hfm_lk_anchor_refiner_from_cache.py", line 107, in forward
+    y = self.context(y)
+  File "/home/cx/hongwai/irstd-lab/envs/irstd/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/cx/hongwai/irstd-lab/envs/irstd/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/cx/hongwai/irstd-lab/scripts/train_hfm_lk_anchor_refiner_from_cache.py", line 60, in forward
+    return x + self.mix(torch.cat([base, k3, k5, k7], dim=1))
+  File "/home/cx/hongwai/irstd-lab/envs/irstd/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/cx/hongwai/irstd-lab/envs/irstd/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/cx/hongwai/irstd-lab/envs/irstd/lib/python3.10/site-packages/torch/nn/modules/container.py", line 219, in forward
+    input = module(input)
+  File "/home/cx/hongwai/irstd-lab/envs/irstd/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/cx/hongwai/irstd-lab/envs/irstd/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/cx/hongwai/irstd-lab/envs/irstd/lib/python3.10/site-packages/torch/nn/modules/normalization.py", line 288, in forward
+    return F.group_norm(
+  File "/home/cx/hongwai/irstd-lab/envs/irstd/lib/python3.10/site-packages/torch/nn/functional.py", line 2606, in group_norm
+    return torch.group_norm(input, num_groups, weight, bias, eps, torch.backends.cudnn.enabled)
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 64.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 33.12 MiB is free. Including non-PyTorch memory, this process has 10.53 GiB memory in use. Of the allocated memory 10.32 GiB is allocated by PyTorch, and 32.50 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)

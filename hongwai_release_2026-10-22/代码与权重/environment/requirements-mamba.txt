@@ -1,0 +1,4 @@
+# Optional: required for raw-image DFAwareNet/HFMNet inference, not cached metric evaluation.
+causal-conv1d==1.5.3.post1
+mamba-ssm==2.2.6.post3
+pytorch-wavelets==1.3.0

@@ -1,0 +1,6 @@
+Deep-Supervision: True
+NUAA-SIRST: mIoU=77.64, nIoU=81.22, Pd=96.96, Fa=13.93, pixAcc=84.72
+Deep-Supervision: True
+NUDT-SIRST: mIoU=94.11, nIoU=94.40, Pd=98.62, Fa=4.30, pixAcc=96.36
+Deep-Supervision: True
+IRSTD-1K: mIoU=68.03, nIoU=68.11, Pd=93.27, Fa=10.74, pixAcc=77.31

@@ -1,0 +1,72 @@
+/home/cx/hongwai/irstd-lab/scripts/train_hybrid_methods.py:827: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  ckpt = torch.load(checkpoint, map_location="cpu")
+/home/cx/hongwai/irstd-lab/scripts/train_hybrid_methods.py:3111: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  ckpt = torch.load(checkpoint, map_location="cpu")
+Deep-Supervision: True
+Resume skipped shape-mismatched keys: 1
+Resume missing keys: 2
+Deep-Supervision: True
+Resume skipped shape-mismatched keys: 1
+Resume missing keys: 2
+collected train 100/800
+collected train 200/800
+collected train 300/800
+collected train 400/800
+collected train 500/800
+collected train 600/800
+collected train 700/800
+collected train 800/800
+collected train 100/213
+collected train 200/213
+collected train 100/663
+collected train 200/663
+collected train 300/663
+collected train 400/663
+collected train 500/663
+collected train 600/663
+collected train 100/1676
+collected train 200/1676
+collected train 300/1676
+collected train 400/1676
+collected train 500/1676
+collected train 600/1676
+collected train 700/1676
+collected train 800/1676
+collected train 900/1676
+collected train 1000/1676
+collected train 1100/1676
+collected train 1200/1676
+collected train 1300/1676
+collected train 1400/1676
+collected train 1500/1676
+collected train 1600/1676
+collected test 100/201
+collected test 200/201
+building component cache seed=0.45
+cache seed=0.45 train_components=5338 train_positive=4745 eval_components=348 eval_positive=284
+fitting mlp seed_th=0.45 run_seed=0 pos_scale=0.6
+scores seed_th=0.45 run_seed=0 pos_scale=0.6 train_pos=0.953 train_neg=0.026 eval_pos=0.898 eval_neg=0.190
+fitting mlp seed_th=0.45 run_seed=0 pos_scale=1.0
+scores seed_th=0.45 run_seed=0 pos_scale=1.0 train_pos=0.963 train_neg=0.033 eval_pos=0.914 eval_neg=0.216
+best_valid kind=baseline mode=max seed= fill= keep= out=0.5 mIoU=71.37 Pd=95.29 Fa=15.96
+best_oracle_not_valid seed=0.45 fill=max mIoU=74.18 Pd=95.29 Fa=3.49
+test_oracle_not_valid mode= seed=0.45 fill=max keep=0.5 out=0.45 mIoU=74.18 Pd=95.29 Fa=3.49
+baseline mode=max seed= fill= keep= out=0.5 mIoU=71.37 Pd=95.29 Fa=15.96
+baseline mode=max seed= fill= keep= out=0.45 mIoU=71.11 Pd=95.29 Fa=17.16
+test_oracle_not_valid mode= seed=0.45 fill=avg keep=0.5 out=0.45 mIoU=69.12 Pd=93.60 Fa=3.61
+baseline mode=baseq seed= fill= keep= out=0.5 mIoU=68.29 Pd=93.60 Fa=12.53
+baseline mode=refiner seed= fill= keep= out=0.45 mIoU=68.19 Pd=93.60 Fa=12.89
+baseline mode=baseq seed= fill= keep= out=0.45 mIoU=68.08 Pd=93.60 Fa=13.29
+baseline mode=refiner seed= fill= keep= out=0.5 mIoU=68.08 Pd=93.60 Fa=11.88
+mlp_train_fit_eval mode= seed=0.45 fill=avg keep=0.5 out=0.45 mIoU=67.50 Pd=87.88 Fa=5.22
+baseline mode=avg seed= fill= keep= out=0.45 mIoU=67.49 Pd=93.60 Fa=10.17
+mlp_train_fit_eval mode= seed=0.45 fill=avg keep=0.3 out=0.45 mIoU=67.43 Pd=88.89 Fa=5.96
+mlp_train_fit_eval mode= seed=0.45 fill=avg keep=0.3 out=0.45 mIoU=67.36 Pd=87.88 Fa=5.96
+baseline mode=avg seed= fill= keep= out=0.5 mIoU=67.28 Pd=93.94 Fa=6.60
+mlp_train_fit_eval mode= seed=0.45 fill=avg keep=0.5 out=0.5 mIoU=67.18 Pd=88.55 Fa=2.07
+mlp_train_fit_eval mode= seed=0.45 fill=avg keep=0.3 out=0.5 mIoU=67.14 Pd=89.56 Fa=2.96
+mlp_train_fit_eval mode= seed=0.45 fill=max keep=0.5 out=0.5 mIoU=67.06 Pd=88.22 Fa=4.88
+mlp_train_fit_eval mode= seed=0.45 fill=avg keep=0.3 out=0.5 mIoU=67.05 Pd=88.55 Fa=2.79
+mlp_train_fit_eval mode= seed=0.45 fill=avg keep=0.5 out=0.45 mIoU=66.99 Pd=85.86 Fa=4.90
+mlp_train_fit_eval mode= seed=0.45 fill=avg keep=0.7 out=0.45 mIoU=66.96 Pd=85.86 Fa=4.86
+mlp_train_fit_eval mode= seed=0.45 fill=max keep=0.5 out=0.45 mIoU=66.94 Pd=88.22 Fa=5.77

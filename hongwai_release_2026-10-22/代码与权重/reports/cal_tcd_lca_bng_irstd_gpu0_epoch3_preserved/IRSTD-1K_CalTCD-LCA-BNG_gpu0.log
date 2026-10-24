@@ -1,0 +1,20 @@
+/home/cx/hongwai/irstd-lab/scripts/train_hybrid_methods.py:686: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  ckpt = torch.load(checkpoint, map_location="cpu")
+/home/cx/hongwai/irstd-lab/scripts/train_hybrid_methods.py:2125: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  ckpt = torch.load(checkpoint, map_location="cpu")
+Deep-Supervision: True
+Resume skipped shape-mismatched keys: 1
+Resume missing keys: 243
+Resume unexpected keys: 29
+Deep-Supervision: True
+Resume skipped shape-mismatched keys: 1
+Resume missing keys: 2
+IRSTD-1K	CalTCD-LCA-BNG	sct_tcd_lca_bng_refiner
+train_datasets=IRSTD-1K,NUAA-SIRST,NUDT-SIRST,SIRST3 train_size=7352 target_repeat=6 batch_size=10 run_dir=/home/cx/hongwai/irstd-lab/runs/calibrated_tcd_lca_bng_gpu0/IRSTD-1K_CalTCD-LCA-BNG_gpu0
+best epoch=0 pixAcc=0.790885 mIoU=0.682384 Pd=0.936027 Fa=0.0000124500
+Jun 13 03:41:51 Epoch---1, total_loss---0.554105, lr---0.00003500,
+eval epoch=1 pixAcc=0.790266 mIoU=0.682174 Pd=0.936027 Fa=0.0000123930
+Jun 13 03:46:52 Epoch---2, total_loss---0.569906, lr---0.00003498,
+eval epoch=2 pixAcc=0.789097 mIoU=0.682177 Pd=0.936027 Fa=0.0000123171
+Jun 13 03:51:45 Epoch---3, total_loss---0.667155, lr---0.00003492,
+eval epoch=3 pixAcc=0.787241 mIoU=0.681991 Pd=0.936027 Fa=0.0000122412

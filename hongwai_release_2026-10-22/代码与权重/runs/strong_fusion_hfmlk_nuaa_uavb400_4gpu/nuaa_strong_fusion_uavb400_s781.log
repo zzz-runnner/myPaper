@@ -1,0 +1,12 @@
+/home/cx/hongwai/irstd-lab/scripts/train_hfm_lk_anchor_refiner_from_cache.py:193: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  scaler = torch.cuda.amp.GradScaler(enabled=args.amp and device.type == "cuda")
+/home/cx/hongwai/irstd-lab/scripts/train_hfm_lk_anchor_refiner_from_cache.py:217: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(enabled=args.amp and device.type == "cuda"):
+/home/cx/hongwai/irstd-lab/scripts/train_hfm_lk_anchor_refiner_from_cache.py:239: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.no_grad(), torch.cuda.amp.autocast(enabled=args.amp and device.type == "cuda"):
+{"epoch": 1, "eval": {"NUAA-SIRST": {"Fa": 1.0427329811914294e-05, "Pd": 0.9809885931558935, "mIoU": 0.8113959500215424, "nIoU": 0.8124497427319863, "pixAcc": 0.8980686664581299, "threshold": 0.46}}, "loss": 1.319724621096336, "lr": 0.0001872724133595217, "seconds": 635.8732993602753}
+/home/cx/hongwai/irstd-lab/scripts/train_hfm_lk_anchor_refiner_from_cache.py:217: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(enabled=args.amp and device.type == "cuda"):
+/home/cx/hongwai/irstd-lab/scripts/train_hfm_lk_anchor_refiner_from_cache.py:239: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.no_grad(), torch.cuda.amp.autocast(enabled=args.amp and device.type == "cuda"):
+{"epoch": 2, "eval": {"NUAA-SIRST": {"Fa": 9.055312731399256e-06, "Pd": 0.9809885931558935, "mIoU": 0.810566037735849, "nIoU": 0.8128217754254504, "pixAcc": 0.8962804079055786, "threshold": 0.46}}, "loss": 1.3173523757503485, "lr": 0.00015250000000000002, "seconds": 635.5905556678772}

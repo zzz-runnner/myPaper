@@ -1,0 +1,67 @@
+{
+  "args": {
+    "dataset_dir": "datasets",
+    "train_cache_spec": [
+      "NUAA-SIRST|reports/prediction_cache_nuaa_tpc_lca_train_a/NUAA-SIRST__train.npz"
+    ],
+    "test_cache_spec": [
+      "NUAA-SIRST|reports/prediction_cache_nuaa_tpc_lca_train_b_test/NUAA-SIRST__test.npz"
+    ],
+    "teacher_mode": "avg",
+    "epochs": 1,
+    "batch_size": 1,
+    "patch_size": 128,
+    "base_channels": 16,
+    "dhif_stages": "e1",
+    "lr": 0.0002,
+    "residual_scale": 0.3,
+    "anchor_weight": 0.02,
+    "pos_weight": 30.0,
+    "hard_clutter_weight": 1.0,
+    "hard_clutter_threshold": 0.35,
+    "miss_weight": 1.0,
+    "miss_threshold": 0.2,
+    "uncertainty_weight": 0.3,
+    "weighted_dice": true,
+    "thresholds": "0.30,0.34,0.38,0.42,0.46,0.50,0.54,0.58,0.62,0.66",
+    "eval_interval": 1,
+    "max_train_samples_per_cache": 8,
+    "eval_max_samples": 8,
+    "seed": 20260614,
+    "device": "cuda:0",
+    "amp": true,
+    "output_dir": "runs/dhif_anchor_smoke/nuaa_e1_smoke"
+  },
+  "best": {
+    "epoch": 1,
+    "mean_mIoU": 0.7790368271954674,
+    "eval": {
+      "NUAA-SIRST": {
+        "threshold": 0.66,
+        "pixAcc": 0.8566977977752686,
+        "mIoU": 0.7790368271954674,
+        "nIoU": 0.8352232378789799,
+        "Pd": 1.0,
+        "Fa": 6.192321109003428e-06
+      }
+    }
+  },
+  "history": [
+    {
+      "epoch": 1,
+      "loss": 0.36357490019872785,
+      "lr": 1e-05,
+      "seconds": 1.03399658203125,
+      "eval": {
+        "NUAA-SIRST": {
+          "threshold": 0.66,
+          "pixAcc": 0.8566977977752686,
+          "mIoU": 0.7790368271954674,
+          "nIoU": 0.8352232378789799,
+          "Pd": 1.0,
+          "Fa": 6.192321109003428e-06
+        }
+      }
+    }
+  ]
+}

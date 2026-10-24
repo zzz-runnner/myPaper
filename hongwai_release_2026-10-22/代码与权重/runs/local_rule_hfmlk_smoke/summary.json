@@ -1,0 +1,86 @@
+{
+  "args": {
+    "dataset_dir": "/home/cx/hongwai/irstd-lab/datasets",
+    "train_cache_spec": [
+      "IRSTD-1K|reports/fusion_cache_bgm_rpcanet_train_a/IRSTD-1K__train.npz",
+      "NUAA-SIRST|reports/fusion_cache_official_mamba_teacher_nuaa/NUAA-SIRST__train.npz"
+    ],
+    "test_cache_spec": [
+      "NUAA-SIRST|reports/fusion_cache_official_mamba_teacher_nuaa/NUAA-SIRST__test.npz"
+    ],
+    "teacher_mode": "local_rule",
+    "epochs": 1,
+    "batch_size": 1,
+    "patch_size": 256,
+    "base_channels": 16,
+    "lr": 0.0002,
+    "residual_scale": 0.4,
+    "anchor_weight": 0.02,
+    "pos_weight": 30.0,
+    "hard_clutter_weight": 0.0,
+    "hard_clutter_threshold": 0.35,
+    "miss_weight": 0.0,
+    "miss_threshold": 0.2,
+    "uncertainty_weight": 0.0,
+    "rank_weight": 0.0,
+    "rank_margin": 0.35,
+    "rank_topk": 512,
+    "fp_topk_weight": 0.0,
+    "fp_topk_ratio": 0.002,
+    "fp_topk_min": 128,
+    "pos_peak_weight": 0.0,
+    "pos_peak_margin": 4.0,
+    "weighted_dice": false,
+    "thresholds": "0.49,0.498",
+    "eval_interval": 1,
+    "max_train_samples_per_cache": 4,
+    "eval_max_samples": 8,
+    "num_workers": 0,
+    "focus_dataset": "",
+    "focus_patch_prob": 0.0,
+    "focus_hard_threshold": 0.45,
+    "focus_miss_threshold": 0.18,
+    "copy_paste_prob": 0.0,
+    "copy_paste_max_area": 96,
+    "gamma_prob": 0.0,
+    "noise_std": 0.0,
+    "image_aug_mode": "image",
+    "seed": 20260615,
+    "device": "cuda:0",
+    "amp": false,
+    "resume_checkpoint": "",
+    "output_dir": "runs/local_rule_hfmlk_smoke"
+  },
+  "best": {
+    "epoch": 1,
+    "mean_mIoU": 0.8324324324324325,
+    "eval": {
+      "NUAA-SIRST": {
+        "threshold": 0.498,
+        "pixAcc": 0.9595015645027161,
+        "mIoU": 0.8324324324324325,
+        "nIoU": 0.8634832509849237,
+        "Pd": 1.0,
+        "Fa": 0.0
+      }
+    }
+  },
+  "history": [
+    {
+      "epoch": 1,
+      "loss": 0.6962219923734665,
+      "lr": 1e-05,
+      "seconds": 1.7518231868743896,
+      "eval": {
+        "NUAA-SIRST": {
+          "threshold": 0.498,
+          "pixAcc": 0.9595015645027161,
+          "mIoU": 0.8324324324324325,
+          "nIoU": 0.8634832509849237,
+          "Pd": 1.0,
+          "Fa": 0.0
+        }
+      }
+    }
+  ]
+}

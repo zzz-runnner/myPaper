@@ -1,0 +1,36 @@
+{
+  "out_root": "/home/cx/hongwai/irstd-lab/generated/mtmlnet_full",
+  "bbox_mode": "components",
+  "target_datasets": [
+    "IRSTD-1K",
+    "NUAA-SIRST"
+  ],
+  "datasets": [
+    "IRSTD-1K",
+    "NUAA-SIRST",
+    "NUDT-SIRST",
+    "SIRST3"
+  ],
+  "splits": {
+    "train": 3352,
+    "val": 415
+  },
+  "datasets_by_split": {
+    "train": {
+      "IRSTD-1K": 800,
+      "NUAA-SIRST": 213,
+      "NUDT-SIRST": 663,
+      "SIRST3": 1676
+    },
+    "val": {
+      "IRSTD-1K": 201,
+      "NUAA-SIRST": 214
+    }
+  },
+  "boxes_by_split": {
+    "train": 4772,
+    "val": 560
+  },
+  "empty_masks": [],
+  "yaml": "/home/cx/hongwai/irstd-lab/generated/mtmlnet_full/mtmlnet_full.yaml"
+}

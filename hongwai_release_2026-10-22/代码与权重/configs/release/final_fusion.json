@@ -1,0 +1,28 @@
+{
+  "IRSTD-1K": {
+    "primary": "Anchor_noTTA",
+    "weights": [
+      0.876,
+      0.062,
+      0.062
+    ],
+    "gamma": 0.994,
+    "threshold": 0.4,
+    "min_area": 3
+  },
+  "NUAA-SIRST": {
+    "pair_weights": [
+      0.45,
+      0.55
+    ],
+    "pair_gamma": 0.998,
+    "weights": [
+      0.876,
+      0.062,
+      0.062
+    ],
+    "gamma": 0.994,
+    "threshold": 0.4995,
+    "min_area": 3
+  }
+}

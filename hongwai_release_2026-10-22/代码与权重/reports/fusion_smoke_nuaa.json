@@ -1,0 +1,263 @@
+{
+  "dataset": "NUAA-SIRST",
+  "models": [
+    "fixed",
+    "lca_b"
+  ],
+  "model_specs": [
+    "fixed|sct_refiner|/home/cx/hongwai/irstd-lab/runs/selected_checkpoints/our_method/NUAA-SIRST_TCD-SCTransNet-L_66_best.pth.tar|/home/cx/hongwai/irstd-lab/runs/sct_refiner_fixed/NUAA-SIRST_SCT-Refiner-Fixed_gpu2/checkpoints/NUAA-SIRST/best_mIoU.pth.tar",
+    "lca_b|sct_lca_refiner|/home/cx/hongwai/irstd-lab/runs/selected_checkpoints/our_method/NUAA-SIRST_TCD-SCTransNet-L_66_best.pth.tar|/home/cx/hongwai/irstd-lab/runs/selected_checkpoints/lca/NUAA-SIRST_SCT-LCA-B_epoch5_best.pth.tar"
+  ],
+  "best": {
+    "mode": "fixed",
+    "pixAcc": 0.8819742202758789,
+    "mIoU": 0.7911453320500481,
+    "nIoU": 0.793898080411888,
+    "Pd": 0.9657794676806084,
+    "Fa": 1.7699020338644e-05,
+    "threshold": 0.5,
+    "min_area": 1,
+    "max_area": 0,
+    "max_height": 0,
+    "max_width": 0
+  },
+  "top": [
+    {
+      "mode": "fixed",
+      "pixAcc": 0.8819742202758789,
+      "mIoU": 0.7911453320500481,
+      "nIoU": 0.793898080411888,
+      "Pd": 0.9657794676806084,
+      "Fa": 1.7699020338644e-05,
+      "threshold": 0.5,
+      "min_area": 1,
+      "max_area": 0,
+      "max_height": 0,
+      "max_width": 0
+    },
+    {
+      "mode": "lca_b",
+      "pixAcc": 0.8819742202758789,
+      "mIoU": 0.7911453320500481,
+      "nIoU": 0.793898080411888,
+      "Pd": 0.9657794676806084,
+      "Fa": 1.7699020338644e-05,
+      "threshold": 0.5,
+      "min_area": 1,
+      "max_area": 0,
+      "max_height": 0,
+      "max_width": 0
+    },
+    {
+      "mode": "avg_prob",
+      "pixAcc": 0.8819742202758789,
+      "mIoU": 0.7911453320500481,
+      "nIoU": 0.793898080411888,
+      "Pd": 0.9657794676806084,
+      "Fa": 1.7699020338644e-05,
+      "threshold": 0.5,
+      "min_area": 1,
+      "max_area": 0,
+      "max_height": 0,
+      "max_width": 0
+    },
+    {
+      "mode": "sample_oracle",
+      "pixAcc": 0.8819742202758789,
+      "mIoU": 0.7911453320500481,
+      "nIoU": 0.793898080411888,
+      "Pd": 0.9657794676806084,
+      "Fa": 1.7699020338644e-05,
+      "threshold": 0.5,
+      "min_area": 1,
+      "max_area": 0,
+      "max_height": 0,
+      "max_width": 0
+    },
+    {
+      "mode": "fixed",
+      "pixAcc": 0.884716272354126,
+      "mIoU": 0.7901405451448041,
+      "nIoU": 0.7919774428422264,
+      "Pd": 0.9657794676806084,
+      "Fa": 1.8179226316824263e-05,
+      "threshold": 0.45,
+      "min_area": 1,
+      "max_area": 0,
+      "max_height": 0,
+      "max_width": 0
+    }
+  ],
+  "rows": [
+    {
+      "mode": "fixed",
+      "pixAcc": 0.8819742202758789,
+      "mIoU": 0.7911453320500481,
+      "nIoU": 0.793898080411888,
+      "Pd": 0.9657794676806084,
+      "Fa": 1.7699020338644e-05,
+      "threshold": 0.5,
+      "min_area": 1,
+      "max_area": 0,
+      "max_height": 0,
+      "max_width": 0
+    },
+    {
+      "mode": "lca_b",
+      "pixAcc": 0.8819742202758789,
+      "mIoU": 0.7911453320500481,
+      "nIoU": 0.793898080411888,
+      "Pd": 0.9657794676806084,
+      "Fa": 1.7699020338644e-05,
+      "threshold": 0.5,
+      "min_area": 1,
+      "max_area": 0,
+      "max_height": 0,
+      "max_width": 0
+    },
+    {
+      "mode": "avg_prob",
+      "pixAcc": 0.8819742202758789,
+      "mIoU": 0.7911453320500481,
+      "nIoU": 0.793898080411888,
+      "Pd": 0.9657794676806084,
+      "Fa": 1.7699020338644e-05,
+      "threshold": 0.5,
+      "min_area": 1,
+      "max_area": 0,
+      "max_height": 0,
+      "max_width": 0
+    },
+    {
+      "mode": "sample_oracle",
+      "pixAcc": 0.8819742202758789,
+      "mIoU": 0.7911453320500481,
+      "nIoU": 0.793898080411888,
+      "Pd": 0.9657794676806084,
+      "Fa": 1.7699020338644e-05,
+      "threshold": 0.5,
+      "min_area": 1,
+      "max_area": 0,
+      "max_height": 0,
+      "max_width": 0
+    },
+    {
+      "mode": "fixed",
+      "pixAcc": 0.884716272354126,
+      "mIoU": 0.7901405451448041,
+      "nIoU": 0.7919774428422264,
+      "Pd": 0.9657794676806084,
+      "Fa": 1.8179226316824263e-05,
+      "threshold": 0.45,
+      "min_area": 1,
+      "max_area": 0,
+      "max_height": 0,
+      "max_width": 0
+    },
+    {
+      "mode": "lca_b",
+      "pixAcc": 0.8847162613257034,
+      "mIoU": 0.7901405451448041,
+      "nIoU": null,
+      "Pd": null,
+      "Fa": null,
+      "threshold": 0.45,
+      "min_area": 1,
+      "max_area": 0,
+      "max_height": 0,
+      "max_width": 0
+    },
+    {
+      "mode": "avg_prob",
+      "pixAcc": 0.8847162613257034,
+      "mIoU": 0.7901405451448041,
+      "nIoU": null,
+      "Pd": null,
+      "Fa": null,
+      "threshold": 0.45,
+      "min_area": 1,
+      "max_area": 0,
+      "max_height": 0,
+      "max_width": 0
+    },
+    {
+      "mode": "sample_oracle",
+      "pixAcc": 0.8847162613257034,
+      "mIoU": 0.7901405451448041,
+      "nIoU": null,
+      "Pd": null,
+      "Fa": null,
+      "threshold": 0.45,
+      "min_area": 1,
+      "max_area": 0,
+      "max_height": 0,
+      "max_width": 0
+    },
+    {
+      "mode": "fixed",
+      "pixAcc": 0.8774439675727229,
+      "mIoU": 0.7895301437459773,
+      "nIoU": null,
+      "Pd": null,
+      "Fa": null,
+      "threshold": 0.55,
+      "min_area": 1,
+      "max_area": 0,
+      "max_height": 0,
+      "max_width": 0
+    },
+    {
+      "mode": "lca_b",
+      "pixAcc": 0.8774439675727229,
+      "mIoU": 0.7895301437459773,
+      "nIoU": null,
+      "Pd": null,
+      "Fa": null,
+      "threshold": 0.55,
+      "min_area": 1,
+      "max_area": 0,
+      "max_height": 0,
+      "max_width": 0
+    },
+    {
+      "mode": "avg_prob",
+      "pixAcc": 0.8774439675727229,
+      "mIoU": 0.7895301437459773,
+      "nIoU": null,
+      "Pd": null,
+      "Fa": null,
+      "threshold": 0.55,
+      "min_area": 1,
+      "max_area": 0,
+      "max_height": 0,
+      "max_width": 0
+    },
+    {
+      "mode": "sample_oracle",
+      "pixAcc": 0.8774439675727229,
+      "mIoU": 0.7895301437459773,
+      "nIoU": null,
+      "Pd": null,
+      "Fa": null,
+      "threshold": 0.55,
+      "min_area": 1,
+      "max_area": 0,
+      "max_height": 0,
+      "max_width": 0
+    }
+  ],
+  "oracle_choices": {
+    "0.45|1|0|0|0": {
+      "fixed": 214,
+      "lca_b": 0
+    },
+    "0.5|1|0|0|0": {
+      "fixed": 214,
+      "lca_b": 0
+    },
+    "0.55|1|0|0|0": {
+      "fixed": 214,
+      "lca_b": 0
+    }
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "args": {
+    "dataset_dir": "/home/cx/hongwai/irstd-lab/datasets",
+    "dataset_name": "IRSTD-1K",
+    "cache": "reports/prediction_cache_irstd_dual_train_b_test/IRSTD-1K__test.npz",
+    "checkpoint": "runs/anchor_refiner_multidata_probe/irstd_multi_r05_a002_s81/best.pth.tar",
+    "teacher_mode": "avg",
+    "base_channels": 64,
+    "residual_scale": 0.5,
+    "thresholds": "0.328,0.368",
+    "tta": "none",
+    "eval_max_samples": 0,
+    "device": "cuda:0",
+    "output": "reports/anchor_refiner_maps_regen_eval.json",
+    "save_maps": "reports/anchor_refiner_maps_regen.npz"
+  },
+  "checkpoint_best": {
+    "epoch": 4,
+    "mean_mIoU": 0.7283509249801384,
+    "eval": {
+      "IRSTD-1K": {
+        "threshold": 0.35,
+        "pixAcc": 0.8823124766349792,
+        "mIoU": 0.7283509249801384,
+        "nIoU": 0.6771549534796379,
+        "Pd": 0.9461279461279462,
+        "Fa": 1.2412000058302239e-05
+      }
+    }
+  },
+  "best": {
+    "mode": "tta_1",
+    "threshold": 0.368,
+    "pixAcc": 0.879631519317627,
+    "mIoU": 0.7286186083589569,
+    "nIoU": 0.676526890522581,
+    "Pd": 0.9461279461279462,
+    "Fa": 1.2089363971159825e-05
+  },
+  "rows": [
+    {
+      "mode": "tta_1",
+      "threshold": 0.368,
+      "pixAcc": 0.879631519317627,
+      "mIoU": 0.7286186083589569,
+      "nIoU": 0.676526890522581,
+      "Pd": 0.9461279461279462,
+      "Fa": 1.2089363971159825e-05
+    },
+    {
+      "mode": "no_tta",
+      "threshold": 0.368,
+      "pixAcc": 0.879631519317627,
+      "mIoU": 0.7286186083589569,
+      "nIoU": 0.676526890522581,
+      "Pd": 0.9461279461279462,
+      "Fa": 1.2089363971159825e-05
+    },
+    {
+      "mode": "tta_1",
+      "threshold": 0.328,
+      "pixAcc": 0.8860933780670166,
+      "mIoU": 0.7284955352096756,
+      "nIoU": 0.6777632205139855,
+      "Pd": 0.9461279461279462,
+      "Fa": 1.2449957245024875e-05
+    },
+    {
+      "mode": "no_tta",
+      "threshold": 0.328,
+      "pixAcc": 0.8860933780670166,
+      "mIoU": 0.7284955352096756,
+      "nIoU": 0.6777632205139855,
+      "Pd": 0.9461279461279462,
+      "Fa": 1.2449957245024875e-05
+    }
+  ]
+}

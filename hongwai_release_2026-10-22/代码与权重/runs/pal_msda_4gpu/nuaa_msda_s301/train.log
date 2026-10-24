@@ -1,0 +1,25 @@
+{
+  "dataset_dir": "/home/cx/hongwai/irstd-lab/datasets",
+  "dataset_name": "NUAA-SIRST",
+  "train_datasets": "IRSTD-1K,NUAA-SIRST,NUDT-SIRST,SIRST3",
+  "model_name": "MSDA",
+  "epochs": 12,
+  "batch_size": 16,
+  "patch_size": 320,
+  "target_repeat": 8,
+  "lr": 0.0003,
+  "pos_weight": 25.0,
+  "thresholds": "0.10,0.15,0.20,0.25,0.30,0.35,0.40,0.45,0.50,0.55,0.60,0.65,0.70,0.75,0.80,0.85,0.90",
+  "eval_interval": 2,
+  "eval_max_samples": 0,
+  "seed": 202606301,
+  "device": "cuda:0",
+  "amp": true,
+  "output_dir": "/home/cx/hongwai/irstd-lab/runs/pal_msda_4gpu/nuaa_msda_s301"
+}
+{"epoch": 1, "loss": 0.42532659879583395, "lr": 0.0002951444302461922, "seconds": 175.84557580947876}
+{"epoch": 2, "eval": {"NUAA-SIRST": {"Fa": 3.045877918743386e-05, "Pd": 0.9201520912547528, "mIoU": 0.6990691770679077, "nIoU": 0.7332139260694714, "pixAcc": 0.7879112958908081, "threshold": 0.5}}, "loss": 0.2692341473915719, "lr": 0.0002809086200392825, "seconds": 174.96732378005981}
+{"epoch": 3, "loss": 0.24828286422108184, "lr": 0.000258262716319083, "seconds": 175.04274988174438}
+{"epoch": 4, "eval": {"NUAA-SIRST": {"Fa": 1.5640994717871443e-05, "Pd": 0.9429657794676806, "mIoU": 0.7196241950807558, "nIoU": 0.7544586827277805, "pixAcc": 0.8127086162567139, "threshold": 0.7}}, "loss": 0.22690609166559006, "lr": 0.00022875, "seconds": 175.24590826034546}
+{"epoch": 5, "loss": 0.2155547434871165, "lr": 0.00019438171392710925, "seconds": 174.95572328567505}
+{"epoch": 6, "eval": {"NUAA-SIRST": {"Fa": 4.280693291206921e-05, "Pd": 0.9543726235741445, "mIoU": 0.7268302785544165, "nIoU": 0.7629615250335943, "pixAcc": 0.8367906808853149, "threshold": 0.1}}, "loss": 0.19890527826863408, "lr": 0.00015750000000000003, "seconds": 175.101900100708}

@@ -1,0 +1,90 @@
+{
+  "args": {
+    "model": "hfmnet",
+    "dataset_dir": "/home/cx/hongwai/irstd-lab/datasets",
+    "dataset_name": "NUAA-SIRST",
+    "split": "test",
+    "weight": "external/HFMNet/weights_download/NUAA-SIRST/mIoU__HFMNet_NUAA-SIRST_epoch.pth.tar",
+    "base_size": 256,
+    "thresholds": "0.5",
+    "min_areas": "1,2,3,4,6,8",
+    "device": "cuda:0",
+    "max_samples": 0,
+    "index_file": "",
+    "wavelet_backend": "auto",
+    "mamba_backend": "official",
+    "output": "reports/tmp_hfmnet_test_eval.json",
+    "save_maps": "reports/tmp_hfmnet_test_maps.npz"
+  },
+  "best": {
+    "kind": "component",
+    "threshold": 0.5,
+    "min_area": 4,
+    "pixAcc": 0.90605628490448,
+    "mIoU": 0.811965811965812,
+    "nIoU": 0.7740935234545367,
+    "Pd": 0.9505703422053232,
+    "Fa": 5.145064051931395e-06
+  },
+  "rows": [
+    {
+      "kind": "component",
+      "threshold": 0.5,
+      "min_area": 4,
+      "pixAcc": 0.90605628490448,
+      "mIoU": 0.811965811965812,
+      "nIoU": 0.7740935234545367,
+      "Pd": 0.9505703422053232,
+      "Fa": 5.145064051931395e-06
+    },
+    {
+      "kind": "component",
+      "threshold": 0.5,
+      "min_area": 2,
+      "pixAcc": 0.9068908095359802,
+      "mIoU": 0.811846318036286,
+      "nIoU": 0.7748128966010014,
+      "Pd": 0.9619771863117871,
+      "Fa": 5.831072592188915e-06
+    },
+    {
+      "kind": "component",
+      "threshold": 0.5,
+      "min_area": 3,
+      "pixAcc": 0.9064139127731323,
+      "mIoU": 0.8117659619901773,
+      "nIoU": 0.7743974049889478,
+      "Pd": 0.9543726235741445,
+      "Fa": 5.556669176085907e-06
+    },
+    {
+      "kind": "threshold",
+      "threshold": 0.5,
+      "pixAcc": 0.9068908095359802,
+      "mIoU": 0.8115864717806466,
+      "nIoU": 0.7746585569951219,
+      "Pd": 0.9619771863117871,
+      "Fa": 6.036875154266171e-06
+    },
+    {
+      "kind": "component",
+      "threshold": 0.5,
+      "min_area": 6,
+      "pixAcc": 0.901764452457428,
+      "mIoU": 0.8082923701645651,
+      "nIoU": 0.7560300946204627,
+      "Pd": 0.9201520912547528,
+      "Fa": 5.145064051931395e-06
+    },
+    {
+      "kind": "component",
+      "threshold": 0.5,
+      "min_area": 8,
+      "pixAcc": 0.8972341418266296,
+      "mIoU": 0.8043176231698194,
+      "nIoU": 0.7394348907589038,
+      "Pd": 0.8973384030418251,
+      "Fa": 5.145064051931395e-06
+    }
+  ]
+}

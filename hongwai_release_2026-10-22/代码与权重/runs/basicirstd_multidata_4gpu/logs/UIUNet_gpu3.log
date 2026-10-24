@@ -1,0 +1,14 @@
+/home/cx/hongwai/irstd-lab/external/BasicIRSTD/model/UIUNet/model_UIUNet.py:25: UserWarning: `nn.functional.upsample` is deprecated. Use `nn.functional.interpolate` instead.
+  src = F.upsample(src, size=tar.shape[2:], mode='bilinear')
+{"epoch": 1, "loss": 0.9453843760177457, "seconds": 118.74893569946289}
+{"epoch": 2, "loss": 0.9411884630921348, "seconds": 123.40877032279968}
+{"epoch": 3, "loss": 0.9371969448424752, "seconds": 121.95624089241028}
+{"epoch": 4, "loss": 0.9331533600507318, "seconds": 123.92661619186401}
+{"epoch": 5, "loss": 0.9420868080456103, "seconds": 120.58222484588623}
+{"epoch": 6, "loss": 0.9386253092695819, "seconds": 121.00484156608582}
+{"epoch": 7, "loss": 0.9380879481111905, "seconds": 122.5423698425293}
+{"epoch": 8, "loss": 0.9349148437060718, "seconds": 121.40558791160583}
+{"epoch": 9, "loss": 0.9320067396667522, "seconds": 128.62340259552002}
+/home/cx/hongwai/irstd-lab/external/BasicIRSTD/model/UIUNet/model_UIUNet.py:25: UserWarning: `nn.functional.upsample` is deprecated. Use `nn.functional.interpolate` instead.
+  src = F.upsample(src, size=tar.shape[2:], mode='bilinear')
+{"epoch": 10, "eval": {"IRSTD-1K": {"Fa": 0.0, "Pd": 0.0, "mIoU": 0.0, "pixAcc": 0.0}, "NUAA-SIRST": {"Fa": 0.0, "Pd": 0.0, "mIoU": 0.0, "pixAcc": 0.0}}, "loss": 0.9372179124477655, "seconds": 125.32157778739929}

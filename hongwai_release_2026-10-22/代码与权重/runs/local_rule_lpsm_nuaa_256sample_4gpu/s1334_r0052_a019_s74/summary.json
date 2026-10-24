@@ -1,0 +1,102 @@
+{
+  "args": {
+    "dataset_dir": "/home/cx/hongwai/irstd-lab/datasets",
+    "train_cache_spec": [
+      "IRSTD-1K|/home/cx/hongwai/irstd-lab/reports/fusion_cache_bgm_rpcanet_train_a/IRSTD-1K__train.npz",
+      "NUAA-SIRST|/home/cx/hongwai/irstd-lab/reports/fusion_cache_official_mamba_teacher_nuaa/NUAA-SIRST__train.npz",
+      "NUDT-SIRST|/home/cx/hongwai/irstd-lab/reports/fusion_cache_bgm_rpcanet_train_b_test/NUDT-SIRST__train.npz",
+      "SIRST3|/home/cx/hongwai/irstd-lab/reports/fusion_cache_bgm_rpcanet_train_b_test/SIRST3__train.npz"
+    ],
+    "test_cache_spec": [
+      "NUAA-SIRST|/home/cx/hongwai/irstd-lab/reports/fusion_cache_official_mamba_teacher_nuaa/NUAA-SIRST__test.npz"
+    ],
+    "teacher_mode": "local_rule",
+    "epochs": 3,
+    "batch_size": 3,
+    "patch_size": 512,
+    "base_channels": 64,
+    "state_stages": "e2,mid",
+    "lr": 3.6e-05,
+    "residual_scale": 0.052,
+    "anchor_weight": 0.19,
+    "pos_weight": 28.0,
+    "hard_clutter_weight": 0.75,
+    "hard_clutter_threshold": 0.35,
+    "miss_weight": 0.95,
+    "miss_threshold": 0.2,
+    "uncertainty_weight": 0.15,
+    "weighted_dice": true,
+    "thresholds": "0.498,0.499,0.500,0.501,0.502,0.503,0.504",
+    "eval_interval": 1,
+    "max_train_samples_per_cache": 256,
+    "eval_max_samples": 0,
+    "seed": 20260684,
+    "device": "cuda:0",
+    "amp": true,
+    "output_dir": "/home/cx/hongwai/irstd-lab/runs/local_rule_lpsm_nuaa_256sample_4gpu/s1334_r0052_a019_s74"
+  },
+  "best": {
+    "epoch": 1,
+    "mean_mIoU": 0.8224442736356649,
+    "eval": {
+      "NUAA-SIRST": {
+        "threshold": 0.499,
+        "pixAcc": 0.8929423093795776,
+        "mIoU": 0.8224442736356649,
+        "nIoU": 0.8204520595117932,
+        "Pd": 0.9695817490494296,
+        "Fa": 8.918111023347752e-06
+      }
+    }
+  },
+  "history": [
+    {
+      "epoch": 1,
+      "loss": 1.597093110328785,
+      "lr": 2.745e-05,
+      "seconds": 110.13094305992126,
+      "eval": {
+        "NUAA-SIRST": {
+          "threshold": 0.499,
+          "pixAcc": 0.8929423093795776,
+          "mIoU": 0.8224442736356649,
+          "nIoU": 0.8204520595117932,
+          "Pd": 0.9695817490494296,
+          "Fa": 8.918111023347752e-06
+        }
+      }
+    },
+    {
+      "epoch": 2,
+      "loss": 1.596432698793732,
+      "lr": 1.0350000000000004e-05,
+      "seconds": 109.37113785743713,
+      "eval": {
+        "NUAA-SIRST": {
+          "threshold": 0.498,
+          "pixAcc": 0.8928231000900269,
+          "mIoU": 0.8221539137117136,
+          "nIoU": 0.820105880019835,
+          "Pd": 0.9695817490494296,
+          "Fa": 8.780909315296248e-06
+        }
+      }
+    },
+    {
+      "epoch": 3,
+      "loss": 1.5963202753198256,
+      "lr": 1.8000000000000001e-06,
+      "seconds": 109.54411482810974,
+      "eval": {
+        "NUAA-SIRST": {
+          "threshold": 0.499,
+          "pixAcc": 0.8921077847480774,
+          "mIoU": 0.8218561230093355,
+          "nIoU": 0.8205342113149997,
+          "Pd": 0.973384030418251,
+          "Fa": 7.889098212961472e-06
+        }
+      }
+    }
+  ]
+}

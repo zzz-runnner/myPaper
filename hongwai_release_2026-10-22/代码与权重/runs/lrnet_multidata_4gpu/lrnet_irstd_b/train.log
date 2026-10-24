@@ -1,0 +1,25 @@
+{
+  "dataset_dir": "/home/cx/hongwai/irstd-lab/datasets",
+  "train_datasets": "IRSTD-1K,NUAA-SIRST,NUDT-SIRST,SIRST3,SIRST-UAVB",
+  "eval_datasets": "IRSTD-1K,NUAA-SIRST",
+  "norm_dataset": "IRSTD-1K",
+  "epochs": 8,
+  "batch_size": 32,
+  "patch_size": 512,
+  "lr": 0.0009,
+  "threshold": 0.5,
+  "pos_weight": 90.0,
+  "pos_prob": 0.75,
+  "eval_interval": 2,
+  "eval_max_samples": 80,
+  "max_train_samples_per_dataset": 0,
+  "device": "cuda:0",
+  "seed": 5203,
+  "output_dir": "/home/cx/hongwai/irstd-lab/runs/lrnet_multidata_4gpu/lrnet_irstd_b"
+}
+{"epoch": 1, "loss": 0.9891616046095694, "seconds": 53.5569965839386}
+{"epoch": 2, "eval": {"IRSTD-1K": {"Fa": 0.0, "Pd": 0.0, "mIoU": 0.0, "pixAcc": 0.0}, "NUAA-SIRST": {"Fa": 0.0, "Pd": 0.0, "mIoU": 0.0, "pixAcc": 0.0}}, "loss": 0.7662701337031146, "seconds": 52.908464431762695}
+{"epoch": 3, "loss": 0.7235046352088118, "seconds": 52.98969340324402}
+{"epoch": 4, "eval": {"IRSTD-1K": {"Fa": 0.0, "Pd": 0.0, "mIoU": 0.0, "pixAcc": 0.0}, "NUAA-SIRST": {"Fa": 0.0, "Pd": 0.0, "mIoU": 0.0, "pixAcc": 0.0}}, "loss": 0.7108872995696254, "seconds": 52.900383949279785}
+{"epoch": 5, "loss": 0.7052068773594649, "seconds": 52.98338294029236}
+{"epoch": 6, "eval": {"IRSTD-1K": {"Fa": 0.0, "Pd": 0.0, "mIoU": 0.0, "pixAcc": 0.0}, "NUAA-SIRST": {"Fa": 0.0, "Pd": 0.0, "mIoU": 0.0, "pixAcc": 0.0}}, "loss": 0.7021825806388642, "seconds": 52.94199085235596}

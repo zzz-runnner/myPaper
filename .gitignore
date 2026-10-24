@@ -20,3 +20,36 @@ runs/
 logs/
 *.pth
 *.pt
+
+# Research assets are backed up separately; keep Git source-only.
+*.pth.tar
+*.ckpt
+*.safetensors
+*.onnx
+*.pkl
+*.npz
+*.npy
+*.zip
+*.7z
+*.rar
+*.tar
+*.tar.gz
+*.tgz
+*.whl
+
+# The release is a full local archive, not a vendored dependency tree.
+hongwai_release_2026-10-22/代码与权重/external/
+hongwai_release_2026-10-22/代码与权重/pretrained/
+hongwai_release_2026-10-22/代码与权重/generated/
+hongwai_release_2026-10-22/代码与权重/environment/*
+!hongwai_release_2026-10-22/代码与权重/environment/requirements-mamba.txt
+
+# Preserve experiment evidence without tracking checkpoints or binary logs.
+!hongwai_release_2026-10-22/代码与权重/runs/
+hongwai_release_2026-10-22/代码与权重/runs/**
+!hongwai_release_2026-10-22/代码与权重/runs/**/
+!hongwai_release_2026-10-22/代码与权重/runs/**/*.json
+!hongwai_release_2026-10-22/代码与权重/runs/**/*.csv
+!hongwai_release_2026-10-22/代码与权重/runs/**/*.txt
+!hongwai_release_2026-10-22/代码与权重/runs/**/*.log
+!hongwai_release_2026-10-22/代码与权重/runs/**/*.md

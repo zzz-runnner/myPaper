@@ -1,0 +1,25 @@
+{
+  "dataset_dir": "datasets",
+  "model_specs": [
+    "baseq|sct_tpc_dhif_refiner|/home/cx/hongwai/irstd-lab/runs/selected_checkpoints/our_method/IRSTD-1K_TCD-SCTransNet-Q_12_best.pth.tar|/home/cx/hongwai/irstd-lab/runs/tpc_dhif_teacher4/IRSTD-1K_SCT-TPC-DHiF-B_gpu1/checkpoints/IRSTD-1K/best_mIoU.pth.tar",
+    "refiner|sct_refiner|/home/cx/hongwai/irstd-lab/runs/selected_checkpoints/our_method/IRSTD-1K_TCD-SCTransNet-Q_12_best.pth.tar|/home/cx/hongwai/irstd-lab/runs/sct_refiner_fixed/IRSTD-1K_SCT-Refiner-Fixed_gpu0/checkpoints/IRSTD-1K/best_mIoU.pth.tar"
+  ],
+  "official_pconv_mshnet_specs": [
+    "pconv_d05|mshnet|/home/cx/hongwai/irstd-lab/external/PConv-SDloss-Data/weight_extracted/MSHNet-IRSTD-1K-D-0.5/weight.pkl|official_mshnet|0.35|false|256",
+    "pconv_p43|p43|/home/cx/hongwai/irstd-lab/external/PConv-SDloss-Data/weight_extracted/MSHNet-IRSTD-1K-P43/weight.pkl|official_mshnet|0.60|false|256"
+  ],
+  "names": [
+    "baseq",
+    "refiner",
+    "pconv_d05",
+    "pconv_p43"
+  ],
+  "splits": [
+    {
+      "dataset": "IRSTD-1K",
+      "split": "test",
+      "path": "reports/cache_smoke_irstd_dual/IRSTD-1K__test.npz",
+      "samples": 5
+    }
+  ]
+}

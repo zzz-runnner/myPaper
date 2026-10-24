@@ -1,0 +1,39 @@
+{
+  "dataset_dir": "/home/cx/hongwai/irstd-lab/datasets",
+  "train_cache_spec": [
+    "IRSTD-1K|/home/cx/hongwai/irstd-lab/reports/prediction_cache_irstd_dual_train_a/IRSTD-1K__train.npz",
+    "NUAA-SIRST|/home/cx/hongwai/irstd-lab/reports/prediction_cache_irstd_dual_train_a/NUAA-SIRST__train.npz",
+    "NUDT-SIRST|/home/cx/hongwai/irstd-lab/reports/prediction_cache_irstd_dual_train_b_test/NUDT-SIRST__train.npz",
+    "SIRST3|/home/cx/hongwai/irstd-lab/reports/prediction_cache_irstd_dual_train_b_test/SIRST3__train.npz"
+  ],
+  "test_cache_spec": [
+    "IRSTD-1K|/home/cx/hongwai/irstd-lab/reports/prediction_cache_irstd_dual_train_b_test/IRSTD-1K__test.npz"
+  ],
+  "teacher_mode": "avg",
+  "epochs": 8,
+  "batch_size": 4,
+  "patch_size": 512,
+  "base_channels": 56,
+  "lr": 0.0002,
+  "residual_scale": 0.35,
+  "anchor_weight": 0.02,
+  "pos_weight": 25.0,
+  "hard_clutter_weight": 0.0,
+  "hard_clutter_threshold": 0.35,
+  "miss_weight": 0.0,
+  "miss_threshold": 0.2,
+  "uncertainty_weight": 0.0,
+  "weighted_dice": false,
+  "thresholds": "0.26,0.30,0.34,0.38,0.42,0.46,0.50,0.54,0.58",
+  "eval_interval": 2,
+  "max_train_samples_per_cache": 0,
+  "eval_max_samples": 0,
+  "seed": 202606401,
+  "device": "cuda:0",
+  "amp": true,
+  "output_dir": "/home/cx/hongwai/irstd-lab/runs/wavelet_anchor_4gpu/irstd_wavelet_s401"
+}
+{"epoch": 1, "loss": 0.9129522809834355, "lr": 0.00019276855558857225, "seconds": 278.1635649204254}
+{"epoch": 2, "eval": {"IRSTD-1K": {"Fa": 1.1994471004353233e-05, "Pd": 0.9461279461279462, "mIoU": 0.7230033745781778, "nIoU": 0.6646243997559882, "pixAcc": 0.8836873769760132, "threshold": 0.38}}, "loss": 0.9113845227726319, "lr": 0.00017217514421272203, "seconds": 278.0789613723755}
+{"epoch": 3, "loss": 0.9112372579573162, "lr": 0.00014135492607468355, "seconds": 277.44954466819763}
+{"epoch": 4, "eval": {"IRSTD-1K": {"Fa": 1.1975492410991915e-05, "Pd": 0.9461279461279462, "mIoU": 0.7274904487654673, "nIoU": 0.6711439188576165, "pixAcc": 0.8770193457603455, "threshold": 0.38}}, "loss": 0.9111092344531011, "lr": 0.000105, "seconds": 277.7805802822113}

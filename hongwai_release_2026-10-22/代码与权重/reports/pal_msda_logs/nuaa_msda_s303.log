@@ -1,0 +1,9 @@
+/home/cx/hongwai/irstd-lab/scripts/train_pal_msda_multidata.py:160: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  scaler = torch.cuda.amp.GradScaler(enabled=args.amp and device.type == "cuda")
+/home/cx/hongwai/irstd-lab/scripts/train_pal_msda_multidata.py:177: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(enabled=args.amp and device.type == "cuda"):
+{"epoch": 1, "loss": 1.0319707798286224, "lr": 0.00015741036279796918, "seconds": 206.95696830749512}
+{"epoch": 2, "eval": {"NUAA-SIRST": {"Fa": 3.19679979760004e-05, "Pd": 0.9163498098859315, "mIoU": 0.6504191244954983, "nIoU": 0.6969438536107906, "pixAcc": 0.7492846846580505, "threshold": 0.2}}, "loss": 0.4564850951584292, "lr": 0.00014981793068761734, "seconds": 206.6972153186798}
+{"epoch": 3, "loss": 0.2541404742170388, "lr": 0.0001377401153701776, "seconds": 206.62460112571716}
+{"epoch": 4, "eval": {"NUAA-SIRST": {"Fa": 4.651137902945981e-05, "Pd": 0.9429657794676806, "mIoU": 0.7098250610252238, "nIoU": 0.7371031605301106, "pixAcc": 0.832021951675415, "threshold": 0.25}}, "loss": 0.22347859066556877, "lr": 0.000122, "seconds": 206.9442584514618}
+{"epoch": 5, "loss": 0.19832722194178004, "lr": 0.00010367024742779158, "seconds": 206.32909512519836}

@@ -1,0 +1,38 @@
+{
+  "dataset_dir": "/home/cx/hongwai/irstd-lab/datasets",
+  "train_cache_spec": [
+    "IRSTD-1K|/home/cx/hongwai/irstd-lab/reports/fusion_cache_bgm_rpcanet_train_a/IRSTD-1K__train.npz",
+    "NUAA-SIRST|/home/cx/hongwai/irstd-lab/reports/fusion_cache_bgm_rpcanet_train_a/NUAA-SIRST__train.npz",
+    "NUDT-SIRST|/home/cx/hongwai/irstd-lab/reports/fusion_cache_bgm_rpcanet_train_b_test/NUDT-SIRST__train.npz",
+    "SIRST3|/home/cx/hongwai/irstd-lab/reports/fusion_cache_bgm_rpcanet_train_b_test/SIRST3__train.npz",
+    "SIRST-UAVB|/home/cx/hongwai/irstd-lab/reports/fusion_cache_bgm_rpcanet_sirst_uavb_train400/SIRST-UAVB__train.npz"
+  ],
+  "test_cache_spec": [
+    "NUAA-SIRST|/home/cx/hongwai/irstd-lab/reports/fusion_cache_bgm_rpcanet_train_b_test/NUAA-SIRST__test.npz"
+  ],
+  "teacher_mode": "strong_fusion",
+  "epochs": 6,
+  "batch_size": 2,
+  "patch_size": 512,
+  "base_channels": 48,
+  "lr": 0.00016,
+  "residual_scale": 0.28,
+  "anchor_weight": 0.04,
+  "pos_weight": 30.0,
+  "hard_clutter_weight": 1.2,
+  "hard_clutter_threshold": 0.42,
+  "miss_weight": 2.4,
+  "miss_threshold": 0.18,
+  "uncertainty_weight": 0.45,
+  "weighted_dice": true,
+  "thresholds": "0.44,0.46,0.48,0.50,0.52,0.54,0.56,0.58,0.60",
+  "eval_interval": 1,
+  "max_train_samples_per_cache": 0,
+  "eval_max_samples": 0,
+  "seed": 782,
+  "device": "cuda:0",
+  "amp": true,
+  "output_dir": "/home/cx/hongwai/irstd-lab/runs/strong_fusion_hfmlk_nuaa_uavb400_4gpu/nuaa_strong_fusion_uavb400_s782"
+}
+{"epoch": 1, "eval": {"NUAA-SIRST": {"Fa": 7.203089672703953e-06, "Pd": 0.973384030418251, "mIoU": 0.8094713656387665, "nIoU": 0.8145790474776916, "pixAcc": 0.8762518167495728, "threshold": 0.58}}, "loss": 1.3695490352634683, "lr": 0.00014981793068761737, "seconds": 637.3872435092926}
+{"epoch": 2, "eval": {"NUAA-SIRST": {"Fa": 7.477493088806961e-06, "Pd": 0.9809885931558935, "mIoU": 0.8104567969179967, "nIoU": 0.8160472132330956, "pixAcc": 0.8778015971183777, "threshold": 0.44}}, "loss": 1.3680559860459014, "lr": 0.00012200000000000002, "seconds": 639.5712602138519}

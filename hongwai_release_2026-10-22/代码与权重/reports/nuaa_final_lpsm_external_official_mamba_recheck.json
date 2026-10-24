@@ -1,0 +1,10 @@
+{
+  "pixAcc": 0.8954458832740784,
+  "mIoU": 0.827020480070469,
+  "Pd": 0.9695817490494296,
+  "Fa": 9.53551870957952e-06,
+  "target_components": 263,
+  "matched_components": 255,
+  "false_alarm_pixels": 139.0,
+  "all_pixels": 14577078.0
+}

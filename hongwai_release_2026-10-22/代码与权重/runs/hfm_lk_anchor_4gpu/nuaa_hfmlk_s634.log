@@ -1,0 +1,10 @@
+/home/cx/hongwai/irstd-lab/scripts/train_hfm_lk_anchor_refiner_from_cache.py:193: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  scaler = torch.cuda.amp.GradScaler(enabled=args.amp and device.type == "cuda")
+/home/cx/hongwai/irstd-lab/scripts/train_hfm_lk_anchor_refiner_from_cache.py:217: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(enabled=args.amp and device.type == "cuda"):
+{"epoch": 1, "loss": 1.5312319034554935, "lr": 0.00013109068935166518, "seconds": 662.2595491409302}
+/home/cx/hongwai/irstd-lab/scripts/train_hfm_lk_anchor_refiner_from_cache.py:239: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.no_grad(), torch.cuda.amp.autocast(enabled=args.amp and device.type == "cuda"):
+{"epoch": 2, "eval": {"NUAA-SIRST": {"Fa": 1.4196195370262698e-05, "Pd": 0.9681528662420382, "mIoU": 0.7860594795539033, "nIoU": 0.8004175012487115, "pixAcc": 0.8689131140708923, "threshold": 0.62}}, "loss": 1.5294241598209362, "lr": 0.00010674999999999999, "seconds": 660.0337655544281}
+/home/cx/hongwai/irstd-lab/scripts/train_hfm_lk_anchor_refiner_from_cache.py:217: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(enabled=args.amp and device.type == "cuda"):

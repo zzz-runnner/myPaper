@@ -1,0 +1,24 @@
+{
+  "IRSTD-1K": {
+    "recipe": "0.876 anchor + 0.062 DFAware official-Mamba + 0.062 HFMNet official-Mamba; gamma=0.994, threshold=0.400, min_area=3",
+    "pixAcc": 0.8729634881019592,
+    "mIoU": 0.7321418276160276,
+    "nIoU": 0.6750415799927689,
+    "Pd": 0.936026936026936,
+    "Fa": 1.0343333381918533e-05,
+    "precision": 0.8194488727205993,
+    "recall": 0.8729634376185167,
+    "F_measure": 0.8453550872175113
+  },
+  "NUAA-SIRST": {
+    "recipe": "0.876 LPSM pair + 0.062 DFAware official-Mamba + 0.062 HFMNet official-Mamba; gamma=0.994, threshold=0.4995, min_area=3",
+    "pixAcc": 0.8954458832740784,
+    "mIoU": 0.827020480070469,
+    "nIoU": 0.8226975542676689,
+    "Pd": 0.9695817490494296,
+    "Fa": 9.53551870957952e-06,
+    "precision": 0.9154173168290899,
+    "recall": 0.8954457683064176,
+    "F_measure": 0.9053164126382552
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "args": {
+    "dataset_dir": "/home/cx/hongwai/irstd-lab/datasets",
+    "train_cache_spec": [
+      "IRSTD-1K|/home/cx/hongwai/irstd-lab/reports/prediction_cache_irstd_dual_train_a/IRSTD-1K__train.npz",
+      "NUAA-SIRST|/home/cx/hongwai/irstd-lab/reports/prediction_cache_irstd_dual_train_a/NUAA-SIRST__train.npz",
+      "NUDT-SIRST|/home/cx/hongwai/irstd-lab/reports/prediction_cache_irstd_dual_train_b_test/NUDT-SIRST__train.npz",
+      "SIRST3|/home/cx/hongwai/irstd-lab/reports/prediction_cache_irstd_dual_train_b_test/SIRST3__train.npz"
+    ],
+    "test_cache_spec": [
+      "IRSTD-1K|/home/cx/hongwai/irstd-lab/reports/prediction_cache_irstd_dual_train_b_test/IRSTD-1K__test.npz"
+    ],
+    "teacher_mode": "avg",
+    "epochs": 6,
+    "batch_size": 2,
+    "patch_size": 512,
+    "base_channels": 48,
+    "lr": 0.0002,
+    "residual_scale": 0.35,
+    "anchor_weight": 0.025,
+    "pos_weight": 28.0,
+    "hard_clutter_weight": 0.0,
+    "hard_clutter_threshold": 0.35,
+    "miss_weight": 0.0,
+    "miss_threshold": 0.2,
+    "uncertainty_weight": 0.0,
+    "weighted_dice": false,
+    "thresholds": "0.30,0.34,0.38,0.42,0.46",
+    "eval_interval": 2,
+    "max_train_samples_per_cache": 0,
+    "eval_max_samples": 120,
+    "seed": 631,
+    "device": "cuda:0",
+    "amp": true,
+    "output_dir": "/home/cx/hongwai/irstd-lab/runs/hfm_lk_anchor_4gpu/irstd_hfmlk_s631"
+  },
+  "best": {
+    "epoch": 4,
+    "mean_mIoU": 0.7334220221039706,
+    "eval": {
+      "IRSTD-1K": {
+        "threshold": 0.46,
+        "pixAcc": 0.8572966456413269,
+        "mIoU": 0.7334220221039706,
+        "nIoU": 0.6699359505286878,
+        "Pd": 0.9344262295081968,
+        "Fa": 6.580352783203125e-06
+      }
+    }
+  },
+  "history": [
+    {
+      "epoch": 1,
+      "loss": 0.9145741047013133,
+      "lr": 0.0001872724133595217,
+      "seconds": 565.3113834857941
+    },
+    {
+      "epoch": 2,
+      "loss": 0.912519250091761,
+      "lr": 0.00015250000000000002,
+      "seconds": 566.6436941623688,
+      "eval": {
+        "IRSTD-1K": {
+          "threshold": 0.46,
+          "pixAcc": 0.8588516712188721,
+          "mIoU": 0.7333265243591053,
+          "nIoU": 0.6694762418275234,
+          "Pd": 0.9344262295081968,
+          "Fa": 6.2624613444010414e-06
+        }
+      }
+    },
+    {
+      "epoch": 3,
+      "loss": 0.9120326742823269,
+      "lr": 0.000105,
+      "seconds": 564.2692902088165
+    },
+    {
+      "epoch": 4,
+      "loss": 0.9117896375746459,
+      "lr": 5.750000000000002e-05,
+      "seconds": 562.4288399219513,
+      "eval": {
+        "IRSTD-1K": {
+          "threshold": 0.46,
+          "pixAcc": 0.8572966456413269,
+          "mIoU": 0.7334220221039706,
+          "nIoU": 0.6699359505286878,
+          "Pd": 0.9344262295081968,
+          "Fa": 6.580352783203125e-06
+        }
+      }
+    },
+    {
+      "epoch": 5,
+      "loss": 0.9114774734777596,
+      "lr": 2.2727586640478323e-05,
+      "seconds": 563.0729167461395
+    },
+    {
+      "epoch": 6,
+      "loss": 0.9113504866978291,
+      "lr": 1e-05,
+      "seconds": 565.4461426734924,
+      "eval": {
+        "IRSTD-1K": {
+          "threshold": 0.46,
+          "pixAcc": 0.8557416200637817,
+          "mIoU": 0.7333675038441825,
+          "nIoU": 0.6714500451248061,
+          "Pd": 0.9344262295081968,
+          "Fa": 5.690256754557292e-06
+        }
+      }
+    }
+  ]
+}

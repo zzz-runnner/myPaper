@@ -1,0 +1,99 @@
+{
+  "weights": "/home/cx/hongwai/irstd-lab/runs/mtmlnet_full_4gpu/mtm_balanced_s512_b3_seg09_adamw/weights/best.pt",
+  "dataset": "IRSTD-1K",
+  "base_size": 512,
+  "num_images": 201,
+  "best_threshold": "0.500",
+  "best": {
+    "mIoU": 43.63732301468649,
+    "precision": 54.77123461559689,
+    "recall": 68.2202515982677,
+    "intersection": 9924,
+    "union": 22742,
+    "pred_pixels": 18119,
+    "gt_pixels": 14547
+  },
+  "by_threshold": {
+    "0.100": {
+      "mIoU": 34.02237554633167,
+      "precision": 36.180537285509665,
+      "recall": 85.08283494878668,
+      "intersection": 12377,
+      "union": 36379,
+      "pred_pixels": 34209,
+      "gt_pixels": 14547
+    },
+    "0.200": {
+      "mIoU": 38.89643294803432,
+      "precision": 42.87696239503468,
+      "recall": 80.73142228638207,
+      "intersection": 11744,
+      "union": 30193,
+      "pred_pixels": 27390,
+      "gt_pixels": 14547
+    },
+    "0.300": {
+      "mIoU": 41.5727838719241,
+      "precision": 47.42337772141197,
+      "recall": 77.11555647212484,
+      "intersection": 11218,
+      "union": 26984,
+      "pred_pixels": 23655,
+      "gt_pixels": 14547
+    },
+    "0.400": {
+      "mIoU": 43.072863811650095,
+      "precision": 51.26334605536499,
+      "recall": 72.94287481955041,
+      "intersection": 10611,
+      "union": 24635,
+      "pred_pixels": 20699,
+      "gt_pixels": 14547
+    },
+    "0.500": {
+      "mIoU": 43.63732301468649,
+      "precision": 54.77123461559689,
+      "recall": 68.2202515982677,
+      "intersection": 9924,
+      "union": 22742,
+      "pred_pixels": 18119,
+      "gt_pixels": 14547
+    },
+    "0.600": {
+      "mIoU": 43.47495123459727,
+      "precision": 58.539397821909034,
+      "recall": 62.81707568570839,
+      "intersection": 9138,
+      "union": 21019,
+      "pred_pixels": 15610,
+      "gt_pixels": 14547
+    },
+    "0.700": {
+      "mIoU": 41.91973690971687,
+      "precision": 62.40820073439413,
+      "recall": 56.080291469031415,
+      "intersection": 8158,
+      "union": 19461,
+      "pred_pixels": 13072,
+      "gt_pixels": 14547
+    },
+    "0.800": {
+      "mIoU": 38.559559896710454,
+      "precision": 67.76835043409629,
+      "recall": 47.21935794321853,
+      "intersection": 6869,
+      "union": 17814,
+      "pred_pixels": 10136,
+      "gt_pixels": 14547
+    },
+    "0.900": {
+      "mIoU": 30.3336641032002,
+      "precision": 75.61842918985776,
+      "recall": 33.622052656905204,
+      "intersection": 4891,
+      "union": 16124,
+      "pred_pixels": 6468,
+      "gt_pixels": 14547
+    }
+  }
+}

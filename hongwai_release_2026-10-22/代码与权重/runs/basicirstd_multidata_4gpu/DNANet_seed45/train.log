@@ -1,0 +1,31 @@
+{
+  "dataset_dir": "/home/cx/hongwai/irstd-lab/datasets",
+  "train_datasets": "IRSTD-1K,NUAA-SIRST,NUDT-SIRST,SIRST3",
+  "eval_datasets": "IRSTD-1K,NUAA-SIRST",
+  "norm_dataset": "NUAA-SIRST",
+  "model_name": "DNANet",
+  "epochs": 30,
+  "batch_size": 6,
+  "patch_size": 256,
+  "lr": 0.0005,
+  "threshold": 0.5,
+  "eval_interval": 10,
+  "device": "cuda:0",
+  "seed": 45,
+  "output_dir": "runs/basicirstd_multidata_4gpu"
+}
+{"epoch": 1, "loss": 0.8744714613670089, "seconds": 121.43325805664062}
+{"epoch": 2, "loss": 0.4688146319440616, "seconds": 121.2941722869873}
+{"epoch": 3, "loss": 0.4217950457099518, "seconds": 121.23887753486633}
+{"epoch": 4, "loss": 0.3999164954735814, "seconds": 121.42180895805359}
+{"epoch": 5, "loss": 0.397204416413461, "seconds": 121.7126305103302}
+{"epoch": 6, "loss": 0.38882020083806845, "seconds": 121.78990745544434}
+{"epoch": 7, "loss": 0.37235752431722524, "seconds": 121.75036287307739}
+{"epoch": 8, "loss": 0.3652044097796136, "seconds": 121.67417240142822}
+{"epoch": 9, "loss": 0.37122991905417496, "seconds": 121.6758713722229}
+{"epoch": 10, "eval": {"IRSTD-1K": {"Fa": 1.2639743178638059e-05, "Pd": 0.8282828282828283, "mIoU": 0.5175217096754327, "pixAcc": 0.5776448845863342}, "NUAA-SIRST": {"Fa": 2.2432479266420883e-05, "Pd": 0.8783269961977186, "mIoU": 0.6801637852593266, "pixAcc": 0.7129232287406921}}, "loss": 0.35517811144979194, "seconds": 121.70515561103821}
+{"epoch": 11, "loss": 0.35053738631227965, "seconds": 121.48486566543579}
+{"epoch": 12, "loss": 0.34782590789179646, "seconds": 121.63838243484497}
+{"epoch": 13, "loss": 0.3421439812602108, "seconds": 121.66229772567749}
+{"epoch": 14, "loss": 0.34382187273339987, "seconds": 121.63366508483887}
+{"epoch": 15, "loss": 0.33806873564224516, "seconds": 121.69969820976257}

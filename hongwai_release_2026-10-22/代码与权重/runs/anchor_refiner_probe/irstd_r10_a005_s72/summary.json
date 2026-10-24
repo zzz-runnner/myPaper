@@ -1,0 +1,87 @@
+{
+  "args": {
+    "dataset_dir": "/home/cx/hongwai/irstd-lab/datasets",
+    "train_cache_spec": [
+      "IRSTD-1K|reports/prediction_cache_irstd_dual_train_a/IRSTD-1K__train.npz"
+    ],
+    "test_cache_spec": [
+      "IRSTD-1K|reports/prediction_cache_irstd_dual_train_b_test/IRSTD-1K__test.npz"
+    ],
+    "teacher_mode": "avg",
+    "epochs": 4,
+    "batch_size": 5,
+    "patch_size": 512,
+    "base_channels": 64,
+    "lr": 0.0002,
+    "residual_scale": 1.0,
+    "anchor_weight": 0.05,
+    "pos_weight": 25.0,
+    "thresholds": "0.30,0.35,0.38,0.40,0.42,0.45,0.50,0.55,0.60",
+    "eval_interval": 2,
+    "max_train_samples_per_cache": 0,
+    "eval_max_samples": 0,
+    "seed": 72,
+    "device": "cuda:0",
+    "output_dir": "runs/anchor_refiner_probe/irstd_r10_a005_s72"
+  },
+  "best": {
+    "epoch": 4,
+    "mean_mIoU": 0.6844108725391066,
+    "eval": {
+      "IRSTD-1K": {
+        "threshold": 0.55,
+        "pixAcc": 0.7910221815109253,
+        "mIoU": 0.6844108725391066,
+        "nIoU": 0.6785596719813789,
+        "Pd": 0.936026936026936,
+        "Fa": 9.773975581078981e-06
+      }
+    }
+  },
+  "history": [
+    {
+      "epoch": 1,
+      "loss": 0.35296223796904086,
+      "lr": 0.00017217514421272203,
+      "seconds": 77.31168365478516
+    },
+    {
+      "epoch": 2,
+      "loss": 0.34679516730830073,
+      "lr": 0.000105,
+      "seconds": 77.70575094223022,
+      "eval": {
+        "IRSTD-1K": {
+          "threshold": 0.5,
+          "pixAcc": 0.7807108163833618,
+          "mIoU": 0.6815699453879853,
+          "nIoU": 0.6790994076646095,
+          "Pd": 0.936026936026936,
+          "Fa": 1.1045541336287313e-05
+        }
+      }
+    },
+    {
+      "epoch": 3,
+      "loss": 0.34373242100700735,
+      "lr": 3.782485578727799e-05,
+      "seconds": 77.45258569717407
+    },
+    {
+      "epoch": 4,
+      "loss": 0.3424107788130641,
+      "lr": 1e-05,
+      "seconds": 77.90552067756653,
+      "eval": {
+        "IRSTD-1K": {
+          "threshold": 0.55,
+          "pixAcc": 0.7910221815109253,
+          "mIoU": 0.6844108725391066,
+          "nIoU": 0.6785596719813789,
+          "Pd": 0.936026936026936,
+          "Fa": 9.773975581078981e-06
+        }
+      }
+    }
+  ]
+}

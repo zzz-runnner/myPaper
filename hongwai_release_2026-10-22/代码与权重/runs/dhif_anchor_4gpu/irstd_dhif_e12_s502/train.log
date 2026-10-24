@@ -1,0 +1,40 @@
+{
+  "dataset_dir": "/home/cx/hongwai/irstd-lab/datasets",
+  "train_cache_spec": [
+    "IRSTD-1K|/home/cx/hongwai/irstd-lab/reports/prediction_cache_irstd_dual_train_a/IRSTD-1K__train.npz",
+    "NUAA-SIRST|/home/cx/hongwai/irstd-lab/reports/prediction_cache_irstd_dual_train_a/NUAA-SIRST__train.npz",
+    "NUDT-SIRST|/home/cx/hongwai/irstd-lab/reports/prediction_cache_irstd_dual_train_b_test/NUDT-SIRST__train.npz",
+    "SIRST3|/home/cx/hongwai/irstd-lab/reports/prediction_cache_irstd_dual_train_b_test/SIRST3__train.npz"
+  ],
+  "test_cache_spec": [
+    "IRSTD-1K|/home/cx/hongwai/irstd-lab/reports/prediction_cache_irstd_dual_train_b_test/IRSTD-1K__test.npz"
+  ],
+  "teacher_mode": "avg",
+  "epochs": 8,
+  "batch_size": 4,
+  "patch_size": 512,
+  "base_channels": 56,
+  "dhif_stages": "e1,e2",
+  "lr": 0.00018,
+  "residual_scale": 0.4,
+  "anchor_weight": 0.025,
+  "pos_weight": 25.0,
+  "hard_clutter_weight": 0.0,
+  "hard_clutter_threshold": 0.35,
+  "miss_weight": 0.0,
+  "miss_threshold": 0.2,
+  "uncertainty_weight": 0.0,
+  "weighted_dice": false,
+  "thresholds": "0.26,0.30,0.34,0.38,0.42,0.46,0.50,0.54,0.58,0.62,0.66",
+  "eval_interval": 2,
+  "max_train_samples_per_cache": 0,
+  "eval_max_samples": 0,
+  "seed": 202606151,
+  "device": "cuda:0",
+  "amp": true,
+  "output_dir": "/home/cx/hongwai/irstd-lab/runs/dhif_anchor_4gpu/irstd_dhif_e12_s502"
+}
+{"epoch": 1, "loss": 0.90352974538658, "lr": 0.00017349170002971503, "seconds": 414.15443873405457}
+{"epoch": 2, "eval": {"IRSTD-1K": {"Fa": 1.28864648923352e-05, "Pd": 0.9494949494949495, "mIoU": 0.7236597327921529, "nIoU": 0.6678236288797073, "pixAcc": 0.8824499845504761, "threshold": 0.38}}, "loss": 0.9016645768910717, "lr": 0.0001549576297914498, "seconds": 414.24475622177124}
+{"epoch": 3, "loss": 0.9013434859939577, "lr": 0.0001272194334672152, "seconds": 414.06135416030884}
+{"epoch": 4, "eval": {"IRSTD-1K": {"Fa": 1.2696678958722015e-05, "Pd": 0.9494949494949495, "mIoU": 0.7207715963097567, "nIoU": 0.661807101069362, "pixAcc": 0.8861621022224426, "threshold": 0.38}}, "loss": 0.9010561333351317, "lr": 9.45e-05, "seconds": 413.96123123168945}

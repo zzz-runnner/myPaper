@@ -1,0 +1,9 @@
+Generated: 2026-06-09 09:29:45 UTC
+Device: cuda:3
+
+Deep-Supervision: True
+NUAA-SIRST: mIoU=77.52, nIoU=78.79, Pd=96.20, Fa=18.04, pixAcc=86.35
+Deep-Supervision: True
+NUDT-SIRST: mIoU=93.76, nIoU=94.34, Pd=98.94, Fa=4.37, pixAcc=96.20
+Deep-Supervision: True
+IRSTD-1K: mIoU=67.32, nIoU=66.66, Pd=93.60, Fa=13.61, pixAcc=78.11

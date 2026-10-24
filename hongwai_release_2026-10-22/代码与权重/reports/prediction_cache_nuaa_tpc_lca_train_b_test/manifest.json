@@ -1,0 +1,34 @@
+{
+  "dataset_dir": "datasets",
+  "model_specs": [
+    "tpc_a|sct_tpc_dhif_refiner|/home/cx/hongwai/irstd-lab/runs/selected_checkpoints/our_method/NUAA-SIRST_TCD-SCTransNet-L_66_best.pth.tar|/home/cx/hongwai/irstd-lab/runs/tpc_dhif_teacher4/NUAA-SIRST_SCT-TPC-DHiF-A_gpu2/checkpoints/NUAA-SIRST/best_mIoU.pth.tar",
+    "tpc_b|sct_tpc_dhif_refiner|/home/cx/hongwai/irstd-lab/runs/selected_checkpoints/our_method/NUAA-SIRST_TCD-SCTransNet-L_66_best.pth.tar|/home/cx/hongwai/irstd-lab/runs/tpc_dhif_teacher4/NUAA-SIRST_SCT-TPC-DHiF-B_gpu3/checkpoints/NUAA-SIRST/best_mIoU.pth.tar",
+    "lca|sct_lca_refiner|/home/cx/hongwai/irstd-lab/runs/selected_checkpoints/our_method/NUAA-SIRST_TCD-SCTransNet-L_66_best.pth.tar|/home/cx/hongwai/irstd-lab/runs/selected_checkpoints/lca/NUAA-SIRST_SCT-LCA-B_epoch5_best.pth.tar"
+  ],
+  "official_pconv_mshnet_specs": [],
+  "names": [
+    "tpc_a",
+    "tpc_b",
+    "lca"
+  ],
+  "splits": [
+    {
+      "dataset": "NUDT-SIRST",
+      "split": "train",
+      "path": "reports/prediction_cache_nuaa_tpc_lca_train_b_test/NUDT-SIRST__train.npz",
+      "samples": 663
+    },
+    {
+      "dataset": "SIRST3",
+      "split": "train",
+      "path": "reports/prediction_cache_nuaa_tpc_lca_train_b_test/SIRST3__train.npz",
+      "samples": 1676
+    },
+    {
+      "dataset": "NUAA-SIRST",
+      "split": "test",
+      "path": "reports/prediction_cache_nuaa_tpc_lca_train_b_test/NUAA-SIRST__test.npz",
+      "samples": 214
+    }
+  ]
+}

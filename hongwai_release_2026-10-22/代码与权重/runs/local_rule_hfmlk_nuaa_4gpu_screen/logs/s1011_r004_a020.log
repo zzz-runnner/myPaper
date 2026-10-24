@@ -1,0 +1,13 @@
+/home/cx/hongwai/irstd-lab/scripts/train_hfm_lk_anchor_refiner_from_cache.py:241: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  scaler = torch.cuda.amp.GradScaler(enabled=args.amp and device.type == "cuda")
+/home/cx/hongwai/irstd-lab/scripts/train_hfm_lk_anchor_refiner_from_cache.py:265: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(enabled=args.amp and device.type == "cuda"):
+/home/cx/hongwai/irstd-lab/scripts/train_hfm_lk_anchor_refiner_from_cache.py:343: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.no_grad(), torch.cuda.amp.autocast(enabled=args.amp and device.type == "cuda"):
+{"epoch": 1, "eval": {"NUAA-SIRST": {"Fa": 9.604119563605271e-06, "Pd": 0.9695817490494296, "mIoU": 0.8226514486391572, "nIoU": 0.8202335409015707, "pixAcc": 0.8936576247215271, "threshold": 0.496}}, "loss": 1.2549226341652684, "lr": 2.2875e-05, "seconds": 89.02418160438538}
+/home/cx/hongwai/irstd-lab/scripts/train_hfm_lk_anchor_refiner_from_cache.py:265: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(enabled=args.amp and device.type == "cuda"):
+/home/cx/hongwai/irstd-lab/scripts/train_hfm_lk_anchor_refiner_from_cache.py:343: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.no_grad(), torch.cuda.amp.autocast(enabled=args.amp and device.type == "cuda"):
+{"epoch": 2, "eval": {"NUAA-SIRST": {"Fa": 9.329716147502263e-06, "Pd": 0.9695817490494296, "mIoU": 0.8227028213854429, "nIoU": 0.820182150448955, "pixAcc": 0.8934191465377808, "threshold": 0.496}}, "loss": 1.254006005357951, "lr": 8.625000000000003e-06, "seconds": 88.71329593658447}
+{"epoch": 3, "eval": {"NUAA-SIRST": {"Fa": 9.466917855553767e-06, "Pd": 0.9695817490494296, "mIoU": 0.8222027589227063, "nIoU": 0.8208252560852973, "pixAcc": 0.8953266739845276, "threshold": 0.488}}, "loss": 1.2539251106791198, "lr": 1.5e-06, "seconds": 89.0300235748291}

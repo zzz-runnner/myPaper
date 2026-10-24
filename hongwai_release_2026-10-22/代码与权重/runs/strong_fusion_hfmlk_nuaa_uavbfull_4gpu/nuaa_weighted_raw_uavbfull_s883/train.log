@@ -1,0 +1,39 @@
+{
+  "dataset_dir": "/home/cx/hongwai/irstd-lab/datasets",
+  "train_cache_spec": [
+    "IRSTD-1K|/home/cx/hongwai/irstd-lab/reports/fusion_cache_bgm_rpcanet_train_a/IRSTD-1K__train.npz",
+    "NUAA-SIRST|/home/cx/hongwai/irstd-lab/reports/fusion_cache_bgm_rpcanet_train_a/NUAA-SIRST__train.npz",
+    "NUDT-SIRST|/home/cx/hongwai/irstd-lab/reports/fusion_cache_bgm_rpcanet_train_b_test/NUDT-SIRST__train.npz",
+    "SIRST3|/home/cx/hongwai/irstd-lab/reports/fusion_cache_bgm_rpcanet_train_b_test/SIRST3__train.npz",
+    "SIRST-UAVB|/home/cx/hongwai/irstd-lab/reports/fusion_cache_bgm_rpcanet_sirst_uavb_full/SIRST-UAVB__train.npz"
+  ],
+  "test_cache_spec": [
+    "NUAA-SIRST|/home/cx/hongwai/irstd-lab/reports/fusion_cache_bgm_rpcanet_train_b_test/NUAA-SIRST__test.npz"
+  ],
+  "teacher_mode": "weighted_raw",
+  "epochs": 4,
+  "batch_size": 2,
+  "patch_size": 512,
+  "base_channels": 48,
+  "lr": 0.00018,
+  "residual_scale": 0.28,
+  "anchor_weight": 0.035,
+  "pos_weight": 30.0,
+  "hard_clutter_weight": 1.2,
+  "hard_clutter_threshold": 0.42,
+  "miss_weight": 2.2,
+  "miss_threshold": 0.18,
+  "uncertainty_weight": 0.45,
+  "weighted_dice": true,
+  "thresholds": "0.44,0.46,0.48,0.50,0.52,0.54,0.56,0.58,0.60",
+  "eval_interval": 1,
+  "max_train_samples_per_cache": 0,
+  "eval_max_samples": 0,
+  "seed": 883,
+  "device": "cuda:0",
+  "amp": true,
+  "resume_checkpoint": "",
+  "output_dir": "/home/cx/hongwai/irstd-lab/runs/strong_fusion_hfmlk_nuaa_uavbfull_4gpu/nuaa_weighted_raw_uavbfull_s883"
+}
+{"epoch": 1, "eval": {"NUAA-SIRST": {"Fa": 1.029012810386279e-05, "Pd": 0.9809885931558935, "mIoU": 0.811367558239862, "nIoU": 0.8135558279473555, "pixAcc": 0.8968765139579773, "threshold": 0.44}}, "loss": 1.265647108877733, "lr": 0.0001549576297914498, "seconds": 976.3933668136597}
+{"epoch": 2, "eval": {"NUAA-SIRST": {"Fa": 7.546093942832713e-06, "Pd": 0.9809885931558935, "mIoU": 0.8098529734474434, "nIoU": 0.8153275728538814, "pixAcc": 0.8799475431442261, "threshold": 0.52}}, "loss": 1.2638944557949547, "lr": 9.45e-05, "seconds": 974.3293876647949}

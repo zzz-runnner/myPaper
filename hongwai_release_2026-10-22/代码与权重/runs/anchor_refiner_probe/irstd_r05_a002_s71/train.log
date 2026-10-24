@@ -1,0 +1,29 @@
+{
+  "dataset_dir": "/home/cx/hongwai/irstd-lab/datasets",
+  "train_cache_spec": [
+    "IRSTD-1K|reports/prediction_cache_irstd_dual_train_a/IRSTD-1K__train.npz"
+  ],
+  "test_cache_spec": [
+    "IRSTD-1K|reports/prediction_cache_irstd_dual_train_b_test/IRSTD-1K__test.npz"
+  ],
+  "teacher_mode": "avg",
+  "epochs": 4,
+  "batch_size": 5,
+  "patch_size": 512,
+  "base_channels": 64,
+  "lr": 0.0002,
+  "residual_scale": 0.5,
+  "anchor_weight": 0.02,
+  "pos_weight": 25.0,
+  "thresholds": "0.30,0.35,0.38,0.40,0.42,0.45,0.50,0.55,0.60",
+  "eval_interval": 2,
+  "max_train_samples_per_cache": 0,
+  "eval_max_samples": 0,
+  "seed": 71,
+  "device": "cuda:0",
+  "output_dir": "runs/anchor_refiner_probe/irstd_r05_a002_s71"
+}
+{"epoch": 1, "loss": 0.36324585825204847, "lr": 0.00017217514421272203, "seconds": 77.01744055747986}
+{"epoch": 2, "eval": {"IRSTD-1K": {"Fa": 1.227914990477301e-05, "Pd": 0.9461279461279462, "mIoU": 0.7248787639562423, "nIoU": 0.6712198741423303, "pixAcc": 0.8836873769760132, "threshold": 0.35}}, "loss": 0.3582557266578078, "lr": 0.000105, "seconds": 77.0121123790741}
+{"epoch": 3, "loss": 0.35765530848875643, "lr": 3.782485578727799e-05, "seconds": 76.70127129554749}
+{"epoch": 4, "eval": {"IRSTD-1K": {"Fa": 1.2317107091495647e-05, "Pd": 0.9461279461279462, "mIoU": 0.7261702368808796, "nIoU": 0.6732668256452149, "pixAcc": 0.8808689117431641, "threshold": 0.35}}, "loss": 0.3570253382436931, "lr": 1e-05, "seconds": 76.92181777954102}

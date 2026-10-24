@@ -1,0 +1,132 @@
+{
+  "args": {
+    "dataset_dir": "/home/cx/hongwai/irstd-lab/datasets",
+    "train_cache_spec": [
+      "IRSTD-1K|/home/cx/hongwai/irstd-lab/reports/fusion_cache_bgm_rpcanet_train_a/IRSTD-1K__train.npz",
+      "NUAA-SIRST|/home/cx/hongwai/irstd-lab/reports/fusion_cache_official_mamba_teacher_nuaa/NUAA-SIRST__train.npz",
+      "NUDT-SIRST|/home/cx/hongwai/irstd-lab/reports/fusion_cache_bgm_rpcanet_train_b_test/NUDT-SIRST__train.npz",
+      "SIRST3|/home/cx/hongwai/irstd-lab/reports/fusion_cache_bgm_rpcanet_train_b_test/SIRST3__train.npz"
+    ],
+    "test_cache_spec": [
+      "NUAA-SIRST|/home/cx/hongwai/irstd-lab/reports/fusion_cache_official_mamba_teacher_nuaa/NUAA-SIRST__test.npz"
+    ],
+    "teacher_mode": "official_mamba_fused,strong_fusion",
+    "epochs": 4,
+    "batch_size": 2,
+    "patch_size": 512,
+    "base_channels": 48,
+    "lr": 4e-05,
+    "residual_scale": 0.08,
+    "anchor_weight": 0.12,
+    "pos_weight": 30.0,
+    "hard_clutter_weight": 0.0,
+    "hard_clutter_threshold": 0.35,
+    "miss_weight": 0.0,
+    "miss_threshold": 0.2,
+    "uncertainty_weight": 0.4,
+    "rank_weight": 0.0,
+    "rank_margin": 0.35,
+    "rank_topk": 512,
+    "fp_topk_weight": 0.0,
+    "fp_topk_ratio": 0.002,
+    "fp_topk_min": 128,
+    "pos_peak_weight": 0.0,
+    "pos_peak_margin": 4.0,
+    "weighted_dice": true,
+    "thresholds": "0.468,0.476,0.480,0.488,0.496,0.504,0.512,0.520,0.540",
+    "eval_interval": 1,
+    "max_train_samples_per_cache": 0,
+    "eval_max_samples": 0,
+    "focus_dataset": "NUAA-SIRST",
+    "focus_patch_prob": 0.35,
+    "focus_hard_threshold": 0.45,
+    "focus_miss_threshold": 0.18,
+    "copy_paste_prob": 0.0,
+    "copy_paste_max_area": 96,
+    "seed": 20260616,
+    "device": "cuda:0",
+    "amp": true,
+    "resume_checkpoint": "/home/cx/hongwai/irstd-lab/runs/strong_fusion_hfmlk_nuaa_4gpu/nuaa_strong_fusion_s703/best.pth.tar",
+    "output_dir": "/home/cx/hongwai/irstd-lab/runs/hfmlk_official_mamba_teacher_nuaa_4gpu/nuaa_official_mamba_s962"
+  },
+  "best": {
+    "epoch": 1,
+    "mean_mIoU": 0.8205972771190162,
+    "eval": {
+      "NUAA-SIRST": {
+        "threshold": 0.512,
+        "pixAcc": 0.8910347819328308,
+        "mIoU": 0.8205972771190162,
+        "nIoU": 0.8194217071271378,
+        "Pd": 0.973384030418251,
+        "Fa": 8.575106753218992e-06
+      }
+    }
+  },
+  "history": [
+    {
+      "epoch": 1,
+      "loss": 1.1329976194904925,
+      "lr": 3.4435028842544406e-05,
+      "seconds": 583.6532394886017,
+      "eval": {
+        "NUAA-SIRST": {
+          "threshold": 0.512,
+          "pixAcc": 0.8910347819328308,
+          "mIoU": 0.8205972771190162,
+          "nIoU": 0.8194217071271378,
+          "Pd": 0.973384030418251,
+          "Fa": 8.575106753218992e-06
+        }
+      }
+    },
+    {
+      "epoch": 2,
+      "loss": 1.1329700973569494,
+      "lr": 2.1000000000000002e-05,
+      "seconds": 582.2164800167084,
+      "eval": {
+        "NUAA-SIRST": {
+          "threshold": 0.512,
+          "pixAcc": 0.89091557264328,
+          "mIoU": 0.8205775776874932,
+          "nIoU": 0.8196135613248302,
+          "Pd": 0.9771863117870723,
+          "Fa": 7.889098212961472e-06
+        }
+      }
+    },
+    {
+      "epoch": 3,
+      "loss": 1.132904307236606,
+      "lr": 7.5649711574555986e-06,
+      "seconds": 581.5762870311737,
+      "eval": {
+        "NUAA-SIRST": {
+          "threshold": 0.512,
+          "pixAcc": 0.8907963633537292,
+          "mIoU": 0.8203776899429074,
+          "nIoU": 0.8193778301581588,
+          "Pd": 0.9771863117870723,
+          "Fa": 7.889098212961472e-06
+        }
+      }
+    },
+    {
+      "epoch": 4,
+      "loss": 1.1328939199091996,
+      "lr": 2.0000000000000003e-06,
+      "seconds": 580.0219566822052,
+      "eval": {
+        "NUAA-SIRST": {
+          "threshold": 0.512,
+          "pixAcc": 0.8907963633537292,
+          "mIoU": 0.8203776899429074,
+          "nIoU": 0.8193778301581588,
+          "Pd": 0.9771863117870723,
+          "Fa": 7.889098212961472e-06
+        }
+      }
+    }
+  ]
+}

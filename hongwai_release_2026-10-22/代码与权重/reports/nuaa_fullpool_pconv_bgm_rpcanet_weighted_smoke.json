@@ -1,0 +1,1435 @@
+{
+  "dataset": "NUAA-SIRST",
+  "fit_datasets": [
+    "IRSTD-1K",
+    "NUAA-SIRST",
+    "NUDT-SIRST",
+    "SIRST3"
+  ],
+  "models": [
+    "tpc_a",
+    "tpc_b",
+    "lca",
+    "pconv_uav_d05",
+    "pconv_uav_p43",
+    "bgm_nuaa",
+    "rpcanet_sirst_s3",
+    "bg_anomaly"
+  ],
+  "official_pconv_mshnet_specs": [
+    "pconv_uav_d05|mshnet|/home/cx/hongwai/irstd-lab/external/PConv-SDloss-Data/weight_extracted/MSHNet-SIRST_UAV-D-0.5/weight.pkl|official_mshnet|0.35|false|256",
+    "pconv_uav_p43|p43|/home/cx/hongwai/irstd-lab/external/PConv-SDloss-Data/weight_extracted/MSHNet-SIRST_UAV-P43/weight.pkl|official_mshnet|0.60|false|256"
+  ],
+  "official_bgm_specs": [
+    "bgm_nuaa|NUAA-SIRST|/home/cx/hongwai/irstd-lab/external/BGM/checkpoints_download/weights/BasicUNet_plus-2024-09-20-21-17-03-NUAA-SIRST/best_mIoU_on_NUAA-SIRST.pth.tar|0.25"
+  ],
+  "rpcanet_specs": [
+    "rpcanet_sirst_s3|rpcanet_pp_s3|/home/cx/hongwai/irstd-lab/external/RPCANet_hf/result/ISTD/SIRST/RPCANet++_s3.pkl|0.5|256"
+  ],
+  "background_normality_candidates": true,
+  "background_as_candidate": true,
+  "best_eval": {
+    "stage": "eval",
+    "fit_fast_nIoU": 0.7287383506425983,
+    "kind": "teacher_external_weighted",
+    "weights": {
+      "tpc_a": 0.10526315867900848,
+      "tpc_b": 0.10526315867900848,
+      "lca": 0.10526315867900848,
+      "pconv_uav_d05": 0.0,
+      "pconv_uav_p43": 0.0,
+      "bgm_nuaa": 0.42105263471603394,
+      "rpcanet_sirst_s3": 0.21052631735801697,
+      "bg_anomaly": 0.05263157933950424
+    },
+    "gamma": 1.0,
+    "output_threshold": 0.48,
+    "pixAcc": 0.863423228263855,
+    "mIoU": 0.800978792822186,
+    "nIoU": 0.8180787022192788,
+    "Pd": 0.981651376146789,
+    "Fa": 9.430858977725066e-06
+  },
+  "eval_rows": [
+    {
+      "stage": "eval",
+      "fit_fast_nIoU": 0.7287383506425983,
+      "kind": "teacher_external_weighted",
+      "weights": {
+        "tpc_a": 0.10526315867900848,
+        "tpc_b": 0.10526315867900848,
+        "lca": 0.10526315867900848,
+        "pconv_uav_d05": 0.0,
+        "pconv_uav_p43": 0.0,
+        "bgm_nuaa": 0.42105263471603394,
+        "rpcanet_sirst_s3": 0.21052631735801697,
+        "bg_anomaly": 0.05263157933950424
+      },
+      "gamma": 1.0,
+      "output_threshold": 0.48,
+      "pixAcc": 0.863423228263855,
+      "mIoU": 0.800978792822186,
+      "nIoU": 0.8180787022192788,
+      "Pd": 0.981651376146789,
+      "Fa": 9.430858977725066e-06
+    },
+    {
+      "stage": "eval",
+      "fit_fast_nIoU": 0.7308670708806936,
+      "kind": "teacher_external_weighted",
+      "weights": {
+        "tpc_a": 0.11764705926179886,
+        "tpc_b": 0.11764705926179886,
+        "lca": 0.11764705926179886,
+        "pconv_uav_d05": 0.0,
+        "pconv_uav_p43": 0.0,
+        "bgm_nuaa": 0.3529411852359772,
+        "rpcanet_sirst_s3": 0.1764705926179886,
+        "bg_anomaly": 0.11764705926179886
+      },
+      "gamma": 0.95,
+      "output_threshold": 0.5,
+      "pixAcc": 0.8619577884674072,
+      "mIoU": 0.8009259259259259,
+      "nIoU": 0.8181899205738745,
+      "Pd": 0.981651376146789,
+      "Fa": 9.242241798170564e-06
+    },
+    {
+      "stage": "eval",
+      "fit_fast_nIoU": 0.7283323486584713,
+      "kind": "teacher_external_weighted",
+      "weights": {
+        "tpc_a": 0.13333334028720856,
+        "tpc_b": 0.13333334028720856,
+        "lca": 0.13333334028720856,
+        "pconv_uav_d05": 0.0,
+        "pconv_uav_p43": 0.0,
+        "bgm_nuaa": 0.4000000059604645,
+        "rpcanet_sirst_s3": 0.15000000596046448,
+        "bg_anomaly": 0.05000000074505806
+      },
+      "gamma": 1.05,
+      "output_threshold": 0.48,
+      "pixAcc": 0.8619577884674072,
+      "mIoU": 0.8009259259259259,
+      "nIoU": 0.8177597218577024,
+      "Pd": 0.981651376146789,
+      "Fa": 9.242241798170564e-06
+    },
+    {
+      "stage": "eval",
+      "fit_fast_nIoU": 0.7284435146663765,
+      "kind": "teacher_external_weighted",
+      "weights": {
+        "tpc_a": 0.13333334028720856,
+        "tpc_b": 0.13333334028720856,
+        "lca": 0.13333334028720856,
+        "pconv_uav_d05": 0.0,
+        "pconv_uav_p43": 0.0,
+        "bgm_nuaa": 0.4000000059604645,
+        "rpcanet_sirst_s3": 0.15000000596046448,
+        "bg_anomaly": 0.05000000074505806
+      },
+      "gamma": 1.0,
+      "output_threshold": 0.5,
+      "pixAcc": 0.8616647124290466,
+      "mIoU": 0.8008716970852628,
+      "nIoU": 0.8175115599319088,
+      "Pd": 0.981651376146789,
+      "Fa": 9.242241798170564e-06
+    },
+    {
+      "stage": "eval",
+      "fit_fast_nIoU": 0.7308670708806936,
+      "kind": "teacher_external_weighted",
+      "weights": {
+        "tpc_a": 0.11764705926179886,
+        "tpc_b": 0.11764705926179886,
+        "lca": 0.11764705926179886,
+        "pconv_uav_d05": 0.0,
+        "pconv_uav_p43": 0.0,
+        "bgm_nuaa": 0.3529411852359772,
+        "rpcanet_sirst_s3": 0.1764705926179886,
+        "bg_anomaly": 0.11764705926179886
+      },
+      "gamma": 1.0,
+      "output_threshold": 0.48,
+      "pixAcc": 0.8619577884674072,
+      "mIoU": 0.8007078682276069,
+      "nIoU": 0.818076538714972,
+      "Pd": 0.981651376146789,
+      "Fa": 9.242241798170564e-06
+    },
+    {
+      "stage": "eval",
+      "fit_fast_nIoU": 0.7287383506425983,
+      "kind": "teacher_external_weighted",
+      "weights": {
+        "tpc_a": 0.10526315867900848,
+        "tpc_b": 0.10526315867900848,
+        "lca": 0.10526315867900848,
+        "pconv_uav_d05": 0.0,
+        "pconv_uav_p43": 0.0,
+        "bgm_nuaa": 0.42105263471603394,
+        "rpcanet_sirst_s3": 0.21052631735801697,
+        "bg_anomaly": 0.05263157933950424
+      },
+      "gamma": 0.95,
+      "output_threshold": 0.5,
+      "pixAcc": 0.8631301522254944,
+      "mIoU": 0.8007069059271343,
+      "nIoU": 0.8180292951046544,
+      "Pd": 0.981651376146789,
+      "Fa": 9.430858977725066e-06
+    },
+    {
+      "stage": "eval",
+      "fit_fast_nIoU": 0.7284435146663765,
+      "kind": "teacher_external_weighted",
+      "weights": {
+        "tpc_a": 0.13333334028720856,
+        "tpc_b": 0.13333334028720856,
+        "lca": 0.13333334028720856,
+        "pconv_uav_d05": 0.0,
+        "pconv_uav_p43": 0.0,
+        "bgm_nuaa": 0.4000000059604645,
+        "rpcanet_sirst_s3": 0.15000000596046448,
+        "bg_anomaly": 0.05000000074505806
+      },
+      "gamma": 0.95,
+      "output_threshold": 0.52,
+      "pixAcc": 0.861371636390686,
+      "mIoU": 0.8005992917461182,
+      "nIoU": 0.8172883456461946,
+      "Pd": 0.981651376146789,
+      "Fa": 9.242241798170564e-06
+    },
+    {
+      "stage": "eval",
+      "fit_fast_nIoU": 0.7287383506425983,
+      "kind": "teacher_external_weighted",
+      "weights": {
+        "tpc_a": 0.13333334028720856,
+        "tpc_b": 0.13333334028720856,
+        "lca": 0.13333334028720856,
+        "pconv_uav_d05": 0.0,
+        "pconv_uav_p43": 0.0,
+        "bgm_nuaa": 0.4000000059604645,
+        "rpcanet_sirst_s3": 0.13333334028720856,
+        "bg_anomaly": 0.06666667014360428
+      },
+      "gamma": 1.0,
+      "output_threshold": 0.48,
+      "pixAcc": 0.8625439405441284,
+      "mIoU": 0.8005984766050055,
+      "nIoU": 0.817539634416265,
+      "Pd": 0.981651376146789,
+      "Fa": 9.242241798170564e-06
+    },
+    {
+      "stage": "eval",
+      "fit_fast_nIoU": 0.729043713079075,
+      "kind": "teacher_external_weighted",
+      "weights": {
+        "tpc_a": 0.125,
+        "tpc_b": 0.125,
+        "lca": 0.125,
+        "pconv_uav_d05": 0.0,
+        "pconv_uav_p43": 0.0,
+        "bgm_nuaa": 0.375,
+        "rpcanet_sirst_s3": 0.1875,
+        "bg_anomaly": 0.0625
+      },
+      "gamma": 1.05,
+      "output_threshold": 0.5,
+      "pixAcc": 0.8601992726325989,
+      "mIoU": 0.8001635768811342,
+      "nIoU": 0.8165396560077905,
+      "Pd": 0.981651376146789,
+      "Fa": 9.053624618616062e-06
+    },
+    {
+      "stage": "eval",
+      "fit_fast_nIoU": 0.7281133506425983,
+      "kind": "teacher_external_weighted",
+      "weights": {
+        "tpc_a": 0.13333334028720856,
+        "tpc_b": 0.13333334028720856,
+        "lca": 0.13333334028720856,
+        "pconv_uav_d05": 0.0,
+        "pconv_uav_p43": 0.0,
+        "bgm_nuaa": 0.4000000059604645,
+        "rpcanet_sirst_s3": 0.13333334028720856,
+        "bg_anomaly": 0.06666667014360428
+      },
+      "gamma": 0.95,
+      "output_threshold": 0.5,
+      "pixAcc": 0.8619577884674072,
+      "mIoU": 0.8000544069640914,
+      "nIoU": 0.8169443963210267,
+      "Pd": 0.981651376146789,
+      "Fa": 9.242241798170564e-06
+    },
+    {
+      "stage": "eval",
+      "fit_fast_nIoU": 0.729043713079075,
+      "kind": "teacher_external_weighted",
+      "weights": {
+        "tpc_a": 0.125,
+        "tpc_b": 0.125,
+        "lca": 0.125,
+        "pconv_uav_d05": 0.0,
+        "pconv_uav_p43": 0.0,
+        "bgm_nuaa": 0.375,
+        "rpcanet_sirst_s3": 0.1875,
+        "bg_anomaly": 0.0625
+      },
+      "gamma": 1.0,
+      "output_threshold": 0.52,
+      "pixAcc": 0.8596131205558777,
+      "mIoU": 0.799618320610687,
+      "nIoU": 0.8162373277980258,
+      "Pd": 0.981651376146789,
+      "Fa": 9.053624618616062e-06
+    },
+    {
+      "stage": "eval",
+      "fit_fast_nIoU": 0.7304814610949479,
+      "kind": "teacher_external_weighted",
+      "weights": {
+        "tpc_a": 0.14035087823867798,
+        "tpc_b": 0.14035087823867798,
+        "lca": 0.14035087823867798,
+        "pconv_uav_d05": 0.0,
+        "pconv_uav_p43": 0.0,
+        "bgm_nuaa": 0.42105260491371155,
+        "rpcanet_sirst_s3": 0.10526315122842789,
+        "bg_anomaly": 0.052631575614213943
+      },
+      "gamma": 0.95,
+      "output_threshold": 0.5,
+      "pixAcc": 0.8616647124290466,
+      "mIoU": 0.799564862659777,
+      "nIoU": 0.8179056585245601,
+      "Pd": 0.981651376146789,
+      "Fa": 9.242241798170564e-06
+    },
+    {
+      "stage": "eval",
+      "fit_fast_nIoU": 0.7304814610949479,
+      "kind": "teacher_external_weighted",
+      "weights": {
+        "tpc_a": 0.14035087823867798,
+        "tpc_b": 0.14035087823867798,
+        "lca": 0.14035087823867798,
+        "pconv_uav_d05": 0.0,
+        "pconv_uav_p43": 0.0,
+        "bgm_nuaa": 0.42105260491371155,
+        "rpcanet_sirst_s3": 0.10526315122842789,
+        "bg_anomaly": 0.052631575614213943
+      },
+      "gamma": 1.0,
+      "output_threshold": 0.48,
+      "pixAcc": 0.8616647124290466,
+      "mIoU": 0.799564862659777,
+      "nIoU": 0.8179056585245601,
+      "Pd": 0.981651376146789,
+      "Fa": 9.242241798170564e-06
+    },
+    {
+      "stage": "eval",
+      "fit_fast_nIoU": 0.728200459110821,
+      "kind": "teacher_external_weighted",
+      "weights": {
+        "tpc_a": 0.11764705926179886,
+        "tpc_b": 0.11764705926179886,
+        "lca": 0.11764705926179886,
+        "pconv_uav_d05": 0.0,
+        "pconv_uav_p43": 0.0,
+        "bgm_nuaa": 0.3529411852359772,
+        "rpcanet_sirst_s3": 0.1764705926179886,
+        "bg_anomaly": 0.11764705926179886
+      },
+      "gamma": 1.05,
+      "output_threshold": 0.48,
+      "pixAcc": 0.8578546047210693,
+      "mIoU": 0.7977650585990733,
+      "nIoU": 0.8160787485722109,
+      "Pd": 0.981651376146789,
+      "Fa": 9.242241798170564e-06
+    },
+    {
+      "stage": "eval",
+      "fit_fast_nIoU": 0.7286468102385579,
+      "kind": "teacher_external_weighted",
+      "weights": {
+        "tpc_a": 0.14035087823867798,
+        "tpc_b": 0.14035087823867798,
+        "lca": 0.14035087823867798,
+        "pconv_uav_d05": 0.0,
+        "pconv_uav_p43": 0.0,
+        "bgm_nuaa": 0.42105260491371155,
+        "rpcanet_sirst_s3": 0.10526315122842789,
+        "bg_anomaly": 0.052631575614213943
+      },
+      "gamma": 0.95,
+      "output_threshold": 0.48,
+      "pixAcc": 0.8672332763671875,
+      "mIoU": 0.7956439903199785,
+      "nIoU": 0.808663868916678,
+      "Pd": 0.981651376146789,
+      "Fa": 1.584384308257811e-05
+    },
+    {
+      "stage": "eval",
+      "fit_fast_nIoU": 0.7285717388727256,
+      "kind": "teacher_external_weighted",
+      "weights": {
+        "tpc_a": 0.1111111119389534,
+        "tpc_b": 0.1111111119389534,
+        "lca": 0.1111111119389534,
+        "pconv_uav_d05": 0.0,
+        "pconv_uav_p43": 0.0,
+        "bgm_nuaa": 0.4444444477558136,
+        "rpcanet_sirst_s3": 0.1666666716337204,
+        "bg_anomaly": 0.0555555559694767
+      },
+      "gamma": 0.95,
+      "output_threshold": 0.48,
+      "pixAcc": 0.8651816844940186,
+      "mIoU": 0.7952586206896551,
+      "nIoU": 0.8079409464961426,
+      "Pd": 0.981651376146789,
+      "Fa": 1.4900757184805603e-05
+    },
+    {
+      "stage": "eval",
+      "fit_fast_nIoU": 0.7292661833171701,
+      "kind": "teacher_external_weighted",
+      "weights": {
+        "tpc_a": 0.10000000149011612,
+        "tpc_b": 0.10000000149011612,
+        "lca": 0.10000000149011612,
+        "pconv_uav_d05": 0.0,
+        "pconv_uav_p43": 0.0,
+        "bgm_nuaa": 0.4000000059604645,
+        "rpcanet_sirst_s3": 0.20000000298023224,
+        "bg_anomaly": 0.10000000149011612
+      },
+      "gamma": 0.95,
+      "output_threshold": 0.48,
+      "pixAcc": 0.862837016582489,
+      "mIoU": 0.7941731858645805,
+      "nIoU": 0.8065329102456582,
+      "Pd": 0.981651376146789,
+      "Fa": 1.4900757184805603e-05
+    },
+    {
+      "stage": "eval",
+      "fit_fast_nIoU": 0.7290444548141917,
+      "kind": "teacher_external_weighted",
+      "weights": {
+        "tpc_a": 0.10526315867900848,
+        "tpc_b": 0.10526315867900848,
+        "lca": 0.10526315867900848,
+        "pconv_uav_d05": 0.0,
+        "pconv_uav_p43": 0.0,
+        "bgm_nuaa": 0.42105263471603394,
+        "rpcanet_sirst_s3": 0.15789474546909332,
+        "bg_anomaly": 0.10526315867900848
+      },
+      "gamma": 0.95,
+      "output_threshold": 0.48,
+      "pixAcc": 0.8593200445175171,
+      "mIoU": 0.7915766738660908,
+      "nIoU": 0.8061271092823411,
+      "Pd": 0.981651376146789,
+      "Fa": 1.4900757184805603e-05
+    },
+    {
+      "stage": "eval",
+      "fit_fast_nIoU": 0.7283746350810496,
+      "kind": "teacher_external_weighted",
+      "weights": {
+        "tpc_a": 0.14814814925193787,
+        "tpc_b": 0.14814814925193787,
+        "lca": 0.14814814925193787,
+        "pconv_uav_d05": 0.0,
+        "pconv_uav_p43": 0.0,
+        "bgm_nuaa": 0.3333333432674408,
+        "rpcanet_sirst_s3": 0.1111111119389534,
+        "bg_anomaly": 0.1111111119389534
+      },
+      "gamma": 1.0,
+      "output_threshold": 0.5,
+      "pixAcc": 0.8505275249481201,
+      "mIoU": 0.7896598639455782,
+      "nIoU": 0.8152495037281422,
+      "Pd": 0.963302752293578,
+      "Fa": 4.922908386372484e-05
+    },
+    {
+      "stage": "eval",
+      "fit_fast_nIoU": 0.7282634690731443,
+      "kind": "teacher_external_weighted",
+      "weights": {
+        "tpc_a": 0.14814814925193787,
+        "tpc_b": 0.14814814925193787,
+        "lca": 0.14814814925193787,
+        "pconv_uav_d05": 0.0,
+        "pconv_uav_p43": 0.0,
+        "bgm_nuaa": 0.3333333432674408,
+        "rpcanet_sirst_s3": 0.1111111119389534,
+        "bg_anomaly": 0.1111111119389534
+      },
+      "gamma": 1.05,
+      "output_threshold": 0.48,
+      "pixAcc": 0.8508206605911255,
+      "mIoU": 0.7895023116671199,
+      "nIoU": 0.8152707449532024,
+      "Pd": 0.963302752293578,
+      "Fa": 4.922908386372484e-05
+    },
+    {
+      "stage": "eval",
+      "fit_fast_nIoU": 0.7282851238977883,
+      "kind": "teacher_external_weighted",
+      "weights": {
+        "tpc_a": 0.1568627506494522,
+        "tpc_b": 0.1568627506494522,
+        "lca": 0.1568627506494522,
+        "pconv_uav_d05": 0.0,
+        "pconv_uav_p43": 0.0,
+        "bgm_nuaa": 0.3529411852359772,
+        "rpcanet_sirst_s3": 0.11764705926179886,
+        "bg_anomaly": 0.05882352963089943
+      },
+      "gamma": 0.95,
+      "output_threshold": 0.55,
+      "pixAcc": 0.8461313247680664,
+      "mIoU": 0.7894449001914138,
+      "nIoU": 0.813981586700025,
+      "Pd": 0.963302752293578,
+      "Fa": 4.7908763606843335e-05
+    },
+    {
+      "stage": "eval",
+      "fit_fast_nIoU": 0.7284525346120742,
+      "kind": "teacher_external_weighted",
+      "weights": {
+        "tpc_a": 0.1568627506494522,
+        "tpc_b": 0.1568627506494522,
+        "lca": 0.1568627506494522,
+        "pconv_uav_d05": 0.0,
+        "pconv_uav_p43": 0.0,
+        "bgm_nuaa": 0.3529411852359772,
+        "rpcanet_sirst_s3": 0.11764705926179886,
+        "bg_anomaly": 0.05882352963089943
+      },
+      "gamma": 1.05,
+      "output_threshold": 0.52,
+      "pixAcc": 0.8446658849716187,
+      "mIoU": 0.7882932166301969,
+      "nIoU": 0.8132714668331044,
+      "Pd": 0.963302752293578,
+      "Fa": 4.772014642728883e-05
+    },
+    {
+      "stage": "eval",
+      "fit_fast_nIoU": 0.7287061811955388,
+      "kind": "teacher_external_weighted",
+      "weights": {
+        "tpc_a": 0.1538461446762085,
+        "tpc_b": 0.1538461446762085,
+        "lca": 0.1538461446762085,
+        "pconv_uav_d05": 0.0,
+        "pconv_uav_p43": 0.0,
+        "bgm_nuaa": 0.307692289352417,
+        "rpcanet_sirst_s3": 0.07692307233810425,
+        "bg_anomaly": 0.1538461446762085
+      },
+      "gamma": 0.95,
+      "output_threshold": 0.5,
+      "pixAcc": 0.84788978099823,
+      "mIoU": 0.7880686461454645,
+      "nIoU": 0.8150356373342336,
+      "Pd": 0.963302752293578,
+      "Fa": 4.885184950461584e-05
+    },
+    {
+      "stage": "eval",
+      "fit_fast_nIoU": 0.7287061811955388,
+      "kind": "teacher_external_weighted",
+      "weights": {
+        "tpc_a": 0.1538461446762085,
+        "tpc_b": 0.1538461446762085,
+        "lca": 0.1538461446762085,
+        "pconv_uav_d05": 0.0,
+        "pconv_uav_p43": 0.0,
+        "bgm_nuaa": 0.307692289352417,
+        "rpcanet_sirst_s3": 0.07692307233810425,
+        "bg_anomaly": 0.1538461446762085
+      },
+      "gamma": 1.0,
+      "output_threshold": 0.48,
+      "pixAcc": 0.84788978099823,
+      "mIoU": 0.7876395317179418,
+      "nIoU": 0.8142190965380731,
+      "Pd": 0.963302752293578,
+      "Fa": 4.9040466684170344e-05
+    }
+  ],
+  "fit_rows_top": [
+    {
+      "stage": "fit",
+      "kind": "teacher_external_weighted",
+      "weights": {
+        "tpc_a": 0.11764705926179886,
+        "tpc_b": 0.11764705926179886,
+        "lca": 0.11764705926179886,
+        "pconv_uav_d05": 0.0,
+        "pconv_uav_p43": 0.0,
+        "bgm_nuaa": 0.3529411852359772,
+        "rpcanet_sirst_s3": 0.1764705926179886,
+        "bg_anomaly": 0.11764705926179886
+      },
+      "gamma": 0.95,
+      "output_threshold": 0.5,
+      "fast_nIoU": 0.7308670708806936
+    },
+    {
+      "stage": "fit",
+      "kind": "teacher_external_weighted",
+      "weights": {
+        "tpc_a": 0.11764705926179886,
+        "tpc_b": 0.11764705926179886,
+        "lca": 0.11764705926179886,
+        "pconv_uav_d05": 0.0,
+        "pconv_uav_p43": 0.0,
+        "bgm_nuaa": 0.3529411852359772,
+        "rpcanet_sirst_s3": 0.1764705926179886,
+        "bg_anomaly": 0.11764705926179886
+      },
+      "gamma": 1.0,
+      "output_threshold": 0.48,
+      "fast_nIoU": 0.7308670708806936
+    },
+    {
+      "stage": "fit",
+      "kind": "teacher_external_weighted",
+      "weights": {
+        "tpc_a": 0.14035087823867798,
+        "tpc_b": 0.14035087823867798,
+        "lca": 0.14035087823867798,
+        "pconv_uav_d05": 0.0,
+        "pconv_uav_p43": 0.0,
+        "bgm_nuaa": 0.42105260491371155,
+        "rpcanet_sirst_s3": 0.10526315122842789,
+        "bg_anomaly": 0.052631575614213943
+      },
+      "gamma": 0.95,
+      "output_threshold": 0.5,
+      "fast_nIoU": 0.7304814610949479
+    },
+    {
+      "stage": "fit",
+      "kind": "teacher_external_weighted",
+      "weights": {
+        "tpc_a": 0.14035087823867798,
+        "tpc_b": 0.14035087823867798,
+        "lca": 0.14035087823867798,
+        "pconv_uav_d05": 0.0,
+        "pconv_uav_p43": 0.0,
+        "bgm_nuaa": 0.42105260491371155,
+        "rpcanet_sirst_s3": 0.10526315122842789,
+        "bg_anomaly": 0.052631575614213943
+      },
+      "gamma": 1.0,
+      "output_threshold": 0.48,
+      "fast_nIoU": 0.7304814610949479
+    },
+    {
+      "stage": "fit",
+      "kind": "teacher_external_weighted",
+      "weights": {
+        "tpc_a": 0.10000000149011612,
+        "tpc_b": 0.10000000149011612,
+        "lca": 0.10000000149011612,
+        "pconv_uav_d05": 0.0,
+        "pconv_uav_p43": 0.0,
+        "bgm_nuaa": 0.4000000059604645,
+        "rpcanet_sirst_s3": 0.20000000298023224,
+        "bg_anomaly": 0.10000000149011612
+      },
+      "gamma": 0.95,
+      "output_threshold": 0.48,
+      "fast_nIoU": 0.7292661833171701
+    },
+    {
+      "stage": "fit",
+      "kind": "teacher_external_weighted",
+      "weights": {
+        "tpc_a": 0.10526315867900848,
+        "tpc_b": 0.10526315867900848,
+        "lca": 0.10526315867900848,
+        "pconv_uav_d05": 0.0,
+        "pconv_uav_p43": 0.0,
+        "bgm_nuaa": 0.42105263471603394,
+        "rpcanet_sirst_s3": 0.15789474546909332,
+        "bg_anomaly": 0.10526315867900848
+      },
+      "gamma": 0.95,
+      "output_threshold": 0.48,
+      "fast_nIoU": 0.7290444548141917
+    },
+    {
+      "stage": "fit",
+      "kind": "teacher_external_weighted",
+      "weights": {
+        "tpc_a": 0.125,
+        "tpc_b": 0.125,
+        "lca": 0.125,
+        "pconv_uav_d05": 0.0,
+        "pconv_uav_p43": 0.0,
+        "bgm_nuaa": 0.375,
+        "rpcanet_sirst_s3": 0.1875,
+        "bg_anomaly": 0.0625
+      },
+      "gamma": 1.0,
+      "output_threshold": 0.52,
+      "fast_nIoU": 0.729043713079075
+    },
+    {
+      "stage": "fit",
+      "kind": "teacher_external_weighted",
+      "weights": {
+        "tpc_a": 0.125,
+        "tpc_b": 0.125,
+        "lca": 0.125,
+        "pconv_uav_d05": 0.0,
+        "pconv_uav_p43": 0.0,
+        "bgm_nuaa": 0.375,
+        "rpcanet_sirst_s3": 0.1875,
+        "bg_anomaly": 0.0625
+      },
+      "gamma": 1.05,
+      "output_threshold": 0.5,
+      "fast_nIoU": 0.729043713079075
+    },
+    {
+      "stage": "fit",
+      "kind": "teacher_external_weighted",
+      "weights": {
+        "tpc_a": 0.13333334028720856,
+        "tpc_b": 0.13333334028720856,
+        "lca": 0.13333334028720856,
+        "pconv_uav_d05": 0.0,
+        "pconv_uav_p43": 0.0,
+        "bgm_nuaa": 0.4000000059604645,
+        "rpcanet_sirst_s3": 0.13333334028720856,
+        "bg_anomaly": 0.06666667014360428
+      },
+      "gamma": 1.0,
+      "output_threshold": 0.48,
+      "fast_nIoU": 0.7287383506425983
+    },
+    {
+      "stage": "fit",
+      "kind": "teacher_external_weighted",
+      "weights": {
+        "tpc_a": 0.10526315867900848,
+        "tpc_b": 0.10526315867900848,
+        "lca": 0.10526315867900848,
+        "pconv_uav_d05": 0.0,
+        "pconv_uav_p43": 0.0,
+        "bgm_nuaa": 0.42105263471603394,
+        "rpcanet_sirst_s3": 0.21052631735801697,
+        "bg_anomaly": 0.05263157933950424
+      },
+      "gamma": 0.95,
+      "output_threshold": 0.5,
+      "fast_nIoU": 0.7287383506425983
+    },
+    {
+      "stage": "fit",
+      "kind": "teacher_external_weighted",
+      "weights": {
+        "tpc_a": 0.10526315867900848,
+        "tpc_b": 0.10526315867900848,
+        "lca": 0.10526315867900848,
+        "pconv_uav_d05": 0.0,
+        "pconv_uav_p43": 0.0,
+        "bgm_nuaa": 0.42105263471603394,
+        "rpcanet_sirst_s3": 0.21052631735801697,
+        "bg_anomaly": 0.05263157933950424
+      },
+      "gamma": 1.0,
+      "output_threshold": 0.48,
+      "fast_nIoU": 0.7287383506425983
+    },
+    {
+      "stage": "fit",
+      "kind": "teacher_external_weighted",
+      "weights": {
+        "tpc_a": 0.1538461446762085,
+        "tpc_b": 0.1538461446762085,
+        "lca": 0.1538461446762085,
+        "pconv_uav_d05": 0.0,
+        "pconv_uav_p43": 0.0,
+        "bgm_nuaa": 0.307692289352417,
+        "rpcanet_sirst_s3": 0.07692307233810425,
+        "bg_anomaly": 0.1538461446762085
+      },
+      "gamma": 0.95,
+      "output_threshold": 0.5,
+      "fast_nIoU": 0.7287061811955388
+    },
+    {
+      "stage": "fit",
+      "kind": "teacher_external_weighted",
+      "weights": {
+        "tpc_a": 0.1538461446762085,
+        "tpc_b": 0.1538461446762085,
+        "lca": 0.1538461446762085,
+        "pconv_uav_d05": 0.0,
+        "pconv_uav_p43": 0.0,
+        "bgm_nuaa": 0.307692289352417,
+        "rpcanet_sirst_s3": 0.07692307233810425,
+        "bg_anomaly": 0.1538461446762085
+      },
+      "gamma": 1.0,
+      "output_threshold": 0.48,
+      "fast_nIoU": 0.7287061811955388
+    },
+    {
+      "stage": "fit",
+      "kind": "teacher_external_weighted",
+      "weights": {
+        "tpc_a": 0.14035087823867798,
+        "tpc_b": 0.14035087823867798,
+        "lca": 0.14035087823867798,
+        "pconv_uav_d05": 0.0,
+        "pconv_uav_p43": 0.0,
+        "bgm_nuaa": 0.42105260491371155,
+        "rpcanet_sirst_s3": 0.10526315122842789,
+        "bg_anomaly": 0.052631575614213943
+      },
+      "gamma": 0.95,
+      "output_threshold": 0.48,
+      "fast_nIoU": 0.7286468102385579
+    },
+    {
+      "stage": "fit",
+      "kind": "teacher_external_weighted",
+      "weights": {
+        "tpc_a": 0.1111111119389534,
+        "tpc_b": 0.1111111119389534,
+        "lca": 0.1111111119389534,
+        "pconv_uav_d05": 0.0,
+        "pconv_uav_p43": 0.0,
+        "bgm_nuaa": 0.4444444477558136,
+        "rpcanet_sirst_s3": 0.1666666716337204,
+        "bg_anomaly": 0.0555555559694767
+      },
+      "gamma": 0.95,
+      "output_threshold": 0.48,
+      "fast_nIoU": 0.7285717388727256
+    },
+    {
+      "stage": "fit",
+      "kind": "teacher_external_weighted",
+      "weights": {
+        "tpc_a": 0.1568627506494522,
+        "tpc_b": 0.1568627506494522,
+        "lca": 0.1568627506494522,
+        "pconv_uav_d05": 0.0,
+        "pconv_uav_p43": 0.0,
+        "bgm_nuaa": 0.3529411852359772,
+        "rpcanet_sirst_s3": 0.11764705926179886,
+        "bg_anomaly": 0.05882352963089943
+      },
+      "gamma": 1.05,
+      "output_threshold": 0.52,
+      "fast_nIoU": 0.7284525346120742
+    },
+    {
+      "stage": "fit",
+      "kind": "teacher_external_weighted",
+      "weights": {
+        "tpc_a": 0.13333334028720856,
+        "tpc_b": 0.13333334028720856,
+        "lca": 0.13333334028720856,
+        "pconv_uav_d05": 0.0,
+        "pconv_uav_p43": 0.0,
+        "bgm_nuaa": 0.4000000059604645,
+        "rpcanet_sirst_s3": 0.15000000596046448,
+        "bg_anomaly": 0.05000000074505806
+      },
+      "gamma": 0.95,
+      "output_threshold": 0.52,
+      "fast_nIoU": 0.7284435146663765
+    },
+    {
+      "stage": "fit",
+      "kind": "teacher_external_weighted",
+      "weights": {
+        "tpc_a": 0.13333334028720856,
+        "tpc_b": 0.13333334028720856,
+        "lca": 0.13333334028720856,
+        "pconv_uav_d05": 0.0,
+        "pconv_uav_p43": 0.0,
+        "bgm_nuaa": 0.4000000059604645,
+        "rpcanet_sirst_s3": 0.15000000596046448,
+        "bg_anomaly": 0.05000000074505806
+      },
+      "gamma": 1.0,
+      "output_threshold": 0.5,
+      "fast_nIoU": 0.7284435146663765
+    },
+    {
+      "stage": "fit",
+      "kind": "teacher_external_weighted",
+      "weights": {
+        "tpc_a": 0.14814814925193787,
+        "tpc_b": 0.14814814925193787,
+        "lca": 0.14814814925193787,
+        "pconv_uav_d05": 0.0,
+        "pconv_uav_p43": 0.0,
+        "bgm_nuaa": 0.3333333432674408,
+        "rpcanet_sirst_s3": 0.1111111119389534,
+        "bg_anomaly": 0.1111111119389534
+      },
+      "gamma": 1.0,
+      "output_threshold": 0.5,
+      "fast_nIoU": 0.7283746350810496
+    },
+    {
+      "stage": "fit",
+      "kind": "teacher_external_weighted",
+      "weights": {
+        "tpc_a": 0.13333334028720856,
+        "tpc_b": 0.13333334028720856,
+        "lca": 0.13333334028720856,
+        "pconv_uav_d05": 0.0,
+        "pconv_uav_p43": 0.0,
+        "bgm_nuaa": 0.4000000059604645,
+        "rpcanet_sirst_s3": 0.15000000596046448,
+        "bg_anomaly": 0.05000000074505806
+      },
+      "gamma": 1.05,
+      "output_threshold": 0.48,
+      "fast_nIoU": 0.7283323486584713
+    },
+    {
+      "stage": "fit",
+      "kind": "teacher_external_weighted",
+      "weights": {
+        "tpc_a": 0.1568627506494522,
+        "tpc_b": 0.1568627506494522,
+        "lca": 0.1568627506494522,
+        "pconv_uav_d05": 0.0,
+        "pconv_uav_p43": 0.0,
+        "bgm_nuaa": 0.3529411852359772,
+        "rpcanet_sirst_s3": 0.11764705926179886,
+        "bg_anomaly": 0.05882352963089943
+      },
+      "gamma": 0.95,
+      "output_threshold": 0.55,
+      "fast_nIoU": 0.7282851238977883
+    },
+    {
+      "stage": "fit",
+      "kind": "teacher_external_weighted",
+      "weights": {
+        "tpc_a": 0.14814814925193787,
+        "tpc_b": 0.14814814925193787,
+        "lca": 0.14814814925193787,
+        "pconv_uav_d05": 0.0,
+        "pconv_uav_p43": 0.0,
+        "bgm_nuaa": 0.3333333432674408,
+        "rpcanet_sirst_s3": 0.1111111119389534,
+        "bg_anomaly": 0.1111111119389534
+      },
+      "gamma": 1.05,
+      "output_threshold": 0.48,
+      "fast_nIoU": 0.7282634690731443
+    },
+    {
+      "stage": "fit",
+      "kind": "teacher_external_weighted",
+      "weights": {
+        "tpc_a": 0.11764705926179886,
+        "tpc_b": 0.11764705926179886,
+        "lca": 0.11764705926179886,
+        "pconv_uav_d05": 0.0,
+        "pconv_uav_p43": 0.0,
+        "bgm_nuaa": 0.3529411852359772,
+        "rpcanet_sirst_s3": 0.1764705926179886,
+        "bg_anomaly": 0.11764705926179886
+      },
+      "gamma": 1.05,
+      "output_threshold": 0.48,
+      "fast_nIoU": 0.728200459110821
+    },
+    {
+      "stage": "fit",
+      "kind": "teacher_external_weighted",
+      "weights": {
+        "tpc_a": 0.13333334028720856,
+        "tpc_b": 0.13333334028720856,
+        "lca": 0.13333334028720856,
+        "pconv_uav_d05": 0.0,
+        "pconv_uav_p43": 0.0,
+        "bgm_nuaa": 0.4000000059604645,
+        "rpcanet_sirst_s3": 0.13333334028720856,
+        "bg_anomaly": 0.06666667014360428
+      },
+      "gamma": 0.95,
+      "output_threshold": 0.5,
+      "fast_nIoU": 0.7281133506425983
+    },
+    {
+      "stage": "fit",
+      "kind": "teacher_external_weighted",
+      "weights": {
+        "tpc_a": 0.1111111119389534,
+        "tpc_b": 0.1111111119389534,
+        "lca": 0.1111111119389534,
+        "pconv_uav_d05": 0.0,
+        "pconv_uav_p43": 0.0,
+        "bgm_nuaa": 0.4444444477558136,
+        "rpcanet_sirst_s3": 0.1666666716337204,
+        "bg_anomaly": 0.0555555559694767
+      },
+      "gamma": 0.95,
+      "output_threshold": 0.5,
+      "fast_nIoU": 0.7280882582329952
+    },
+    {
+      "stage": "fit",
+      "kind": "teacher_external_weighted",
+      "weights": {
+        "tpc_a": 0.1111111119389534,
+        "tpc_b": 0.1111111119389534,
+        "lca": 0.1111111119389534,
+        "pconv_uav_d05": 0.0,
+        "pconv_uav_p43": 0.0,
+        "bgm_nuaa": 0.4444444477558136,
+        "rpcanet_sirst_s3": 0.1666666716337204,
+        "bg_anomaly": 0.0555555559694767
+      },
+      "gamma": 1.0,
+      "output_threshold": 0.48,
+      "fast_nIoU": 0.7280882582329952
+    },
+    {
+      "stage": "fit",
+      "kind": "teacher_external_weighted",
+      "weights": {
+        "tpc_a": 0.11764705926179886,
+        "tpc_b": 0.11764705926179886,
+        "lca": 0.11764705926179886,
+        "pconv_uav_d05": 0.0,
+        "pconv_uav_p43": 0.0,
+        "bgm_nuaa": 0.3529411852359772,
+        "rpcanet_sirst_s3": 0.1764705926179886,
+        "bg_anomaly": 0.11764705926179886
+      },
+      "gamma": 0.95,
+      "output_threshold": 0.52,
+      "fast_nIoU": 0.7280584136562755
+    },
+    {
+      "stage": "fit",
+      "kind": "teacher_external_weighted",
+      "weights": {
+        "tpc_a": 0.11764705926179886,
+        "tpc_b": 0.11764705926179886,
+        "lca": 0.11764705926179886,
+        "pconv_uav_d05": 0.0,
+        "pconv_uav_p43": 0.0,
+        "bgm_nuaa": 0.3529411852359772,
+        "rpcanet_sirst_s3": 0.1764705926179886,
+        "bg_anomaly": 0.11764705926179886
+      },
+      "gamma": 1.0,
+      "output_threshold": 0.5,
+      "fast_nIoU": 0.7280584136562755
+    },
+    {
+      "stage": "fit",
+      "kind": "teacher_external_weighted",
+      "weights": {
+        "tpc_a": 0.13333334028720856,
+        "tpc_b": 0.13333334028720856,
+        "lca": 0.13333334028720856,
+        "pconv_uav_d05": 0.0,
+        "pconv_uav_p43": 0.0,
+        "bgm_nuaa": 0.4000000059604645,
+        "rpcanet_sirst_s3": 0.10000000149011612,
+        "bg_anomaly": 0.10000000149011612
+      },
+      "gamma": 0.95,
+      "output_threshold": 0.48,
+      "fast_nIoU": 0.7279420040242408
+    },
+    {
+      "stage": "fit",
+      "kind": "teacher_external_weighted",
+      "weights": {
+        "tpc_a": 0.1428571343421936,
+        "tpc_b": 0.1428571343421936,
+        "lca": 0.1428571343421936,
+        "pconv_uav_d05": 0.0,
+        "pconv_uav_p43": 0.0,
+        "bgm_nuaa": 0.4285714030265808,
+        "rpcanet_sirst_s3": 0.0714285671710968,
+        "bg_anomaly": 0.0714285671710968
+      },
+      "gamma": 1.0,
+      "output_threshold": 0.48,
+      "fast_nIoU": 0.7275861214808584
+    },
+    {
+      "stage": "fit",
+      "kind": "teacher_external_weighted",
+      "weights": {
+        "tpc_a": 0.13333334028720856,
+        "tpc_b": 0.13333334028720856,
+        "lca": 0.13333334028720856,
+        "pconv_uav_d05": 0.0,
+        "pconv_uav_p43": 0.0,
+        "bgm_nuaa": 0.4000000059604645,
+        "rpcanet_sirst_s3": 0.13333334028720856,
+        "bg_anomaly": 0.06666667014360428
+      },
+      "gamma": 1.05,
+      "output_threshold": 0.48,
+      "fast_nIoU": 0.7274886535552654
+    },
+    {
+      "stage": "fit",
+      "kind": "teacher_external_weighted",
+      "weights": {
+        "tpc_a": 0.10526315867900848,
+        "tpc_b": 0.10526315867900848,
+        "lca": 0.10526315867900848,
+        "pconv_uav_d05": 0.0,
+        "pconv_uav_p43": 0.0,
+        "bgm_nuaa": 0.42105263471603394,
+        "rpcanet_sirst_s3": 0.21052631735801697,
+        "bg_anomaly": 0.05263157933950424
+      },
+      "gamma": 1.05,
+      "output_threshold": 0.48,
+      "fast_nIoU": 0.7274886535552654
+    },
+    {
+      "stage": "fit",
+      "kind": "teacher_external_weighted",
+      "weights": {
+        "tpc_a": 0.13333334028720856,
+        "tpc_b": 0.13333334028720856,
+        "lca": 0.13333334028720856,
+        "pconv_uav_d05": 0.0,
+        "pconv_uav_p43": 0.0,
+        "bgm_nuaa": 0.4000000059604645,
+        "rpcanet_sirst_s3": 0.13333334028720856,
+        "bg_anomaly": 0.06666667014360428
+      },
+      "gamma": 0.95,
+      "output_threshold": 0.52,
+      "fast_nIoU": 0.7273466081007199
+    },
+    {
+      "stage": "fit",
+      "kind": "teacher_external_weighted",
+      "weights": {
+        "tpc_a": 0.13333334028720856,
+        "tpc_b": 0.13333334028720856,
+        "lca": 0.13333334028720856,
+        "pconv_uav_d05": 0.0,
+        "pconv_uav_p43": 0.0,
+        "bgm_nuaa": 0.4000000059604645,
+        "rpcanet_sirst_s3": 0.13333334028720856,
+        "bg_anomaly": 0.06666667014360428
+      },
+      "gamma": 1.0,
+      "output_threshold": 0.5,
+      "fast_nIoU": 0.7273466081007199
+    },
+    {
+      "stage": "fit",
+      "kind": "teacher_external_weighted",
+      "weights": {
+        "tpc_a": 0.10526315867900848,
+        "tpc_b": 0.10526315867900848,
+        "lca": 0.10526315867900848,
+        "pconv_uav_d05": 0.0,
+        "pconv_uav_p43": 0.0,
+        "bgm_nuaa": 0.42105263471603394,
+        "rpcanet_sirst_s3": 0.21052631735801697,
+        "bg_anomaly": 0.05263157933950424
+      },
+      "gamma": 0.95,
+      "output_threshold": 0.52,
+      "fast_nIoU": 0.7273466081007199
+    },
+    {
+      "stage": "fit",
+      "kind": "teacher_external_weighted",
+      "weights": {
+        "tpc_a": 0.10526315867900848,
+        "tpc_b": 0.10526315867900848,
+        "lca": 0.10526315867900848,
+        "pconv_uav_d05": 0.0,
+        "pconv_uav_p43": 0.0,
+        "bgm_nuaa": 0.42105263471603394,
+        "rpcanet_sirst_s3": 0.21052631735801697,
+        "bg_anomaly": 0.05263157933950424
+      },
+      "gamma": 1.0,
+      "output_threshold": 0.5,
+      "fast_nIoU": 0.7273466081007199
+    },
+    {
+      "stage": "fit",
+      "kind": "teacher_external_weighted",
+      "weights": {
+        "tpc_a": 0.14814814925193787,
+        "tpc_b": 0.14814814925193787,
+        "lca": 0.14814814925193787,
+        "pconv_uav_d05": 0.0,
+        "pconv_uav_p43": 0.0,
+        "bgm_nuaa": 0.3333333432674408,
+        "rpcanet_sirst_s3": 0.1111111119389534,
+        "bg_anomaly": 0.1111111119389534
+      },
+      "gamma": 0.95,
+      "output_threshold": 0.52,
+      "fast_nIoU": 0.727332968414383
+    },
+    {
+      "stage": "fit",
+      "kind": "teacher_external_weighted",
+      "weights": {
+        "tpc_a": 0.125,
+        "tpc_b": 0.125,
+        "lca": 0.125,
+        "pconv_uav_d05": 0.0,
+        "pconv_uav_p43": 0.0,
+        "bgm_nuaa": 0.375,
+        "rpcanet_sirst_s3": 0.1875,
+        "bg_anomaly": 0.0625
+      },
+      "gamma": 0.95,
+      "output_threshold": 0.55,
+      "fast_nIoU": 0.7272350009578629
+    },
+    {
+      "stage": "fit",
+      "kind": "teacher_external_weighted",
+      "weights": {
+        "tpc_a": 0.125,
+        "tpc_b": 0.125,
+        "lca": 0.125,
+        "pconv_uav_d05": 0.0,
+        "pconv_uav_p43": 0.0,
+        "bgm_nuaa": 0.375,
+        "rpcanet_sirst_s3": 0.1875,
+        "bg_anomaly": 0.0625
+      },
+      "gamma": 1.05,
+      "output_threshold": 0.52,
+      "fast_nIoU": 0.7272350009578629
+    },
+    {
+      "stage": "fit",
+      "kind": "teacher_external_weighted",
+      "weights": {
+        "tpc_a": 0.1568627506494522,
+        "tpc_b": 0.1568627506494522,
+        "lca": 0.1568627506494522,
+        "pconv_uav_d05": 0.0,
+        "pconv_uav_p43": 0.0,
+        "bgm_nuaa": 0.3529411852359772,
+        "rpcanet_sirst_s3": 0.11764705926179886,
+        "bg_anomaly": 0.05882352963089943
+      },
+      "gamma": 1.0,
+      "output_threshold": 0.52,
+      "fast_nIoU": 0.7271670134454388
+    },
+    {
+      "stage": "fit",
+      "kind": "teacher_external_weighted",
+      "weights": {
+        "tpc_a": 0.1568627506494522,
+        "tpc_b": 0.1568627506494522,
+        "lca": 0.1568627506494522,
+        "pconv_uav_d05": 0.0,
+        "pconv_uav_p43": 0.0,
+        "bgm_nuaa": 0.3529411852359772,
+        "rpcanet_sirst_s3": 0.11764705926179886,
+        "bg_anomaly": 0.05882352963089943
+      },
+      "gamma": 1.05,
+      "output_threshold": 0.5,
+      "fast_nIoU": 0.7271101952636206
+    },
+    {
+      "stage": "fit",
+      "kind": "teacher_external_weighted",
+      "weights": {
+        "tpc_a": 0.14814814925193787,
+        "tpc_b": 0.14814814925193787,
+        "lca": 0.14814814925193787,
+        "pconv_uav_d05": 0.0,
+        "pconv_uav_p43": 0.0,
+        "bgm_nuaa": 0.4444444477558136,
+        "rpcanet_sirst_s3": 0.1111111119389534,
+        "bg_anomaly": 0.0
+      },
+      "gamma": 0.95,
+      "output_threshold": 0.52,
+      "fast_nIoU": 0.727043961094948
+    },
+    {
+      "stage": "fit",
+      "kind": "teacher_external_weighted",
+      "weights": {
+        "tpc_a": 0.14814814925193787,
+        "tpc_b": 0.14814814925193787,
+        "lca": 0.14814814925193787,
+        "pconv_uav_d05": 0.0,
+        "pconv_uav_p43": 0.0,
+        "bgm_nuaa": 0.4444444477558136,
+        "rpcanet_sirst_s3": 0.1111111119389534,
+        "bg_anomaly": 0.0
+      },
+      "gamma": 1.0,
+      "output_threshold": 0.5,
+      "fast_nIoU": 0.727043961094948
+    },
+    {
+      "stage": "fit",
+      "kind": "teacher_external_weighted",
+      "weights": {
+        "tpc_a": 0.125,
+        "tpc_b": 0.125,
+        "lca": 0.125,
+        "pconv_uav_d05": 0.0,
+        "pconv_uav_p43": 0.0,
+        "bgm_nuaa": 0.375,
+        "rpcanet_sirst_s3": 0.1875,
+        "bg_anomaly": 0.0625
+      },
+      "gamma": 0.95,
+      "output_threshold": 0.52,
+      "fast_nIoU": 0.7270228248489475
+    },
+    {
+      "stage": "fit",
+      "kind": "teacher_external_weighted",
+      "weights": {
+        "tpc_a": 0.1666666567325592,
+        "tpc_b": 0.1666666567325592,
+        "lca": 0.1666666567325592,
+        "pconv_uav_d05": 0.0,
+        "pconv_uav_p43": 0.0,
+        "bgm_nuaa": 0.3749999701976776,
+        "rpcanet_sirst_s3": 0.0624999962747097,
+        "bg_anomaly": 0.0624999962747097
+      },
+      "gamma": 1.0,
+      "output_threshold": 0.5,
+      "fast_nIoU": 0.7268689532628677
+    },
+    {
+      "stage": "fit",
+      "kind": "teacher_external_weighted",
+      "weights": {
+        "tpc_a": 0.1666666567325592,
+        "tpc_b": 0.1666666567325592,
+        "lca": 0.1666666567325592,
+        "pconv_uav_d05": 0.0,
+        "pconv_uav_p43": 0.0,
+        "bgm_nuaa": 0.3333333134651184,
+        "rpcanet_sirst_s3": 0.0833333283662796,
+        "bg_anomaly": 0.0833333283662796
+      },
+      "gamma": 1.0,
+      "output_threshold": 0.52,
+      "fast_nIoU": 0.7268590699734275
+    },
+    {
+      "stage": "fit",
+      "kind": "teacher_external_weighted",
+      "weights": {
+        "tpc_a": 0.10000000149011612,
+        "tpc_b": 0.10000000149011612,
+        "lca": 0.10000000149011612,
+        "pconv_uav_d05": 0.0,
+        "pconv_uav_p43": 0.0,
+        "bgm_nuaa": 0.4000000059604645,
+        "rpcanet_sirst_s3": 0.20000000298023224,
+        "bg_anomaly": 0.10000000149011612
+      },
+      "gamma": 0.95,
+      "output_threshold": 0.5,
+      "fast_nIoU": 0.7268142006933125
+    },
+    {
+      "stage": "fit",
+      "kind": "teacher_external_weighted",
+      "weights": {
+        "tpc_a": 0.11764705926179886,
+        "tpc_b": 0.11764705926179886,
+        "lca": 0.11764705926179886,
+        "pconv_uav_d05": 0.0,
+        "pconv_uav_p43": 0.0,
+        "bgm_nuaa": 0.47058823704719543,
+        "rpcanet_sirst_s3": 0.1764705926179886,
+        "bg_anomaly": 0.0
+      },
+      "gamma": 1.0,
+      "output_threshold": 0.52,
+      "fast_nIoU": 0.7267695595705463
+    },
+    {
+      "stage": "fit",
+      "kind": "teacher_external_weighted",
+      "weights": {
+        "tpc_a": 0.125,
+        "tpc_b": 0.125,
+        "lca": 0.125,
+        "pconv_uav_d05": 0.0,
+        "pconv_uav_p43": 0.0,
+        "bgm_nuaa": 0.375,
+        "rpcanet_sirst_s3": 0.125,
+        "bg_anomaly": 0.125
+      },
+      "gamma": 0.95,
+      "output_threshold": 0.48,
+      "fast_nIoU": 0.7267651687067807
+    },
+    {
+      "stage": "fit",
+      "kind": "teacher_external_weighted",
+      "weights": {
+        "tpc_a": 0.10000000149011612,
+        "tpc_b": 0.10000000149011612,
+        "lca": 0.10000000149011612,
+        "pconv_uav_d05": 0.0,
+        "pconv_uav_p43": 0.0,
+        "bgm_nuaa": 0.4000000059604645,
+        "rpcanet_sirst_s3": 0.20000000298023224,
+        "bg_anomaly": 0.10000000149011612
+      },
+      "gamma": 1.0,
+      "output_threshold": 0.48,
+      "fast_nIoU": 0.7267563303229421
+    }
+  ]
+}

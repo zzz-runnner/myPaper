@@ -1,0 +1,39 @@
+{
+  "dataset_dir": "/home/cx/hongwai/irstd-lab/datasets",
+  "train_cache_spec": [
+    "IRSTD-1K|/home/cx/hongwai/irstd-lab/reports/prediction_cache_nuaa_tpc_lca_train_a/IRSTD-1K__train.npz",
+    "NUAA-SIRST|/home/cx/hongwai/irstd-lab/reports/prediction_cache_nuaa_tpc_lca_train_a/NUAA-SIRST__train.npz",
+    "NUDT-SIRST|/home/cx/hongwai/irstd-lab/reports/prediction_cache_nuaa_tpc_lca_train_b_test/NUDT-SIRST__train.npz",
+    "SIRST3|/home/cx/hongwai/irstd-lab/reports/prediction_cache_nuaa_tpc_lca_train_b_test/SIRST3__train.npz"
+  ],
+  "test_cache_spec": [
+    "NUAA-SIRST|/home/cx/hongwai/irstd-lab/reports/prediction_cache_nuaa_tpc_lca_train_b_test/NUAA-SIRST__test.npz"
+  ],
+  "teacher_mode": "avg",
+  "epochs": 10,
+  "batch_size": 5,
+  "patch_size": 512,
+  "base_channels": 64,
+  "lr": 0.0002,
+  "residual_scale": 0.45,
+  "anchor_weight": 0.03,
+  "pos_weight": 30.0,
+  "hard_clutter_weight": 1.2,
+  "hard_clutter_threshold": 0.34,
+  "miss_weight": 3.6,
+  "miss_threshold": 0.22,
+  "uncertainty_weight": 0.7,
+  "weighted_dice": true,
+  "thresholds": "0.30,0.34,0.38,0.42,0.46,0.50,0.54,0.58,0.62,0.66",
+  "eval_interval": 2,
+  "max_train_samples_per_cache": 0,
+  "eval_max_samples": 0,
+  "seed": 202606203,
+  "device": "cuda:0",
+  "output_dir": "/home/cx/hongwai/irstd-lab/runs/hard_clutter_anchor_4gpu/nuaa_hard_c_s203"
+}
+{"epoch": 1, "loss": 1.4251796181077387, "lr": 0.0001953503690480396, "seconds": 319.73783659935}
+{"epoch": 2, "eval": {"NUAA-SIRST": {"Fa": 3.0390178333408108e-05, "Pd": 0.9619771863117871, "mIoU": 0.7913761664700204, "nIoU": 0.7949821739624815, "pixAcc": 0.8795899152755737, "threshold": 0.62}}, "loss": 1.4243069627836569, "lr": 0.00018185661446562, "seconds": 320.5638680458069}
+{"epoch": 3, "loss": 1.4236949481181245, "lr": 0.00016083959896778495, "seconds": 320.5812520980835}
+{"epoch": 4, "eval": {"NUAA-SIRST": {"Fa": 1.6601406674231968e-05, "Pd": 0.9657794676806084, "mIoU": 0.792211971679897, "nIoU": 0.7965377690470423, "pixAcc": 0.880424439907074, "threshold": 0.62}}, "loss": 1.4230760633945465, "lr": 0.00013435661446562, "seconds": 321.4796359539032}
+{"epoch": 5, "loss": 1.4219402279426803, "lr": 0.000105, "seconds": 321.13597345352173}

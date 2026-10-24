@@ -1,0 +1,485 @@
+[
+  {
+    "path": "runs/anchor_refiner_multidata_probe/irstd_multi_r05_a002_s81/best.pth.tar",
+    "bytes": 50109526,
+    "role": "最终 IRSTD 主源",
+    "code": "scripts/train_teacher_anchor_refiner_from_cache.py",
+    "evidence": "configs/release/irstd_anchor_s81.json"
+  },
+  {
+    "path": "runs/basicirstd_multidata_smoke/ACM_seed42/best_mean_mIoU.pth.tar",
+    "bytes": 1704975,
+    "role": "仅 smoke 检查，不能当有效最终结果",
+    "code": "scripts/train_basicirstd_multidata.py",
+    "evidence": "原仓库 README / 历史 reports/"
+  },
+  {
+    "path": "runs/hfm_lk_anchor_4gpu/irstd_hfmlk_s631/best.pth.tar",
+    "bytes": 42222380,
+    "role": "现存历史权重，非最终主配方",
+    "code": "scripts/train_hfm_lk_anchor_refiner_from_cache.py",
+    "evidence": "reports/hfm_lk_anchor_4gpu_results.md"
+  },
+  {
+    "path": "runs/local_rule_lpsm_nuaa_4gpu_screen/s1303_e2m_r006/best.pth.tar",
+    "bytes": 53906430,
+    "role": "最终 NUAA 主源（方向分支关闭）",
+    "code": "scripts/train_lpsm_anchor_refiner_from_cache.py",
+    "evidence": "configs/release/nuaa_lpsm_s1303.json"
+  },
+  {
+    "path": "runs/local_rule_lpsm_nuaa_followup_4gpu/s1313_e2m_r0055_a018/best.pth.tar",
+    "bytes": 70357118,
+    "role": "最终 NUAA 主源（方向分支关闭）",
+    "code": "scripts/train_lpsm_anchor_refiner_from_cache.py",
+    "evidence": "configs/release/nuaa_lpsm_s1313.json"
+  },
+  {
+    "path": "runs/sct_refiner_fixed/IRSTD-1K_SCT-Refiner-Fixed_gpu0/checkpoints/IRSTD-1K/best_mIoU.pth.tar",
+    "bytes": 45586750,
+    "role": "现存历史权重，非最终主配方",
+    "code": "scripts/train_hybrid_methods.py",
+    "evidence": "原仓库 README / 历史 reports/"
+  },
+  {
+    "path": "runs/sct_refiner_fixed/NUAA-SIRST_SCT-Refiner-Fixed_gpu2/checkpoints/NUAA-SIRST/best_mIoU.pth.tar",
+    "bytes": 45582810,
+    "role": "现存历史权重，非最终主配方",
+    "code": "scripts/train_hybrid_methods.py",
+    "evidence": "原仓库 README / 历史 reports/"
+  },
+  {
+    "path": "runs/selected_checkpoints/baseline/IRSTD-1K_SCTransNet_500_best.pth.tar",
+    "bytes": 45536278,
+    "role": "现存历史权重，非最终主配方",
+    "code": "external/SCTransNet/model/SCTransNet.py",
+    "evidence": "reports/from_scratch_baseline_results.md"
+  },
+  {
+    "path": "runs/selected_checkpoints/baseline/NUAA-SIRST_SCTransNet_823_best.pth.tar",
+    "bytes": 45536598,
+    "role": "现存历史权重，非最终主配方",
+    "code": "external/SCTransNet/model/SCTransNet.py",
+    "evidence": "reports/from_scratch_baseline_results.md"
+  },
+  {
+    "path": "runs/selected_checkpoints/baseline/NUDT-SIRST_SCTransNet_547_best.pth.tar",
+    "bytes": 45536342,
+    "role": "现存历史权重，非最终主配方",
+    "code": "external/SCTransNet/model/SCTransNet.py",
+    "evidence": "reports/from_scratch_baseline_results.md"
+  },
+  {
+    "path": "runs/selected_checkpoints/baseline/SIRST3_SCTransNet_678_best.pth.tar",
+    "bytes": 45536470,
+    "role": "现存历史权重，非最终主配方",
+    "code": "external/SCTransNet/model/SCTransNet.py",
+    "evidence": "reports/from_scratch_baseline_results.md"
+  },
+  {
+    "path": "runs/selected_checkpoints/lca/NUAA-SIRST_SCT-LCA-B_epoch5_best.pth.tar",
+    "bytes": 45596258,
+    "role": "现存历史权重，非最终主配方",
+    "code": "scripts/train_hybrid_methods.py",
+    "evidence": "原仓库 README / 历史 reports/"
+  },
+  {
+    "path": "runs/selected_checkpoints/our_method/IRSTD-1K_TCD-SCTransNet-Q_12_best.pth.tar",
+    "bytes": 45544075,
+    "role": "现存历史权重，非最终主配方",
+    "code": "scripts/train_our_method.py",
+    "evidence": "reports/our_method_results.md"
+  },
+  {
+    "path": "runs/selected_checkpoints/our_method/NUAA-SIRST_TCD-SCTransNet-L_66_best.pth.tar",
+    "bytes": 45533920,
+    "role": "现存历史权重，非最终主配方",
+    "code": "scripts/train_our_method.py",
+    "evidence": "reports/our_method_results.md"
+  },
+  {
+    "path": "runs/selected_checkpoints/tcd_decouple/NUAA-SIRST_SCT-TCD-Decouple-A_epoch2_best.pth.tar",
+    "bytes": 45673154,
+    "role": "现存历史权重，非最终主配方",
+    "code": "scripts/train_hybrid_methods.py",
+    "evidence": "原仓库 README / 历史 reports/"
+  },
+  {
+    "path": "runs/selected_checkpoints/tcd_decouple/NUAA-SIRST_SCT-TCD-Decouple-B_epoch2_best.pth.tar",
+    "bytes": 45673154,
+    "role": "现存历史权重，非最终主配方",
+    "code": "scripts/train_hybrid_methods.py",
+    "evidence": "原仓库 README / 历史 reports/"
+  },
+  {
+    "path": "runs/strong_fusion_hfmlk_nuaa_4gpu/nuaa_strong_fusion_s703/best.pth.tar",
+    "bytes": 42229292,
+    "role": "现存历史权重，非最终主配方",
+    "code": "scripts/train_hfm_lk_anchor_refiner_from_cache.py",
+    "evidence": "reports/strong_fusion_hfmlk_nuaa_4gpu_results.md"
+  },
+  {
+    "path": "runs/tpc_dhif_teacher4/IRSTD-1K_SCT-TPC-DHiF-A_gpu0/checkpoints/IRSTD-1K/best_mIoU.pth.tar",
+    "bytes": 45604402,
+    "role": "现存历史权重，非最终主配方",
+    "code": "scripts/train_hybrid_methods.py",
+    "evidence": "原仓库 README / 历史 reports/"
+  },
+  {
+    "path": "runs/tpc_dhif_teacher4/IRSTD-1K_SCT-TPC-DHiF-B_gpu1/checkpoints/IRSTD-1K/best_mIoU.pth.tar",
+    "bytes": 45604402,
+    "role": "现存历史权重，非最终主配方",
+    "code": "scripts/train_hybrid_methods.py",
+    "evidence": "原仓库 README / 历史 reports/"
+  },
+  {
+    "path": "runs/tpc_dhif_teacher4/NUAA-SIRST_SCT-TPC-DHiF-A_gpu2/checkpoints/NUAA-SIRST/best_mIoU.pth.tar",
+    "bytes": 45600526,
+    "role": "现存历史权重，非最终主配方",
+    "code": "scripts/train_hybrid_methods.py",
+    "evidence": "原仓库 README / 历史 reports/"
+  },
+  {
+    "path": "runs/tpc_dhif_teacher4/NUAA-SIRST_SCT-TPC-DHiF-B_gpu3/checkpoints/NUAA-SIRST/best_mIoU.pth.tar",
+    "bytes": 45600526,
+    "role": "现存历史权重，非最终主配方",
+    "code": "scripts/train_hybrid_methods.py",
+    "evidence": "原仓库 README / 历史 reports/"
+  },
+  {
+    "path": "pretrained/SCTransNet_SIRST3_official.pth.tar",
+    "bytes": 45526725,
+    "role": "官方基线/上游初始化",
+    "code": "external/SCTransNet/model/SCTransNet.py",
+    "evidence": "reports/official_weight_eval.txt"
+  },
+  {
+    "path": "pretrained/mobile_sam/mobile_sam.pt",
+    "bytes": 40728226,
+    "role": "历史伪标签/探索依赖，不属于最终推理主源",
+    "code": "scripts/generate_sam_refined_pseudo_labels.py",
+    "evidence": "原仓库 README / 历史 reports/"
+  },
+  {
+    "path": "pretrained/sam/sam_vit_b_01ec64.pth",
+    "bytes": 375042383,
+    "role": "历史伪标签/探索依赖，不属于最终推理主源",
+    "code": "scripts/generate_sam_refined_pseudo_labels.py",
+    "evidence": "原仓库 README / 历史 reports/"
+  },
+  {
+    "path": "external/AnomalyCLIP/checkpoints/9_12_4_multiscale/epoch_15.pth",
+    "bytes": 22631975,
+    "role": "第三方/预训练资产，保留供复现；独立效果与授权见原说明",
+    "code": "external/AnomalyCLIP",
+    "evidence": "原仓库 README / 历史 reports/"
+  },
+  {
+    "path": "external/AnomalyCLIP/checkpoints/9_12_4_multiscale_visa/epoch_15.pth",
+    "bytes": 22631975,
+    "role": "第三方/预训练资产，保留供复现；独立效果与授权见原说明",
+    "code": "external/AnomalyCLIP",
+    "evidence": "原仓库 README / 历史 reports/"
+  },
+  {
+    "path": "external/BGM/checkpoints_download/weights/BasicUNet_plus-2024-09-20-19-40-03-IRSTD-1K/best_mIoU_on_IRSTD-1K.pth.tar",
+    "bytes": 16466757,
+    "role": "第三方/预训练资产，保留供复现；独立效果与授权见原说明",
+    "code": "external/BGM",
+    "evidence": "原仓库 README / 历史 reports/"
+  },
+  {
+    "path": "external/BGM/checkpoints_download/weights/BasicUNet_plus-2024-09-20-21-17-03-NUAA-SIRST/best_mIoU_on_NUAA-SIRST.pth.tar",
+    "bytes": 16467485,
+    "role": "第三方/预训练资产，保留供复现；独立效果与授权见原说明",
+    "code": "external/BGM",
+    "evidence": "原仓库 README / 历史 reports/"
+  },
+  {
+    "path": "external/BGM/checkpoints_download/weights/BasicUNet_plus-2024-09-20-21-47-11-NUDT-SIRST/best_mIoU_on_NUDT-SIRST.pth.tar",
+    "bytes": 16467485,
+    "role": "第三方/预训练资产，保留供复现；独立效果与授权见原说明",
+    "code": "external/BGM",
+    "evidence": "原仓库 README / 历史 reports/"
+  },
+  {
+    "path": "external/BasicIRSTD/model/ISNet/DCNv2/Deformable-Convolution-V2-PyTorch-pytorch_1.0.0.zip",
+    "bytes": 36596,
+    "role": "第三方/预训练资产，保留供复现；独立效果与授权见原说明",
+    "code": "external/BasicIRSTD",
+    "evidence": "原仓库 README / 历史 reports/"
+  },
+  {
+    "path": "external/BasicIRSTD/model/ISTDU-Net-main/save_pth/ISTDU_Net/best.pth",
+    "bytes": 11340847,
+    "role": "第三方/预训练资产，保留供复现；独立效果与授权见原说明",
+    "code": "external/BasicIRSTD",
+    "evidence": "原仓库 README / 历史 reports/"
+  },
+  {
+    "path": "external/BasicIRSTD/model/RDIAN-main/params/best.pth",
+    "bytes": 920357,
+    "role": "第三方/预训练资产，保留供复现；独立效果与授权见原说明",
+    "code": "external/BasicIRSTD",
+    "evidence": "原仓库 README / 历史 reports/"
+  },
+  {
+    "path": "external/DCCS_hf/weight/irstd1k_dccs.pkl",
+    "bytes": 29116219,
+    "role": "第三方/预训练资产，保留供复现；独立效果与授权见原说明",
+    "code": "external/DCCS_hf",
+    "evidence": "原仓库 README / 历史 reports/"
+  },
+  {
+    "path": "external/DCCS_hf/weight/nuaa_dccs.pkl",
+    "bytes": 29116219,
+    "role": "第三方/预训练资产，保留供复现；独立效果与授权见原说明",
+    "code": "external/DCCS_hf",
+    "evidence": "原仓库 README / 历史 reports/"
+  },
+  {
+    "path": "external/DFAwareNet/weights_download/IRSTD-1K/mIoU__DFAwareNet_IRSTD-1K_epoch.pth.tar",
+    "bytes": 29246441,
+    "role": "第三方/预训练资产，保留供复现；独立效果与授权见原说明",
+    "code": "external/DFAwareNet",
+    "evidence": "原仓库 README / 历史 reports/"
+  },
+  {
+    "path": "external/DFAwareNet/weights_download/NUAA-SIRST/mIoU__DFAwareNet_NUAA-SIRST_epoch.pth.tar",
+    "bytes": 29246993,
+    "role": "第三方/预训练资产，保留供复现；独立效果与授权见原说明",
+    "code": "external/DFAwareNet",
+    "evidence": "原仓库 README / 历史 reports/"
+  },
+  {
+    "path": "external/DFRL/pth/DNANet/Best_DANNet.pth",
+    "bytes": 19008192,
+    "role": "第三方/预训练资产，保留供复现；独立效果与授权见原说明",
+    "code": "external/DFRL",
+    "evidence": "原仓库 README / 历史 reports/"
+  },
+  {
+    "path": "external/DFRL/pth/PCSDL/Best_PCSDL.pth",
+    "bytes": 16408680,
+    "role": "第三方/预训练资产，保留供复现；独立效果与授权见原说明",
+    "code": "external/DFRL",
+    "evidence": "原仓库 README / 历史 reports/"
+  },
+  {
+    "path": "external/DFRL/pth/RDIAN/Best_RDIAN.pth",
+    "bytes": 916932,
+    "role": "第三方/预训练资产，保留供复现；独立效果与授权见原说明",
+    "code": "external/DFRL",
+    "evidence": "原仓库 README / 历史 reports/"
+  },
+  {
+    "path": "external/EFLNet/runs/train/IRSTD.pt",
+    "bytes": 77082551,
+    "role": "第三方/预训练资产，保留供复现；独立效果与授权见原说明",
+    "code": "external/EFLNet",
+    "evidence": "原仓库 README / 历史 reports/"
+  },
+  {
+    "path": "external/EFLNet/runs/train/NUAA.pt",
+    "bytes": 77082551,
+    "role": "第三方/预训练资产，保留供复现；独立效果与授权见原说明",
+    "code": "external/EFLNet",
+    "evidence": "原仓库 README / 历史 reports/"
+  },
+  {
+    "path": "external/EFLNet/runs/train/NUDT.pt",
+    "bytes": 77082551,
+    "role": "第三方/预训练资产，保留供复现；独立效果与授权见原说明",
+    "code": "external/EFLNet",
+    "evidence": "原仓库 README / 历史 reports/"
+  },
+  {
+    "path": "external/HFMNet/weights_download/IRSTD-1K/mIoU__HFMNet_IRSTD-1K_epoch.pth.tar",
+    "bytes": 27384175,
+    "role": "第三方/预训练资产，保留供复现；独立效果与授权见原说明",
+    "code": "external/HFMNet",
+    "evidence": "原仓库 README / 历史 reports/"
+  },
+  {
+    "path": "external/HFMNet/weights_download/NUAA-SIRST/mIoU__HFMNet_NUAA-SIRST_epoch.pth.tar",
+    "bytes": 27383920,
+    "role": "第三方/预训练资产，保留供复现；独立效果与授权见原说明",
+    "code": "external/HFMNet",
+    "evidence": "原仓库 README / 历史 reports/"
+  },
+  {
+    "path": "external/LRRNet/checkpoints/IRDST_1K_miou_0.7239356450020329.pkl",
+    "bytes": 13915261,
+    "role": "第三方/预训练资产，保留供复现；独立效果与授权见原说明",
+    "code": "external/LRRNet",
+    "evidence": "原仓库 README / 历史 reports/"
+  },
+  {
+    "path": "external/MSHNet/weights_download/irstd_new_weights.tar",
+    "bytes": 16404355,
+    "role": "第三方/预训练资产，保留供复现；独立效果与授权见原说明",
+    "code": "external/MSHNet",
+    "evidence": "原仓库 README / 历史 reports/"
+  },
+  {
+    "path": "external/MSHNet/weights_download/irstd_old_weights.tar",
+    "bytes": 16418601,
+    "role": "第三方/预训练资产，保留供复现；独立效果与授权见原说明",
+    "code": "external/MSHNet",
+    "evidence": "原仓库 README / 历史 reports/"
+  },
+  {
+    "path": "external/MSHNet/weights_download/nudt_weights.tar",
+    "bytes": 16419285,
+    "role": "第三方/预训练资产，保留供复现；独立效果与授权见原说明",
+    "code": "external/MSHNet",
+    "evidence": "原仓库 README / 历史 reports/"
+  },
+  {
+    "path": "external/PConv-SDloss-Data/weight/MSHNet-IRSTD-1K-D-0.5.zip",
+    "bytes": 45314796,
+    "role": "第三方/预训练资产，保留供复现；独立效果与授权见原说明",
+    "code": "external/PConv-SDloss-Data",
+    "evidence": "原仓库 README / 历史 reports/"
+  },
+  {
+    "path": "external/PConv-SDloss-Data/weight/MSHNet-IRSTD-1K-P43.zip",
+    "bytes": 45272221,
+    "role": "第三方/预训练资产，保留供复现；独立效果与授权见原说明",
+    "code": "external/PConv-SDloss-Data",
+    "evidence": "原仓库 README / 历史 reports/"
+  },
+  {
+    "path": "external/PConv-SDloss-Data/weight/MSHNet-SIRST_UAV-D-0.5.zip",
+    "bytes": 45307569,
+    "role": "第三方/预训练资产，保留供复现；独立效果与授权见原说明",
+    "code": "external/PConv-SDloss-Data",
+    "evidence": "原仓库 README / 历史 reports/"
+  },
+  {
+    "path": "external/PConv-SDloss-Data/weight/MSHNet-SIRST_UAV-P43.zip",
+    "bytes": 45260431,
+    "role": "第三方/预训练资产，保留供复现；独立效果与授权见原说明",
+    "code": "external/PConv-SDloss-Data",
+    "evidence": "原仓库 README / 历史 reports/"
+  },
+  {
+    "path": "external/PConv-SDloss-Data/weight/yolov8n-p2-IRSTD-1K-0.5.zip",
+    "bytes": 13929048,
+    "role": "第三方/预训练资产，保留供复现；独立效果与授权见原说明",
+    "code": "external/PConv-SDloss-Data",
+    "evidence": "原仓库 README / 历史 reports/"
+  },
+  {
+    "path": "external/PConv-SDloss-Data/weight/yolov8n-p2-IRSTD-1K-P43-0.5.zip",
+    "bytes": 13960652,
+    "role": "第三方/预训练资产，保留供复现；独立效果与授权见原说明",
+    "code": "external/PConv-SDloss-Data",
+    "evidence": "原仓库 README / 历史 reports/"
+  },
+  {
+    "path": "external/PConv-SDloss-Data/weight/yolov8n-p2-IRSTD-1K-p43.zip",
+    "bytes": 13901370,
+    "role": "第三方/预训练资产，保留供复现；独立效果与授权见原说明",
+    "code": "external/PConv-SDloss-Data",
+    "evidence": "原仓库 README / 历史 reports/"
+  },
+  {
+    "path": "external/PConv-SDloss-Data/weight/yolov8n-p2-IRSTD-1K.zip",
+    "bytes": 44184294,
+    "role": "第三方/预训练资产，保留供复现；独立效果与授权见原说明",
+    "code": "external/PConv-SDloss-Data",
+    "evidence": "原仓库 README / 历史 reports/"
+  },
+  {
+    "path": "external/PConv-SDloss-Data/weight/yolov8n-p2-SIRST-UAVB-0.5.zip",
+    "bytes": 14804967,
+    "role": "第三方/预训练资产，保留供复现；独立效果与授权见原说明",
+    "code": "external/PConv-SDloss-Data",
+    "evidence": "原仓库 README / 历史 reports/"
+  },
+  {
+    "path": "external/PConv-SDloss-Data/weight/yolov8n-p2-SIRST-UAVB-p43-0.5.zip",
+    "bytes": 14808764,
+    "role": "第三方/预训练资产，保留供复现；独立效果与授权见原说明",
+    "code": "external/PConv-SDloss-Data",
+    "evidence": "原仓库 README / 历史 reports/"
+  },
+  {
+    "path": "external/PConv-SDloss-Data/weight/yolov8n-p2-SIRST-UAVB-p43.zip",
+    "bytes": 14826097,
+    "role": "第三方/预训练资产，保留供复现；独立效果与授权见原说明",
+    "code": "external/PConv-SDloss-Data",
+    "evidence": "原仓库 README / 历史 reports/"
+  },
+  {
+    "path": "external/PConv-SDloss-Data/weight/yolov8n-p2-SIRST-UAVB.zip",
+    "bytes": 46778241,
+    "role": "第三方/预训练资产，保留供复现；独立效果与授权见原说明",
+    "code": "external/PConv-SDloss-Data",
+    "evidence": "原仓库 README / 历史 reports/"
+  },
+  {
+    "path": "external/PConv-SDloss-Data/weight_extracted/MSHNet-IRSTD-1K-D-0.5/checkpoint.pkl",
+    "bytes": 32797514,
+    "role": "第三方/预训练资产，保留供复现；独立效果与授权见原说明",
+    "code": "external/PConv-SDloss-Data",
+    "evidence": "原仓库 README / 历史 reports/"
+  },
+  {
+    "path": "external/PConv-SDloss-Data/weight_extracted/MSHNet-IRSTD-1K-D-0.5/weight.pkl",
+    "bytes": 16404722,
+    "role": "第三方/预训练资产，保留供复现；独立效果与授权见原说明",
+    "code": "external/PConv-SDloss-Data",
+    "evidence": "原仓库 README / 历史 reports/"
+  },
+  {
+    "path": "external/PConv-SDloss-Data/weight_extracted/MSHNet-IRSTD-1K-P43/checkpoint.pkl",
+    "bytes": 32804038,
+    "role": "第三方/预训练资产，保留供复现；独立效果与授权见原说明",
+    "code": "external/PConv-SDloss-Data",
+    "evidence": "原仓库 README / 历史 reports/"
+  },
+  {
+    "path": "external/PConv-SDloss-Data/weight_extracted/MSHNet-IRSTD-1K-P43/weight.pkl",
+    "bytes": 16410194,
+    "role": "第三方/预训练资产，保留供复现；独立效果与授权见原说明",
+    "code": "external/PConv-SDloss-Data",
+    "evidence": "原仓库 README / 历史 reports/"
+  },
+  {
+    "path": "external/PConv-SDloss-Data/weight_extracted/MSHNet-SIRST_UAV-D-0.5/checkpoint.pkl",
+    "bytes": 32797514,
+    "role": "第三方/预训练资产，保留供复现；独立效果与授权见原说明",
+    "code": "external/PConv-SDloss-Data",
+    "evidence": "原仓库 README / 历史 reports/"
+  },
+  {
+    "path": "external/PConv-SDloss-Data/weight_extracted/MSHNet-SIRST_UAV-D-0.5/weight.pkl",
+    "bytes": 16404722,
+    "role": "第三方/预训练资产，保留供复现；独立效果与授权见原说明",
+    "code": "external/PConv-SDloss-Data",
+    "evidence": "原仓库 README / 历史 reports/"
+  },
+  {
+    "path": "external/PConv-SDloss-Data/weight_extracted/MSHNet-SIRST_UAV-P43/checkpoint.pkl",
+    "bytes": 32804038,
+    "role": "第三方/预训练资产，保留供复现；独立效果与授权见原说明",
+    "code": "external/PConv-SDloss-Data",
+    "evidence": "原仓库 README / 历史 reports/"
+  },
+  {
+    "path": "external/PConv-SDloss-Data/weight_extracted/MSHNet-SIRST_UAV-P43/weight.pkl",
+    "bytes": 16410194,
+    "role": "第三方/预训练资产，保留供复现；独立效果与授权见原说明",
+    "code": "external/PConv-SDloss-Data",
+    "evidence": "原仓库 README / 历史 reports/"
+  },
+  {
+    "path": "external/RPCANet_hf/result/ISTD/SIRST/RPCANet++_s3.pkl",
+    "bytes": 6046895,
+    "role": "第三方/预训练资产，保留供复现；独立效果与授权见原说明",
+    "code": "external/RPCANet_hf",
+    "evidence": "原仓库 README / 历史 reports/"
+  }
+]

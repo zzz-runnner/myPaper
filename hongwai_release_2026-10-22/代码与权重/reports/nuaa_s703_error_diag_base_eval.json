@@ -1,0 +1,78 @@
+{
+  "args": {
+    "dataset_dir": "/home/cx/hongwai/irstd-lab/datasets",
+    "dataset_name": "NUAA-SIRST",
+    "cache": "/home/cx/hongwai/irstd-lab/reports/fusion_cache_bgm_rpcanet_train_b_test/NUAA-SIRST__test.npz",
+    "checkpoint": "/home/cx/hongwai/irstd-lab/runs/strong_fusion_hfmlk_nuaa_4gpu/nuaa_strong_fusion_s703/best.pth.tar",
+    "teacher_mode": "strong_fusion",
+    "base_channels": 48,
+    "residual_scale": 0.32,
+    "thresholds": "0.468,0.472",
+    "tta": "none",
+    "eval_max_samples": 0,
+    "device": "cuda:0",
+    "output": "/home/cx/hongwai/irstd-lab/reports/nuaa_s703_error_diag_base_eval.json",
+    "save_maps": "/home/cx/hongwai/irstd-lab/reports/nuaa_s703_error_diag_base_tmp.npz"
+  },
+  "checkpoint_best": {
+    "epoch": 2,
+    "mean_mIoU": 0.8115019421665948,
+    "eval": {
+      "NUAA-SIRST": {
+        "threshold": 0.46,
+        "pixAcc": 0.896638035774231,
+        "mIoU": 0.8115019421665948,
+        "nIoU": 0.8125005284109027,
+        "Pd": 0.9809885931558935,
+        "Fa": 9.123913585425007e-06
+      }
+    }
+  },
+  "best": {
+    "mode": "no_tta",
+    "threshold": 0.468,
+    "pixAcc": 0.8961611986160278,
+    "mIoU": 0.8120341363292644,
+    "nIoU": 0.8139149294017557,
+    "Pd": 0.9809885931558935,
+    "Fa": 9.123913585425007e-06
+  },
+  "rows": [
+    {
+      "mode": "no_tta",
+      "threshold": 0.468,
+      "pixAcc": 0.8961611986160278,
+      "mIoU": 0.8120341363292644,
+      "nIoU": 0.8139149294017557,
+      "Pd": 0.9809885931558935,
+      "Fa": 9.123913585425007e-06
+    },
+    {
+      "mode": "tta_1",
+      "threshold": 0.468,
+      "pixAcc": 0.8961611986160278,
+      "mIoU": 0.8120341363292644,
+      "nIoU": 0.8139149294017557,
+      "Pd": 0.9809885931558935,
+      "Fa": 9.123913585425007e-06
+    },
+    {
+      "mode": "no_tta",
+      "threshold": 0.472,
+      "pixAcc": 0.8952074646949768,
+      "mIoU": 0.811432893883726,
+      "nIoU": 0.8135238470061251,
+      "Pd": 0.9809885931558935,
+      "Fa": 9.055312731399256e-06
+    },
+    {
+      "mode": "tta_1",
+      "threshold": 0.472,
+      "pixAcc": 0.8952074646949768,
+      "mIoU": 0.811432893883726,
+      "nIoU": 0.8135238470061251,
+      "Pd": 0.9809885931558935,
+      "Fa": 9.055312731399256e-06
+    }
+  ]
+}

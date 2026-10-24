@@ -1,0 +1,36 @@
+{
+  "dataset_dir": "/home/cx/hongwai/irstd-lab/datasets",
+  "train_cache_spec": [
+    "IRSTD-1K|reports/prediction_cache_irstd_dual_train_a/IRSTD-1K__train.npz",
+    "NUAA-SIRST|reports/prediction_cache_irstd_dual_train_a/NUAA-SIRST__train.npz",
+    "NUDT-SIRST|reports/prediction_cache_irstd_dual_train_b_test/NUDT-SIRST__train.npz",
+    "SIRST3|reports/prediction_cache_irstd_dual_train_b_test/SIRST3__train.npz"
+  ],
+  "test_cache_spec": [
+    "IRSTD-1K|reports/prediction_cache_irstd_dual_train_b_test/IRSTD-1K__test.npz"
+  ],
+  "teacher_mode": "avg",
+  "epochs": 4,
+  "batch_size": 5,
+  "patch_size": 512,
+  "base_channels": 64,
+  "lr": 0.0002,
+  "residual_scale": 0.45,
+  "anchor_weight": 0.025,
+  "pos_weight": 25.0,
+  "sdm_weight": 0.25,
+  "spot_weight": 0.08,
+  "bg_hf_weight": 0.015,
+  "bg_mass_weight": 0.008,
+  "thresholds": "0.30,0.35,0.368,0.38,0.40,0.42,0.45,0.50,0.55,0.60",
+  "eval_interval": 2,
+  "max_train_samples_per_cache": 0,
+  "eval_max_samples": 0,
+  "seed": 112,
+  "device": "cuda:0",
+  "output_dir": "runs/sdm_spot_anchor_probe/irstd_sdm_mid_s112"
+}
+{"epoch": 1, "loss": 16.98137245898816, "lr": 0.00017217514421272203, "seconds": 326.4377951622009}
+{"epoch": 2, "eval": {"IRSTD-1K": {"Fa": 6.851272203435945e-06, "Pd": 0.9494949494949495, "mIoU": 0.7242033820315196, "nIoU": 0.6667156501502094, "pixAcc": 0.8655393123626709, "threshold": 0.3}}, "loss": 16.973880672010022, "lr": 0.000105, "seconds": 328.3290731906891}
+{"epoch": 3, "loss": 16.973027296653434, "lr": 3.782485578727799e-05, "seconds": 327.20827412605286}
+{"epoch": 4, "eval": {"IRSTD-1K": {"Fa": 6.851272203435945e-06, "Pd": 0.9494949494949495, "mIoU": 0.7242033820315196, "nIoU": 0.6667156501502094, "pixAcc": 0.8655393123626709, "threshold": 0.3}}, "loss": 16.968554276761726, "lr": 1e-05, "seconds": 328.4425151348114}

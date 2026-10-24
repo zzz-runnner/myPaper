@@ -1,0 +1,28 @@
+method=TCD-SCTransNet-Q dataset=IRSTD-1K train_size=800 args={'dataset_dir': '/home/cx/hongwai/irstd-lab/datasets', 'dataset_name': 'IRSTD-1K', 'run_dir': '/home/cx/hongwai/irstd-lab/runs/our_method_4gpu/IRSTD-1K_Q_gpu1', 'method_name': 'TCD-SCTransNet-Q', 'epochs': 80, 'batch_size': 18, 'patch_size': 256, 'threads': 4, 'seed': 163, 'lr': 1.2e-05, 'weight_decay': 0.0002, 'warmup_epochs': 2, 'min_lr_ratio': 0.2, 'pos_prob': 0.58, 'noise_std': 0.0015, 'gamma_prob': 0.05, 'intensity_jitter': 0.012, 'bgm_prob': 0.3, 'bgm_region_size': 16, 'bgm_mask_ratio': 0.14, 'paired_bgm': False, 'bce_weight': 1.0, 'dice_weight': 0.3, 'focal_weight': 0.035, 'sls_weight': 0.25, 'pos_weight': 0.7, 'hard_neg_weight': 2.4, 'focal_alpha': 0.55, 'focal_gamma': 2.0, 'bg_hf_weight': 0.18, 'bg_pred_weight': 0.045, 'target_dilate': 9, 'hf_clip': 5.0, 'input_adapter': True, 'adapter_hidden': 8, 'adapter_scale': 0.08, 'output_refiner': False, 'refiner_hidden': 8, 'refiner_scale': 0.1, 'freeze_base_epochs': 0, 'clip_grad': 1.0, 'ema_decay': 0.9997, 'threshold': 0.5, 'begin_test': 1, 'every_test': 1, 'every_print': 10, 'save_every': 80, 'resume_checkpoint': '/home/cx/hongwai/irstd-lab/runs/our_method_4gpu/IRSTD-1K_J_gpu1/checkpoints/IRSTD-1K/TCD-SCTransNet-J_13_best.pth.tar', 'no_ema': False}
+the best model epoch 	_1
+pixAcc, mIoU:	(0.7750738859176636, 0.6797901844929458)
+PD, FA:	(0.936026936026936, 1.0665969057299662e-05)
+the best model epoch 	_2
+pixAcc, mIoU:	(0.775898814201355, 0.6801446218740584)
+PD, FA:	(0.936026936026936, 1.0760862096503843e-05)
+the best model epoch 	_3
+pixAcc, mIoU:	(0.7765862345695496, 0.6802143545279383)
+PD, FA:	(0.936026936026936, 1.0855755135708023e-05)
+the best model epoch 	_7
+pixAcc, mIoU:	(0.7782360911369324, 0.6803485576923077)
+PD, FA:	(0.936026936026936, 1.1064519640058279e-05)
+Jun 11 22:01:29 Epoch---10, total_loss---0.107168, lr---0.00001175,
+the best model epoch 	_10
+pixAcc, mIoU:	(0.7787860035896301, 0.6804204204204204)
+PD, FA:	(0.936026936026936, 1.1614898539846763e-05)
+the best model epoch 	_12
+pixAcc, mIoU:	(0.779060959815979, 0.6804563194235965)
+PD, FA:	(0.936026936026936, 1.1690813153109048e-05)
+Jun 11 22:07:36 Epoch---20, total_loss---0.102106, lr---0.00001079,
+Jun 11 22:13:41 Epoch---30, total_loss---0.100462, lr---0.00000926,
+Jun 11 22:19:45 Epoch---40, total_loss---0.099519, lr---0.00000739,
+Jun 11 22:25:34 Epoch---50, total_loss---0.099418, lr---0.00000550,
+Jun 11 22:31:36 Epoch---60, total_loss---0.098970, lr---0.00000387,
+Jun 11 22:37:39 Epoch---70, total_loss---0.098732, lr---0.00000278,
+Jun 11 22:43:45 Epoch---80, total_loss---0.099627, lr---0.00000240,
+final_best epoch=12 mIoU=68.05 Pd=93.60 Fa=11.69

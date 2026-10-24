@@ -1,0 +1,30 @@
+/home/cx/hongwai/irstd-lab/scripts/train_hybrid_methods.py:686: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  ckpt = torch.load(checkpoint, map_location="cpu")
+/home/cx/hongwai/irstd-lab/scripts/train_hybrid_methods.py:2511: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  ckpt = torch.load(checkpoint, map_location="cpu")
+Deep-Supervision: True
+Resume skipped shape-mismatched keys: 1
+Resume missing keys: 84
+Deep-Supervision: True
+Resume skipped shape-mismatched keys: 1
+Resume missing keys: 2
+IRSTD-1K	PromptMorph-IRSTD-B	sct_prompt_morph_refiner
+train_datasets=IRSTD-1K,NUAA-SIRST,NUDT-SIRST,SIRST3 train_size=8952 target_repeat=8 batch_size=24 run_dir=/home/cx/hongwai/irstd-lab/runs/prompt_morph_highbatch_4gpu/IRSTD-1K_PromptMorph-IRSTD-B_gpu1
+best epoch=0 pixAcc=0.788479 mIoU=0.682007 Pd=0.936027 Fa=0.0000122981
+Jun 13 04:52:45 Epoch---1, total_loss---0.482490, lr---0.00001800,
+eval epoch=1 pixAcc=0.792672 mIoU=0.682510 Pd=0.936027 Fa=0.0000126397
+best epoch=1 pixAcc=0.792672 mIoU=0.682510 Pd=0.936027 Fa=0.0000126397
+Jun 13 04:57:11 Epoch---2, total_loss---0.484490, lr---0.00001799,
+eval epoch=2 pixAcc=0.795009 mIoU=0.682381 Pd=0.936027 Fa=0.0000129054
+Jun 13 05:01:38 Epoch---3, total_loss---0.585376, lr---0.00001798,
+eval epoch=3 pixAcc=0.795147 mIoU=0.682258 Pd=0.936027 Fa=0.0000126777
+Jun 13 05:06:05 Epoch---4, total_loss---0.533623, lr---0.00001795,
+eval epoch=4 pixAcc=0.795215 mIoU=0.682196 Pd=0.936027 Fa=0.0000126967
+Jun 13 05:10:32 Epoch---5, total_loss---0.435703, lr---0.00001791,
+eval epoch=5 pixAcc=0.795215 mIoU=0.682035 Pd=0.936027 Fa=0.0000127157
+Jun 13 05:14:59 Epoch---6, total_loss---0.513156, lr---0.00001787,
+eval epoch=6 pixAcc=0.795215 mIoU=0.681955 Pd=0.936027 Fa=0.0000127157
+Jun 13 05:19:27 Epoch---7, total_loss---0.500949, lr---0.00001781,
+eval epoch=7 pixAcc=0.795215 mIoU=0.681915 Pd=0.936027 Fa=0.0000127346
+Jun 13 05:23:54 Epoch---8, total_loss---0.517702, lr---0.00001774,
+eval epoch=8 pixAcc=0.795284 mIoU=0.681974 Pd=0.936027 Fa=0.0000127346

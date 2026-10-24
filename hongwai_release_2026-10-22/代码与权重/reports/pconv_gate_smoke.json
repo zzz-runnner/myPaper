@@ -1,0 +1,78 @@
+{
+  "dataset": "IRSTD-1K",
+  "fit_datasets": [
+    "IRSTD-1K"
+  ],
+  "official_pconv_mshnet_spec": "pconv_p43|p43|/home/cx/hongwai/irstd-lab/external/PConv-SDloss-Data/weight_extracted/MSHNet-IRSTD-1K-P43/weight.pkl|official_mshnet|0.60|false|256",
+  "best_fit": {
+    "seed": 0.45,
+    "min_area": 1.0,
+    "max_area": 32.0,
+    "max_side": 12.0,
+    "min_fill": 0.15,
+    "min_z": 0.0,
+    "max_teacher_mean": 1.1,
+    "fill": "prob",
+    "output_threshold": 0.5,
+    "fit_metrics": {
+      "pixAcc": 0.8904109597206116,
+      "mIoU": 0.7403189066059226,
+      "nIoU": 0.6909179780057898,
+      "Pd": 1.0,
+      "Fa": 0.0
+    }
+  },
+  "best_eval": {
+    "kind": "teacher_pconv_max",
+    "output_threshold": 0.5,
+    "pixAcc": 0.8807339668273926,
+    "mIoU": 0.6808510638297872,
+    "nIoU": 0.6935897435897435,
+    "Pd": 1.0,
+    "Fa": 2.0345052083333332e-05
+  },
+  "rows": [
+    {
+      "kind": "teacher_pconv_max",
+      "output_threshold": 0.5,
+      "pixAcc": 0.8807339668273926,
+      "mIoU": 0.6808510638297872,
+      "nIoU": 0.6935897435897435,
+      "Pd": 1.0,
+      "Fa": 2.0345052083333332e-05
+    },
+    {
+      "kind": "train_fit_gate_eval",
+      "seed": 0.45,
+      "min_area": 1.0,
+      "max_area": 32.0,
+      "max_side": 12.0,
+      "min_fill": 0.15,
+      "min_z": 0.0,
+      "max_teacher_mean": 1.1,
+      "fill": "prob",
+      "output_threshold": 0.5,
+      "fit_metrics": {
+        "pixAcc": 0.8904109597206116,
+        "mIoU": 0.7403189066059226,
+        "nIoU": 0.6909179780057898,
+        "Pd": 1.0,
+        "Fa": 0.0
+      },
+      "pixAcc": 0.8807339668273926,
+      "mIoU": 0.6808510638297872,
+      "nIoU": 0.6935897435897435,
+      "Pd": 1.0,
+      "Fa": 2.0345052083333332e-05
+    },
+    {
+      "kind": "teacher_baseline",
+      "output_threshold": 0.5,
+      "pixAcc": 0.78899085521698,
+      "mIoU": 0.6323529411764706,
+      "nIoU": 0.6485761047463175,
+      "Pd": 1.0,
+      "Fa": 2.0345052083333332e-05
+    }
+  ]
+}

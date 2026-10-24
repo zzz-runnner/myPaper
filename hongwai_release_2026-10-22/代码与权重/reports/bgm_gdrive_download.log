@@ -1,0 +1,45 @@
+Retrieving folder contents
+Retrieving folder contents completed
+Building directory structure
+Building directory structure completed
+Downloading...
+From: https://drive.google.com/uc?id=1rwnNsVyTFvZAZtfZN5kfBKa4_AFNJGo2
+To: /home/cx/hongwai/irstd-lab/external/BGM/checkpoints_download/weights/BasicUNet_plus-2024-09-20-19-40-03-IRSTD-1K/best_mIoU_on_IRSTD-1K.pth.tar
+Retrieving folder 1nxz87OwPiirekppNlhygKu19sWBjktLC weights
+Retrieving folder 1K07zPP3f2rfjpq88wieazpZSQGtVp1v1 BasicUNet_plus-2024-09-20-19-40-03-IRSTD-1K
+Processing file 1rwnNsVyTFvZAZtfZN5kfBKa4_AFNJGo2 best_mIoU_on_IRSTD-1K.pth.tar
+Processing file 1A9qZPuvNpZs9zjwvTfQp_YNkSSfNFpia metrics_mIoU_on_IRSTD-1K.log
+Retrieving folder 1LYRwF221JO4zAyUQP4k57cadUDID8BCz BasicUNet_plus-2024-09-20-21-17-03-NUAA-SIRST
+Processing file 1nh8ebf_HcpYYjZ3zi9cQwKBBf3OsDGIG best_mIoU_on_NUAA-SIRST.pth.tar
+Processing file 1bjOlrX0OvXAOpGZ-wNpvCx_vfcEW4Giy metrics_mIoU_on_NUAA-SIRST.log
+Retrieving folder 1UtKL98s6zk7DNdRRXfvNG8vlJ3yIrmDA BasicUNet_plus-2024-09-20-21-47-11-NUDT-SIRST
+Processing file 1srKt94fH5t91TGgO9o1pzA9apUV3i3YN best_mIoU_on_NUDT-SIRST.pth.tar
+Processing file 1xJ5NbMru4LPFSOzxC7oaSqrJ-BPtHG8W metrics_mIoU_on_NUDT-SIRST.log
+Processing file 1_6pNmUuNg4_tjFkuWXdZyz8KdIaXKfYl log.BasicUNet_plus.aug2_ratio-0.2_20240920_num8.out
+  0%|          | 0.00/16.5M [00:00<?, ?B/s] 22%|██▏       | 3.67M/16.5M [00:00<00:02, 5.96MB/s] 73%|███████▎  | 12.1M/16.5M [00:01<00:00, 12.3MB/s]100%|██████████| 16.5M/16.5M [00:01<00:00, 14.7MB/s]
+Downloading...
+From: https://drive.google.com/uc?id=1A9qZPuvNpZs9zjwvTfQp_YNkSSfNFpia
+To: /home/cx/hongwai/irstd-lab/external/BGM/checkpoints_download/weights/BasicUNet_plus-2024-09-20-19-40-03-IRSTD-1K/metrics_mIoU_on_IRSTD-1K.log
+  0%|          | 0.00/824 [00:00<?, ?B/s]100%|██████████| 824/824 [00:00<00:00, 2.73MB/s]
+Downloading...
+From: https://drive.google.com/uc?id=1nh8ebf_HcpYYjZ3zi9cQwKBBf3OsDGIG
+To: /home/cx/hongwai/irstd-lab/external/BGM/checkpoints_download/weights/BasicUNet_plus-2024-09-20-21-17-03-NUAA-SIRST/best_mIoU_on_NUAA-SIRST.pth.tar
+  0%|          | 0.00/16.5M [00:00<?, ?B/s] 13%|█▎        | 2.10M/16.5M [00:00<00:00, 18.5MB/s] 25%|██▌       | 4.19M/16.5M [00:00<00:01, 9.45MB/s] 35%|███▌      | 5.77M/16.5M [00:00<00:01, 7.29MB/s] 41%|████▏     | 6.82M/16.5M [00:00<00:01, 5.76MB/s] 48%|████▊     | 7.86M/16.5M [00:01<00:01, 4.72MB/s] 83%|████████▎ | 13.6M/16.5M [00:01<00:00, 12.6MB/s]100%|██████████| 16.5M/16.5M [00:01<00:00, 11.2MB/s]
+Downloading...
+From: https://drive.google.com/uc?id=1bjOlrX0OvXAOpGZ-wNpvCx_vfcEW4Giy
+To: /home/cx/hongwai/irstd-lab/external/BGM/checkpoints_download/weights/BasicUNet_plus-2024-09-20-21-17-03-NUAA-SIRST/metrics_mIoU_on_NUAA-SIRST.log
+  0%|          | 0.00/1.13k [00:00<?, ?B/s]100%|██████████| 1.13k/1.13k [00:00<00:00, 3.67MB/s]
+Downloading...
+From: https://drive.google.com/uc?id=1srKt94fH5t91TGgO9o1pzA9apUV3i3YN
+To: /home/cx/hongwai/irstd-lab/external/BGM/checkpoints_download/weights/BasicUNet_plus-2024-09-20-21-47-11-NUDT-SIRST/best_mIoU_on_NUDT-SIRST.pth.tar
+  0%|          | 0.00/16.5M [00:00<?, ?B/s]  6%|▋         | 1.05M/16.5M [00:00<00:01, 10.3MB/s] 60%|██████    | 9.96M/16.5M [00:00<00:00, 15.6MB/s]100%|██████████| 16.5M/16.5M [00:00<00:00, 23.1MB/s]
+Downloading...
+From: https://drive.google.com/uc?id=1xJ5NbMru4LPFSOzxC7oaSqrJ-BPtHG8W
+To: /home/cx/hongwai/irstd-lab/external/BGM/checkpoints_download/weights/BasicUNet_plus-2024-09-20-21-47-11-NUDT-SIRST/metrics_mIoU_on_NUDT-SIRST.log
+  0%|          | 0.00/2.15k [00:00<?, ?B/s]100%|██████████| 2.15k/2.15k [00:00<00:00, 7.28MB/s]
+Downloading...
+From (original): https://drive.google.com/uc?id=1_6pNmUuNg4_tjFkuWXdZyz8KdIaXKfYl
+From (redirected): https://drive.google.com/uc?id=1_6pNmUuNg4_tjFkuWXdZyz8KdIaXKfYl&confirm=t&uuid=8953e3e9-71cb-4e3d-bdc8-9366ac7ed208
+To: /home/cx/hongwai/irstd-lab/external/BGM/checkpoints_download/log.BasicUNet_plus.aug2_ratio-0.2_20240920_num8.out
+  0%|          | 0.00/109k [00:00<?, ?B/s]100%|██████████| 109k/109k [00:00<00:00, 2.90MB/s]
+Download completed

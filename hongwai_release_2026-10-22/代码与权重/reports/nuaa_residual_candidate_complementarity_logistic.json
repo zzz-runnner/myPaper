@@ -1,0 +1,97 @@
+{
+  "args": {
+    "train_cache": "/home/cx/hongwai/irstd-lab/reports/fusion_cache_official_mamba_teacher_nuaa/NUAA-SIRST__train.npz",
+    "test_cache": "/home/cx/hongwai/irstd-lab/reports/fusion_cache_official_mamba_teacher_nuaa/NUAA-SIRST__test.npz",
+    "steps": 800,
+    "pos_per_image": 512,
+    "neg_per_image": 2048,
+    "batch_pixels": 65536,
+    "lr": 0.0003,
+    "weight_decay": 0.0001,
+    "residual_scale": 0.04,
+    "max_pos_weight": 30.0,
+    "seed": 20260615,
+    "device": "cuda:0",
+    "output": "reports/nuaa_residual_candidate_complementarity_logistic.json"
+  },
+  "rows": {
+    "base_train": {
+      "pixAcc": 0.9500711560249329,
+      "mIoU": 0.8976825987999172,
+      "nIoU": 0.8931285985616324,
+      "Pd": 0.9962962962962963,
+      "Fa": 0.0
+    },
+    "base_test": {
+      "pixAcc": 0.8925846219062805,
+      "mIoU": 0.8229281160694658,
+      "nIoU": 0.8216425018304664,
+      "Pd": 0.9695817490494296,
+      "Fa": 8.986711877373503e-06
+    },
+    "external_train": {
+      "pixAcc": 0.950947105884552,
+      "mIoU": 0.8975816453079785,
+      "nIoU": 0.8934677638254956,
+      "Pd": 0.9962962962962963,
+      "Fa": 0.0
+    },
+    "external_test": {
+      "pixAcc": 0.8935384154319763,
+      "mIoU": 0.8228126029201889,
+      "nIoU": 0.8203301248341818,
+      "Pd": 0.9695817490494296,
+      "Fa": 9.329716147502263e-06
+    },
+    "union_test": {
+      "pixAcc": 0.8935384154319763,
+      "mIoU": 0.8228126029201889,
+      "nIoU": 0.8203301248341818,
+      "Pd": 0.9695817490494296,
+      "Fa": 9.329716147502263e-06
+    },
+    "intersection_test": {
+      "pixAcc": 0.8925846219062805,
+      "mIoU": 0.8229281160694658,
+      "nIoU": 0.8216425018304664,
+      "Pd": 0.9695817490494296,
+      "Fa": 8.986711877373503e-06
+    },
+    "per_image_oracle_test": {
+      "pixAcc": 0.8935384154319763,
+      "mIoU": 0.8237168919661502,
+      "nIoU": 0.8220607278511918,
+      "Pd": 0.9695817490494296,
+      "Fa": 9.26111529347651e-06
+    },
+    "train_selected_rule_test": {
+      "pixAcc": 0.8929423093795776,
+      "mIoU": 0.8228960667985058,
+      "nIoU": 0.8213471310584535,
+      "Pd": 0.9695817490494296,
+      "Fa": 8.986711877373503e-06
+    },
+    "logistic_selector_test": {
+      "pixAcc": 0.8925846219062805,
+      "mIoU": 0.8229281160694658,
+      "nIoU": 0.8216425018304664,
+      "Pd": 0.9695817490494296,
+      "Fa": 8.986711877373503e-06
+    }
+  },
+  "selector": "rule",
+  "rule": {
+    "key": "max_b",
+    "threshold": 0.9271326065063477,
+    "direction": ">",
+    "train": {
+      "pixAcc": 0.9507281184196472,
+      "mIoU": 0.8981175010343401,
+      "nIoU": 0.8938539075667489,
+      "Pd": 0.9962962962962963,
+      "Fa": 0.0
+    }
+  },
+  "logistic_selector": null,
+  "test_oracle_gain_over_base": 0.0007887758966843572
+}

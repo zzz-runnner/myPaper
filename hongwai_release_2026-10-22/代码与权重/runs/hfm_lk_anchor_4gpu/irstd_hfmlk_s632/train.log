@@ -1,0 +1,41 @@
+{
+  "dataset_dir": "/home/cx/hongwai/irstd-lab/datasets",
+  "train_cache_spec": [
+    "IRSTD-1K|/home/cx/hongwai/irstd-lab/reports/prediction_cache_irstd_dual_train_a/IRSTD-1K__train.npz",
+    "NUAA-SIRST|/home/cx/hongwai/irstd-lab/reports/prediction_cache_irstd_dual_train_a/NUAA-SIRST__train.npz",
+    "NUDT-SIRST|/home/cx/hongwai/irstd-lab/reports/prediction_cache_irstd_dual_train_b_test/NUDT-SIRST__train.npz",
+    "SIRST3|/home/cx/hongwai/irstd-lab/reports/prediction_cache_irstd_dual_train_b_test/SIRST3__train.npz"
+  ],
+  "test_cache_spec": [
+    "IRSTD-1K|/home/cx/hongwai/irstd-lab/reports/prediction_cache_irstd_dual_train_b_test/IRSTD-1K__test.npz"
+  ],
+  "teacher_mode": "avg",
+  "epochs": 6,
+  "batch_size": 2,
+  "patch_size": 512,
+  "base_channels": 56,
+  "lr": 0.00016,
+  "residual_scale": 0.4,
+  "anchor_weight": 0.03,
+  "pos_weight": 30.0,
+  "hard_clutter_weight": 0.0,
+  "hard_clutter_threshold": 0.35,
+  "miss_weight": 0.0,
+  "miss_threshold": 0.2,
+  "uncertainty_weight": 0.0,
+  "weighted_dice": false,
+  "thresholds": "0.30,0.34,0.38,0.42,0.46",
+  "eval_interval": 2,
+  "max_train_samples_per_cache": 0,
+  "eval_max_samples": 120,
+  "seed": 632,
+  "device": "cuda:0",
+  "amp": true,
+  "output_dir": "/home/cx/hongwai/irstd-lab/runs/hfm_lk_anchor_4gpu/irstd_hfmlk_s632"
+}
+{"epoch": 1, "loss": 0.9050157198722436, "lr": 0.00014981793068761737, "seconds": 663.3175802230835}
+{"epoch": 2, "eval": {"IRSTD-1K": {"Fa": 6.834665934244792e-06, "Pd": 0.9344262295081968, "mIoU": 0.7317890886924718, "nIoU": 0.666198149818188, "pixAcc": 0.8616028428077698, "threshold": 0.46}}, "loss": 0.9030668552929362, "lr": 0.00012200000000000002, "seconds": 664.4031591415405}
+{"epoch": 3, "loss": 0.9025373070774186, "lr": 8.400000000000001e-05, "seconds": 661.118682384491}
+{"epoch": 4, "eval": {"IRSTD-1K": {"Fa": 6.961822509765625e-06, "Pd": 0.9344262295081968, "mIoU": 0.7308043412110762, "nIoU": 0.6666529551615655, "pixAcc": 0.8618420958518982, "threshold": 0.46}}, "loss": 0.9022467635963156, "lr": 4.600000000000002e-05, "seconds": 659.1474545001984}
+{"epoch": 5, "loss": 0.901916255858818, "lr": 1.818206931238266e-05, "seconds": 658.9174687862396}
+{"epoch": 6, "eval": {"IRSTD-1K": {"Fa": 6.389617919921875e-06, "Pd": 0.9344262295081968, "mIoU": 0.7332309267793139, "nIoU": 0.6685086098599434, "pixAcc": 0.8564593195915222, "threshold": 0.46}}, "loss": 0.9018333776673938, "lr": 8.000000000000001e-06, "seconds": 656.775381565094}

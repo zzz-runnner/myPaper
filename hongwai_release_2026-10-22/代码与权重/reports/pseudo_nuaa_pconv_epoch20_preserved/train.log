@@ -1,0 +1,40 @@
+/home/cx/hongwai/irstd-lab/scripts/train_hybrid_methods.py:686: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  ckpt = torch.load(checkpoint, map_location="cpu")
+/home/cx/hongwai/irstd-lab/scripts/train_hybrid_methods.py:2068: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  ckpt = torch.load(checkpoint, map_location="cpu")
+Deep-Supervision: True
+Resume skipped shape-mismatched keys: 1
+Resume missing keys: 2
+Deep-Supervision: True
+Resume skipped shape-mismatched keys: 1
+Resume missing keys: 2
+NUAA-SIRST	PConvTCF-LCATCDPseudo	pconv_tcf
+train_datasets=IRSTD-1K,NUAA-SIRST,NUDT-SIRST,SIRST3 train_size=4843 target_repeat=8 batch_size=14 run_dir=/home/cx/hongwai/irstd-lab/runs/pseudo_nuaa_gpu3/NUAA-SIRST_PConvTCF-LCATCDPseudo_gpu3
+Jun 13 03:03:11 Epoch---1, total_loss---1.244534, lr---0.00013000,
+Jun 13 03:06:17 Epoch---2, total_loss---0.581313, lr---0.00019500,
+Jun 13 03:09:24 Epoch---3, total_loss---0.475652, lr---0.00026000,
+Jun 13 03:12:30 Epoch---4, total_loss---0.424187, lr---0.00026000,
+Jun 13 03:15:40 Epoch---5, total_loss---0.487624, lr---0.00025996,
+eval epoch=5 pixAcc=0.838460 mIoU=0.687421 Pd=0.935361 Fa=0.0000519994
+best epoch=5 pixAcc=0.838460 mIoU=0.687421 Pd=0.935361 Fa=0.0000519994
+Jun 13 03:19:26 Epoch---6, total_loss---0.458883, lr---0.00025982,
+Jun 13 03:22:35 Epoch---7, total_loss---0.443086, lr---0.00025961,
+Jun 13 03:25:44 Epoch---8, total_loss---0.434532, lr---0.00025930,
+Jun 13 03:28:53 Epoch---9, total_loss---0.424681, lr---0.00025891,
+Jun 13 03:32:01 Epoch---10, total_loss---0.411617, lr---0.00025842,
+eval epoch=10 pixAcc=0.816643 mIoU=0.738306 Pd=0.939163 Fa=0.0000250393
+best epoch=10 pixAcc=0.816643 mIoU=0.738306 Pd=0.939163 Fa=0.0000250393
+Jun 13 03:35:19 Epoch---11, total_loss---0.412150, lr---0.00025786,
+Jun 13 03:38:28 Epoch---12, total_loss---0.401248, lr---0.00025720,
+Jun 13 03:41:37 Epoch---13, total_loss---0.402759, lr---0.00025646,
+Jun 13 03:44:47 Epoch---14, total_loss---0.402550, lr---0.00025564,
+Jun 13 03:47:56 Epoch---15, total_loss---0.391422, lr---0.00025473,
+eval epoch=15 pixAcc=0.836910 mIoU=0.755651 Pd=0.958175 Fa=0.0000326540
+best epoch=15 pixAcc=0.836910 mIoU=0.755651 Pd=0.958175 Fa=0.0000326540
+Jun 13 03:51:14 Epoch---16, total_loss---0.390397, lr---0.00025374,
+Jun 13 03:54:23 Epoch---17, total_loss---0.388288, lr---0.00025266,
+Jun 13 03:57:32 Epoch---18, total_loss---0.381346, lr---0.00025151,
+Jun 13 04:00:41 Epoch---19, total_loss---0.384950, lr---0.00025027,
+Jun 13 04:03:51 Epoch---20, total_loss---0.380658, lr---0.00024895,
+eval epoch=20 pixAcc=0.826538 mIoU=0.754900 Pd=0.954373 Fa=0.0000248335
+Jun 13 04:07:06 Epoch---21, total_loss---0.379031, lr---0.00024755,

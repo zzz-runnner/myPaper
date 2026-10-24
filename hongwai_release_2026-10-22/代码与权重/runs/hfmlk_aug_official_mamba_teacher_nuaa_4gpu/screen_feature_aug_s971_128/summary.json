@@ -1,0 +1,104 @@
+{
+  "args": {
+    "dataset_dir": "/home/cx/hongwai/irstd-lab/datasets",
+    "train_cache_spec": [
+      "IRSTD-1K|/home/cx/hongwai/irstd-lab/reports/fusion_cache_bgm_rpcanet_train_a/IRSTD-1K__train.npz",
+      "NUAA-SIRST|/home/cx/hongwai/irstd-lab/reports/fusion_cache_official_mamba_teacher_nuaa/NUAA-SIRST__train.npz",
+      "NUDT-SIRST|/home/cx/hongwai/irstd-lab/reports/fusion_cache_bgm_rpcanet_train_b_test/NUDT-SIRST__train.npz",
+      "SIRST3|/home/cx/hongwai/irstd-lab/reports/fusion_cache_bgm_rpcanet_train_b_test/SIRST3__train.npz"
+    ],
+    "test_cache_spec": [
+      "NUAA-SIRST|/home/cx/hongwai/irstd-lab/reports/fusion_cache_official_mamba_teacher_nuaa/NUAA-SIRST__test.npz"
+    ],
+    "teacher_mode": "official_mamba_fused,strong_fusion",
+    "epochs": 2,
+    "batch_size": 2,
+    "patch_size": 512,
+    "base_channels": 48,
+    "lr": 4e-05,
+    "residual_scale": 0.06,
+    "anchor_weight": 0.14,
+    "pos_weight": 30.0,
+    "hard_clutter_weight": 0.0,
+    "hard_clutter_threshold": 0.35,
+    "miss_weight": 0.0,
+    "miss_threshold": 0.2,
+    "uncertainty_weight": 0.25,
+    "rank_weight": 0.0,
+    "rank_margin": 0.35,
+    "rank_topk": 512,
+    "fp_topk_weight": 0.0,
+    "fp_topk_ratio": 0.002,
+    "fp_topk_min": 128,
+    "pos_peak_weight": 0.0,
+    "pos_peak_margin": 4.0,
+    "weighted_dice": true,
+    "thresholds": "0.468,0.476,0.480,0.488,0.496,0.504,0.512,0.520,0.540",
+    "eval_interval": 1,
+    "max_train_samples_per_cache": 128,
+    "eval_max_samples": 0,
+    "num_workers": 2,
+    "focus_dataset": "NUAA-SIRST",
+    "focus_patch_prob": 0.35,
+    "focus_hard_threshold": 0.45,
+    "focus_miss_threshold": 0.18,
+    "copy_paste_prob": 0.0,
+    "copy_paste_max_area": 96,
+    "gamma_prob": 0.35,
+    "noise_std": 0.006,
+    "image_aug_mode": "feature",
+    "seed": 20260619,
+    "device": "cuda:0",
+    "amp": true,
+    "resume_checkpoint": "/home/cx/hongwai/irstd-lab/runs/strong_fusion_hfmlk_nuaa_4gpu/nuaa_strong_fusion_s703/best.pth.tar",
+    "output_dir": "/home/cx/hongwai/irstd-lab/runs/hfmlk_aug_official_mamba_teacher_nuaa_4gpu/screen_feature_aug_s971_128"
+  },
+  "best": {
+    "epoch": 1,
+    "mean_mIoU": 0.8210340256296951,
+    "eval": {
+      "NUAA-SIRST": {
+        "threshold": 0.54,
+        "pixAcc": 0.8860276341438293,
+        "mIoU": 0.8210340256296951,
+        "nIoU": 0.821864869226289,
+        "Pd": 0.9771863117870723,
+        "Fa": 7.340291380755457e-06
+      }
+    }
+  },
+  "history": [
+    {
+      "epoch": 1,
+      "loss": 1.344956851680763,
+      "lr": 2.1000000000000002e-05,
+      "seconds": 89.89872217178345,
+      "eval": {
+        "NUAA-SIRST": {
+          "threshold": 0.54,
+          "pixAcc": 0.8860276341438293,
+          "mIoU": 0.8210340256296951,
+          "nIoU": 0.821864869226289,
+          "Pd": 0.9771863117870723,
+          "Fa": 7.340291380755457e-06
+        }
+      }
+    },
+    {
+      "epoch": 2,
+      "loss": 1.3449195601278916,
+      "lr": 2.0000000000000003e-06,
+      "seconds": 89.54105257987976,
+      "eval": {
+        "NUAA-SIRST": {
+          "threshold": 0.512,
+          "pixAcc": 0.8904387354850769,
+          "mIoU": 0.8209496592657727,
+          "nIoU": 0.8201920706326806,
+          "Pd": 0.9771863117870723,
+          "Fa": 7.820497358935721e-06
+        }
+      }
+    }
+  ]
+}

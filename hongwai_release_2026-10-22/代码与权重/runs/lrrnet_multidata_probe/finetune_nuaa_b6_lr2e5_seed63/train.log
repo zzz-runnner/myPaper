@@ -1,0 +1,27 @@
+{
+  "dataset_dir": "/home/cx/hongwai/irstd-lab/datasets",
+  "train_datasets": "IRSTD-1K,NUAA-SIRST,NUDT-SIRST,SIRST3",
+  "eval_datasets": "IRSTD-1K,NUAA-SIRST",
+  "norm_dataset": "NUAA-SIRST",
+  "init_checkpoint": "external/LRRNet/checkpoints/IRDST_1K_miou_0.7239356450020329.pkl",
+  "epochs": 6,
+  "batch_size": 6,
+  "patch_size": 512,
+  "lr": 2e-05,
+  "eta_min": 1e-06,
+  "mse_weight": 0.1,
+  "bce_weight": 0.15,
+  "pos_weight": 30.0,
+  "pos_crop_prob": 0.65,
+  "thresholds": "0.20,0.30,0.40,0.50,0.60,0.70,0.80,0.90",
+  "eval_interval": 2,
+  "eval_max_samples": 0,
+  "max_train_samples_per_dataset": 0,
+  "seed": 63,
+  "device": "cuda:0",
+  "output_dir": "runs/lrrnet_multidata_probe/finetune_nuaa_b6_lr2e5_seed63"
+}
+{"epoch": 1, "loss_bce": 0.04784554136269409, "loss_iou": 0.39085198442141217, "loss_ioul1": 0.3127234481328491, "loss_mse": 1.0500728601997045, "loss_total": 0.815759552368981, "lr": 1.872724133595217e-05, "seconds": 253.25336837768555}
+{"epoch": 2, "eval": {"IRSTD-1K": {"Fa": 2.5298464950637437e-05, "Pd": 0.9292929292929293, "mIoU": 0.6459112620130057, "nIoU": 0.6625757182002873, "pixAcc": 0.7715680003166199, "threshold": 0.3}, "NUAA-SIRST": {"Fa": 1.097613664412031e-05, "Pd": 0.8669201520912547, "mIoU": 0.6836164383561644, "nIoU": 0.7183340541702232, "pixAcc": 0.7436814308166504, "threshold": 0.2}}, "loss_bce": 0.04424563918857732, "loss_iou": 0.36025614678646073, "loss_ioul1": 0.28824708898515045, "loss_mse": 0.8774993742639232, "loss_total": 0.7428900190365357, "lr": 1.5250000000000003e-05, "seconds": 254.14668655395508}
+{"epoch": 3, "loss_bce": 0.038497101080538804, "loss_iou": 0.3432509660934462, "loss_ioul1": 0.27464372439036233, "loss_mse": 0.8036187039588087, "loss_total": 0.7040311274616095, "lr": 1.0500000000000001e-05, "seconds": 254.16185903549194}
+{"epoch": 4, "eval": {"IRSTD-1K": {"Fa": 1.968080131568719e-05, "Pd": 0.9292929292929293, "mIoU": 0.6330353100950656, "nIoU": 0.6558870763914832, "pixAcc": 0.7690245509147644, "threshold": 0.4}, "NUAA-SIRST": {"Fa": 1.4063175075279148e-05, "Pd": 0.8593155893536122, "mIoU": 0.6973060344827586, "nIoU": 0.7299222677933043, "pixAcc": 0.7714592218399048, "threshold": 0.2}}, "loss_bce": 0.03517298388155511, "loss_iou": 0.33670383168377754, "loss_ioul1": 0.26940647026650794, "loss_mse": 0.7638825806505364, "loss_total": 0.6877745078829881, "lr": 5.750000000000002e-06, "seconds": 254.59349513053894}

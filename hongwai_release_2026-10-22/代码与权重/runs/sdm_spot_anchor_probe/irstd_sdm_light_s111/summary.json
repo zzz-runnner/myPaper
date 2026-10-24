@@ -1,0 +1,94 @@
+{
+  "args": {
+    "dataset_dir": "/home/cx/hongwai/irstd-lab/datasets",
+    "train_cache_spec": [
+      "IRSTD-1K|reports/prediction_cache_irstd_dual_train_a/IRSTD-1K__train.npz",
+      "NUAA-SIRST|reports/prediction_cache_irstd_dual_train_a/NUAA-SIRST__train.npz",
+      "NUDT-SIRST|reports/prediction_cache_irstd_dual_train_b_test/NUDT-SIRST__train.npz",
+      "SIRST3|reports/prediction_cache_irstd_dual_train_b_test/SIRST3__train.npz"
+    ],
+    "test_cache_spec": [
+      "IRSTD-1K|reports/prediction_cache_irstd_dual_train_b_test/IRSTD-1K__test.npz"
+    ],
+    "teacher_mode": "avg",
+    "epochs": 4,
+    "batch_size": 5,
+    "patch_size": 512,
+    "base_channels": 64,
+    "lr": 0.0002,
+    "residual_scale": 0.5,
+    "anchor_weight": 0.02,
+    "pos_weight": 25.0,
+    "sdm_weight": 0.12,
+    "spot_weight": 0.03,
+    "bg_hf_weight": 0.008,
+    "bg_mass_weight": 0.004,
+    "thresholds": "0.30,0.35,0.368,0.38,0.40,0.42,0.45,0.50,0.55,0.60",
+    "eval_interval": 2,
+    "max_train_samples_per_cache": 0,
+    "eval_max_samples": 0,
+    "seed": 111,
+    "device": "cuda:0",
+    "output_dir": "runs/sdm_spot_anchor_probe/irstd_sdm_light_s111"
+  },
+  "best": {
+    "epoch": 2,
+    "mean_mIoU": 0.724656109120333,
+    "eval": {
+      "IRSTD-1K": {
+        "threshold": 0.3,
+        "pixAcc": 0.8618959188461304,
+        "mIoU": 0.724656109120333,
+        "nIoU": 0.6668609481708646,
+        "Pd": 0.9494949494949495,
+        "Fa": 6.43374314948694e-06
+      }
+    }
+  },
+  "history": [
+    {
+      "epoch": 1,
+      "loss": 6.880704111038749,
+      "lr": 0.00017217514421272203,
+      "seconds": 324.13787508010864
+    },
+    {
+      "epoch": 2,
+      "loss": 6.879554027585841,
+      "lr": 0.000105,
+      "seconds": 324.78453373908997,
+      "eval": {
+        "IRSTD-1K": {
+          "threshold": 0.3,
+          "pixAcc": 0.8618959188461304,
+          "mIoU": 0.724656109120333,
+          "nIoU": 0.6668609481708646,
+          "Pd": 0.9494949494949495,
+          "Fa": 6.43374314948694e-06
+        }
+      }
+    },
+    {
+      "epoch": 3,
+      "loss": 6.8791350399380295,
+      "lr": 3.782485578727799e-05,
+      "seconds": 323.9911470413208
+    },
+    {
+      "epoch": 4,
+      "loss": 6.877514463752063,
+      "lr": 1e-05,
+      "seconds": 324.91070532798767,
+      "eval": {
+        "IRSTD-1K": {
+          "threshold": 0.3,
+          "pixAcc": 0.8618959188461304,
+          "mIoU": 0.724656109120333,
+          "nIoU": 0.6668609481708646,
+          "Pd": 0.9494949494949495,
+          "Fa": 6.43374314948694e-06
+        }
+      }
+    }
+  ]
+}

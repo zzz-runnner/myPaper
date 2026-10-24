@@ -1,0 +1,21 @@
+method=TCD-SCTransNet-L dataset=NUAA-SIRST train_size=213 args={'dataset_dir': '/home/cx/hongwai/irstd-lab/datasets', 'dataset_name': 'NUAA-SIRST', 'run_dir': '/home/cx/hongwai/irstd-lab/runs/our_method_4gpu/NUAA-SIRST_L_gpu2', 'method_name': 'TCD-SCTransNet-L', 'epochs': 70, 'batch_size': 20, 'patch_size': 256, 'threads': 4, 'seed': 223, 'lr': 3.2e-06, 'weight_decay': 0.0002, 'warmup_epochs': 1, 'min_lr_ratio': 0.45, 'pos_prob': 0.52, 'noise_std': 0.0004, 'gamma_prob': 0.01, 'intensity_jitter': 0.003, 'bgm_prob': 0.18, 'bgm_region_size': 16, 'bgm_mask_ratio': 0.08, 'paired_bgm': False, 'bce_weight': 1.0, 'dice_weight': 0.3, 'focal_weight': 0.018, 'sls_weight': 0.1, 'pos_weight': 0.38, 'hard_neg_weight': 3.6, 'focal_alpha': 0.55, 'focal_gamma': 2.0, 'bg_hf_weight': 0.34, 'bg_pred_weight': 0.09, 'target_dilate': 7, 'hf_clip': 5.0, 'input_adapter': False, 'adapter_hidden': 8, 'adapter_scale': 0.1, 'output_refiner': False, 'refiner_hidden': 8, 'refiner_scale': 0.1, 'freeze_base_epochs': 0, 'clip_grad': 1.0, 'ema_decay': 0.9999, 'threshold': 0.5, 'begin_test': 1, 'every_test': 1, 'every_print': 10, 'save_every': 70, 'resume_checkpoint': '/home/cx/hongwai/irstd-lab/runs/our_method_4gpu/NUAA-SIRST_K_gpu3/checkpoints/NUAA-SIRST/TCD-SCTransNet-K_50_best.pth.tar', 'no_ema': False}
+the best model epoch 	_1
+pixAcc, mIoU:	(0.882331907749176, 0.7908741184013678)
+PD, FA:	(0.9657794676806084, 1.763042018865235e-05)
+Jun 11 23:35:19 Epoch---10, total_loss---0.059901, lr---0.00000313,
+Jun 11 23:38:09 Epoch---20, total_loss---0.059437, lr---0.00000289,
+Jun 11 23:40:46 Epoch---30, total_loss---0.059533, lr---0.00000254,
+the best model epoch 	_37
+pixAcc, mIoU:	(0.8824511170387268, 0.7908964632973609)
+PD, FA:	(0.9657794676806084, 1.7699019736028276e-05)
+Jun 11 23:43:08 Epoch---40, total_loss---0.058414, lr---0.00000214,
+Jun 11 23:45:35 Epoch---50, total_loss---0.058392, lr---0.00000178,
+the best model epoch 	_50
+pixAcc, mIoU:	(0.8824511170387268, 0.7909809788416329)
+PD, FA:	(0.9657794676806084, 1.7699019736028276e-05)
+Jun 11 23:48:11 Epoch---60, total_loss---0.057633, lr---0.00000153,
+the best model epoch 	_66
+pixAcc, mIoU:	(0.882331907749176, 0.7910431808465156)
+PD, FA:	(0.9657794676806084, 1.7767621102393605e-05)
+Jun 11 23:50:48 Epoch---70, total_loss---0.058727, lr---0.00000144,
+final_best epoch=66 mIoU=79.10 Pd=96.58 Fa=17.77

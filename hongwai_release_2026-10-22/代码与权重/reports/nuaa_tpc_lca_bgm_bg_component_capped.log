@@ -1,0 +1,48 @@
+/home/cx/hongwai/irstd-lab/scripts/train_hybrid_methods.py:827: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  ckpt = torch.load(checkpoint, map_location="cpu")
+/home/cx/hongwai/irstd-lab/scripts/train_hybrid_methods.py:3111: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  ckpt = torch.load(checkpoint, map_location="cpu")
+Deep-Supervision: True
+Resume skipped shape-mismatched keys: 1
+Resume missing keys: 2
+Deep-Supervision: True
+Resume skipped shape-mismatched keys: 1
+Resume missing keys: 2
+Deep-Supervision: True
+Resume skipped shape-mismatched keys: 1
+Resume missing keys: 2
+/home/cx/hongwai/irstd-lab/scripts/eval_component_fusion_learner.py:153: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  ckpt = torch.load(Path(spec["weight"]), map_location="cpu")
+fitting background normality model on IRSTD-1K,NUAA-SIRST,NUDT-SIRST,SIRST3 train
+collected train 100/220
+collected train 200/220
+collected train 100/213
+collected train 200/213
+collected train 100/220
+collected train 200/220
+collected train 100/220
+collected train 200/220
+collected test 100/214
+collected test 200/214
+best_valid kind=baseline mode=avg seed= fill= keep= out=0.5 mIoU=79.55 nIoU=80.07 Pd=96.58 Fa=29.02
+best_oracle_not_valid seed=0.45 fill=avg mIoU=80.68 nIoU=80.72 Pd=96.96 Fa=7.41
+test_oracle_not_valid mode= seed=0.45 fill=avg keep=0.5 out=0.45 mIoU=80.68 Pd=96.96 Fa=7.41
+test_oracle_not_valid mode= seed=0.4 fill=avg keep=0.5 out=0.4 mIoU=80.49 Pd=97.34 Fa=7.55
+baseline mode=avg seed= fill= keep= out=0.5 mIoU=79.55 Pd=96.58 Fa=29.02
+train_fit_eval mode= seed=0.4 fill=avg keep=0.1 out=0.5 mIoU=79.55 Pd=96.58 Fa=29.02
+train_fit_eval mode= seed=0.4 fill=avg keep=0.2 out=0.5 mIoU=79.55 Pd=96.58 Fa=29.02
+train_fit_eval mode= seed=0.45 fill=avg keep=0.1 out=0.5 mIoU=79.55 Pd=96.58 Fa=29.02
+train_fit_eval mode= seed=0.45 fill=avg keep=0.2 out=0.5 mIoU=79.55 Pd=96.58 Fa=29.02
+test_oracle_not_valid mode= seed=0.45 fill=binary keep=0.5 out=0.5 mIoU=79.53 Pd=98.10 Fa=10.29
+baseline mode=avg seed= fill= keep= out=0.45 mIoU=79.50 Pd=96.96 Fa=16.67
+train_fit_eval mode= seed=0.4 fill=avg keep=0.1 out=0.45 mIoU=79.50 Pd=96.96 Fa=16.67
+train_fit_eval mode= seed=0.4 fill=avg keep=0.2 out=0.45 mIoU=79.50 Pd=96.96 Fa=16.67
+train_fit_eval mode= seed=0.45 fill=avg keep=0.1 out=0.45 mIoU=79.50 Pd=96.96 Fa=16.67
+train_fit_eval mode= seed=0.45 fill=avg keep=0.2 out=0.45 mIoU=79.50 Pd=96.96 Fa=16.67
+test_oracle_not_valid mode= seed=0.4 fill=binary keep=0.5 out=0.5 mIoU=79.35 Pd=98.10 Fa=10.29
+baseline mode=tpc_a seed= fill= keep= out=0.5 mIoU=79.12 Pd=96.58 Fa=17.70
+baseline mode=tpc_b seed= fill= keep= out=0.5 mIoU=79.11 Pd=96.58 Fa=17.70
+baseline mode=lca seed= fill= keep= out=0.5 mIoU=79.11 Pd=96.58 Fa=17.70
+baseline mode=bgm_nuaa seed= fill= keep= out=0.45 mIoU=79.07 Pd=96.58 Fa=20.17
+baseline mode=bgm_nuaa seed= fill= keep= out=0.5 mIoU=79.07 Pd=96.58 Fa=20.17
+baseline mode=tpc_a seed= fill= keep= out=0.45 mIoU=79.02 Pd=96.58 Fa=18.18

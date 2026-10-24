@@ -1,0 +1,59 @@
+[
+  {
+    "name": "irstd_s81",
+    "checkpoint": "runs/anchor_refiner_multidata_probe/irstd_multi_r05_a002_s81/best.pth.tar",
+    "epoch": 4,
+    "strict_load": true,
+    "forward_shape": [
+      1,
+      1,
+      32,
+      32
+    ],
+    "finite": true,
+    "direction_alpha": {},
+    "effective_direction_alpha": {}
+  },
+  {
+    "name": "nuaa_s1303",
+    "checkpoint": "runs/local_rule_lpsm_nuaa_4gpu_screen/s1303_e2m_r006/best.pth.tar",
+    "epoch": 3,
+    "strict_load": true,
+    "forward_shape": [
+      1,
+      1,
+      32,
+      32
+    ],
+    "finite": true,
+    "direction_alpha": {
+      "e2.state.alpha": -0.00013573624892160296,
+      "mid.state.alpha": -0.00019217125372961164
+    },
+    "effective_direction_alpha": {
+      "e2.state.alpha": 0,
+      "mid.state.alpha": 0
+    }
+  },
+  {
+    "name": "nuaa_s1313",
+    "checkpoint": "runs/local_rule_lpsm_nuaa_followup_4gpu/s1313_e2m_r0055_a018/best.pth.tar",
+    "epoch": 1,
+    "strict_load": true,
+    "forward_shape": [
+      1,
+      1,
+      32,
+      32
+    ],
+    "finite": true,
+    "direction_alpha": {
+      "e2.state.alpha": -0.00020416434563230723,
+      "mid.state.alpha": -0.0002041780826402828
+    },
+    "effective_direction_alpha": {
+      "e2.state.alpha": 0,
+      "mid.state.alpha": 0
+    }
+  }
+]

@@ -1,0 +1,960 @@
+{
+  "dataset": "NUAA-SIRST",
+  "fit_datasets": [
+    "IRSTD-1K",
+    "NUAA-SIRST",
+    "NUDT-SIRST",
+    "SIRST3"
+  ],
+  "models": [
+    "tpc_a",
+    "tpc_b",
+    "lca",
+    "bgm_nuaa",
+    "rpcanet_sirst_s3",
+    "bg_anomaly"
+  ],
+  "official_pconv_mshnet_specs": [],
+  "official_bgm_specs": [
+    "bgm_nuaa|NUAA-SIRST|/home/cx/hongwai/irstd-lab/external/BGM/checkpoints_download/weights/BasicUNet_plus-2024-09-20-21-17-03-NUAA-SIRST/best_mIoU_on_NUAA-SIRST.pth.tar|0.25"
+  ],
+  "rpcanet_specs": [
+    "rpcanet_sirst_s3|rpcanet_pp_s3|/home/cx/hongwai/irstd-lab/external/RPCANet_hf/result/ISTD/SIRST/RPCANet++_s3.pkl|0.5|256"
+  ],
+  "background_normality_candidates": true,
+  "background_as_candidate": true,
+  "best_eval": {
+    "stage": "eval",
+    "fit_fast_nIoU": 0.6138888888888888,
+    "kind": "teacher_external_weighted",
+    "weights": {
+      "tpc_a": 0.1666666567325592,
+      "tpc_b": 0.1666666567325592,
+      "lca": 0.1666666567325592,
+      "bgm_nuaa": 0.1666666567325592,
+      "rpcanet_sirst_s3": 0.3333333134651184,
+      "bg_anomaly": 0.0
+    },
+    "gamma": 0.9,
+    "output_threshold": 0.45,
+    "pixAcc": 0.9232364892959595,
+    "mIoU": 0.8127853881278538,
+    "nIoU": 0.816400496981035,
+    "Pd": 1.0,
+    "Fa": 2.3127554631138633e-06
+  },
+  "eval_rows": [
+    {
+      "stage": "eval",
+      "fit_fast_nIoU": 0.6138888888888888,
+      "kind": "teacher_external_weighted",
+      "weights": {
+        "tpc_a": 0.1666666567325592,
+        "tpc_b": 0.1666666567325592,
+        "lca": 0.1666666567325592,
+        "bgm_nuaa": 0.1666666567325592,
+        "rpcanet_sirst_s3": 0.3333333134651184,
+        "bg_anomaly": 0.0
+      },
+      "gamma": 0.9,
+      "output_threshold": 0.45,
+      "pixAcc": 0.9232364892959595,
+      "mIoU": 0.8127853881278538,
+      "nIoU": 0.816400496981035,
+      "Pd": 1.0,
+      "Fa": 2.3127554631138633e-06
+    },
+    {
+      "stage": "eval",
+      "fit_fast_nIoU": 0.6138888888888888,
+      "kind": "teacher_external_weighted",
+      "weights": {
+        "tpc_a": 0.1666666567325592,
+        "tpc_b": 0.1666666567325592,
+        "lca": 0.1666666567325592,
+        "bgm_nuaa": 0.1666666567325592,
+        "rpcanet_sirst_s3": 0.3333333134651184,
+        "bg_anomaly": 0.0
+      },
+      "gamma": 1.0,
+      "output_threshold": 0.4,
+      "pixAcc": 0.9242738485336304,
+      "mIoU": 0.8107370336669699,
+      "nIoU": 0.8151421645505804,
+      "Pd": 1.0,
+      "Fa": 2.3127554631138633e-06
+    },
+    {
+      "stage": "eval",
+      "fit_fast_nIoU": 0.6138888888888888,
+      "kind": "teacher_external_weighted",
+      "weights": {
+        "tpc_a": 0.1666666567325592,
+        "tpc_b": 0.1666666567325592,
+        "lca": 0.1666666567325592,
+        "bgm_nuaa": 0.1666666567325592,
+        "rpcanet_sirst_s3": 0.3333333134651184,
+        "bg_anomaly": 0.0
+      },
+      "gamma": 1.1,
+      "output_threshold": 0.35,
+      "pixAcc": 0.9242738485336304,
+      "mIoU": 0.8092643051771117,
+      "nIoU": 0.8143499972163569,
+      "Pd": 1.0,
+      "Fa": 2.3127554631138633e-06
+    },
+    {
+      "stage": "eval",
+      "fit_fast_nIoU": 0.6138888888888888,
+      "kind": "teacher_external_weighted",
+      "weights": {
+        "tpc_a": 0.1666666567325592,
+        "tpc_b": 0.1666666567325592,
+        "lca": 0.1666666567325592,
+        "bgm_nuaa": 0.1666666567325592,
+        "rpcanet_sirst_s3": 0.3333333134651184,
+        "bg_anomaly": 0.0
+      },
+      "gamma": 0.9,
+      "output_threshold": 0.4,
+      "pixAcc": 0.9253112077713013,
+      "mIoU": 0.8079710144927537,
+      "nIoU": 0.8138538427359429,
+      "Pd": 1.0,
+      "Fa": 2.3127554631138633e-06
+    },
+    {
+      "stage": "eval",
+      "fit_fast_nIoU": 0.6138888888888888,
+      "kind": "teacher_external_weighted",
+      "weights": {
+        "tpc_a": 0.1538461446762085,
+        "tpc_b": 0.1538461446762085,
+        "lca": 0.1538461446762085,
+        "bgm_nuaa": 0.1538461446762085,
+        "rpcanet_sirst_s3": 0.23076923191547394,
+        "bg_anomaly": 0.1538461446762085
+      },
+      "gamma": 0.9,
+      "output_threshold": 0.35,
+      "pixAcc": 0.9294605851173401,
+      "mIoU": 0.8072072072072072,
+      "nIoU": 0.8032798948381558,
+      "Pd": 1.0,
+      "Fa": 2.3127554631138633e-06
+    },
+    {
+      "stage": "eval",
+      "fit_fast_nIoU": 0.6138888888888888,
+      "kind": "teacher_external_weighted",
+      "weights": {
+        "tpc_a": 0.1666666567325592,
+        "tpc_b": 0.1666666567325592,
+        "lca": 0.1666666567325592,
+        "bgm_nuaa": 0.1666666567325592,
+        "rpcanet_sirst_s3": 0.3333333134651184,
+        "bg_anomaly": 0.0
+      },
+      "gamma": 1.0,
+      "output_threshold": 0.35,
+      "pixAcc": 0.9263485670089722,
+      "mIoU": 0.805956678700361,
+      "nIoU": 0.8081973508740156,
+      "Pd": 1.0,
+      "Fa": 2.3127554631138633e-06
+    },
+    {
+      "stage": "eval",
+      "fit_fast_nIoU": 0.6138888888888888,
+      "kind": "teacher_external_weighted",
+      "weights": {
+        "tpc_a": 0.1538461446762085,
+        "tpc_b": 0.1538461446762085,
+        "lca": 0.1538461446762085,
+        "bgm_nuaa": 0.1538461446762085,
+        "rpcanet_sirst_s3": 0.307692289352417,
+        "bg_anomaly": 0.07692307233810425
+      },
+      "gamma": 0.9,
+      "output_threshold": 0.4,
+      "pixAcc": 0.9253112077713013,
+      "mIoU": 0.802158273381295,
+      "nIoU": 0.800442781082487,
+      "Pd": 1.0,
+      "Fa": 2.3127554631138633e-06
+    },
+    {
+      "stage": "eval",
+      "fit_fast_nIoU": 0.6138888888888888,
+      "kind": "teacher_external_weighted",
+      "weights": {
+        "tpc_a": 0.1538461446762085,
+        "tpc_b": 0.1538461446762085,
+        "lca": 0.1538461446762085,
+        "bgm_nuaa": 0.1538461446762085,
+        "rpcanet_sirst_s3": 0.307692289352417,
+        "bg_anomaly": 0.07692307233810425
+      },
+      "gamma": 0.9,
+      "output_threshold": 0.35,
+      "pixAcc": 0.9315352439880371,
+      "mIoU": 0.7925860547219771,
+      "nIoU": 0.7914249796802905,
+      "Pd": 1.0,
+      "Fa": 2.3127554631138633e-06
+    }
+  ],
+  "fit_rows_top": [
+    {
+      "stage": "fit",
+      "kind": "teacher_external_weighted",
+      "weights": {
+        "tpc_a": 0.1538461446762085,
+        "tpc_b": 0.1538461446762085,
+        "lca": 0.1538461446762085,
+        "bgm_nuaa": 0.1538461446762085,
+        "rpcanet_sirst_s3": 0.23076923191547394,
+        "bg_anomaly": 0.1538461446762085
+      },
+      "gamma": 0.9,
+      "output_threshold": 0.35,
+      "fast_nIoU": 0.6138888888888888
+    },
+    {
+      "stage": "fit",
+      "kind": "teacher_external_weighted",
+      "weights": {
+        "tpc_a": 0.1666666567325592,
+        "tpc_b": 0.1666666567325592,
+        "lca": 0.1666666567325592,
+        "bgm_nuaa": 0.1666666567325592,
+        "rpcanet_sirst_s3": 0.3333333134651184,
+        "bg_anomaly": 0.0
+      },
+      "gamma": 0.9,
+      "output_threshold": 0.4,
+      "fast_nIoU": 0.6138888888888888
+    },
+    {
+      "stage": "fit",
+      "kind": "teacher_external_weighted",
+      "weights": {
+        "tpc_a": 0.1666666567325592,
+        "tpc_b": 0.1666666567325592,
+        "lca": 0.1666666567325592,
+        "bgm_nuaa": 0.1666666567325592,
+        "rpcanet_sirst_s3": 0.3333333134651184,
+        "bg_anomaly": 0.0
+      },
+      "gamma": 0.9,
+      "output_threshold": 0.45,
+      "fast_nIoU": 0.6138888888888888
+    },
+    {
+      "stage": "fit",
+      "kind": "teacher_external_weighted",
+      "weights": {
+        "tpc_a": 0.1666666567325592,
+        "tpc_b": 0.1666666567325592,
+        "lca": 0.1666666567325592,
+        "bgm_nuaa": 0.1666666567325592,
+        "rpcanet_sirst_s3": 0.3333333134651184,
+        "bg_anomaly": 0.0
+      },
+      "gamma": 1.0,
+      "output_threshold": 0.35,
+      "fast_nIoU": 0.6138888888888888
+    },
+    {
+      "stage": "fit",
+      "kind": "teacher_external_weighted",
+      "weights": {
+        "tpc_a": 0.1666666567325592,
+        "tpc_b": 0.1666666567325592,
+        "lca": 0.1666666567325592,
+        "bgm_nuaa": 0.1666666567325592,
+        "rpcanet_sirst_s3": 0.3333333134651184,
+        "bg_anomaly": 0.0
+      },
+      "gamma": 1.0,
+      "output_threshold": 0.4,
+      "fast_nIoU": 0.6138888888888888
+    },
+    {
+      "stage": "fit",
+      "kind": "teacher_external_weighted",
+      "weights": {
+        "tpc_a": 0.1666666567325592,
+        "tpc_b": 0.1666666567325592,
+        "lca": 0.1666666567325592,
+        "bgm_nuaa": 0.1666666567325592,
+        "rpcanet_sirst_s3": 0.3333333134651184,
+        "bg_anomaly": 0.0
+      },
+      "gamma": 1.1,
+      "output_threshold": 0.35,
+      "fast_nIoU": 0.6138888888888888
+    },
+    {
+      "stage": "fit",
+      "kind": "teacher_external_weighted",
+      "weights": {
+        "tpc_a": 0.1538461446762085,
+        "tpc_b": 0.1538461446762085,
+        "lca": 0.1538461446762085,
+        "bgm_nuaa": 0.1538461446762085,
+        "rpcanet_sirst_s3": 0.307692289352417,
+        "bg_anomaly": 0.07692307233810425
+      },
+      "gamma": 0.9,
+      "output_threshold": 0.35,
+      "fast_nIoU": 0.6138888888888888
+    },
+    {
+      "stage": "fit",
+      "kind": "teacher_external_weighted",
+      "weights": {
+        "tpc_a": 0.1538461446762085,
+        "tpc_b": 0.1538461446762085,
+        "lca": 0.1538461446762085,
+        "bgm_nuaa": 0.1538461446762085,
+        "rpcanet_sirst_s3": 0.307692289352417,
+        "bg_anomaly": 0.07692307233810425
+      },
+      "gamma": 0.9,
+      "output_threshold": 0.4,
+      "fast_nIoU": 0.6138888888888888
+    },
+    {
+      "stage": "fit",
+      "kind": "teacher_external_weighted",
+      "weights": {
+        "tpc_a": 0.1538461446762085,
+        "tpc_b": 0.1538461446762085,
+        "lca": 0.1538461446762085,
+        "bgm_nuaa": 0.1538461446762085,
+        "rpcanet_sirst_s3": 0.307692289352417,
+        "bg_anomaly": 0.07692307233810425
+      },
+      "gamma": 1.0,
+      "output_threshold": 0.35,
+      "fast_nIoU": 0.6138888888888888
+    },
+    {
+      "stage": "fit",
+      "kind": "teacher_external_weighted",
+      "weights": {
+        "tpc_a": 0.1538461446762085,
+        "tpc_b": 0.1538461446762085,
+        "lca": 0.1538461446762085,
+        "bgm_nuaa": 0.1538461446762085,
+        "rpcanet_sirst_s3": 0.307692289352417,
+        "bg_anomaly": 0.07692307233810425
+      },
+      "gamma": 1.1,
+      "output_threshold": 0.35,
+      "fast_nIoU": 0.6138888888888888
+    },
+    {
+      "stage": "fit",
+      "kind": "teacher_external_weighted",
+      "weights": {
+        "tpc_a": 0.1428571343421936,
+        "tpc_b": 0.1428571343421936,
+        "lca": 0.1428571343421936,
+        "bgm_nuaa": 0.1428571343421936,
+        "rpcanet_sirst_s3": 0.2857142686843872,
+        "bg_anomaly": 0.1428571343421936
+      },
+      "gamma": 0.9,
+      "output_threshold": 0.35,
+      "fast_nIoU": 0.6138888888888888
+    },
+    {
+      "stage": "fit",
+      "kind": "teacher_external_weighted",
+      "weights": {
+        "tpc_a": 0.1428571343421936,
+        "tpc_b": 0.1428571343421936,
+        "lca": 0.1428571343421936,
+        "bgm_nuaa": 0.1428571343421936,
+        "rpcanet_sirst_s3": 0.2857142686843872,
+        "bg_anomaly": 0.1428571343421936
+      },
+      "gamma": 0.9,
+      "output_threshold": 0.4,
+      "fast_nIoU": 0.6138888888888888
+    },
+    {
+      "stage": "fit",
+      "kind": "teacher_external_weighted",
+      "weights": {
+        "tpc_a": 0.1428571343421936,
+        "tpc_b": 0.1428571343421936,
+        "lca": 0.1428571343421936,
+        "bgm_nuaa": 0.1428571343421936,
+        "rpcanet_sirst_s3": 0.2857142686843872,
+        "bg_anomaly": 0.1428571343421936
+      },
+      "gamma": 1.0,
+      "output_threshold": 0.35,
+      "fast_nIoU": 0.6138888888888888
+    },
+    {
+      "stage": "fit",
+      "kind": "teacher_external_weighted",
+      "weights": {
+        "tpc_a": 0.1538461595773697,
+        "tpc_b": 0.1538461595773697,
+        "lca": 0.1538461595773697,
+        "bgm_nuaa": 0.3076923191547394,
+        "rpcanet_sirst_s3": 0.23076924681663513,
+        "bg_anomaly": 0.0
+      },
+      "gamma": 0.9,
+      "output_threshold": 0.35,
+      "fast_nIoU": 0.6138888888888888
+    },
+    {
+      "stage": "fit",
+      "kind": "teacher_external_weighted",
+      "weights": {
+        "tpc_a": 0.1428571492433548,
+        "tpc_b": 0.1428571492433548,
+        "lca": 0.1428571492433548,
+        "bgm_nuaa": 0.2857142984867096,
+        "rpcanet_sirst_s3": 0.2857142984867096,
+        "bg_anomaly": 0.0
+      },
+      "gamma": 0.9,
+      "output_threshold": 0.35,
+      "fast_nIoU": 0.6138888888888888
+    },
+    {
+      "stage": "fit",
+      "kind": "teacher_external_weighted",
+      "weights": {
+        "tpc_a": 0.1428571492433548,
+        "tpc_b": 0.1428571492433548,
+        "lca": 0.1428571492433548,
+        "bgm_nuaa": 0.2857142984867096,
+        "rpcanet_sirst_s3": 0.2857142984867096,
+        "bg_anomaly": 0.0
+      },
+      "gamma": 0.9,
+      "output_threshold": 0.4,
+      "fast_nIoU": 0.6138888888888888
+    },
+    {
+      "stage": "fit",
+      "kind": "teacher_external_weighted",
+      "weights": {
+        "tpc_a": 0.1428571492433548,
+        "tpc_b": 0.1428571492433548,
+        "lca": 0.1428571492433548,
+        "bgm_nuaa": 0.2857142984867096,
+        "rpcanet_sirst_s3": 0.2857142984867096,
+        "bg_anomaly": 0.0
+      },
+      "gamma": 1.0,
+      "output_threshold": 0.35,
+      "fast_nIoU": 0.6138888888888888
+    },
+    {
+      "stage": "fit",
+      "kind": "teacher_external_weighted",
+      "weights": {
+        "tpc_a": 0.13333334028720856,
+        "tpc_b": 0.13333334028720856,
+        "lca": 0.13333334028720856,
+        "bgm_nuaa": 0.2666666805744171,
+        "rpcanet_sirst_s3": 0.2666666805744171,
+        "bg_anomaly": 0.06666667014360428
+      },
+      "gamma": 0.9,
+      "output_threshold": 0.35,
+      "fast_nIoU": 0.6138888888888888
+    },
+    {
+      "stage": "fit",
+      "kind": "teacher_external_weighted",
+      "weights": {
+        "tpc_a": 0.125,
+        "tpc_b": 0.125,
+        "lca": 0.125,
+        "bgm_nuaa": 0.25,
+        "rpcanet_sirst_s3": 0.25,
+        "bg_anomaly": 0.125
+      },
+      "gamma": 0.9,
+      "output_threshold": 0.35,
+      "fast_nIoU": 0.6138888888888888
+    },
+    {
+      "stage": "fit",
+      "kind": "teacher_external_weighted",
+      "weights": {
+        "tpc_a": 0.125,
+        "tpc_b": 0.125,
+        "lca": 0.125,
+        "bgm_nuaa": 0.375,
+        "rpcanet_sirst_s3": 0.25,
+        "bg_anomaly": 0.0
+      },
+      "gamma": 0.9,
+      "output_threshold": 0.35,
+      "fast_nIoU": 0.6138888888888888
+    },
+    {
+      "stage": "fit",
+      "kind": "teacher_external_weighted",
+      "weights": {
+        "tpc_a": 0.17777776718139648,
+        "tpc_b": 0.17777776718139648,
+        "lca": 0.17777776718139648,
+        "bgm_nuaa": 0.13333332538604736,
+        "rpcanet_sirst_s3": 0.2666666507720947,
+        "bg_anomaly": 0.06666666269302368
+      },
+      "gamma": 0.9,
+      "output_threshold": 0.4,
+      "fast_nIoU": 0.6138888888888888
+    },
+    {
+      "stage": "fit",
+      "kind": "teacher_external_weighted",
+      "weights": {
+        "tpc_a": 0.20000000298023224,
+        "tpc_b": 0.20000000298023224,
+        "lca": 0.20000000298023224,
+        "bgm_nuaa": 0.20000000298023224,
+        "rpcanet_sirst_s3": 0.20000000298023224,
+        "bg_anomaly": 0.0
+      },
+      "gamma": 0.9,
+      "output_threshold": 0.35,
+      "fast_nIoU": 0.6069444444444444
+    },
+    {
+      "stage": "fit",
+      "kind": "teacher_external_weighted",
+      "weights": {
+        "tpc_a": 0.1818181872367859,
+        "tpc_b": 0.1818181872367859,
+        "lca": 0.1818181872367859,
+        "bgm_nuaa": 0.1818181872367859,
+        "rpcanet_sirst_s3": 0.27272728085517883,
+        "bg_anomaly": 0.0
+      },
+      "gamma": 0.9,
+      "output_threshold": 0.35,
+      "fast_nIoU": 0.6069444444444444
+    },
+    {
+      "stage": "fit",
+      "kind": "teacher_external_weighted",
+      "weights": {
+        "tpc_a": 0.1818181872367859,
+        "tpc_b": 0.1818181872367859,
+        "lca": 0.1818181872367859,
+        "bgm_nuaa": 0.1818181872367859,
+        "rpcanet_sirst_s3": 0.27272728085517883,
+        "bg_anomaly": 0.0
+      },
+      "gamma": 0.9,
+      "output_threshold": 0.4,
+      "fast_nIoU": 0.6069444444444444
+    },
+    {
+      "stage": "fit",
+      "kind": "teacher_external_weighted",
+      "weights": {
+        "tpc_a": 0.1818181872367859,
+        "tpc_b": 0.1818181872367859,
+        "lca": 0.1818181872367859,
+        "bgm_nuaa": 0.1818181872367859,
+        "rpcanet_sirst_s3": 0.27272728085517883,
+        "bg_anomaly": 0.0
+      },
+      "gamma": 1.0,
+      "output_threshold": 0.35,
+      "fast_nIoU": 0.6069444444444444
+    },
+    {
+      "stage": "fit",
+      "kind": "teacher_external_weighted",
+      "weights": {
+        "tpc_a": 0.1666666567325592,
+        "tpc_b": 0.1666666567325592,
+        "lca": 0.1666666567325592,
+        "bgm_nuaa": 0.1666666567325592,
+        "rpcanet_sirst_s3": 0.25,
+        "bg_anomaly": 0.0833333283662796
+      },
+      "gamma": 0.9,
+      "output_threshold": 0.35,
+      "fast_nIoU": 0.6069444444444444
+    },
+    {
+      "stage": "fit",
+      "kind": "teacher_external_weighted",
+      "weights": {
+        "tpc_a": 0.20512819290161133,
+        "tpc_b": 0.20512819290161133,
+        "lca": 0.20512819290161133,
+        "bgm_nuaa": 0.1538461297750473,
+        "rpcanet_sirst_s3": 0.23076920211315155,
+        "bg_anomaly": 0.0
+      },
+      "gamma": 0.9,
+      "output_threshold": 0.35,
+      "fast_nIoU": 0.6069444444444444
+    },
+    {
+      "stage": "fit",
+      "kind": "teacher_external_weighted",
+      "weights": {
+        "tpc_a": 0.1904761642217636,
+        "tpc_b": 0.1904761642217636,
+        "lca": 0.1904761642217636,
+        "bgm_nuaa": 0.1428571194410324,
+        "rpcanet_sirst_s3": 0.2142856866121292,
+        "bg_anomaly": 0.0714285597205162
+      },
+      "gamma": 0.9,
+      "output_threshold": 0.35,
+      "fast_nIoU": 0.6069444444444444
+    },
+    {
+      "stage": "fit",
+      "kind": "teacher_external_weighted",
+      "weights": {
+        "tpc_a": 0.190476194024086,
+        "tpc_b": 0.190476194024086,
+        "lca": 0.190476194024086,
+        "bgm_nuaa": 0.1428571343421936,
+        "rpcanet_sirst_s3": 0.2857142686843872,
+        "bg_anomaly": 0.0
+      },
+      "gamma": 0.9,
+      "output_threshold": 0.35,
+      "fast_nIoU": 0.6069444444444444
+    },
+    {
+      "stage": "fit",
+      "kind": "teacher_external_weighted",
+      "weights": {
+        "tpc_a": 0.190476194024086,
+        "tpc_b": 0.190476194024086,
+        "lca": 0.190476194024086,
+        "bgm_nuaa": 0.1428571343421936,
+        "rpcanet_sirst_s3": 0.2857142686843872,
+        "bg_anomaly": 0.0
+      },
+      "gamma": 0.9,
+      "output_threshold": 0.4,
+      "fast_nIoU": 0.6069444444444444
+    },
+    {
+      "stage": "fit",
+      "kind": "teacher_external_weighted",
+      "weights": {
+        "tpc_a": 0.190476194024086,
+        "tpc_b": 0.190476194024086,
+        "lca": 0.190476194024086,
+        "bgm_nuaa": 0.1428571343421936,
+        "rpcanet_sirst_s3": 0.2857142686843872,
+        "bg_anomaly": 0.0
+      },
+      "gamma": 1.0,
+      "output_threshold": 0.35,
+      "fast_nIoU": 0.6069444444444444
+    },
+    {
+      "stage": "fit",
+      "kind": "teacher_external_weighted",
+      "weights": {
+        "tpc_a": 0.190476194024086,
+        "tpc_b": 0.190476194024086,
+        "lca": 0.190476194024086,
+        "bgm_nuaa": 0.1428571343421936,
+        "rpcanet_sirst_s3": 0.2857142686843872,
+        "bg_anomaly": 0.0
+      },
+      "gamma": 1.1,
+      "output_threshold": 0.35,
+      "fast_nIoU": 0.6069444444444444
+    },
+    {
+      "stage": "fit",
+      "kind": "teacher_external_weighted",
+      "weights": {
+        "tpc_a": 0.17777776718139648,
+        "tpc_b": 0.17777776718139648,
+        "lca": 0.17777776718139648,
+        "bgm_nuaa": 0.13333332538604736,
+        "rpcanet_sirst_s3": 0.2666666507720947,
+        "bg_anomaly": 0.06666666269302368
+      },
+      "gamma": 0.9,
+      "output_threshold": 0.35,
+      "fast_nIoU": 0.6069444444444444
+    },
+    {
+      "stage": "fit",
+      "kind": "teacher_external_weighted",
+      "weights": {
+        "tpc_a": 0.17777776718139648,
+        "tpc_b": 0.17777776718139648,
+        "lca": 0.17777776718139648,
+        "bgm_nuaa": 0.13333332538604736,
+        "rpcanet_sirst_s3": 0.2666666507720947,
+        "bg_anomaly": 0.06666666269302368
+      },
+      "gamma": 1.0,
+      "output_threshold": 0.35,
+      "fast_nIoU": 0.6069444444444444
+    },
+    {
+      "stage": "fit",
+      "kind": "teacher_external_weighted",
+      "weights": {
+        "tpc_a": 0.1666666567325592,
+        "tpc_b": 0.1666666567325592,
+        "lca": 0.1666666567325592,
+        "bgm_nuaa": 0.1249999925494194,
+        "rpcanet_sirst_s3": 0.2499999850988388,
+        "bg_anomaly": 0.1249999925494194
+      },
+      "gamma": 0.9,
+      "output_threshold": 0.35,
+      "fast_nIoU": 0.6069444444444444
+    },
+    {
+      "stage": "fit",
+      "kind": "teacher_external_weighted",
+      "weights": {
+        "tpc_a": 0.1666666716337204,
+        "tpc_b": 0.1666666716337204,
+        "lca": 0.1666666716337204,
+        "bgm_nuaa": 0.25,
+        "rpcanet_sirst_s3": 0.25,
+        "bg_anomaly": 0.0
+      },
+      "gamma": 0.9,
+      "output_threshold": 0.35,
+      "fast_nIoU": 0.6069444444444444
+    },
+    {
+      "stage": "fit",
+      "kind": "teacher_external_weighted",
+      "weights": {
+        "tpc_a": 0.1568627506494522,
+        "tpc_b": 0.1568627506494522,
+        "lca": 0.1568627506494522,
+        "bgm_nuaa": 0.23529411852359772,
+        "rpcanet_sirst_s3": 0.23529411852359772,
+        "bg_anomaly": 0.05882352963089943
+      },
+      "gamma": 0.9,
+      "output_threshold": 0.35,
+      "fast_nIoU": 0.6069444444444444
+    },
+    {
+      "stage": "fit",
+      "kind": "teacher_external_weighted",
+      "weights": {
+        "tpc_a": 0.2222222238779068,
+        "tpc_b": 0.2222222238779068,
+        "lca": 0.2222222238779068,
+        "bgm_nuaa": 0.13333334028720856,
+        "rpcanet_sirst_s3": 0.20000000298023224,
+        "bg_anomaly": 0.0
+      },
+      "gamma": 0.9,
+      "output_threshold": 0.35,
+      "fast_nIoU": 0.6069444444444444
+    },
+    {
+      "stage": "fit",
+      "kind": "teacher_external_weighted",
+      "weights": {
+        "tpc_a": 0.2083333432674408,
+        "tpc_b": 0.2083333432674408,
+        "lca": 0.2083333432674408,
+        "bgm_nuaa": 0.125,
+        "rpcanet_sirst_s3": 0.25,
+        "bg_anomaly": 0.0
+      },
+      "gamma": 0.9,
+      "output_threshold": 0.35,
+      "fast_nIoU": 0.6069444444444444
+    },
+    {
+      "stage": "fit",
+      "kind": "teacher_external_weighted",
+      "weights": {
+        "tpc_a": 0.2083333432674408,
+        "tpc_b": 0.2083333432674408,
+        "lca": 0.2083333432674408,
+        "bgm_nuaa": 0.125,
+        "rpcanet_sirst_s3": 0.25,
+        "bg_anomaly": 0.0
+      },
+      "gamma": 0.9,
+      "output_threshold": 0.4,
+      "fast_nIoU": 0.6069444444444444
+    },
+    {
+      "stage": "fit",
+      "kind": "teacher_external_weighted",
+      "weights": {
+        "tpc_a": 0.2083333432674408,
+        "tpc_b": 0.2083333432674408,
+        "lca": 0.2083333432674408,
+        "bgm_nuaa": 0.125,
+        "rpcanet_sirst_s3": 0.25,
+        "bg_anomaly": 0.0
+      },
+      "gamma": 1.0,
+      "output_threshold": 0.35,
+      "fast_nIoU": 0.6069444444444444
+    },
+    {
+      "stage": "fit",
+      "kind": "teacher_external_weighted",
+      "weights": {
+        "tpc_a": 0.19607843458652496,
+        "tpc_b": 0.19607843458652496,
+        "lca": 0.19607843458652496,
+        "bgm_nuaa": 0.11764705926179886,
+        "rpcanet_sirst_s3": 0.23529411852359772,
+        "bg_anomaly": 0.05882352963089943
+      },
+      "gamma": 0.9,
+      "output_threshold": 0.35,
+      "fast_nIoU": 0.6069444444444444
+    },
+    {
+      "stage": "fit",
+      "kind": "teacher_external_weighted",
+      "weights": {
+        "tpc_a": 0.18518517911434174,
+        "tpc_b": 0.18518517911434174,
+        "lca": 0.18518517911434174,
+        "bgm_nuaa": 0.1111111119389534,
+        "rpcanet_sirst_s3": 0.2222222238779068,
+        "bg_anomaly": 0.1111111119389534
+      },
+      "gamma": 0.9,
+      "output_threshold": 0.35,
+      "fast_nIoU": 0.6069444444444444
+    },
+    {
+      "stage": "fit",
+      "kind": "teacher_external_weighted",
+      "weights": {
+        "tpc_a": 0.18518519401550293,
+        "tpc_b": 0.18518519401550293,
+        "lca": 0.18518519401550293,
+        "bgm_nuaa": 0.222222238779068,
+        "rpcanet_sirst_s3": 0.222222238779068,
+        "bg_anomaly": 0.0
+      },
+      "gamma": 0.9,
+      "output_threshold": 0.35,
+      "fast_nIoU": 0.6069444444444444
+    },
+    {
+      "stage": "fit",
+      "kind": "teacher_external_weighted",
+      "weights": {
+        "tpc_a": 0.17543859779834747,
+        "tpc_b": 0.17543859779834747,
+        "lca": 0.17543859779834747,
+        "bgm_nuaa": 0.21052631735801697,
+        "rpcanet_sirst_s3": 0.21052631735801697,
+        "bg_anomaly": 0.05263157933950424
+      },
+      "gamma": 0.9,
+      "output_threshold": 0.35,
+      "fast_nIoU": 0.6069444444444444
+    },
+    {
+      "stage": "fit",
+      "kind": "teacher_external_weighted",
+      "weights": {
+        "tpc_a": 0.23529411852359772,
+        "tpc_b": 0.23529411852359772,
+        "lca": 0.23529411852359772,
+        "bgm_nuaa": 0.11764705926179886,
+        "rpcanet_sirst_s3": 0.1764705926179886,
+        "bg_anomaly": 0.0
+      },
+      "gamma": 0.9,
+      "output_threshold": 0.35,
+      "fast_nIoU": 0.6069444444444444
+    },
+    {
+      "stage": "fit",
+      "kind": "teacher_external_weighted",
+      "weights": {
+        "tpc_a": 0.2222222238779068,
+        "tpc_b": 0.2222222238779068,
+        "lca": 0.2222222238779068,
+        "bgm_nuaa": 0.1111111119389534,
+        "rpcanet_sirst_s3": 0.2222222238779068,
+        "bg_anomaly": 0.0
+      },
+      "gamma": 0.9,
+      "output_threshold": 0.35,
+      "fast_nIoU": 0.6069444444444444
+    },
+    {
+      "stage": "fit",
+      "kind": "teacher_external_weighted",
+      "weights": {
+        "tpc_a": 0.2222222238779068,
+        "tpc_b": 0.2222222238779068,
+        "lca": 0.2222222238779068,
+        "bgm_nuaa": 0.1111111119389534,
+        "rpcanet_sirst_s3": 0.2222222238779068,
+        "bg_anomaly": 0.0
+      },
+      "gamma": 1.0,
+      "output_threshold": 0.35,
+      "fast_nIoU": 0.6069444444444444
+    },
+    {
+      "stage": "fit",
+      "kind": "teacher_external_weighted",
+      "weights": {
+        "tpc_a": 0.21052630245685577,
+        "tpc_b": 0.21052630245685577,
+        "lca": 0.21052630245685577,
+        "bgm_nuaa": 0.10526315122842789,
+        "rpcanet_sirst_s3": 0.21052630245685577,
+        "bg_anomaly": 0.052631575614213943
+      },
+      "gamma": 0.9,
+      "output_threshold": 0.35,
+      "fast_nIoU": 0.6069444444444444
+    },
+    {
+      "stage": "fit",
+      "kind": "teacher_external_weighted",
+      "weights": {
+        "tpc_a": 0.20000000298023224,
+        "tpc_b": 0.20000000298023224,
+        "lca": 0.20000000298023224,
+        "bgm_nuaa": 0.10000000149011612,
+        "rpcanet_sirst_s3": 0.20000000298023224,
+        "bg_anomaly": 0.10000000149011612
+      },
+      "gamma": 0.9,
+      "output_threshold": 0.35,
+      "fast_nIoU": 0.6069444444444444
+    }
+  ]
+}

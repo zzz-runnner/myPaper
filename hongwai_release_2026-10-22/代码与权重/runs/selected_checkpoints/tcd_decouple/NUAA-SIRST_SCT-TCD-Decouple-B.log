@@ -1,0 +1,22 @@
+/home/cx/hongwai/irstd-lab/scripts/train_hybrid_methods.py:440: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  ckpt = torch.load(checkpoint, map_location="cpu")
+/home/cx/hongwai/irstd-lab/scripts/train_hybrid_methods.py:1589: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  ckpt = torch.load(checkpoint, map_location="cpu")
+Deep-Supervision: True
+Resume missing keys: 79
+NUAA-SIRST	SCT-TCD-Decouple-B	sct_tcd_decouple_refiner
+train_datasets=IRSTD-1K,NUAA-SIRST,NUDT-SIRST,SIRST3 train_size=4417 target_repeat=6 batch_size=24 run_dir=/home/cx/hongwai/irstd-lab/runs/tcd_decouple_4gpu/NUAA-SIRST_SCT-TCD-Decouple-B_gpu3
+best epoch=0 pixAcc=0.881974 mIoU=0.791230 Pd=0.965779 Fa=0.0000176990
+Jun 12 21:36:17 Epoch---1, total_loss---0.136952, lr---0.00000280,
+Jun 12 21:37:23 Epoch---2, total_loss---0.149996, lr---0.00000280,
+eval epoch=2 pixAcc=0.881974 mIoU=0.791315 Pd=0.965779 Fa=0.0000176990
+best epoch=2 pixAcc=0.881974 mIoU=0.791315 Pd=0.965779 Fa=0.0000176990
+Jun 12 21:38:41 Epoch---3, total_loss---0.146806, lr---0.00000278,
+Jun 12 21:39:47 Epoch---4, total_loss---0.144831, lr---0.00000276,
+eval epoch=4 pixAcc=0.881855 mIoU=0.791208 Pd=0.965779 Fa=0.0000176990
+Jun 12 21:41:04 Epoch---5, total_loss---0.151740, lr---0.00000273,
+Jun 12 21:42:10 Epoch---6, total_loss---0.149999, lr---0.00000270,
+eval epoch=6 pixAcc=0.881736 mIoU=0.791101 Pd=0.965779 Fa=0.0000176990
+Jun 12 21:43:28 Epoch---7, total_loss---0.151836, lr---0.00000265,
+Jun 12 21:44:34 Epoch---8, total_loss---0.143262, lr---0.00000260,
+eval epoch=8 pixAcc=0.881736 mIoU=0.791101 Pd=0.965779 Fa=0.0000176990

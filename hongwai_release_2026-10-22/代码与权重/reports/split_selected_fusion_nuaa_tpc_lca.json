@@ -1,0 +1,182 @@
+{
+  "train_cache": "reports/prediction_cache_nuaa_tpc_lca_train_a/NUAA-SIRST__train.npz",
+  "test_cache": "reports/prediction_cache_nuaa_tpc_lca_train_b_test/NUAA-SIRST__test.npz",
+  "models": [
+    "tpc_a",
+    "tpc_b",
+    "lca"
+  ],
+  "val_fraction": 0.35,
+  "split_seed": "20260614",
+  "val_samples": 65,
+  "selected_by_val": {
+    "weights": {
+      "tpc_a": 1.0,
+      "tpc_b": 1.0,
+      "lca": 1.0
+    },
+    "threshold": 0.55,
+    "val_nIoU": 0.9068778583014712,
+    "test_pixAcc": 0.8774439692497253,
+    "test_mIoU": 0.7895301437459773,
+    "test_nIoU": 0.7928302410911962,
+    "test_Pd": 0.9657794676806084,
+    "test_Fa": 1.7493217776566745e-05
+  },
+  "best_test_in_val_top20_not_selected": {
+    "weights": {
+      "tpc_a": 1.0,
+      "tpc_b": 1.0,
+      "lca": 1.0
+    },
+    "threshold": 0.5,
+    "val_nIoU": 0.9063236044520175,
+    "test_pixAcc": 0.8819742202758789,
+    "test_mIoU": 0.7911453320500481,
+    "test_nIoU": 0.793898080411888,
+    "test_Pd": 0.9657794676806084,
+    "test_Fa": 1.7699020338644e-05
+  },
+  "val_rows_top": [
+    {
+      "weights": {
+        "tpc_a": 1.0,
+        "tpc_b": 1.0,
+        "lca": 1.0
+      },
+      "threshold": 0.55,
+      "val_nIoU": 0.9068778583014712
+    },
+    {
+      "weights": {
+        "tpc_a": 1.0,
+        "tpc_b": 1.0,
+        "lca": 1.0
+      },
+      "threshold": 0.6,
+      "val_nIoU": 0.9064342092241207
+    },
+    {
+      "weights": {
+        "tpc_a": 1.0,
+        "tpc_b": 1.0,
+        "lca": 1.0
+      },
+      "threshold": 0.5,
+      "val_nIoU": 0.9063236044520175
+    },
+    {
+      "weights": {
+        "tpc_a": 1.0,
+        "tpc_b": 1.0,
+        "lca": 1.0
+      },
+      "threshold": 0.45,
+      "val_nIoU": 0.9051366292247968
+    },
+    {
+      "weights": {
+        "tpc_a": 1.0,
+        "tpc_b": 1.0,
+        "lca": 1.0
+      },
+      "threshold": 0.4,
+      "val_nIoU": 0.9044758234421992
+    },
+    {
+      "weights": {
+        "tpc_a": 1.0,
+        "tpc_b": 1.0,
+        "lca": 1.0
+      },
+      "threshold": 0.35,
+      "val_nIoU": 0.9014865848906594
+    }
+  ],
+  "test_rows_for_val_top20": [
+    {
+      "weights": {
+        "tpc_a": 1.0,
+        "tpc_b": 1.0,
+        "lca": 1.0
+      },
+      "threshold": 0.5,
+      "val_nIoU": 0.9063236044520175,
+      "test_pixAcc": 0.8819742202758789,
+      "test_mIoU": 0.7911453320500481,
+      "test_nIoU": 0.793898080411888,
+      "test_Pd": 0.9657794676806084,
+      "test_Fa": 1.7699020338644e-05
+    },
+    {
+      "weights": {
+        "tpc_a": 1.0,
+        "tpc_b": 1.0,
+        "lca": 1.0
+      },
+      "threshold": 0.45,
+      "val_nIoU": 0.9051366292247968,
+      "test_pixAcc": 0.884716272354126,
+      "test_mIoU": 0.7901405451448041,
+      "test_nIoU": 0.7919774428422264,
+      "test_Pd": 0.9657794676806084,
+      "test_Fa": 1.8179226316824263e-05
+    },
+    {
+      "weights": {
+        "tpc_a": 1.0,
+        "tpc_b": 1.0,
+        "lca": 1.0
+      },
+      "threshold": 0.55,
+      "val_nIoU": 0.9068778583014712,
+      "test_pixAcc": 0.8774439692497253,
+      "test_mIoU": 0.7895301437459773,
+      "test_nIoU": 0.7928302410911962,
+      "test_Pd": 0.9657794676806084,
+      "test_Fa": 1.7493217776566745e-05
+    },
+    {
+      "weights": {
+        "tpc_a": 1.0,
+        "tpc_b": 1.0,
+        "lca": 1.0
+      },
+      "threshold": 0.4,
+      "val_nIoU": 0.9044758234421992,
+      "test_pixAcc": 0.8882927894592285,
+      "test_mIoU": 0.789133658123279,
+      "test_nIoU": 0.7894324542072418,
+      "test_Pd": 0.9657794676806084,
+      "test_Fa": 1.8316428024875768e-05
+    },
+    {
+      "weights": {
+        "tpc_a": 1.0,
+        "tpc_b": 1.0,
+        "lca": 1.0
+      },
+      "threshold": 0.6,
+      "val_nIoU": 0.9064342092241207,
+      "test_pixAcc": 0.872913658618927,
+      "test_mIoU": 0.7890086206896552,
+      "test_nIoU": 0.792800405150565,
+      "test_Pd": 0.9619771863117871,
+      "test_Fa": 3.059598089548536e-05
+    },
+    {
+      "weights": {
+        "tpc_a": 1.0,
+        "tpc_b": 1.0,
+        "lca": 1.0
+      },
+      "threshold": 0.35,
+      "val_nIoU": 0.9014865848906594,
+      "test_pixAcc": 0.8910347819328308,
+      "test_mIoU": 0.7867368421052632,
+      "test_nIoU": 0.785622661487904,
+      "test_Pd": 0.9657794676806084,
+      "test_Fa": 1.907103741915904e-05
+    }
+  ]
+}

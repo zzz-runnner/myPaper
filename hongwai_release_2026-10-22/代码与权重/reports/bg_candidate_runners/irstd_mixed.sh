@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+set -euo pipefail
+cd /home/cx/hongwai/irstd-lab
+export CUDA_VISIBLE_DEVICES=2
+/home/cx/hongwai/irstd-lab/envs/irstd/bin/python scripts/eval_component_fusion_learner.py --dataset_dir datasets --dataset_name IRSTD-1K --fit_datasets IRSTD-1K,NUAA-SIRST,NUDT-SIRST,SIRST3 --background_normality_candidates --background_as_candidate --background_topk 8 --background_threshold 0.86 --background_sample_pixels 2048 --seed_thresholds 0.40,0.45 --keep_thresholds 0.10,0.15,0.20 --output_thresholds 0.40,0.45,0.50 --fill_modes avg,max --max_components_per_image 96 --steps 800 --model_spec 'baseq|sct_tpc_dhif_refiner|/home/cx/hongwai/irstd-lab/runs/selected_checkpoints/our_method/IRSTD-1K_TCD-SCTransNet-Q_12_best.pth.tar|/home/cx/hongwai/irstd-lab/runs/tpc_dhif_teacher4/IRSTD-1K_SCT-TPC-DHiF-B_gpu1/checkpoints/IRSTD-1K/best_mIoU.pth.tar' --model_spec 'refiner|sct_refiner|/home/cx/hongwai/irstd-lab/runs/selected_checkpoints/our_method/IRSTD-1K_TCD-SCTransNet-Q_12_best.pth.tar|/home/cx/hongwai/irstd-lab/runs/sct_refiner_fixed/IRSTD-1K_SCT-Refiner-Fixed_gpu0/checkpoints/IRSTD-1K/best_mIoU.pth.tar' --output reports/bg_candidate_irstd_mixed.json

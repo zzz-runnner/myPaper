@@ -1,0 +1,94 @@
+{
+  "args": {
+    "dataset_dir": "/home/cx/hongwai/irstd-lab/datasets",
+    "train_cache_spec": [
+      "IRSTD-1K|reports/prediction_cache_irstd_dual_train_a/IRSTD-1K__train.npz",
+      "NUAA-SIRST|reports/prediction_cache_irstd_dual_train_a/NUAA-SIRST__train.npz",
+      "NUDT-SIRST|reports/prediction_cache_irstd_dual_train_b_test/NUDT-SIRST__train.npz",
+      "SIRST3|reports/prediction_cache_irstd_dual_train_b_test/SIRST3__train.npz"
+    ],
+    "test_cache_spec": [
+      "IRSTD-1K|reports/prediction_cache_irstd_dual_train_b_test/IRSTD-1K__test.npz"
+    ],
+    "teacher_mode": "avg",
+    "epochs": 4,
+    "batch_size": 3,
+    "patch_size": 512,
+    "base_channels": 56,
+    "anomaly_base_channels": 28,
+    "lr": 0.0002,
+    "residual_scale": 0.42,
+    "anomaly_scale": 0.45,
+    "anchor_weight": 0.025,
+    "anomaly_weight": 0.18,
+    "gate_weight": 0.015,
+    "pos_weight": 25.0,
+    "thresholds": "0.30,0.35,0.38,0.40,0.42,0.45,0.50,0.55,0.60",
+    "eval_interval": 2,
+    "max_train_samples_per_cache": 0,
+    "eval_max_samples": 0,
+    "seed": 101,
+    "device": "cuda:0",
+    "output_dir": "runs/gated_anomaly_anchor_probe/irstd_gate_cons_s101"
+  },
+  "best": {
+    "epoch": 2,
+    "mean_mIoU": 0.7213087341842707,
+    "eval": {
+      "IRSTD-1K": {
+        "threshold": 0.3,
+        "pixAcc": 0.8895992040634155,
+        "mIoU": 0.7213087341842707,
+        "nIoU": 0.66865219716222,
+        "Pd": 0.9494949494949495,
+        "Fa": 1.4803302821828359e-05
+      }
+    }
+  },
+  "history": [
+    {
+      "epoch": 1,
+      "loss": 1.3501596036988277,
+      "lr": 0.00017217514421272203,
+      "seconds": 479.1811668872833
+    },
+    {
+      "epoch": 2,
+      "loss": 1.3334480730571594,
+      "lr": 0.000105,
+      "seconds": 479.152535200119,
+      "eval": {
+        "IRSTD-1K": {
+          "threshold": 0.3,
+          "pixAcc": 0.8895992040634155,
+          "mIoU": 0.7213087341842707,
+          "nIoU": 0.66865219716222,
+          "Pd": 0.9494949494949495,
+          "Fa": 1.4803302821828359e-05
+        }
+      }
+    },
+    {
+      "epoch": 3,
+      "loss": 1.3316413913865972,
+      "lr": 3.782485578727799e-05,
+      "seconds": 478.88381457328796
+    },
+    {
+      "epoch": 4,
+      "loss": 1.3306500303126279,
+      "lr": 1e-05,
+      "seconds": 479.4934878349304,
+      "eval": {
+        "IRSTD-1K": {
+          "threshold": 0.38,
+          "pixAcc": 0.8429229259490967,
+          "mIoU": 0.6928075032487712,
+          "nIoU": 0.670684412036432,
+          "Pd": 0.9494949494949495,
+          "Fa": 1.6663204971237563e-05
+        }
+      }
+    }
+  ]
+}

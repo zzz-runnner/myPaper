@@ -1,0 +1,38 @@
+{
+  "dataset_dir": "/home/cx/hongwai/irstd-lab/datasets",
+  "train_cache_spec": [
+    "IRSTD-1K|/home/cx/hongwai/irstd-lab/reports/fusion_cache_bgm_rpcanet_train_a/IRSTD-1K__train.npz",
+    "NUAA-SIRST|/home/cx/hongwai/irstd-lab/reports/fusion_cache_bgm_rpcanet_train_a/NUAA-SIRST__train.npz",
+    "NUDT-SIRST|/home/cx/hongwai/irstd-lab/reports/fusion_cache_bgm_rpcanet_train_b_test/NUDT-SIRST__train.npz",
+    "SIRST3|/home/cx/hongwai/irstd-lab/reports/fusion_cache_bgm_rpcanet_train_b_test/SIRST3__train.npz"
+  ],
+  "test_cache_spec": [
+    "NUAA-SIRST|/home/cx/hongwai/irstd-lab/reports/fusion_cache_bgm_rpcanet_train_b_test/NUAA-SIRST__test.npz"
+  ],
+  "teacher_mode": "strong_fusion",
+  "epochs": 5,
+  "batch_size": 2,
+  "patch_size": 512,
+  "base_channels": 48,
+  "lr": 0.0002,
+  "add_scale": 0.2,
+  "suppress_scale": 0.16,
+  "anchor_weight": 0.03,
+  "gate_weight": 0.004,
+  "pos_weight": 30.0,
+  "hard_clutter_weight": 0.8,
+  "hard_clutter_threshold": 0.4,
+  "miss_weight": 3.2,
+  "miss_threshold": 0.22,
+  "uncertainty_weight": 0.55,
+  "weighted_dice": true,
+  "thresholds": "0.44,0.46,0.468,0.48,0.50,0.52,0.54,0.56,0.58,0.60",
+  "eval_interval": 1,
+  "max_train_samples_per_cache": 0,
+  "eval_max_samples": 0,
+  "seed": 811,
+  "device": "cuda:0",
+  "amp": true,
+  "output_dir": "/home/cx/hongwai/irstd-lab/runs/dual_gate_hfmlk_nuaa_4gpu/nuaa_dual_gate_strong_s811"
+}
+{"epoch": 1, "eval": {"NUAA-SIRST": {"Fa": 1.3239964826970123e-05, "Pd": 0.9581749049429658, "mIoU": 0.7374185629307903, "nIoU": 0.7118008067794636, "pixAcc": 0.9310920238494873, "threshold": 0.6}}, "loss": 1.136850987545488, "lr": 0.00018185661446562003, "seconds": 588.2590663433075}

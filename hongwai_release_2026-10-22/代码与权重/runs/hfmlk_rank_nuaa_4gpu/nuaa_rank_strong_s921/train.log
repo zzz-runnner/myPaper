@@ -1,0 +1,44 @@
+{
+  "dataset_dir": "/home/cx/hongwai/irstd-lab/datasets",
+  "train_cache_spec": [
+    "IRSTD-1K|/home/cx/hongwai/irstd-lab/reports/fusion_cache_bgm_rpcanet_train_a/IRSTD-1K__train.npz",
+    "NUAA-SIRST|/home/cx/hongwai/irstd-lab/reports/fusion_cache_bgm_rpcanet_train_a/NUAA-SIRST__train.npz",
+    "NUDT-SIRST|/home/cx/hongwai/irstd-lab/reports/fusion_cache_bgm_rpcanet_train_b_test/NUDT-SIRST__train.npz",
+    "SIRST3|/home/cx/hongwai/irstd-lab/reports/fusion_cache_bgm_rpcanet_train_b_test/SIRST3__train.npz"
+  ],
+  "test_cache_spec": [
+    "NUAA-SIRST|/home/cx/hongwai/irstd-lab/reports/fusion_cache_bgm_rpcanet_train_b_test/NUAA-SIRST__test.npz"
+  ],
+  "teacher_mode": "strong_fusion",
+  "epochs": 5,
+  "batch_size": 2,
+  "patch_size": 512,
+  "base_channels": 48,
+  "lr": 0.00016,
+  "residual_scale": 0.24,
+  "anchor_weight": 0.065,
+  "pos_weight": 30.0,
+  "hard_clutter_weight": 2.0,
+  "hard_clutter_threshold": 0.42,
+  "miss_weight": 1.4,
+  "miss_threshold": 0.16,
+  "uncertainty_weight": 0.35,
+  "rank_weight": 0.035,
+  "rank_margin": 0.3,
+  "rank_topk": 512,
+  "weighted_dice": true,
+  "thresholds": "0.42,0.44,0.46,0.472,0.48,0.50,0.52,0.54,0.56,0.58,0.60",
+  "eval_interval": 1,
+  "max_train_samples_per_cache": 0,
+  "eval_max_samples": 0,
+  "focus_dataset": "",
+  "focus_patch_prob": 0.0,
+  "focus_hard_threshold": 0.45,
+  "focus_miss_threshold": 0.18,
+  "seed": 921,
+  "device": "cuda:0",
+  "amp": true,
+  "resume_checkpoint": "",
+  "output_dir": "/home/cx/hongwai/irstd-lab/runs/hfmlk_rank_nuaa_4gpu/nuaa_rank_strong_s921"
+}
+{"epoch": 1, "eval": {"NUAA-SIRST": {"Fa": 7.340291380755457e-06, "Pd": 0.9809885931558935, "mIoU": 0.8099264302185132, "nIoU": 0.8152219269979497, "pixAcc": 0.8793514370918274, "threshold": 0.54}}, "loss": 1.5975154984502349, "lr": 0.000145485291572496, "seconds": 583.6924483776093}

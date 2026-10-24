@@ -1,0 +1,43 @@
+/home/cx/hongwai/irstd-lab/scripts/train_hybrid_methods.py:827: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  ckpt = torch.load(checkpoint, map_location="cpu")
+/home/cx/hongwai/irstd-lab/scripts/train_hybrid_methods.py:3111: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  ckpt = torch.load(checkpoint, map_location="cpu")
+Deep-Supervision: True
+Resume skipped shape-mismatched keys: 1
+Resume missing keys: 2
+Deep-Supervision: True
+Resume skipped shape-mismatched keys: 1
+Resume missing keys: 2
+Deep-Supervision: True
+Resume skipped shape-mismatched keys: 1
+Resume missing keys: 2
+fitting background normality model on IRSTD-1K,NUAA-SIRST,NUDT-SIRST,SIRST3,SIRST-UAVB train
+collected train 100/180
+collected train 100/180
+collected train 100/180
+collected train 100/180
+collected train 100/180
+collected test 100/214
+collected test 200/214
+best_valid kind=baseline mode=tpc_a seed= fill= keep= out=0.45 mIoU=79.02 nIoU=79.20 Pd=96.58 Fa=18.18
+best_oracle_not_valid seed=0.4 fill=max mIoU=64.44 nIoU=74.84 Pd=96.96 Fa=83.69
+baseline mode=tpc_a seed= fill= keep= out=0.45 mIoU=79.02 Pd=96.58 Fa=18.18
+baseline mode=lca seed= fill= keep= out=0.45 mIoU=79.02 Pd=96.58 Fa=18.18
+baseline mode=tpc_b seed= fill= keep= out=0.45 mIoU=79.01 Pd=96.58 Fa=18.18
+baseline mode=tpc_a seed= fill= keep= out=0.4 mIoU=78.93 Pd=96.58 Fa=18.25
+baseline mode=lca seed= fill= keep= out=0.4 mIoU=78.93 Pd=96.58 Fa=18.25
+baseline mode=tpc_b seed= fill= keep= out=0.4 mIoU=78.92 Pd=96.58 Fa=18.32
+baseline mode=avg seed= fill= keep= out=0.35 mIoU=78.82 Pd=96.58 Fa=28.88
+baseline mode=tpc_a seed= fill= keep= out=0.35 mIoU=78.68 Pd=96.58 Fa=19.07
+baseline mode=lca seed= fill= keep= out=0.35 mIoU=78.68 Pd=96.58 Fa=19.07
+baseline mode=tpc_b seed= fill= keep= out=0.35 mIoU=78.67 Pd=96.58 Fa=19.07
+baseline mode=avg seed= fill= keep= out=0.4 mIoU=77.77 Pd=96.58 Fa=26.82
+test_oracle_not_valid mode= seed=0.4 fill=max keep=0.5 out=0.4 mIoU=64.44 Pd=96.96 Fa=83.69
+test_oracle_not_valid mode= seed=0.4 fill=binary keep=0.5 out=0.5 mIoU=64.44 Pd=96.96 Fa=83.69
+test_oracle_not_valid mode= seed=0.35 fill=max keep=0.5 out=0.35 mIoU=64.39 Pd=96.96 Fa=83.76
+test_oracle_not_valid mode= seed=0.35 fill=binary keep=0.5 out=0.5 mIoU=64.39 Pd=96.96 Fa=83.76
+train_fit_eval mode= seed=0.4 fill=max keep=0.4 out=0.35 mIoU=58.17 Pd=96.20 Fa=167.52
+train_fit_eval mode= seed=0.4 fill=max keep=0.4 out=0.4 mIoU=58.17 Pd=96.20 Fa=167.52
+train_fit_eval mode= seed=0.4 fill=binary keep=0.4 out=0.5 mIoU=58.17 Pd=96.20 Fa=167.52
+train_fit_eval mode= seed=0.4 fill=max keep=0.4 out=0.45 mIoU=58.16 Pd=96.20 Fa=167.52
+train_fit_eval mode= seed=0.35 fill=max keep=0.4 out=0.4 mIoU=57.96 Pd=96.20 Fa=170.68

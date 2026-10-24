@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+set -euo pipefail
+cd "/home/cx/hongwai/irstd-lab"
+export CUDA_VISIBLE_DEVICES=1
+/home/cx/hongwai/irstd-lab/envs/irstd/bin/python /home/cx/hongwai/irstd-lab/scripts/eval_fixed_weighted_fusion.py --dataset_dir /home/cx/hongwai/irstd-lab/datasets --dataset_name IRSTD-1K --output_thresholds 0.35,0.40,0.45,0.50,0.55,0.60 --gammas 0.85,0.90,1.00,1.10,1.15 --model_spec 'baseq|sct_tpc_dhif_refiner|/home/cx/hongwai/irstd-lab/runs/selected_checkpoints/our_method/IRSTD-1K_TCD-SCTransNet-Q_12_best.pth.tar|/home/cx/hongwai/irstd-lab/runs/tpc_dhif_teacher4/IRSTD-1K_SCT-TPC-DHiF-B_gpu1/checkpoints/IRSTD-1K/best_mIoU.pth.tar' --model_spec 'refiner|sct_refiner|/home/cx/hongwai/irstd-lab/runs/selected_checkpoints/our_method/IRSTD-1K_TCD-SCTransNet-Q_12_best.pth.tar|/home/cx/hongwai/irstd-lab/runs/sct_refiner_fixed/IRSTD-1K_SCT-Refiner-Fixed_gpu0/checkpoints/IRSTD-1K/best_mIoU.pth.tar' --official_pconv_mshnet_spec 'pconv_p43|p43|/home/cx/hongwai/irstd-lab/external/PConv-SDloss-Data/weight_extracted/MSHNet-IRSTD-1K-P43/weight.pkl|official_mshnet|0.60|false|256' --output /home/cx/hongwai/irstd-lab/reports/fixed_weighted_irstd_p43.json

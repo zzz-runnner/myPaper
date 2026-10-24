@@ -1,0 +1,57 @@
+{
+  "dataset_dir": "/home/cx/hongwai/irstd-lab/datasets",
+  "train_cache_spec": [
+    "IRSTD-1K|/home/cx/hongwai/irstd-lab/reports/fusion_cache_bgm_rpcanet_train_a/IRSTD-1K__train.npz",
+    "NUAA-SIRST|/home/cx/hongwai/irstd-lab/reports/fusion_cache_official_mamba_teacher_nuaa/NUAA-SIRST__train.npz",
+    "NUDT-SIRST|/home/cx/hongwai/irstd-lab/reports/fusion_cache_bgm_rpcanet_train_b_test/NUDT-SIRST__train.npz",
+    "SIRST3|/home/cx/hongwai/irstd-lab/reports/fusion_cache_bgm_rpcanet_train_b_test/SIRST3__train.npz"
+  ],
+  "test_cache_spec": [
+    "NUAA-SIRST|/home/cx/hongwai/irstd-lab/reports/fusion_cache_official_mamba_teacher_nuaa/NUAA-SIRST__test.npz"
+  ],
+  "teacher_mode": "local_rule",
+  "epochs": 3,
+  "batch_size": 2,
+  "patch_size": 512,
+  "base_channels": 48,
+  "lr": 2.8e-05,
+  "residual_scale": 0.03,
+  "anchor_weight": 0.24,
+  "pos_weight": 30.0,
+  "hard_clutter_weight": 0.0,
+  "hard_clutter_threshold": 0.35,
+  "miss_weight": 0.1,
+  "miss_threshold": 0.2,
+  "uncertainty_weight": 0.0,
+  "rank_weight": 0.0,
+  "rank_margin": 0.35,
+  "rank_topk": 512,
+  "fp_topk_weight": 0.0,
+  "fp_topk_ratio": 0.002,
+  "fp_topk_min": 128,
+  "pos_peak_weight": 0.0,
+  "pos_peak_margin": 4.0,
+  "weighted_dice": true,
+  "thresholds": "0.468,0.476,0.484,0.488,0.492,0.496,0.498,0.500,0.504,0.512,0.520,0.540",
+  "eval_interval": 1,
+  "max_train_samples_per_cache": 128,
+  "eval_max_samples": 0,
+  "num_workers": 1,
+  "focus_dataset": "NUAA-SIRST",
+  "focus_patch_prob": 0.4,
+  "focus_hard_threshold": 0.45,
+  "focus_miss_threshold": 0.18,
+  "copy_paste_prob": 0.0,
+  "copy_paste_max_area": 96,
+  "gamma_prob": 0.0,
+  "noise_std": 0.0,
+  "image_aug_mode": "image",
+  "seed": 20260623,
+  "device": "cuda:0",
+  "amp": true,
+  "resume_checkpoint": "",
+  "output_dir": "/home/cx/hongwai/irstd-lab/runs/local_rule_hfmlk_nuaa_4gpu_screen/s1013_r003_a024"
+}
+{"epoch": 1, "eval": {"NUAA-SIRST": {"Fa": 9.604119563605271e-06, "Pd": 0.9695817490494296, "mIoU": 0.822400175515577, "nIoU": 0.8200488590420714, "pixAcc": 0.8937768340110779, "threshold": 0.492}}, "loss": 1.2589038806036115, "lr": 2.135e-05, "seconds": 89.37659096717834}
+{"epoch": 2, "eval": {"NUAA-SIRST": {"Fa": 1.1593544330352077e-05, "Pd": 0.9657794676806084, "mIoU": 0.8224288840262582, "nIoU": 0.8205987195135576, "pixAcc": 0.8961611986160278, "threshold": 0.484}}, "loss": 1.2584654532838613, "lr": 8.050000000000003e-06, "seconds": 89.04523181915283}
+{"epoch": 3, "eval": {"NUAA-SIRST": {"Fa": 1.1799346892429334e-05, "Pd": 0.9657794676806084, "mIoU": 0.8223023154215815, "nIoU": 0.8205749285556801, "pixAcc": 0.897591769695282, "threshold": 0.476}}, "loss": 1.258404622785747, "lr": 1.4000000000000001e-06, "seconds": 89.34412121772766}

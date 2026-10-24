@@ -1,0 +1,4 @@
+NUAA-SIRST	NUAA-UAVB-P43-B	mshnet_p43_sls
+train_datasets=IRSTD-1K,NUAA-SIRST,NUDT-SIRST,SIRST3,SIRST-UAVB train_size=6604 target_repeat=5 batch_size=8 run_dir=/home/cx/hongwai/irstd-lab/runs/sirst_uavb_mshnet_4gpu/NUAA-UAVB-P43-B
+eval epoch=1 pixAcc=0.233309 mIoU=0.000134 Pd=0.011407 Fa=0.9952096710
+best epoch=1 pixAcc=0.233309 mIoU=0.000134 Pd=0.011407 Fa=0.9952096710

@@ -1,0 +1,193 @@
+{
+  "args": {
+    "train_cache": "/home/cx/hongwai/irstd-lab/reports/fusion_cache_official_mamba_teacher_nuaa/NUAA-SIRST__train.npz",
+    "test_cache": "/home/cx/hongwai/irstd-lab/reports/fusion_cache_official_mamba_teacher_nuaa/NUAA-SIRST__test.npz",
+    "pos_per_image": 512,
+    "neg_per_image": 2048,
+    "steps": 1000,
+    "batch_pixels": 65536,
+    "lr": 0.00025,
+    "weight_decay": 0.0001,
+    "residual_scale": 0.05,
+    "max_pos_weight": 25.0,
+    "thresholds": "0.496,0.498,0.500,0.502",
+    "min_areas": "2,3,4",
+    "seed": 20260615,
+    "device": "cuda:0",
+    "output": "reports/nuaa_respix_seq_s1000_r005_pw25.json"
+  },
+  "train_pixels": 445357,
+  "train_positive": 9133,
+  "best": {
+    "kind": "component",
+    "threshold": 0.5,
+    "min_area": 3,
+    "pixAcc": 0.8925846219062805,
+    "mIoU": 0.8229281160694658,
+    "nIoU": 0.8216425018304664,
+    "Pd": 0.9695817490494296,
+    "Fa": 8.986711877373503e-06
+  },
+  "rows": [
+    {
+      "kind": "component",
+      "threshold": 0.5,
+      "min_area": 3,
+      "pixAcc": 0.8925846219062805,
+      "mIoU": 0.8229281160694658,
+      "nIoU": 0.8216425018304664,
+      "Pd": 0.9695817490494296,
+      "Fa": 8.986711877373503e-06
+    },
+    {
+      "kind": "threshold",
+      "threshold": 0.5,
+      "min_area": 1,
+      "pixAcc": 0.8927038908004761,
+      "mIoU": 0.8227667289308868,
+      "nIoU": 0.8215442109034458,
+      "Pd": 0.9695817490494296,
+      "Fa": 9.26111529347651e-06
+    },
+    {
+      "kind": "component",
+      "threshold": 0.5,
+      "min_area": 2,
+      "pixAcc": 0.8925846219062805,
+      "mIoU": 0.8227472527472528,
+      "nIoU": 0.8215048727382731,
+      "Pd": 0.9695817490494296,
+      "Fa": 9.123913585425007e-06
+    },
+    {
+      "kind": "component",
+      "threshold": 0.498,
+      "min_area": 3,
+      "pixAcc": 0.8929423093795776,
+      "mIoU": 0.8226249313563976,
+      "nIoU": 0.8207789898287974,
+      "Pd": 0.9695817490494296,
+      "Fa": 9.123913585425007e-06
+    },
+    {
+      "kind": "component",
+      "threshold": 0.496,
+      "min_area": 3,
+      "pixAcc": 0.89329993724823,
+      "mIoU": 0.8225930398506971,
+      "nIoU": 0.8202384302476892,
+      "Pd": 0.9695817490494296,
+      "Fa": 9.329716147502263e-06
+    },
+    {
+      "kind": "threshold",
+      "threshold": 0.498,
+      "min_area": 1,
+      "pixAcc": 0.8930615186691284,
+      "mIoU": 0.822463768115942,
+      "nIoU": 0.8206806989017765,
+      "Pd": 0.9695817490494296,
+      "Fa": 9.398317001528016e-06
+    },
+    {
+      "kind": "component",
+      "threshold": 0.498,
+      "min_area": 2,
+      "pixAcc": 0.8929423093795776,
+      "mIoU": 0.8224442736356649,
+      "nIoU": 0.8206413607366041,
+      "Pd": 0.9695817490494296,
+      "Fa": 9.26111529347651e-06
+    },
+    {
+      "kind": "threshold",
+      "threshold": 0.496,
+      "min_area": 1,
+      "pixAcc": 0.8934191465377808,
+      "mIoU": 0.82243195785777,
+      "nIoU": 0.8201401393206683,
+      "Pd": 0.9695817490494296,
+      "Fa": 9.604119563605271e-06
+    },
+    {
+      "kind": "component",
+      "threshold": 0.496,
+      "min_area": 2,
+      "pixAcc": 0.89329993724823,
+      "mIoU": 0.8224124684447371,
+      "nIoU": 0.8201008011554958,
+      "Pd": 0.9695817490494296,
+      "Fa": 9.466917855553767e-06
+    },
+    {
+      "kind": "component",
+      "threshold": 0.5,
+      "min_area": 4,
+      "pixAcc": 0.8918693661689758,
+      "mIoU": 0.8222686304682347,
+      "nIoU": 0.8206770636361445,
+      "Pd": 0.9619771863117871,
+      "Fa": 8.986711877373503e-06
+    },
+    {
+      "kind": "component",
+      "threshold": 0.502,
+      "min_area": 3,
+      "pixAcc": 0.8915116786956787,
+      "mIoU": 0.8222100054975261,
+      "nIoU": 0.8210002201348955,
+      "Pd": 0.9695817490494296,
+      "Fa": 8.643707607244744e-06
+    },
+    {
+      "kind": "threshold",
+      "threshold": 0.502,
+      "min_area": 1,
+      "pixAcc": 0.8916308879852295,
+      "mIoU": 0.8220488019344911,
+      "nIoU": 0.8209019292078747,
+      "Pd": 0.9695817490494296,
+      "Fa": 8.918111023347752e-06
+    },
+    {
+      "kind": "component",
+      "threshold": 0.502,
+      "min_area": 2,
+      "pixAcc": 0.8915116786956787,
+      "mIoU": 0.822029240408926,
+      "nIoU": 0.8208625910427022,
+      "Pd": 0.9695817490494296,
+      "Fa": 8.780909315296248e-06
+    },
+    {
+      "kind": "component",
+      "threshold": 0.498,
+      "min_area": 4,
+      "pixAcc": 0.8922269940376282,
+      "mIoU": 0.8219659527732015,
+      "nIoU": 0.8198135516344753,
+      "Pd": 0.9619771863117871,
+      "Fa": 9.123913585425007e-06
+    },
+    {
+      "kind": "component",
+      "threshold": 0.496,
+      "min_area": 4,
+      "pixAcc": 0.8925846219062805,
+      "mIoU": 0.821934350642222,
+      "nIoU": 0.8192729920533672,
+      "Pd": 0.9619771863117871,
+      "Fa": 9.329716147502263e-06
+    },
+    {
+      "kind": "component",
+      "threshold": 0.502,
+      "min_area": 4,
+      "pixAcc": 0.8907963633537292,
+      "mIoU": 0.8215503023639362,
+      "nIoU": 0.8200347819405736,
+      "Pd": 0.9619771863117871,
+      "Fa": 8.643707607244744e-06
+    }
+  ]
+}

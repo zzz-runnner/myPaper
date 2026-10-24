@@ -1,0 +1,7306 @@
+{
+  "labels": [
+    "s703_bgm",
+    "dfawarenet",
+    "s703_raw"
+  ],
+  "ranked_by_internal_val": [
+    {
+      "weights": [
+        0.92,
+        0.12,
+        -0.04
+      ],
+      "gamma": 1.02,
+      "threshold": 0.472,
+      "folds": 3,
+      "val_mean_mIoU": 0.8951993248769067,
+      "val_min_mIoU": 0.8910635155096012
+    },
+    {
+      "weights": [
+        0.88,
+        0.12,
+        0.0
+      ],
+      "gamma": 1.02,
+      "threshold": 0.472,
+      "folds": 3,
+      "val_mean_mIoU": 0.8951796753106179,
+      "val_min_mIoU": 0.890734588409007
+    },
+    {
+      "weights": [
+        0.84,
+        0.12,
+        0.04
+      ],
+      "gamma": 1.02,
+      "threshold": 0.472,
+      "folds": 3,
+      "val_mean_mIoU": 0.8950701138606293,
+      "val_min_mIoU": 0.8904059040590406
+    },
+    {
+      "weights": [
+        0.92,
+        0.12,
+        -0.04
+      ],
+      "gamma": 1.02,
+      "threshold": 0.468,
+      "folds": 3,
+      "val_mean_mIoU": 0.8946829567259794,
+      "val_min_mIoU": 0.8894620486366986
+    },
+    {
+      "weights": [
+        0.92,
+        0.12,
+        -0.04
+      ],
+      "gamma": 1.0,
+      "threshold": 0.472,
+      "folds": 3,
+      "val_mean_mIoU": 0.8946096626052341,
+      "val_min_mIoU": 0.889216047110784
+    },
+    {
+      "weights": [
+        0.92,
+        0.12,
+        -0.04
+      ],
+      "gamma": 1.02,
+      "threshold": 0.464,
+      "folds": 3,
+      "val_mean_mIoU": 0.8945995315382902,
+      "val_min_mIoU": 0.8888888888888888
+    },
+    {
+      "weights": [
+        0.88,
+        0.12,
+        0.0
+      ],
+      "gamma": 1.02,
+      "threshold": 0.464,
+      "folds": 3,
+      "val_mean_mIoU": 0.8945916916990723,
+      "val_min_mIoU": 0.8885619713129828
+    },
+    {
+      "weights": [
+        0.84,
+        0.12,
+        0.04
+      ],
+      "gamma": 1.02,
+      "threshold": 0.464,
+      "folds": 3,
+      "val_mean_mIoU": 0.8945916916990723,
+      "val_min_mIoU": 0.8885619713129828
+    },
+    {
+      "weights": [
+        0.88,
+        0.12,
+        0.0
+      ],
+      "gamma": 1.02,
+      "threshold": 0.468,
+      "folds": 3,
+      "val_mean_mIoU": 0.8944831060252322,
+      "val_min_mIoU": 0.889134438305709
+    },
+    {
+      "weights": [
+        0.88,
+        0.12,
+        0.0
+      ],
+      "gamma": 1.0,
+      "threshold": 0.472,
+      "folds": 3,
+      "val_mean_mIoU": 0.8944106656300278,
+      "val_min_mIoU": 0.8888888888888888
+    },
+    {
+      "weights": [
+        0.84,
+        0.12,
+        0.04
+      ],
+      "gamma": 1.0,
+      "threshold": 0.472,
+      "folds": 3,
+      "val_mean_mIoU": 0.8943891591206251,
+      "val_min_mIoU": 0.8885209713024282
+    },
+    {
+      "weights": [
+        0.9600000000000001,
+        0.08,
+        -0.04
+      ],
+      "gamma": 0.98,
+      "threshold": 0.472,
+      "folds": 3,
+      "val_mean_mIoU": 0.8943709027587435,
+      "val_min_mIoU": 0.8890521675238795
+    },
+    {
+      "weights": [
+        0.92,
+        0.08,
+        0.0
+      ],
+      "gamma": 1.02,
+      "threshold": 0.464,
+      "folds": 3,
+      "val_mean_mIoU": 0.8943545193141192,
+      "val_min_mIoU": 0.8892975358587716
+    },
+    {
+      "weights": [
+        0.92,
+        0.08,
+        0.0
+      ],
+      "gamma": 1.02,
+      "threshold": 0.464,
+      "folds": 3,
+      "val_mean_mIoU": 0.8943545193141192,
+      "val_min_mIoU": 0.8892975358587716
+    },
+    {
+      "weights": [
+        0.9400000000000001,
+        0.1,
+        -0.04
+      ],
+      "gamma": 1.02,
+      "threshold": 0.472,
+      "folds": 3,
+      "val_mean_mIoU": 0.894350628217539,
+      "val_min_mIoU": 0.8887661141804788
+    },
+    {
+      "weights": [
+        0.92,
+        0.12,
+        -0.04
+      ],
+      "gamma": 1.0,
+      "threshold": 0.468,
+      "folds": 3,
+      "val_mean_mIoU": 0.8943500378091435,
+      "val_min_mIoU": 0.8885619713129828
+    },
+    {
+      "weights": [
+        0.84,
+        0.12,
+        0.04
+      ],
+      "gamma": 1.0,
+      "threshold": 0.468,
+      "folds": 3,
+      "val_mean_mIoU": 0.8943405076054819,
+      "val_min_mIoU": 0.8885619713129828
+    },
+    {
+      "weights": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "gamma": 1.0,
+      "threshold": 0.472,
+      "folds": 3,
+      "val_mean_mIoU": 0.8943361279877098,
+      "val_min_mIoU": 0.8887256702166728
+    },
+    {
+      "weights": [
+        0.92,
+        0.12,
+        -0.04
+      ],
+      "gamma": 0.98,
+      "threshold": 0.464,
+      "folds": 3,
+      "val_mean_mIoU": 0.8943322376728053,
+      "val_min_mIoU": 0.8887256702166728
+    },
+    {
+      "weights": [
+        0.9400000000000001,
+        0.1,
+        -0.04
+      ],
+      "gamma": 1.0,
+      "threshold": 0.468,
+      "folds": 3,
+      "val_mean_mIoU": 0.8943298459407291,
+      "val_min_mIoU": 0.8885619713129828
+    },
+    {
+      "weights": [
+        0.9,
+        0.1,
+        0.0
+      ],
+      "gamma": 1.0,
+      "threshold": 0.468,
+      "folds": 3,
+      "val_mean_mIoU": 0.8943298459407291,
+      "val_min_mIoU": 0.8885619713129828
+    },
+    {
+      "weights": [
+        0.86,
+        0.1,
+        0.04
+      ],
+      "gamma": 1.0,
+      "threshold": 0.468,
+      "folds": 3,
+      "val_mean_mIoU": 0.8943298459407291,
+      "val_min_mIoU": 0.8885619713129828
+    },
+    {
+      "weights": [
+        0.9400000000000001,
+        0.1,
+        -0.04
+      ],
+      "gamma": 0.98,
+      "threshold": 0.468,
+      "folds": 3,
+      "val_mean_mIoU": 0.8943245138680654,
+      "val_min_mIoU": 0.889092912229159
+    },
+    {
+      "weights": [
+        0.9,
+        0.1,
+        0.0
+      ],
+      "gamma": 0.98,
+      "threshold": 0.468,
+      "folds": 3,
+      "val_mean_mIoU": 0.8943245138680654,
+      "val_min_mIoU": 0.889092912229159
+    },
+    {
+      "weights": [
+        0.9400000000000001,
+        0.1,
+        -0.04
+      ],
+      "gamma": 1.0,
+      "threshold": 0.472,
+      "folds": 3,
+      "val_mean_mIoU": 0.8943197485600165,
+      "val_min_mIoU": 0.8888888888888888
+    },
+    {
+      "weights": [
+        0.86,
+        0.1,
+        0.04
+      ],
+      "gamma": 1.02,
+      "threshold": 0.464,
+      "folds": 3,
+      "val_mean_mIoU": 0.8943197485600165,
+      "val_min_mIoU": 0.8888888888888888
+    },
+    {
+      "weights": [
+        0.84,
+        0.12,
+        0.04
+      ],
+      "gamma": 1.02,
+      "threshold": 0.468,
+      "folds": 3,
+      "val_mean_mIoU": 0.8943019765743546,
+      "val_min_mIoU": 0.889134438305709
+    },
+    {
+      "weights": [
+        0.9400000000000001,
+        0.1,
+        -0.04
+      ],
+      "gamma": 0.98,
+      "threshold": 0.472,
+      "folds": 3,
+      "val_mean_mIoU": 0.8942962668585185,
+      "val_min_mIoU": 0.8882763689819919
+    },
+    {
+      "weights": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "gamma": 1.02,
+      "threshold": 0.468,
+      "folds": 3,
+      "val_mean_mIoU": 0.8942938853643404,
+      "val_min_mIoU": 0.8886847905951506
+    },
+    {
+      "weights": [
+        0.88,
+        0.08,
+        0.04
+      ],
+      "gamma": 1.02,
+      "threshold": 0.464,
+      "folds": 3,
+      "val_mean_mIoU": 0.8942735767820068,
+      "val_min_mIoU": 0.8892975358587716
+    },
+    {
+      "weights": [
+        1.0,
+        0.04,
+        -0.04
+      ],
+      "gamma": 1.02,
+      "threshold": 0.464,
+      "folds": 3,
+      "val_mean_mIoU": 0.8942626569887054,
+      "val_min_mIoU": 0.8887256702166728
+    },
+    {
+      "weights": [
+        0.88,
+        0.12,
+        0.0
+      ],
+      "gamma": 1.0,
+      "threshold": 0.468,
+      "folds": 3,
+      "val_mean_mIoU": 0.8942596281175187,
+      "val_min_mIoU": 0.8885619713129828
+    },
+    {
+      "weights": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "gamma": 1.02,
+      "threshold": 0.464,
+      "folds": 3,
+      "val_mean_mIoU": 0.8942596258223813,
+      "val_min_mIoU": 0.8887665198237885
+    },
+    {
+      "weights": [
+        0.94,
+        0.06,
+        0.0
+      ],
+      "gamma": 1.02,
+      "threshold": 0.464,
+      "folds": 3,
+      "val_mean_mIoU": 0.8942393298780339,
+      "val_min_mIoU": 0.8883174136664217
+    },
+    {
+      "weights": [
+        0.9400000000000001,
+        0.1,
+        -0.04
+      ],
+      "gamma": 1.02,
+      "threshold": 0.464,
+      "folds": 3,
+      "val_mean_mIoU": 0.8942388302912531,
+      "val_min_mIoU": 0.8888888888888888
+    },
+    {
+      "weights": [
+        0.9,
+        0.1,
+        0.0
+      ],
+      "gamma": 1.02,
+      "threshold": 0.464,
+      "folds": 3,
+      "val_mean_mIoU": 0.8942388302912531,
+      "val_min_mIoU": 0.8888888888888888
+    },
+    {
+      "weights": [
+        0.86,
+        0.1,
+        0.04
+      ],
+      "gamma": 0.98,
+      "threshold": 0.472,
+      "folds": 3,
+      "val_mean_mIoU": 0.8942369684172817,
+      "val_min_mIoU": 0.8886438809261301
+    },
+    {
+      "weights": [
+        0.9600000000000001,
+        0.08,
+        -0.04
+      ],
+      "gamma": 1.0,
+      "threshold": 0.472,
+      "folds": 3,
+      "val_mean_mIoU": 0.8942319252231545,
+      "val_min_mIoU": 0.8889297535858771
+    },
+    {
+      "weights": [
+        0.92,
+        0.08,
+        0.0
+      ],
+      "gamma": 1.0,
+      "threshold": 0.472,
+      "folds": 3,
+      "val_mean_mIoU": 0.8942319252231545,
+      "val_min_mIoU": 0.8889297535858771
+    },
+    {
+      "weights": [
+        0.88,
+        0.08,
+        0.04
+      ],
+      "gamma": 1.0,
+      "threshold": 0.472,
+      "folds": 3,
+      "val_mean_mIoU": 0.8942319252231545,
+      "val_min_mIoU": 0.8889297535858771
+    },
+    {
+      "weights": [
+        0.92,
+        0.08,
+        0.0
+      ],
+      "gamma": 1.0,
+      "threshold": 0.472,
+      "folds": 3,
+      "val_mean_mIoU": 0.8942319252231545,
+      "val_min_mIoU": 0.8889297535858771
+    },
+    {
+      "weights": [
+        0.9600000000000001,
+        0.08,
+        -0.04
+      ],
+      "gamma": 1.0,
+      "threshold": 0.468,
+      "folds": 3,
+      "val_mean_mIoU": 0.8942309254508315,
+      "val_min_mIoU": 0.8886847905951506
+    },
+    {
+      "weights": [
+        0.92,
+        0.08,
+        0.0
+      ],
+      "gamma": 1.0,
+      "threshold": 0.468,
+      "folds": 3,
+      "val_mean_mIoU": 0.8942309254508315,
+      "val_min_mIoU": 0.8886847905951506
+    },
+    {
+      "weights": [
+        0.92,
+        0.08,
+        0.0
+      ],
+      "gamma": 1.0,
+      "threshold": 0.468,
+      "folds": 3,
+      "val_mean_mIoU": 0.8942309254508315,
+      "val_min_mIoU": 0.8886847905951506
+    },
+    {
+      "weights": [
+        0.9,
+        0.1,
+        0.0
+      ],
+      "gamma": 1.0,
+      "threshold": 0.472,
+      "folds": 3,
+      "val_mean_mIoU": 0.8942186772036389,
+      "val_min_mIoU": 0.8888888888888888
+    },
+    {
+      "weights": [
+        0.9,
+        0.1,
+        0.0
+      ],
+      "gamma": 0.98,
+      "threshold": 0.472,
+      "folds": 3,
+      "val_mean_mIoU": 0.8942058749050549,
+      "val_min_mIoU": 0.8882763689819919
+    },
+    {
+      "weights": [
+        0.86,
+        0.1,
+        0.04
+      ],
+      "gamma": 1.0,
+      "threshold": 0.472,
+      "folds": 3,
+      "val_mean_mIoU": 0.8942050456110598,
+      "val_min_mIoU": 0.888847994111152
+    },
+    {
+      "weights": [
+        0.92,
+        0.12,
+        -0.04
+      ],
+      "gamma": 0.98,
+      "threshold": 0.472,
+      "folds": 3,
+      "val_mean_mIoU": 0.8941840939161568,
+      "val_min_mIoU": 0.8882763689819919
+    },
+    {
+      "weights": [
+        0.96,
+        0.04,
+        0.0
+      ],
+      "gamma": 1.02,
+      "threshold": 0.464,
+      "folds": 3,
+      "val_mean_mIoU": 0.8941819275076339,
+      "val_min_mIoU": 0.8887256702166728
+    },
+    {
+      "weights": [
+        0.92,
+        0.08,
+        0.0
+      ],
+      "gamma": 0.98,
+      "threshold": 0.472,
+      "folds": 3,
+      "val_mean_mIoU": 0.8941717395692419,
+      "val_min_mIoU": 0.8887256702166728
+    },
+    {
+      "weights": [
+        0.92,
+        0.08,
+        0.0
+      ],
+      "gamma": 0.98,
+      "threshold": 0.472,
+      "folds": 3,
+      "val_mean_mIoU": 0.8941717395692419,
+      "val_min_mIoU": 0.8887256702166728
+    },
+    {
+      "weights": [
+        0.9600000000000001,
+        0.08,
+        -0.04
+      ],
+      "gamma": 0.98,
+      "threshold": 0.468,
+      "folds": 3,
+      "val_mean_mIoU": 0.8941638442453793,
+      "val_min_mIoU": 0.8877476155539251
+    },
+    {
+      "weights": [
+        0.92,
+        0.08,
+        0.0
+      ],
+      "gamma": 0.98,
+      "threshold": 0.468,
+      "folds": 3,
+      "val_mean_mIoU": 0.8941638442453793,
+      "val_min_mIoU": 0.8877476155539251
+    },
+    {
+      "weights": [
+        0.92,
+        0.08,
+        0.0
+      ],
+      "gamma": 0.98,
+      "threshold": 0.468,
+      "folds": 3,
+      "val_mean_mIoU": 0.8941638442453793,
+      "val_min_mIoU": 0.8877476155539251
+    },
+    {
+      "weights": [
+        0.98,
+        0.06,
+        -0.04
+      ],
+      "gamma": 1.02,
+      "threshold": 0.464,
+      "folds": 3,
+      "val_mean_mIoU": 0.8941584310042452,
+      "val_min_mIoU": 0.8883174136664217
+    },
+    {
+      "weights": [
+        0.9600000000000001,
+        0.08,
+        -0.04
+      ],
+      "gamma": 1.0,
+      "threshold": 0.464,
+      "folds": 3,
+      "val_mean_mIoU": 0.894153317793613,
+      "val_min_mIoU": 0.8883994126284875
+    },
+    {
+      "weights": [
+        0.86,
+        0.1,
+        0.04
+      ],
+      "gamma": 1.0,
+      "threshold": 0.464,
+      "folds": 3,
+      "val_mean_mIoU": 0.8941524356575133,
+      "val_min_mIoU": 0.8883584282041865
+    },
+    {
+      "weights": [
+        0.88,
+        0.12,
+        0.0
+      ],
+      "gamma": 0.98,
+      "threshold": 0.464,
+      "folds": 3,
+      "val_mean_mIoU": 0.8941522223964079,
+      "val_min_mIoU": 0.8887256702166728
+    },
+    {
+      "weights": [
+        0.9600000000000001,
+        0.08,
+        -0.04
+      ],
+      "gamma": 1.02,
+      "threshold": 0.464,
+      "folds": 3,
+      "val_mean_mIoU": 0.8941509826910421,
+      "val_min_mIoU": 0.8889297535858771
+    },
+    {
+      "weights": [
+        0.98,
+        0.06,
+        -0.04
+      ],
+      "gamma": 1.0,
+      "threshold": 0.468,
+      "folds": 3,
+      "val_mean_mIoU": 0.8941396563188458,
+      "val_min_mIoU": 0.8883584282041865
+    },
+    {
+      "weights": [
+        1.0,
+        0.04,
+        -0.04
+      ],
+      "gamma": 1.0,
+      "threshold": 0.468,
+      "folds": 3,
+      "val_mean_mIoU": 0.8941339313657656,
+      "val_min_mIoU": 0.8887665198237885
+    },
+    {
+      "weights": [
+        0.98,
+        0.06,
+        -0.04
+      ],
+      "gamma": 1.0,
+      "threshold": 0.464,
+      "folds": 3,
+      "val_mean_mIoU": 0.8941255823808589,
+      "val_min_mIoU": 0.8884403669724771
+    },
+    {
+      "weights": [
+        0.9,
+        0.1,
+        0.0
+      ],
+      "gamma": 1.0,
+      "threshold": 0.464,
+      "folds": 3,
+      "val_mean_mIoU": 0.8941108139749576,
+      "val_min_mIoU": 0.8879911861917004
+    },
+    {
+      "weights": [
+        0.88,
+        0.08,
+        0.04
+      ],
+      "gamma": 1.0,
+      "threshold": 0.468,
+      "folds": 3,
+      "val_mean_mIoU": 0.8941084664745885,
+      "val_min_mIoU": 0.8883174136664217
+    },
+    {
+      "weights": [
+        1.0,
+        0.04,
+        -0.04
+      ],
+      "gamma": 1.0,
+      "threshold": 0.472,
+      "folds": 3,
+      "val_mean_mIoU": 0.8940986019696613,
+      "val_min_mIoU": 0.8879911861917004
+    },
+    {
+      "weights": [
+        0.92,
+        0.12,
+        -0.04
+      ],
+      "gamma": 1.0,
+      "threshold": 0.464,
+      "folds": 3,
+      "val_mean_mIoU": 0.8940937631623909,
+      "val_min_mIoU": 0.8882763689819919
+    },
+    {
+      "weights": [
+        0.88,
+        0.12,
+        0.0
+      ],
+      "gamma": 0.98,
+      "threshold": 0.472,
+      "folds": 3,
+      "val_mean_mIoU": 0.8940937631623909,
+      "val_min_mIoU": 0.8882763689819919
+    },
+    {
+      "weights": [
+        0.88,
+        0.12,
+        0.0
+      ],
+      "gamma": 1.0,
+      "threshold": 0.464,
+      "folds": 3,
+      "val_mean_mIoU": 0.8940937631623909,
+      "val_min_mIoU": 0.8882763689819919
+    },
+    {
+      "weights": [
+        0.9199999999999999,
+        0.04,
+        0.04
+      ],
+      "gamma": 1.02,
+      "threshold": 0.464,
+      "folds": 3,
+      "val_mean_mIoU": 0.8940915419913619,
+      "val_min_mIoU": 0.8887256702166728
+    },
+    {
+      "weights": [
+        0.88,
+        0.08,
+        0.04
+      ],
+      "gamma": 0.98,
+      "threshold": 0.468,
+      "folds": 3,
+      "val_mean_mIoU": 0.8940831002025463,
+      "val_min_mIoU": 0.8877476155539251
+    },
+    {
+      "weights": [
+        0.88,
+        0.08,
+        0.04
+      ],
+      "gamma": 0.98,
+      "threshold": 0.472,
+      "folds": 3,
+      "val_mean_mIoU": 0.894081463528228,
+      "val_min_mIoU": 0.8887256702166728
+    },
+    {
+      "weights": [
+        0.9400000000000001,
+        0.1,
+        -0.04
+      ],
+      "gamma": 1.0,
+      "threshold": 0.464,
+      "folds": 3,
+      "val_mean_mIoU": 0.8940782472304541,
+      "val_min_mIoU": 0.8876239441792141
+    },
+    {
+      "weights": [
+        0.94,
+        0.06,
+        0.0
+      ],
+      "gamma": 0.98,
+      "threshold": 0.472,
+      "folds": 3,
+      "val_mean_mIoU": 0.8940733309712133,
+      "val_min_mIoU": 0.8880733944954129
+    },
+    {
+      "weights": [
+        0.86,
+        0.1,
+        0.04
+      ],
+      "gamma": 0.98,
+      "threshold": 0.468,
+      "folds": 3,
+      "val_mean_mIoU": 0.8940728607750655,
+      "val_min_mIoU": 0.889092912229159
+    },
+    {
+      "weights": [
+        0.9,
+        0.1,
+        0.0
+      ],
+      "gamma": 1.02,
+      "threshold": 0.472,
+      "folds": 3,
+      "val_mean_mIoU": 0.8940605308674728,
+      "val_min_mIoU": 0.8884388807069219
+    },
+    {
+      "weights": [
+        0.86,
+        0.1,
+        0.04
+      ],
+      "gamma": 1.02,
+      "threshold": 0.472,
+      "folds": 3,
+      "val_mean_mIoU": 0.8940605308674728,
+      "val_min_mIoU": 0.8884388807069219
+    },
+    {
+      "weights": [
+        0.96,
+        0.04,
+        0.0
+      ],
+      "gamma": 1.0,
+      "threshold": 0.468,
+      "folds": 3,
+      "val_mean_mIoU": 0.8940532839067159,
+      "val_min_mIoU": 0.8887665198237885
+    },
+    {
+      "weights": [
+        0.9199999999999999,
+        0.04,
+        0.04
+      ],
+      "gamma": 1.0,
+      "threshold": 0.468,
+      "folds": 3,
+      "val_mean_mIoU": 0.8940532839067159,
+      "val_min_mIoU": 0.8887665198237885
+    },
+    {
+      "weights": [
+        0.96,
+        0.04,
+        0.0
+      ],
+      "gamma": 1.0,
+      "threshold": 0.472,
+      "folds": 3,
+      "val_mean_mIoU": 0.8940504441339686,
+      "val_min_mIoU": 0.8883584282041865
+    },
+    {
+      "weights": [
+        0.92,
+        0.12,
+        -0.04
+      ],
+      "gamma": 0.98,
+      "threshold": 0.468,
+      "folds": 3,
+      "val_mean_mIoU": 0.8940481168971833,
+      "val_min_mIoU": 0.8879911861917004
+    },
+    {
+      "weights": [
+        0.88,
+        0.12,
+        0.0
+      ],
+      "gamma": 0.98,
+      "threshold": 0.468,
+      "folds": 3,
+      "val_mean_mIoU": 0.8940481168971833,
+      "val_min_mIoU": 0.8879911861917004
+    },
+    {
+      "weights": [
+        0.84,
+        0.12,
+        0.04
+      ],
+      "gamma": 0.98,
+      "threshold": 0.464,
+      "folds": 3,
+      "val_mean_mIoU": 0.8940298083922458,
+      "val_min_mIoU": 0.8883584282041865
+    },
+    {
+      "weights": [
+        0.84,
+        0.12,
+        0.04
+      ],
+      "gamma": 0.98,
+      "threshold": 0.472,
+      "folds": 3,
+      "val_mean_mIoU": 0.8940129466297203,
+      "val_min_mIoU": 0.8882763689819919
+    },
+    {
+      "weights": [
+        0.84,
+        0.12,
+        0.04
+      ],
+      "gamma": 1.0,
+      "threshold": 0.464,
+      "folds": 3,
+      "val_mean_mIoU": 0.8940129466297203,
+      "val_min_mIoU": 0.8882763689819919
+    },
+    {
+      "weights": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "gamma": 1.02,
+      "threshold": 0.472,
+      "folds": 3,
+      "val_mean_mIoU": 0.893980922312488,
+      "val_min_mIoU": 0.8881941890400883
+    },
+    {
+      "weights": [
+        0.9400000000000001,
+        0.1,
+        -0.04
+      ],
+      "gamma": 1.02,
+      "threshold": 0.468,
+      "folds": 3,
+      "val_mean_mIoU": 0.8939791585757453,
+      "val_min_mIoU": 0.8884388807069219
+    },
+    {
+      "weights": [
+        0.92,
+        0.08,
+        0.0
+      ],
+      "gamma": 1.0,
+      "threshold": 0.464,
+      "folds": 3,
+      "val_mean_mIoU": 0.8939727109988329,
+      "val_min_mIoU": 0.8883994126284875
+    },
+    {
+      "weights": [
+        0.92,
+        0.08,
+        0.0
+      ],
+      "gamma": 1.0,
+      "threshold": 0.464,
+      "folds": 3,
+      "val_mean_mIoU": 0.8939727109988329,
+      "val_min_mIoU": 0.8883994126284875
+    },
+    {
+      "weights": [
+        0.84,
+        0.12,
+        0.04
+      ],
+      "gamma": 0.98,
+      "threshold": 0.468,
+      "folds": 3,
+      "val_mean_mIoU": 0.893967406717215,
+      "val_min_mIoU": 0.8879911861917004
+    },
+    {
+      "weights": [
+        0.88,
+        0.08,
+        0.04
+      ],
+      "gamma": 1.02,
+      "threshold": 0.468,
+      "folds": 3,
+      "val_mean_mIoU": 0.893962669369313,
+      "val_min_mIoU": 0.8881530537159676
+    },
+    {
+      "weights": [
+        0.98,
+        0.06,
+        -0.04
+      ],
+      "gamma": 1.02,
+      "threshold": 0.468,
+      "folds": 3,
+      "val_mean_mIoU": 0.8939596292671809,
+      "val_min_mIoU": 0.8878676470588235
+    },
+    {
+      "weights": [
+        0.96,
+        0.04,
+        0.0
+      ],
+      "gamma": 1.0,
+      "threshold": 0.464,
+      "folds": 3,
+      "val_mean_mIoU": 0.8939569240520092,
+      "val_min_mIoU": 0.8891743119266055
+    },
+    {
+      "weights": [
+        0.94,
+        0.06,
+        0.0
+      ],
+      "gamma": 1.0,
+      "threshold": 0.464,
+      "folds": 3,
+      "val_mean_mIoU": 0.8939546282723131,
+      "val_min_mIoU": 0.8884403669724771
+    },
+    {
+      "weights": [
+        0.98,
+        0.06,
+        -0.04
+      ],
+      "gamma": 0.98,
+      "threshold": 0.472,
+      "folds": 3,
+      "val_mean_mIoU": 0.8939510068121918,
+      "val_min_mIoU": 0.8877064220183486
+    },
+    {
+      "weights": [
+        0.8999999999999999,
+        0.06,
+        0.04
+      ],
+      "gamma": 1.02,
+      "threshold": 0.464,
+      "folds": 3,
+      "val_mean_mIoU": 0.8939361675676613,
+      "val_min_mIoU": 0.8879500367376929
+    },
+    {
+      "weights": [
+        0.9400000000000001,
+        0.1,
+        -0.04
+      ],
+      "gamma": 0.98,
+      "threshold": 0.464,
+      "folds": 3,
+      "val_mean_mIoU": 0.893935166943027,
+      "val_min_mIoU": 0.8881144534115921
+    },
+    {
+      "weights": [
+        0.9,
+        0.1,
+        0.0
+      ],
+      "gamma": 0.98,
+      "threshold": 0.464,
+      "folds": 3,
+      "val_mean_mIoU": 0.893935166943027,
+      "val_min_mIoU": 0.8881144534115921
+    },
+    {
+      "weights": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "gamma": 0.98,
+      "threshold": 0.472,
+      "folds": 3,
+      "val_mean_mIoU": 0.8939247239594393,
+      "val_min_mIoU": 0.8888888888888888
+    },
+    {
+      "weights": [
+        0.98,
+        0.06,
+        -0.04
+      ],
+      "gamma": 1.02,
+      "threshold": 0.472,
+      "folds": 3,
+      "val_mean_mIoU": 0.8939171495067576,
+      "val_min_mIoU": 0.8878264067671938
+    },
+    {
+      "weights": [
+        0.8999999999999999,
+        0.06,
+        0.04
+      ],
+      "gamma": 0.98,
+      "threshold": 0.472,
+      "folds": 3,
+      "val_mean_mIoU": 0.8939023093019909,
+      "val_min_mIoU": 0.8880733944954129
+    },
+    {
+      "weights": [
+        0.92,
+        0.08,
+        0.0
+      ],
+      "gamma": 0.98,
+      "threshold": 0.464,
+      "folds": 3,
+      "val_mean_mIoU": 0.8938998698757006,
+      "val_min_mIoU": 0.8881964809384164
+    },
+    {
+      "weights": [
+        0.92,
+        0.08,
+        0.0
+      ],
+      "gamma": 0.98,
+      "threshold": 0.464,
+      "folds": 3,
+      "val_mean_mIoU": 0.8938998698757006,
+      "val_min_mIoU": 0.8881964809384164
+    },
+    {
+      "weights": [
+        0.94,
+        0.06,
+        0.0
+      ],
+      "gamma": 1.0,
+      "threshold": 0.468,
+      "folds": 3,
+      "val_mean_mIoU": 0.8938771823718105,
+      "val_min_mIoU": 0.8883584282041865
+    },
+    {
+      "weights": [
+        0.8999999999999999,
+        0.06,
+        0.04
+      ],
+      "gamma": 1.0,
+      "threshold": 0.468,
+      "folds": 3,
+      "val_mean_mIoU": 0.8938771823718105,
+      "val_min_mIoU": 0.8883584282041865
+    },
+    {
+      "weights": [
+        0.9,
+        0.1,
+        0.0
+      ],
+      "gamma": 1.02,
+      "threshold": 0.468,
+      "folds": 3,
+      "val_mean_mIoU": 0.8938701610440672,
+      "val_min_mIoU": 0.8881118881118881
+    },
+    {
+      "weights": [
+        0.9199999999999999,
+        0.04,
+        0.04
+      ],
+      "gamma": 0.98,
+      "threshold": 0.472,
+      "folds": 3,
+      "val_mean_mIoU": 0.8938667507997035,
+      "val_min_mIoU": 0.8891743119266055
+    },
+    {
+      "weights": [
+        0.96,
+        0.04,
+        0.0
+      ],
+      "gamma": 0.98,
+      "threshold": 0.472,
+      "folds": 3,
+      "val_mean_mIoU": 0.8938537325873636,
+      "val_min_mIoU": 0.8891336270190896
+    },
+    {
+      "weights": [
+        0.9600000000000001,
+        0.08,
+        -0.04
+      ],
+      "gamma": 1.02,
+      "threshold": 0.468,
+      "folds": 3,
+      "val_mean_mIoU": 0.8938507596171782,
+      "val_min_mIoU": 0.8877851361295069
+    },
+    {
+      "weights": [
+        1.0,
+        0.04,
+        -0.04
+      ],
+      "gamma": 0.98,
+      "threshold": 0.472,
+      "folds": 3,
+      "val_mean_mIoU": 0.8938446201410781,
+      "val_min_mIoU": 0.8891336270190896
+    },
+    {
+      "weights": [
+        0.9199999999999999,
+        0.04,
+        0.04
+      ],
+      "gamma": 1.0,
+      "threshold": 0.472,
+      "folds": 3,
+      "val_mean_mIoU": 0.8938376446135344,
+      "val_min_mIoU": 0.8879911861917004
+    },
+    {
+      "weights": [
+        0.9600000000000001,
+        0.08,
+        -0.04
+      ],
+      "gamma": 1.02,
+      "threshold": 0.472,
+      "folds": 3,
+      "val_mean_mIoU": 0.8938371517673754,
+      "val_min_mIoU": 0.8880706921944035
+    },
+    {
+      "weights": [
+        0.9600000000000001,
+        0.08,
+        -0.04
+      ],
+      "gamma": 0.98,
+      "threshold": 0.464,
+      "folds": 3,
+      "val_mean_mIoU": 0.8938102400468936,
+      "val_min_mIoU": 0.8881964809384164
+    },
+    {
+      "weights": [
+        0.8999999999999999,
+        0.06,
+        0.04
+      ],
+      "gamma": 1.0,
+      "threshold": 0.464,
+      "folds": 3,
+      "val_mean_mIoU": 0.8937837722210292,
+      "val_min_mIoU": 0.8884403669724771
+    },
+    {
+      "weights": [
+        0.86,
+        0.1,
+        0.04
+      ],
+      "gamma": 1.02,
+      "threshold": 0.468,
+      "folds": 3,
+      "val_mean_mIoU": 0.8937797884754896,
+      "val_min_mIoU": 0.8881118881118881
+    },
+    {
+      "weights": [
+        0.94,
+        0.06,
+        0.0
+      ],
+      "gamma": 1.0,
+      "threshold": 0.472,
+      "folds": 3,
+      "val_mean_mIoU": 0.893771364845832,
+      "val_min_mIoU": 0.8872152828802351
+    },
+    {
+      "weights": [
+        0.94,
+        0.06,
+        0.0
+      ],
+      "gamma": 1.02,
+      "threshold": 0.468,
+      "folds": 3,
+      "val_mean_mIoU": 0.8937699242725844,
+      "val_min_mIoU": 0.8875413450937155
+    },
+    {
+      "weights": [
+        0.8999999999999999,
+        0.06,
+        0.04
+      ],
+      "gamma": 1.02,
+      "threshold": 0.468,
+      "folds": 3,
+      "val_mean_mIoU": 0.8937699242725844,
+      "val_min_mIoU": 0.8875413450937155
+    },
+    {
+      "weights": [
+        0.92,
+        0.08,
+        0.0
+      ],
+      "gamma": 1.02,
+      "threshold": 0.468,
+      "folds": 3,
+      "val_mean_mIoU": 0.8937496882608006,
+      "val_min_mIoU": 0.8877851361295069
+    },
+    {
+      "weights": [
+        0.92,
+        0.08,
+        0.0
+      ],
+      "gamma": 1.02,
+      "threshold": 0.468,
+      "folds": 3,
+      "val_mean_mIoU": 0.8937496882608006,
+      "val_min_mIoU": 0.8877851361295069
+    },
+    {
+      "weights": [
+        0.88,
+        0.08,
+        0.04
+      ],
+      "gamma": 0.98,
+      "threshold": 0.464,
+      "folds": 3,
+      "val_mean_mIoU": 0.8937387240668536,
+      "val_min_mIoU": 0.8881964809384164
+    },
+    {
+      "weights": [
+        1.0,
+        0.04,
+        -0.04
+      ],
+      "gamma": 1.02,
+      "threshold": 0.468,
+      "folds": 3,
+      "val_mean_mIoU": 0.8937319340328785,
+      "val_min_mIoU": 0.8865222181417555
+    },
+    {
+      "weights": [
+        0.88,
+        0.08,
+        0.04
+      ],
+      "gamma": 1.0,
+      "threshold": 0.464,
+      "folds": 3,
+      "val_mean_mIoU": 0.8937305804238108,
+      "val_min_mIoU": 0.8883994126284875
+    },
+    {
+      "weights": [
+        0.92,
+        0.08,
+        0.0
+      ],
+      "gamma": 1.02,
+      "threshold": 0.472,
+      "folds": 3,
+      "val_mean_mIoU": 0.8937281994066596,
+      "val_min_mIoU": 0.8877438351122562
+    },
+    {
+      "weights": [
+        0.92,
+        0.08,
+        0.0
+      ],
+      "gamma": 1.02,
+      "threshold": 0.472,
+      "folds": 3,
+      "val_mean_mIoU": 0.8937281994066596,
+      "val_min_mIoU": 0.8877438351122562
+    },
+    {
+      "weights": [
+        0.98,
+        0.06,
+        -0.04
+      ],
+      "gamma": 1.0,
+      "threshold": 0.472,
+      "folds": 3,
+      "val_mean_mIoU": 0.8936809616217017,
+      "val_min_mIoU": 0.8872152828802351
+    },
+    {
+      "weights": [
+        0.8999999999999999,
+        0.06,
+        0.04
+      ],
+      "gamma": 1.0,
+      "threshold": 0.472,
+      "folds": 3,
+      "val_mean_mIoU": 0.8936809616217017,
+      "val_min_mIoU": 0.8872152828802351
+    },
+    {
+      "weights": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "gamma": 1.0,
+      "threshold": 0.468,
+      "folds": 3,
+      "val_mean_mIoU": 0.8936779442646811,
+      "val_min_mIoU": 0.8881144534115921
+    },
+    {
+      "weights": [
+        0.9199999999999999,
+        0.04,
+        0.04
+      ],
+      "gamma": 1.0,
+      "threshold": 0.464,
+      "folds": 3,
+      "val_mean_mIoU": 0.893677500918124,
+      "val_min_mIoU": 0.8888481291269259
+    },
+    {
+      "weights": [
+        1.0,
+        0.04,
+        -0.04
+      ],
+      "gamma": 1.0,
+      "threshold": 0.464,
+      "folds": 3,
+      "val_mean_mIoU": 0.8936553402353736,
+      "val_min_mIoU": 0.8888073394495413
+    },
+    {
+      "weights": [
+        1.0,
+        0.04,
+        -0.04
+      ],
+      "gamma": 0.98,
+      "threshold": 0.468,
+      "folds": 3,
+      "val_mean_mIoU": 0.8936497197845897,
+      "val_min_mIoU": 0.8888888888888888
+    },
+    {
+      "weights": [
+        0.94,
+        0.06,
+        0.0
+      ],
+      "gamma": 1.02,
+      "threshold": 0.472,
+      "folds": 3,
+      "val_mean_mIoU": 0.8936464379457482,
+      "val_min_mIoU": 0.8875
+    },
+    {
+      "weights": [
+        0.8999999999999999,
+        0.06,
+        0.04
+      ],
+      "gamma": 1.02,
+      "threshold": 0.472,
+      "folds": 3,
+      "val_mean_mIoU": 0.8936464379457482,
+      "val_min_mIoU": 0.8875
+    },
+    {
+      "weights": [
+        0.96,
+        0.04,
+        0.0
+      ],
+      "gamma": 1.02,
+      "threshold": 0.468,
+      "folds": 3,
+      "val_mean_mIoU": 0.8936414452782689,
+      "val_min_mIoU": 0.8865222181417555
+    },
+    {
+      "weights": [
+        0.88,
+        0.08,
+        0.04
+      ],
+      "gamma": 1.02,
+      "threshold": 0.472,
+      "folds": 3,
+      "val_mean_mIoU": 0.893637747805479,
+      "val_min_mIoU": 0.8877438351122562
+    },
+    {
+      "weights": [
+        0.86,
+        0.1,
+        0.04
+      ],
+      "gamma": 0.98,
+      "threshold": 0.464,
+      "folds": 3,
+      "val_mean_mIoU": 0.8936374537112645,
+      "val_min_mIoU": 0.8874633431085044
+    },
+    {
+      "weights": [
+        0.96,
+        0.04,
+        0.0
+      ],
+      "gamma": 0.98,
+      "threshold": 0.468,
+      "folds": 3,
+      "val_mean_mIoU": 0.8935585726836229,
+      "val_min_mIoU": 0.8888888888888888
+    },
+    {
+      "weights": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "gamma": 1.0,
+      "threshold": 0.464,
+      "folds": 3,
+      "val_mean_mIoU": 0.8935186446320676,
+      "val_min_mIoU": 0.8879120879120879
+    },
+    {
+      "weights": [
+        0.98,
+        0.06,
+        -0.04
+      ],
+      "gamma": 0.98,
+      "threshold": 0.464,
+      "folds": 3,
+      "val_mean_mIoU": 0.8934883950594227,
+      "val_min_mIoU": 0.8878710150238183
+    },
+    {
+      "weights": [
+        0.98,
+        0.06,
+        -0.04
+      ],
+      "gamma": 0.98,
+      "threshold": 0.468,
+      "folds": 3,
+      "val_mean_mIoU": 0.8934787343587445,
+      "val_min_mIoU": 0.8885221855518886
+    },
+    {
+      "weights": [
+        0.9199999999999999,
+        0.04,
+        0.04
+      ],
+      "gamma": 0.98,
+      "threshold": 0.468,
+      "folds": 3,
+      "val_mean_mIoU": 0.8934685324662687,
+      "val_min_mIoU": 0.8888888888888888
+    },
+    {
+      "weights": [
+        1.0,
+        0.04,
+        -0.04
+      ],
+      "gamma": 1.02,
+      "threshold": 0.472,
+      "folds": 3,
+      "val_mean_mIoU": 0.8934455958418258,
+      "val_min_mIoU": 0.886438809261301
+    },
+    {
+      "weights": [
+        0.94,
+        0.06,
+        0.0
+      ],
+      "gamma": 0.98,
+      "threshold": 0.468,
+      "folds": 3,
+      "val_mean_mIoU": 0.8933792688061596,
+      "val_min_mIoU": 0.8881964809384164
+    },
+    {
+      "weights": [
+        0.94,
+        0.06,
+        0.0
+      ],
+      "gamma": 0.98,
+      "threshold": 0.464,
+      "folds": 3,
+      "val_mean_mIoU": 0.893336682841625,
+      "val_min_mIoU": 0.8878710150238183
+    },
+    {
+      "weights": [
+        0.9199999999999999,
+        0.04,
+        0.04
+      ],
+      "gamma": 1.02,
+      "threshold": 0.468,
+      "folds": 3,
+      "val_mean_mIoU": 0.8932994342776889,
+      "val_min_mIoU": 0.8865222181417555
+    },
+    {
+      "weights": [
+        0.8999999999999999,
+        0.06,
+        0.04
+      ],
+      "gamma": 0.98,
+      "threshold": 0.468,
+      "folds": 3,
+      "val_mean_mIoU": 0.8932988089812689,
+      "val_min_mIoU": 0.8881964809384164
+    },
+    {
+      "weights": [
+        0.9199999999999999,
+        0.04,
+        0.04
+      ],
+      "gamma": 1.02,
+      "threshold": 0.472,
+      "folds": 3,
+      "val_mean_mIoU": 0.8932762279925704,
+      "val_min_mIoU": 0.8861131520940485
+    },
+    {
+      "weights": [
+        0.8999999999999999,
+        0.06,
+        0.04
+      ],
+      "gamma": 0.98,
+      "threshold": 0.464,
+      "folds": 3,
+      "val_mean_mIoU": 0.8932563618802147,
+      "val_min_mIoU": 0.8878710150238183
+    },
+    {
+      "weights": [
+        0.96,
+        0.04,
+        0.0
+      ],
+      "gamma": 1.02,
+      "threshold": 0.472,
+      "folds": 3,
+      "val_mean_mIoU": 0.8932560475124595,
+      "val_min_mIoU": 0.8861131520940485
+    },
+    {
+      "weights": [
+        1.0,
+        0.04,
+        -0.04
+      ],
+      "gamma": 0.98,
+      "threshold": 0.464,
+      "folds": 3,
+      "val_mean_mIoU": 0.8930501971355523,
+      "val_min_mIoU": 0.8882374496152436
+    },
+    {
+      "weights": [
+        0.96,
+        0.04,
+        0.0
+      ],
+      "gamma": 0.98,
+      "threshold": 0.464,
+      "folds": 3,
+      "val_mean_mIoU": 0.8928004768340297,
+      "val_min_mIoU": 0.8882374496152436
+    },
+    {
+      "weights": [
+        0.9199999999999999,
+        0.04,
+        0.04
+      ],
+      "gamma": 0.98,
+      "threshold": 0.464,
+      "folds": 3,
+      "val_mean_mIoU": 0.8926920229329779,
+      "val_min_mIoU": 0.8879120879120879
+    },
+    {
+      "weights": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "gamma": 0.98,
+      "threshold": 0.468,
+      "folds": 3,
+      "val_mean_mIoU": 0.8924001276466976,
+      "val_min_mIoU": 0.8866959064327485
+    },
+    {
+      "weights": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "gamma": 0.98,
+      "threshold": 0.464,
+      "folds": 3,
+      "val_mean_mIoU": 0.8918206203653704,
+      "val_min_mIoU": 0.8861313868613139
+    }
+  ],
+  "fold_rows": [
+    {
+      "fold": 0,
+      "weights": [
+        1.0,
+        0.04,
+        -0.04
+      ],
+      "gamma": 0.98,
+      "threshold": 0.464,
+      "mIoU": 0.8933534743202417
+    },
+    {
+      "fold": 1,
+      "weights": [
+        1.0,
+        0.04,
+        -0.04
+      ],
+      "gamma": 0.98,
+      "threshold": 0.464,
+      "mIoU": 0.8975596674711719
+    },
+    {
+      "fold": 2,
+      "weights": [
+        1.0,
+        0.04,
+        -0.04
+      ],
+      "gamma": 0.98,
+      "threshold": 0.464,
+      "mIoU": 0.8882374496152436
+    },
+    {
+      "fold": 0,
+      "weights": [
+        1.0,
+        0.04,
+        -0.04
+      ],
+      "gamma": 0.98,
+      "threshold": 0.468,
+      "mIoU": 0.8935912938331319
+    },
+    {
+      "fold": 1,
+      "weights": [
+        1.0,
+        0.04,
+        -0.04
+      ],
+      "gamma": 0.98,
+      "threshold": 0.468,
+      "mIoU": 0.8984689766317486
+    },
+    {
+      "fold": 2,
+      "weights": [
+        1.0,
+        0.04,
+        -0.04
+      ],
+      "gamma": 0.98,
+      "threshold": 0.468,
+      "mIoU": 0.8888888888888888
+    },
+    {
+      "fold": 0,
+      "weights": [
+        1.0,
+        0.04,
+        -0.04
+      ],
+      "gamma": 0.98,
+      "threshold": 0.472,
+      "mIoU": 0.8940677966101694
+    },
+    {
+      "fold": 1,
+      "weights": [
+        1.0,
+        0.04,
+        -0.04
+      ],
+      "gamma": 0.98,
+      "threshold": 0.472,
+      "mIoU": 0.8983324367939752
+    },
+    {
+      "fold": 2,
+      "weights": [
+        1.0,
+        0.04,
+        -0.04
+      ],
+      "gamma": 0.98,
+      "threshold": 0.472,
+      "mIoU": 0.8891336270190896
+    },
+    {
+      "fold": 0,
+      "weights": [
+        1.0,
+        0.04,
+        -0.04
+      ],
+      "gamma": 1.0,
+      "threshold": 0.464,
+      "mIoU": 0.8940677966101694
+    },
+    {
+      "fold": 1,
+      "weights": [
+        1.0,
+        0.04,
+        -0.04
+      ],
+      "gamma": 1.0,
+      "threshold": 0.464,
+      "mIoU": 0.8980908846464103
+    },
+    {
+      "fold": 2,
+      "weights": [
+        1.0,
+        0.04,
+        -0.04
+      ],
+      "gamma": 1.0,
+      "threshold": 0.464,
+      "mIoU": 0.8888073394495413
+    },
+    {
+      "fold": 0,
+      "weights": [
+        1.0,
+        0.04,
+        -0.04
+      ],
+      "gamma": 1.0,
+      "threshold": 0.468,
+      "mIoU": 0.8945774007876401
+    },
+    {
+      "fold": 1,
+      "weights": [
+        1.0,
+        0.04,
+        -0.04
+      ],
+      "gamma": 1.0,
+      "threshold": 0.468,
+      "mIoU": 0.8990578734858681
+    },
+    {
+      "fold": 2,
+      "weights": [
+        1.0,
+        0.04,
+        -0.04
+      ],
+      "gamma": 1.0,
+      "threshold": 0.468,
+      "mIoU": 0.8887665198237885
+    },
+    {
+      "fold": 0,
+      "weights": [
+        1.0,
+        0.04,
+        -0.04
+      ],
+      "gamma": 1.0,
+      "threshold": 0.472,
+      "mIoU": 0.894816611094271
+    },
+    {
+      "fold": 1,
+      "weights": [
+        1.0,
+        0.04,
+        -0.04
+      ],
+      "gamma": 1.0,
+      "threshold": 0.472,
+      "mIoU": 0.8994880086230127
+    },
+    {
+      "fold": 2,
+      "weights": [
+        1.0,
+        0.04,
+        -0.04
+      ],
+      "gamma": 1.0,
+      "threshold": 0.472,
+      "mIoU": 0.8879911861917004
+    },
+    {
+      "fold": 0,
+      "weights": [
+        1.0,
+        0.04,
+        -0.04
+      ],
+      "gamma": 1.02,
+      "threshold": 0.464,
+      "mIoU": 0.894816611094271
+    },
+    {
+      "fold": 1,
+      "weights": [
+        1.0,
+        0.04,
+        -0.04
+      ],
+      "gamma": 1.02,
+      "threshold": 0.464,
+      "mIoU": 0.8992456896551724
+    },
+    {
+      "fold": 2,
+      "weights": [
+        1.0,
+        0.04,
+        -0.04
+      ],
+      "gamma": 1.02,
+      "threshold": 0.464,
+      "mIoU": 0.8887256702166728
+    },
+    {
+      "fold": 0,
+      "weights": [
+        1.0,
+        0.04,
+        -0.04
+      ],
+      "gamma": 1.02,
+      "threshold": 0.468,
+      "mIoU": 0.8950242718446602
+    },
+    {
+      "fold": 1,
+      "weights": [
+        1.0,
+        0.04,
+        -0.04
+      ],
+      "gamma": 1.02,
+      "threshold": 0.468,
+      "mIoU": 0.8996493121122201
+    },
+    {
+      "fold": 2,
+      "weights": [
+        1.0,
+        0.04,
+        -0.04
+      ],
+      "gamma": 1.02,
+      "threshold": 0.468,
+      "mIoU": 0.8865222181417555
+    },
+    {
+      "fold": 0,
+      "weights": [
+        1.0,
+        0.04,
+        -0.04
+      ],
+      "gamma": 1.02,
+      "threshold": 0.472,
+      "mIoU": 0.8941140776699029
+    },
+    {
+      "fold": 1,
+      "weights": [
+        1.0,
+        0.04,
+        -0.04
+      ],
+      "gamma": 1.02,
+      "threshold": 0.472,
+      "mIoU": 0.8997839005942734
+    },
+    {
+      "fold": 2,
+      "weights": [
+        1.0,
+        0.04,
+        -0.04
+      ],
+      "gamma": 1.02,
+      "threshold": 0.472,
+      "mIoU": 0.886438809261301
+    },
+    {
+      "fold": 0,
+      "weights": [
+        0.96,
+        0.04,
+        0.0
+      ],
+      "gamma": 0.98,
+      "threshold": 0.464,
+      "mIoU": 0.8933534743202417
+    },
+    {
+      "fold": 1,
+      "weights": [
+        0.96,
+        0.04,
+        0.0
+      ],
+      "gamma": 0.98,
+      "threshold": 0.464,
+      "mIoU": 0.8968105065666041
+    },
+    {
+      "fold": 2,
+      "weights": [
+        0.96,
+        0.04,
+        0.0
+      ],
+      "gamma": 0.98,
+      "threshold": 0.464,
+      "mIoU": 0.8882374496152436
+    },
+    {
+      "fold": 0,
+      "weights": [
+        0.96,
+        0.04,
+        0.0
+      ],
+      "gamma": 0.98,
+      "threshold": 0.468,
+      "mIoU": 0.8935591170244935
+    },
+    {
+      "fold": 1,
+      "weights": [
+        0.96,
+        0.04,
+        0.0
+      ],
+      "gamma": 0.98,
+      "threshold": 0.468,
+      "mIoU": 0.8982277121374865
+    },
+    {
+      "fold": 2,
+      "weights": [
+        0.96,
+        0.04,
+        0.0
+      ],
+      "gamma": 0.98,
+      "threshold": 0.468,
+      "mIoU": 0.8888888888888888
+    },
+    {
+      "fold": 0,
+      "weights": [
+        0.96,
+        0.04,
+        0.0
+      ],
+      "gamma": 0.98,
+      "threshold": 0.472,
+      "mIoU": 0.8940677966101694
+    },
+    {
+      "fold": 1,
+      "weights": [
+        0.96,
+        0.04,
+        0.0
+      ],
+      "gamma": 0.98,
+      "threshold": 0.472,
+      "mIoU": 0.8983597741328314
+    },
+    {
+      "fold": 2,
+      "weights": [
+        0.96,
+        0.04,
+        0.0
+      ],
+      "gamma": 0.98,
+      "threshold": 0.472,
+      "mIoU": 0.8891336270190896
+    },
+    {
+      "fold": 0,
+      "weights": [
+        0.96,
+        0.04,
+        0.0
+      ],
+      "gamma": 1.0,
+      "threshold": 0.464,
+      "mIoU": 0.8940677966101694
+    },
+    {
+      "fold": 1,
+      "weights": [
+        0.96,
+        0.04,
+        0.0
+      ],
+      "gamma": 1.0,
+      "threshold": 0.464,
+      "mIoU": 0.8986286636192525
+    },
+    {
+      "fold": 2,
+      "weights": [
+        0.96,
+        0.04,
+        0.0
+      ],
+      "gamma": 1.0,
+      "threshold": 0.464,
+      "mIoU": 0.8891743119266055
+    },
+    {
+      "fold": 0,
+      "weights": [
+        0.96,
+        0.04,
+        0.0
+      ],
+      "gamma": 1.0,
+      "threshold": 0.468,
+      "mIoU": 0.8945774007876401
+    },
+    {
+      "fold": 1,
+      "weights": [
+        0.96,
+        0.04,
+        0.0
+      ],
+      "gamma": 1.0,
+      "threshold": 0.468,
+      "mIoU": 0.898815931108719
+    },
+    {
+      "fold": 2,
+      "weights": [
+        0.96,
+        0.04,
+        0.0
+      ],
+      "gamma": 1.0,
+      "threshold": 0.468,
+      "mIoU": 0.8887665198237885
+    },
+    {
+      "fold": 0,
+      "weights": [
+        0.96,
+        0.04,
+        0.0
+      ],
+      "gamma": 1.0,
+      "threshold": 0.472,
+      "mIoU": 0.894816611094271
+    },
+    {
+      "fold": 1,
+      "weights": [
+        0.96,
+        0.04,
+        0.0
+      ],
+      "gamma": 1.0,
+      "threshold": 0.472,
+      "mIoU": 0.8989762931034483
+    },
+    {
+      "fold": 2,
+      "weights": [
+        0.96,
+        0.04,
+        0.0
+      ],
+      "gamma": 1.0,
+      "threshold": 0.472,
+      "mIoU": 0.8883584282041865
+    },
+    {
+      "fold": 0,
+      "weights": [
+        0.96,
+        0.04,
+        0.0
+      ],
+      "gamma": 1.02,
+      "threshold": 0.464,
+      "mIoU": 0.894816611094271
+    },
+    {
+      "fold": 1,
+      "weights": [
+        0.96,
+        0.04,
+        0.0
+      ],
+      "gamma": 1.02,
+      "threshold": 0.464,
+      "mIoU": 0.8990035012119579
+    },
+    {
+      "fold": 2,
+      "weights": [
+        0.96,
+        0.04,
+        0.0
+      ],
+      "gamma": 1.02,
+      "threshold": 0.464,
+      "mIoU": 0.8887256702166728
+    },
+    {
+      "fold": 0,
+      "weights": [
+        0.96,
+        0.04,
+        0.0
+      ],
+      "gamma": 1.02,
+      "threshold": 0.468,
+      "mIoU": 0.894752805580831
+    },
+    {
+      "fold": 1,
+      "weights": [
+        0.96,
+        0.04,
+        0.0
+      ],
+      "gamma": 1.02,
+      "threshold": 0.468,
+      "mIoU": 0.8996493121122201
+    },
+    {
+      "fold": 2,
+      "weights": [
+        0.96,
+        0.04,
+        0.0
+      ],
+      "gamma": 1.02,
+      "threshold": 0.468,
+      "mIoU": 0.8865222181417555
+    },
+    {
+      "fold": 0,
+      "weights": [
+        0.96,
+        0.04,
+        0.0
+      ],
+      "gamma": 1.02,
+      "threshold": 0.472,
+      "mIoU": 0.8941140776699029
+    },
+    {
+      "fold": 1,
+      "weights": [
+        0.96,
+        0.04,
+        0.0
+      ],
+      "gamma": 1.02,
+      "threshold": 0.472,
+      "mIoU": 0.899540912773427
+    },
+    {
+      "fold": 2,
+      "weights": [
+        0.96,
+        0.04,
+        0.0
+      ],
+      "gamma": 1.02,
+      "threshold": 0.472,
+      "mIoU": 0.8861131520940485
+    },
+    {
+      "fold": 0,
+      "weights": [
+        0.9199999999999999,
+        0.04,
+        0.04
+      ],
+      "gamma": 0.98,
+      "threshold": 0.464,
+      "mIoU": 0.8933534743202417
+    },
+    {
+      "fold": 1,
+      "weights": [
+        0.9199999999999999,
+        0.04,
+        0.04
+      ],
+      "gamma": 0.98,
+      "threshold": 0.464,
+      "mIoU": 0.8968105065666041
+    },
+    {
+      "fold": 2,
+      "weights": [
+        0.9199999999999999,
+        0.04,
+        0.04
+      ],
+      "gamma": 0.98,
+      "threshold": 0.464,
+      "mIoU": 0.8879120879120879
+    },
+    {
+      "fold": 0,
+      "weights": [
+        0.9199999999999999,
+        0.04,
+        0.04
+      ],
+      "gamma": 0.98,
+      "threshold": 0.468,
+      "mIoU": 0.8932889963724304
+    },
+    {
+      "fold": 1,
+      "weights": [
+        0.9199999999999999,
+        0.04,
+        0.04
+      ],
+      "gamma": 0.98,
+      "threshold": 0.468,
+      "mIoU": 0.8982277121374865
+    },
+    {
+      "fold": 2,
+      "weights": [
+        0.9199999999999999,
+        0.04,
+        0.04
+      ],
+      "gamma": 0.98,
+      "threshold": 0.468,
+      "mIoU": 0.8888888888888888
+    },
+    {
+      "fold": 0,
+      "weights": [
+        0.9199999999999999,
+        0.04,
+        0.04
+      ],
+      "gamma": 0.98,
+      "threshold": 0.472,
+      "mIoU": 0.8937972768532526
+    },
+    {
+      "fold": 1,
+      "weights": [
+        0.9199999999999999,
+        0.04,
+        0.04
+      ],
+      "gamma": 0.98,
+      "threshold": 0.472,
+      "mIoU": 0.8986286636192525
+    },
+    {
+      "fold": 2,
+      "weights": [
+        0.9199999999999999,
+        0.04,
+        0.04
+      ],
+      "gamma": 0.98,
+      "threshold": 0.472,
+      "mIoU": 0.8891743119266055
+    },
+    {
+      "fold": 0,
+      "weights": [
+        0.9199999999999999,
+        0.04,
+        0.04
+      ],
+      "gamma": 1.0,
+      "threshold": 0.464,
+      "mIoU": 0.8937972768532526
+    },
+    {
+      "fold": 1,
+      "weights": [
+        0.9199999999999999,
+        0.04,
+        0.04
+      ],
+      "gamma": 1.0,
+      "threshold": 0.464,
+      "mIoU": 0.8983870967741936
+    },
+    {
+      "fold": 2,
+      "weights": [
+        0.9199999999999999,
+        0.04,
+        0.04
+      ],
+      "gamma": 1.0,
+      "threshold": 0.464,
+      "mIoU": 0.8888481291269259
+    },
+    {
+      "fold": 0,
+      "weights": [
+        0.9199999999999999,
+        0.04,
+        0.04
+      ],
+      "gamma": 1.0,
+      "threshold": 0.468,
+      "mIoU": 0.8945774007876401
+    },
+    {
+      "fold": 1,
+      "weights": [
+        0.9199999999999999,
+        0.04,
+        0.04
+      ],
+      "gamma": 1.0,
+      "threshold": 0.468,
+      "mIoU": 0.898815931108719
+    },
+    {
+      "fold": 2,
+      "weights": [
+        0.9199999999999999,
+        0.04,
+        0.04
+      ],
+      "gamma": 1.0,
+      "threshold": 0.468,
+      "mIoU": 0.8887665198237885
+    },
+    {
+      "fold": 0,
+      "weights": [
+        0.9199999999999999,
+        0.04,
+        0.04
+      ],
+      "gamma": 1.0,
+      "threshold": 0.472,
+      "mIoU": 0.8945454545454545
+    },
+    {
+      "fold": 1,
+      "weights": [
+        0.9199999999999999,
+        0.04,
+        0.04
+      ],
+      "gamma": 1.0,
+      "threshold": 0.472,
+      "mIoU": 0.8989762931034483
+    },
+    {
+      "fold": 2,
+      "weights": [
+        0.9199999999999999,
+        0.04,
+        0.04
+      ],
+      "gamma": 1.0,
+      "threshold": 0.472,
+      "mIoU": 0.8879911861917004
+    },
+    {
+      "fold": 0,
+      "weights": [
+        0.9199999999999999,
+        0.04,
+        0.04
+      ],
+      "gamma": 1.02,
+      "threshold": 0.464,
+      "mIoU": 0.8945454545454545
+    },
+    {
+      "fold": 1,
+      "weights": [
+        0.9199999999999999,
+        0.04,
+        0.04
+      ],
+      "gamma": 1.02,
+      "threshold": 0.464,
+      "mIoU": 0.8990035012119579
+    },
+    {
+      "fold": 2,
+      "weights": [
+        0.9199999999999999,
+        0.04,
+        0.04
+      ],
+      "gamma": 1.02,
+      "threshold": 0.464,
+      "mIoU": 0.8887256702166728
+    },
+    {
+      "fold": 0,
+      "weights": [
+        0.9199999999999999,
+        0.04,
+        0.04
+      ],
+      "gamma": 1.02,
+      "threshold": 0.468,
+      "mIoU": 0.8944815039417829
+    },
+    {
+      "fold": 1,
+      "weights": [
+        0.9199999999999999,
+        0.04,
+        0.04
+      ],
+      "gamma": 1.02,
+      "threshold": 0.468,
+      "mIoU": 0.8988945807495282
+    },
+    {
+      "fold": 2,
+      "weights": [
+        0.9199999999999999,
+        0.04,
+        0.04
+      ],
+      "gamma": 1.02,
+      "threshold": 0.468,
+      "mIoU": 0.8865222181417555
+    },
+    {
+      "fold": 0,
+      "weights": [
+        0.9199999999999999,
+        0.04,
+        0.04
+      ],
+      "gamma": 1.02,
+      "threshold": 0.472,
+      "mIoU": 0.8944174757281553
+    },
+    {
+      "fold": 1,
+      "weights": [
+        0.9199999999999999,
+        0.04,
+        0.04
+      ],
+      "gamma": 1.02,
+      "threshold": 0.472,
+      "mIoU": 0.8992980561555075
+    },
+    {
+      "fold": 2,
+      "weights": [
+        0.9199999999999999,
+        0.04,
+        0.04
+      ],
+      "gamma": 1.02,
+      "threshold": 0.472,
+      "mIoU": 0.8861131520940485
+    },
+    {
+      "fold": 0,
+      "weights": [
+        0.98,
+        0.06,
+        -0.04
+      ],
+      "gamma": 0.98,
+      "threshold": 0.464,
+      "mIoU": 0.8938294010889292
+    },
+    {
+      "fold": 1,
+      "weights": [
+        0.98,
+        0.06,
+        -0.04
+      ],
+      "gamma": 0.98,
+      "threshold": 0.464,
+      "mIoU": 0.8987647690655209
+    },
+    {
+      "fold": 2,
+      "weights": [
+        0.98,
+        0.06,
+        -0.04
+      ],
+      "gamma": 0.98,
+      "threshold": 0.464,
+      "mIoU": 0.8878710150238183
+    },
+    {
+      "fold": 0,
+      "weights": [
+        0.98,
+        0.06,
+        -0.04
+      ],
+      "gamma": 0.98,
+      "threshold": 0.468,
+      "mIoU": 0.8935269207501513
+    },
+    {
+      "fold": 1,
+      "weights": [
+        0.98,
+        0.06,
+        -0.04
+      ],
+      "gamma": 0.98,
+      "threshold": 0.468,
+      "mIoU": 0.8983870967741936
+    },
+    {
+      "fold": 2,
+      "weights": [
+        0.98,
+        0.06,
+        -0.04
+      ],
+      "gamma": 0.98,
+      "threshold": 0.468,
+      "mIoU": 0.8885221855518886
+    },
+    {
+      "fold": 0,
+      "weights": [
+        0.98,
+        0.06,
+        -0.04
+      ],
+      "gamma": 0.98,
+      "threshold": 0.472,
+      "mIoU": 0.8945774007876401
+    },
+    {
+      "fold": 1,
+      "weights": [
+        0.98,
+        0.06,
+        -0.04
+      ],
+      "gamma": 0.98,
+      "threshold": 0.472,
+      "mIoU": 0.899569197630587
+    },
+    {
+      "fold": 2,
+      "weights": [
+        0.98,
+        0.06,
+        -0.04
+      ],
+      "gamma": 0.98,
+      "threshold": 0.472,
+      "mIoU": 0.8877064220183486
+    },
+    {
+      "fold": 0,
+      "weights": [
+        0.98,
+        0.06,
+        -0.04
+      ],
+      "gamma": 1.0,
+      "threshold": 0.464,
+      "mIoU": 0.8946093276801939
+    },
+    {
+      "fold": 1,
+      "weights": [
+        0.98,
+        0.06,
+        -0.04
+      ],
+      "gamma": 1.0,
+      "threshold": 0.464,
+      "mIoU": 0.8993270524899057
+    },
+    {
+      "fold": 2,
+      "weights": [
+        0.98,
+        0.06,
+        -0.04
+      ],
+      "gamma": 1.0,
+      "threshold": 0.464,
+      "mIoU": 0.8884403669724771
+    },
+    {
+      "fold": 0,
+      "weights": [
+        0.98,
+        0.06,
+        -0.04
+      ],
+      "gamma": 1.0,
+      "threshold": 0.468,
+      "mIoU": 0.8945454545454545
+    },
+    {
+      "fold": 1,
+      "weights": [
+        0.98,
+        0.06,
+        -0.04
+      ],
+      "gamma": 1.0,
+      "threshold": 0.468,
+      "mIoU": 0.8995150862068966
+    },
+    {
+      "fold": 2,
+      "weights": [
+        0.98,
+        0.06,
+        -0.04
+      ],
+      "gamma": 1.0,
+      "threshold": 0.468,
+      "mIoU": 0.8883584282041865
+    },
+    {
+      "fold": 0,
+      "weights": [
+        0.98,
+        0.06,
+        -0.04
+      ],
+      "gamma": 1.0,
+      "threshold": 0.472,
+      "mIoU": 0.8941782898726501
+    },
+    {
+      "fold": 1,
+      "weights": [
+        0.98,
+        0.06,
+        -0.04
+      ],
+      "gamma": 1.0,
+      "threshold": 0.472,
+      "mIoU": 0.8996493121122201
+    },
+    {
+      "fold": 2,
+      "weights": [
+        0.98,
+        0.06,
+        -0.04
+      ],
+      "gamma": 1.0,
+      "threshold": 0.472,
+      "mIoU": 0.8872152828802351
+    },
+    {
+      "fold": 0,
+      "weights": [
+        0.98,
+        0.06,
+        -0.04
+      ],
+      "gamma": 1.02,
+      "threshold": 0.464,
+      "mIoU": 0.8944815039417829
+    },
+    {
+      "fold": 1,
+      "weights": [
+        0.98,
+        0.06,
+        -0.04
+      ],
+      "gamma": 1.02,
+      "threshold": 0.464,
+      "mIoU": 0.8996763754045307
+    },
+    {
+      "fold": 2,
+      "weights": [
+        0.98,
+        0.06,
+        -0.04
+      ],
+      "gamma": 1.02,
+      "threshold": 0.464,
+      "mIoU": 0.8883174136664217
+    },
+    {
+      "fold": 0,
+      "weights": [
+        0.98,
+        0.06,
+        -0.04
+      ],
+      "gamma": 1.02,
+      "threshold": 0.468,
+      "mIoU": 0.8941461935092508
+    },
+    {
+      "fold": 1,
+      "weights": [
+        0.98,
+        0.06,
+        -0.04
+      ],
+      "gamma": 1.02,
+      "threshold": 0.468,
+      "mIoU": 0.8998650472334683
+    },
+    {
+      "fold": 2,
+      "weights": [
+        0.98,
+        0.06,
+        -0.04
+      ],
+      "gamma": 1.02,
+      "threshold": 0.468,
+      "mIoU": 0.8878676470588235
+    },
+    {
+      "fold": 0,
+      "weights": [
+        0.98,
+        0.06,
+        -0.04
+      ],
+      "gamma": 1.02,
+      "threshold": 0.472,
+      "mIoU": 0.8941140776699029
+    },
+    {
+      "fold": 1,
+      "weights": [
+        0.98,
+        0.06,
+        -0.04
+      ],
+      "gamma": 1.02,
+      "threshold": 0.472,
+      "mIoU": 0.8998109640831758
+    },
+    {
+      "fold": 2,
+      "weights": [
+        0.98,
+        0.06,
+        -0.04
+      ],
+      "gamma": 1.02,
+      "threshold": 0.472,
+      "mIoU": 0.8878264067671938
+    },
+    {
+      "fold": 0,
+      "weights": [
+        0.94,
+        0.06,
+        0.0
+      ],
+      "gamma": 0.98,
+      "threshold": 0.464,
+      "mIoU": 0.8938294010889292
+    },
+    {
+      "fold": 1,
+      "weights": [
+        0.94,
+        0.06,
+        0.0
+      ],
+      "gamma": 0.98,
+      "threshold": 0.464,
+      "mIoU": 0.8983096324121277
+    },
+    {
+      "fold": 2,
+      "weights": [
+        0.94,
+        0.06,
+        0.0
+      ],
+      "gamma": 0.98,
+      "threshold": 0.464,
+      "mIoU": 0.8878710150238183
+    },
+    {
+      "fold": 0,
+      "weights": [
+        0.94,
+        0.06,
+        0.0
+      ],
+      "gamma": 0.98,
+      "threshold": 0.468,
+      "mIoU": 0.8935269207501513
+    },
+    {
+      "fold": 1,
+      "weights": [
+        0.94,
+        0.06,
+        0.0
+      ],
+      "gamma": 0.98,
+      "threshold": 0.468,
+      "mIoU": 0.8984144047299113
+    },
+    {
+      "fold": 2,
+      "weights": [
+        0.94,
+        0.06,
+        0.0
+      ],
+      "gamma": 0.98,
+      "threshold": 0.468,
+      "mIoU": 0.8881964809384164
+    },
+    {
+      "fold": 0,
+      "weights": [
+        0.94,
+        0.06,
+        0.0
+      ],
+      "gamma": 0.98,
+      "threshold": 0.472,
+      "mIoU": 0.8945774007876401
+    },
+    {
+      "fold": 1,
+      "weights": [
+        0.94,
+        0.06,
+        0.0
+      ],
+      "gamma": 0.98,
+      "threshold": 0.472,
+      "mIoU": 0.899569197630587
+    },
+    {
+      "fold": 2,
+      "weights": [
+        0.94,
+        0.06,
+        0.0
+      ],
+      "gamma": 0.98,
+      "threshold": 0.472,
+      "mIoU": 0.8880733944954129
+    },
+    {
+      "fold": 0,
+      "weights": [
+        0.94,
+        0.06,
+        0.0
+      ],
+      "gamma": 1.0,
+      "threshold": 0.464,
+      "mIoU": 0.8943384801695429
+    },
+    {
+      "fold": 1,
+      "weights": [
+        0.94,
+        0.06,
+        0.0
+      ],
+      "gamma": 1.0,
+      "threshold": 0.464,
+      "mIoU": 0.8990850376749193
+    },
+    {
+      "fold": 2,
+      "weights": [
+        0.94,
+        0.06,
+        0.0
+      ],
+      "gamma": 1.0,
+      "threshold": 0.464,
+      "mIoU": 0.8884403669724771
+    },
+    {
+      "fold": 0,
+      "weights": [
+        0.94,
+        0.06,
+        0.0
+      ],
+      "gamma": 1.0,
+      "threshold": 0.468,
+      "mIoU": 0.8942424242424243
+    },
+    {
+      "fold": 1,
+      "weights": [
+        0.94,
+        0.06,
+        0.0
+      ],
+      "gamma": 1.0,
+      "threshold": 0.468,
+      "mIoU": 0.8990306946688207
+    },
+    {
+      "fold": 2,
+      "weights": [
+        0.94,
+        0.06,
+        0.0
+      ],
+      "gamma": 1.0,
+      "threshold": 0.468,
+      "mIoU": 0.8883584282041865
+    },
+    {
+      "fold": 0,
+      "weights": [
+        0.94,
+        0.06,
+        0.0
+      ],
+      "gamma": 1.0,
+      "threshold": 0.472,
+      "mIoU": 0.8944494995450409
+    },
+    {
+      "fold": 1,
+      "weights": [
+        0.94,
+        0.06,
+        0.0
+      ],
+      "gamma": 1.0,
+      "threshold": 0.472,
+      "mIoU": 0.8996493121122201
+    },
+    {
+      "fold": 2,
+      "weights": [
+        0.94,
+        0.06,
+        0.0
+      ],
+      "gamma": 1.0,
+      "threshold": 0.472,
+      "mIoU": 0.8872152828802351
+    },
+    {
+      "fold": 0,
+      "weights": [
+        0.94,
+        0.06,
+        0.0
+      ],
+      "gamma": 1.02,
+      "threshold": 0.464,
+      "mIoU": 0.8944815039417829
+    },
+    {
+      "fold": 1,
+      "weights": [
+        0.94,
+        0.06,
+        0.0
+      ],
+      "gamma": 1.02,
+      "threshold": 0.464,
+      "mIoU": 0.8999190720258969
+    },
+    {
+      "fold": 2,
+      "weights": [
+        0.94,
+        0.06,
+        0.0
+      ],
+      "gamma": 1.02,
+      "threshold": 0.464,
+      "mIoU": 0.8883174136664217
+    },
+    {
+      "fold": 0,
+      "weights": [
+        0.94,
+        0.06,
+        0.0
+      ],
+      "gamma": 1.02,
+      "threshold": 0.468,
+      "mIoU": 0.8941461935092508
+    },
+    {
+      "fold": 1,
+      "weights": [
+        0.94,
+        0.06,
+        0.0
+      ],
+      "gamma": 1.02,
+      "threshold": 0.468,
+      "mIoU": 0.8996222342147868
+    },
+    {
+      "fold": 2,
+      "weights": [
+        0.94,
+        0.06,
+        0.0
+      ],
+      "gamma": 1.02,
+      "threshold": 0.468,
+      "mIoU": 0.8875413450937155
+    },
+    {
+      "fold": 0,
+      "weights": [
+        0.94,
+        0.06,
+        0.0
+      ],
+      "gamma": 1.02,
+      "threshold": 0.472,
+      "mIoU": 0.8941140776699029
+    },
+    {
+      "fold": 1,
+      "weights": [
+        0.94,
+        0.06,
+        0.0
+      ],
+      "gamma": 1.02,
+      "threshold": 0.472,
+      "mIoU": 0.8993252361673414
+    },
+    {
+      "fold": 2,
+      "weights": [
+        0.94,
+        0.06,
+        0.0
+      ],
+      "gamma": 1.02,
+      "threshold": 0.472,
+      "mIoU": 0.8875
+    },
+    {
+      "fold": 0,
+      "weights": [
+        0.8999999999999999,
+        0.06,
+        0.04
+      ],
+      "gamma": 0.98,
+      "threshold": 0.464,
+      "mIoU": 0.8938294010889292
+    },
+    {
+      "fold": 1,
+      "weights": [
+        0.8999999999999999,
+        0.06,
+        0.04
+      ],
+      "gamma": 0.98,
+      "threshold": 0.464,
+      "mIoU": 0.898068669527897
+    },
+    {
+      "fold": 2,
+      "weights": [
+        0.8999999999999999,
+        0.06,
+        0.04
+      ],
+      "gamma": 0.98,
+      "threshold": 0.464,
+      "mIoU": 0.8878710150238183
+    },
+    {
+      "fold": 0,
+      "weights": [
+        0.8999999999999999,
+        0.06,
+        0.04
+      ],
+      "gamma": 0.98,
+      "threshold": 0.468,
+      "mIoU": 0.8935269207501513
+    },
+    {
+      "fold": 1,
+      "weights": [
+        0.8999999999999999,
+        0.06,
+        0.04
+      ],
+      "gamma": 0.98,
+      "threshold": 0.468,
+      "mIoU": 0.8981730252552391
+    },
+    {
+      "fold": 2,
+      "weights": [
+        0.8999999999999999,
+        0.06,
+        0.04
+      ],
+      "gamma": 0.98,
+      "threshold": 0.468,
+      "mIoU": 0.8881964809384164
+    },
+    {
+      "fold": 0,
+      "weights": [
+        0.8999999999999999,
+        0.06,
+        0.04
+      ],
+      "gamma": 0.98,
+      "threshold": 0.472,
+      "mIoU": 0.8943064809206541
+    },
+    {
+      "fold": 1,
+      "weights": [
+        0.8999999999999999,
+        0.06,
+        0.04
+      ],
+      "gamma": 0.98,
+      "threshold": 0.472,
+      "mIoU": 0.8993270524899057
+    },
+    {
+      "fold": 2,
+      "weights": [
+        0.8999999999999999,
+        0.06,
+        0.04
+      ],
+      "gamma": 0.98,
+      "threshold": 0.472,
+      "mIoU": 0.8880733944954129
+    },
+    {
+      "fold": 0,
+      "weights": [
+        0.8999999999999999,
+        0.06,
+        0.04
+      ],
+      "gamma": 1.0,
+      "threshold": 0.464,
+      "mIoU": 0.8940677966101694
+    },
+    {
+      "fold": 1,
+      "weights": [
+        0.8999999999999999,
+        0.06,
+        0.04
+      ],
+      "gamma": 1.0,
+      "threshold": 0.464,
+      "mIoU": 0.8988431530804413
+    },
+    {
+      "fold": 2,
+      "weights": [
+        0.8999999999999999,
+        0.06,
+        0.04
+      ],
+      "gamma": 1.0,
+      "threshold": 0.464,
+      "mIoU": 0.8884403669724771
+    },
+    {
+      "fold": 0,
+      "weights": [
+        0.8999999999999999,
+        0.06,
+        0.04
+      ],
+      "gamma": 1.0,
+      "threshold": 0.468,
+      "mIoU": 0.8942424242424243
+    },
+    {
+      "fold": 1,
+      "weights": [
+        0.8999999999999999,
+        0.06,
+        0.04
+      ],
+      "gamma": 1.0,
+      "threshold": 0.468,
+      "mIoU": 0.8990306946688207
+    },
+    {
+      "fold": 2,
+      "weights": [
+        0.8999999999999999,
+        0.06,
+        0.04
+      ],
+      "gamma": 1.0,
+      "threshold": 0.468,
+      "mIoU": 0.8883584282041865
+    },
+    {
+      "fold": 0,
+      "weights": [
+        0.8999999999999999,
+        0.06,
+        0.04
+      ],
+      "gamma": 1.0,
+      "threshold": 0.472,
+      "mIoU": 0.8941782898726501
+    },
+    {
+      "fold": 1,
+      "weights": [
+        0.8999999999999999,
+        0.06,
+        0.04
+      ],
+      "gamma": 1.0,
+      "threshold": 0.472,
+      "mIoU": 0.8996493121122201
+    },
+    {
+      "fold": 2,
+      "weights": [
+        0.8999999999999999,
+        0.06,
+        0.04
+      ],
+      "gamma": 1.0,
+      "threshold": 0.472,
+      "mIoU": 0.8872152828802351
+    },
+    {
+      "fold": 0,
+      "weights": [
+        0.8999999999999999,
+        0.06,
+        0.04
+      ],
+      "gamma": 1.02,
+      "threshold": 0.464,
+      "mIoU": 0.8939393939393939
+    },
+    {
+      "fold": 1,
+      "weights": [
+        0.8999999999999999,
+        0.06,
+        0.04
+      ],
+      "gamma": 1.02,
+      "threshold": 0.464,
+      "mIoU": 0.8999190720258969
+    },
+    {
+      "fold": 2,
+      "weights": [
+        0.8999999999999999,
+        0.06,
+        0.04
+      ],
+      "gamma": 1.02,
+      "threshold": 0.464,
+      "mIoU": 0.8879500367376929
+    },
+    {
+      "fold": 0,
+      "weights": [
+        0.8999999999999999,
+        0.06,
+        0.04
+      ],
+      "gamma": 1.02,
+      "threshold": 0.468,
+      "mIoU": 0.8941461935092508
+    },
+    {
+      "fold": 1,
+      "weights": [
+        0.8999999999999999,
+        0.06,
+        0.04
+      ],
+      "gamma": 1.02,
+      "threshold": 0.468,
+      "mIoU": 0.8996222342147868
+    },
+    {
+      "fold": 2,
+      "weights": [
+        0.8999999999999999,
+        0.06,
+        0.04
+      ],
+      "gamma": 1.02,
+      "threshold": 0.468,
+      "mIoU": 0.8875413450937155
+    },
+    {
+      "fold": 0,
+      "weights": [
+        0.8999999999999999,
+        0.06,
+        0.04
+      ],
+      "gamma": 1.02,
+      "threshold": 0.472,
+      "mIoU": 0.8941140776699029
+    },
+    {
+      "fold": 1,
+      "weights": [
+        0.8999999999999999,
+        0.06,
+        0.04
+      ],
+      "gamma": 1.02,
+      "threshold": 0.472,
+      "mIoU": 0.8993252361673414
+    },
+    {
+      "fold": 2,
+      "weights": [
+        0.8999999999999999,
+        0.06,
+        0.04
+      ],
+      "gamma": 1.02,
+      "threshold": 0.472,
+      "mIoU": 0.8875
+    },
+    {
+      "fold": 0,
+      "weights": [
+        0.9600000000000001,
+        0.08,
+        -0.04
+      ],
+      "gamma": 0.98,
+      "threshold": 0.464,
+      "mIoU": 0.8940677966101694
+    },
+    {
+      "fold": 1,
+      "weights": [
+        0.9600000000000001,
+        0.08,
+        -0.04
+      ],
+      "gamma": 0.98,
+      "threshold": 0.464,
+      "mIoU": 0.8991664425920947
+    },
+    {
+      "fold": 2,
+      "weights": [
+        0.9600000000000001,
+        0.08,
+        -0.04
+      ],
+      "gamma": 0.98,
+      "threshold": 0.464,
+      "mIoU": 0.8881964809384164
+    },
+    {
+      "fold": 0,
+      "weights": [
+        0.9600000000000001,
+        0.08,
+        -0.04
+      ],
+      "gamma": 0.98,
+      "threshold": 0.468,
+      "mIoU": 0.8946093276801939
+    },
+    {
+      "fold": 1,
+      "weights": [
+        0.9600000000000001,
+        0.08,
+        -0.04
+      ],
+      "gamma": 0.98,
+      "threshold": 0.468,
+      "mIoU": 0.9001345895020189
+    },
+    {
+      "fold": 2,
+      "weights": [
+        0.9600000000000001,
+        0.08,
+        -0.04
+      ],
+      "gamma": 0.98,
+      "threshold": 0.468,
+      "mIoU": 0.8877476155539251
+    },
+    {
+      "fold": 0,
+      "weights": [
+        0.9600000000000001,
+        0.08,
+        -0.04
+      ],
+      "gamma": 0.98,
+      "threshold": 0.472,
+      "mIoU": 0.8945454545454545
+    },
+    {
+      "fold": 1,
+      "weights": [
+        0.9600000000000001,
+        0.08,
+        -0.04
+      ],
+      "gamma": 0.98,
+      "threshold": 0.472,
+      "mIoU": 0.8995150862068966
+    },
+    {
+      "fold": 2,
+      "weights": [
+        0.9600000000000001,
+        0.08,
+        -0.04
+      ],
+      "gamma": 0.98,
+      "threshold": 0.472,
+      "mIoU": 0.8890521675238795
+    },
+    {
+      "fold": 0,
+      "weights": [
+        0.9600000000000001,
+        0.08,
+        -0.04
+      ],
+      "gamma": 1.0,
+      "threshold": 0.464,
+      "mIoU": 0.8945454545454545
+    },
+    {
+      "fold": 1,
+      "weights": [
+        0.9600000000000001,
+        0.08,
+        -0.04
+      ],
+      "gamma": 1.0,
+      "threshold": 0.464,
+      "mIoU": 0.8995150862068966
+    },
+    {
+      "fold": 2,
+      "weights": [
+        0.9600000000000001,
+        0.08,
+        -0.04
+      ],
+      "gamma": 1.0,
+      "threshold": 0.464,
+      "mIoU": 0.8883994126284875
+    },
+    {
+      "fold": 0,
+      "weights": [
+        0.9600000000000001,
+        0.08,
+        -0.04
+      ],
+      "gamma": 1.0,
+      "threshold": 0.468,
+      "mIoU": 0.894816611094271
+    },
+    {
+      "fold": 1,
+      "weights": [
+        0.9600000000000001,
+        0.08,
+        -0.04
+      ],
+      "gamma": 1.0,
+      "threshold": 0.468,
+      "mIoU": 0.8991913746630728
+    },
+    {
+      "fold": 2,
+      "weights": [
+        0.9600000000000001,
+        0.08,
+        -0.04
+      ],
+      "gamma": 1.0,
+      "threshold": 0.468,
+      "mIoU": 0.8886847905951506
+    },
+    {
+      "fold": 0,
+      "weights": [
+        0.9600000000000001,
+        0.08,
+        -0.04
+      ],
+      "gamma": 1.0,
+      "threshold": 0.472,
+      "mIoU": 0.8936041224613519
+    },
+    {
+      "fold": 1,
+      "weights": [
+        0.9600000000000001,
+        0.08,
+        -0.04
+      ],
+      "gamma": 1.0,
+      "threshold": 0.472,
+      "mIoU": 0.9001618996222343
+    },
+    {
+      "fold": 2,
+      "weights": [
+        0.9600000000000001,
+        0.08,
+        -0.04
+      ],
+      "gamma": 1.0,
+      "threshold": 0.472,
+      "mIoU": 0.8889297535858771
+    },
+    {
+      "fold": 0,
+      "weights": [
+        0.9600000000000001,
+        0.08,
+        -0.04
+      ],
+      "gamma": 1.02,
+      "threshold": 0.464,
+      "mIoU": 0.8936041224613519
+    },
+    {
+      "fold": 1,
+      "weights": [
+        0.9600000000000001,
+        0.08,
+        -0.04
+      ],
+      "gamma": 1.02,
+      "threshold": 0.464,
+      "mIoU": 0.8999190720258969
+    },
+    {
+      "fold": 2,
+      "weights": [
+        0.9600000000000001,
+        0.08,
+        -0.04
+      ],
+      "gamma": 1.02,
+      "threshold": 0.464,
+      "mIoU": 0.8889297535858771
+    },
+    {
+      "fold": 0,
+      "weights": [
+        0.9600000000000001,
+        0.08,
+        -0.04
+      ],
+      "gamma": 1.02,
+      "threshold": 0.468,
+      "mIoU": 0.8938750758035173
+    },
+    {
+      "fold": 1,
+      "weights": [
+        0.9600000000000001,
+        0.08,
+        -0.04
+      ],
+      "gamma": 1.02,
+      "threshold": 0.468,
+      "mIoU": 0.8998920669185105
+    },
+    {
+      "fold": 2,
+      "weights": [
+        0.9600000000000001,
+        0.08,
+        -0.04
+      ],
+      "gamma": 1.02,
+      "threshold": 0.468,
+      "mIoU": 0.8877851361295069
+    },
+    {
+      "fold": 0,
+      "weights": [
+        0.9600000000000001,
+        0.08,
+        -0.04
+      ],
+      "gamma": 1.02,
+      "threshold": 0.472,
+      "mIoU": 0.8943854324734446
+    },
+    {
+      "fold": 1,
+      "weights": [
+        0.9600000000000001,
+        0.08,
+        -0.04
+      ],
+      "gamma": 1.02,
+      "threshold": 0.472,
+      "mIoU": 0.899055330634278
+    },
+    {
+      "fold": 2,
+      "weights": [
+        0.9600000000000001,
+        0.08,
+        -0.04
+      ],
+      "gamma": 1.02,
+      "threshold": 0.472,
+      "mIoU": 0.8880706921944035
+    },
+    {
+      "fold": 0,
+      "weights": [
+        0.92,
+        0.08,
+        0.0
+      ],
+      "gamma": 0.98,
+      "threshold": 0.464,
+      "mIoU": 0.8940677966101694
+    },
+    {
+      "fold": 1,
+      "weights": [
+        0.92,
+        0.08,
+        0.0
+      ],
+      "gamma": 0.98,
+      "threshold": 0.464,
+      "mIoU": 0.8994353320785158
+    },
+    {
+      "fold": 2,
+      "weights": [
+        0.92,
+        0.08,
+        0.0
+      ],
+      "gamma": 0.98,
+      "threshold": 0.464,
+      "mIoU": 0.8881964809384164
+    },
+    {
+      "fold": 0,
+      "weights": [
+        0.92,
+        0.08,
+        0.0
+      ],
+      "gamma": 0.98,
+      "threshold": 0.468,
+      "mIoU": 0.8946093276801939
+    },
+    {
+      "fold": 1,
+      "weights": [
+        0.92,
+        0.08,
+        0.0
+      ],
+      "gamma": 0.98,
+      "threshold": 0.468,
+      "mIoU": 0.9001345895020189
+    },
+    {
+      "fold": 2,
+      "weights": [
+        0.92,
+        0.08,
+        0.0
+      ],
+      "gamma": 0.98,
+      "threshold": 0.468,
+      "mIoU": 0.8877476155539251
+    },
+    {
+      "fold": 0,
+      "weights": [
+        0.92,
+        0.08,
+        0.0
+      ],
+      "gamma": 0.98,
+      "threshold": 0.472,
+      "mIoU": 0.8942744622841563
+    },
+    {
+      "fold": 1,
+      "weights": [
+        0.92,
+        0.08,
+        0.0
+      ],
+      "gamma": 0.98,
+      "threshold": 0.472,
+      "mIoU": 0.8995150862068966
+    },
+    {
+      "fold": 2,
+      "weights": [
+        0.92,
+        0.08,
+        0.0
+      ],
+      "gamma": 0.98,
+      "threshold": 0.472,
+      "mIoU": 0.8887256702166728
+    },
+    {
+      "fold": 0,
+      "weights": [
+        0.92,
+        0.08,
+        0.0
+      ],
+      "gamma": 1.0,
+      "threshold": 0.464,
+      "mIoU": 0.8940036341611145
+    },
+    {
+      "fold": 1,
+      "weights": [
+        0.92,
+        0.08,
+        0.0
+      ],
+      "gamma": 1.0,
+      "threshold": 0.464,
+      "mIoU": 0.8995150862068966
+    },
+    {
+      "fold": 2,
+      "weights": [
+        0.92,
+        0.08,
+        0.0
+      ],
+      "gamma": 1.0,
+      "threshold": 0.464,
+      "mIoU": 0.8883994126284875
+    },
+    {
+      "fold": 0,
+      "weights": [
+        0.92,
+        0.08,
+        0.0
+      ],
+      "gamma": 1.0,
+      "threshold": 0.468,
+      "mIoU": 0.894816611094271
+    },
+    {
+      "fold": 1,
+      "weights": [
+        0.92,
+        0.08,
+        0.0
+      ],
+      "gamma": 1.0,
+      "threshold": 0.468,
+      "mIoU": 0.8991913746630728
+    },
+    {
+      "fold": 2,
+      "weights": [
+        0.92,
+        0.08,
+        0.0
+      ],
+      "gamma": 1.0,
+      "threshold": 0.468,
+      "mIoU": 0.8886847905951506
+    },
+    {
+      "fold": 0,
+      "weights": [
+        0.92,
+        0.08,
+        0.0
+      ],
+      "gamma": 1.0,
+      "threshold": 0.472,
+      "mIoU": 0.8936041224613519
+    },
+    {
+      "fold": 1,
+      "weights": [
+        0.92,
+        0.08,
+        0.0
+      ],
+      "gamma": 1.0,
+      "threshold": 0.472,
+      "mIoU": 0.9001618996222343
+    },
+    {
+      "fold": 2,
+      "weights": [
+        0.92,
+        0.08,
+        0.0
+      ],
+      "gamma": 1.0,
+      "threshold": 0.472,
+      "mIoU": 0.8889297535858771
+    },
+    {
+      "fold": 0,
+      "weights": [
+        0.92,
+        0.08,
+        0.0
+      ],
+      "gamma": 1.02,
+      "threshold": 0.464,
+      "mIoU": 0.8936041224613519
+    },
+    {
+      "fold": 1,
+      "weights": [
+        0.92,
+        0.08,
+        0.0
+      ],
+      "gamma": 1.02,
+      "threshold": 0.464,
+      "mIoU": 0.9001618996222343
+    },
+    {
+      "fold": 2,
+      "weights": [
+        0.92,
+        0.08,
+        0.0
+      ],
+      "gamma": 1.02,
+      "threshold": 0.464,
+      "mIoU": 0.8892975358587716
+    },
+    {
+      "fold": 0,
+      "weights": [
+        0.92,
+        0.08,
+        0.0
+      ],
+      "gamma": 1.02,
+      "threshold": 0.468,
+      "mIoU": 0.8935718617343845
+    },
+    {
+      "fold": 1,
+      "weights": [
+        0.92,
+        0.08,
+        0.0
+      ],
+      "gamma": 1.02,
+      "threshold": 0.468,
+      "mIoU": 0.8998920669185105
+    },
+    {
+      "fold": 2,
+      "weights": [
+        0.92,
+        0.08,
+        0.0
+      ],
+      "gamma": 1.02,
+      "threshold": 0.468,
+      "mIoU": 0.8877851361295069
+    },
+    {
+      "fold": 0,
+      "weights": [
+        0.92,
+        0.08,
+        0.0
+      ],
+      "gamma": 1.02,
+      "threshold": 0.472,
+      "mIoU": 0.8943854324734446
+    },
+    {
+      "fold": 1,
+      "weights": [
+        0.92,
+        0.08,
+        0.0
+      ],
+      "gamma": 1.02,
+      "threshold": 0.472,
+      "mIoU": 0.899055330634278
+    },
+    {
+      "fold": 2,
+      "weights": [
+        0.92,
+        0.08,
+        0.0
+      ],
+      "gamma": 1.02,
+      "threshold": 0.472,
+      "mIoU": 0.8877438351122562
+    },
+    {
+      "fold": 0,
+      "weights": [
+        0.88,
+        0.08,
+        0.04
+      ],
+      "gamma": 0.98,
+      "threshold": 0.464,
+      "mIoU": 0.8940677966101694
+    },
+    {
+      "fold": 1,
+      "weights": [
+        0.88,
+        0.08,
+        0.04
+      ],
+      "gamma": 0.98,
+      "threshold": 0.464,
+      "mIoU": 0.8989518946519752
+    },
+    {
+      "fold": 2,
+      "weights": [
+        0.88,
+        0.08,
+        0.04
+      ],
+      "gamma": 0.98,
+      "threshold": 0.464,
+      "mIoU": 0.8881964809384164
+    },
+    {
+      "fold": 0,
+      "weights": [
+        0.88,
+        0.08,
+        0.04
+      ],
+      "gamma": 0.98,
+      "threshold": 0.468,
+      "mIoU": 0.8946093276801939
+    },
+    {
+      "fold": 1,
+      "weights": [
+        0.88,
+        0.08,
+        0.04
+      ],
+      "gamma": 0.98,
+      "threshold": 0.468,
+      "mIoU": 0.8998923573735199
+    },
+    {
+      "fold": 2,
+      "weights": [
+        0.88,
+        0.08,
+        0.04
+      ],
+      "gamma": 0.98,
+      "threshold": 0.468,
+      "mIoU": 0.8877476155539251
+    },
+    {
+      "fold": 0,
+      "weights": [
+        0.88,
+        0.08,
+        0.04
+      ],
+      "gamma": 0.98,
+      "threshold": 0.472,
+      "mIoU": 0.8940036341611145
+    },
+    {
+      "fold": 1,
+      "weights": [
+        0.88,
+        0.08,
+        0.04
+      ],
+      "gamma": 0.98,
+      "threshold": 0.472,
+      "mIoU": 0.8995150862068966
+    },
+    {
+      "fold": 2,
+      "weights": [
+        0.88,
+        0.08,
+        0.04
+      ],
+      "gamma": 0.98,
+      "threshold": 0.472,
+      "mIoU": 0.8887256702166728
+    },
+    {
+      "fold": 0,
+      "weights": [
+        0.88,
+        0.08,
+        0.04
+      ],
+      "gamma": 1.0,
+      "threshold": 0.464,
+      "mIoU": 0.8940036341611145
+    },
+    {
+      "fold": 1,
+      "weights": [
+        0.88,
+        0.08,
+        0.04
+      ],
+      "gamma": 1.0,
+      "threshold": 0.464,
+      "mIoU": 0.8987886944818304
+    },
+    {
+      "fold": 2,
+      "weights": [
+        0.88,
+        0.08,
+        0.04
+      ],
+      "gamma": 1.0,
+      "threshold": 0.464,
+      "mIoU": 0.8883994126284875
+    },
+    {
+      "fold": 0,
+      "weights": [
+        0.88,
+        0.08,
+        0.04
+      ],
+      "gamma": 1.0,
+      "threshold": 0.468,
+      "mIoU": 0.894816611094271
+    },
+    {
+      "fold": 1,
+      "weights": [
+        0.88,
+        0.08,
+        0.04
+      ],
+      "gamma": 1.0,
+      "threshold": 0.468,
+      "mIoU": 0.8991913746630728
+    },
+    {
+      "fold": 2,
+      "weights": [
+        0.88,
+        0.08,
+        0.04
+      ],
+      "gamma": 1.0,
+      "threshold": 0.468,
+      "mIoU": 0.8883174136664217
+    },
+    {
+      "fold": 0,
+      "weights": [
+        0.88,
+        0.08,
+        0.04
+      ],
+      "gamma": 1.0,
+      "threshold": 0.472,
+      "mIoU": 0.8936041224613519
+    },
+    {
+      "fold": 1,
+      "weights": [
+        0.88,
+        0.08,
+        0.04
+      ],
+      "gamma": 1.0,
+      "threshold": 0.472,
+      "mIoU": 0.9001618996222343
+    },
+    {
+      "fold": 2,
+      "weights": [
+        0.88,
+        0.08,
+        0.04
+      ],
+      "gamma": 1.0,
+      "threshold": 0.472,
+      "mIoU": 0.8889297535858771
+    },
+    {
+      "fold": 0,
+      "weights": [
+        0.88,
+        0.08,
+        0.04
+      ],
+      "gamma": 1.02,
+      "threshold": 0.464,
+      "mIoU": 0.8936041224613519
+    },
+    {
+      "fold": 1,
+      "weights": [
+        0.88,
+        0.08,
+        0.04
+      ],
+      "gamma": 1.02,
+      "threshold": 0.464,
+      "mIoU": 0.8999190720258969
+    },
+    {
+      "fold": 2,
+      "weights": [
+        0.88,
+        0.08,
+        0.04
+      ],
+      "gamma": 1.02,
+      "threshold": 0.464,
+      "mIoU": 0.8892975358587716
+    },
+    {
+      "fold": 0,
+      "weights": [
+        0.88,
+        0.08,
+        0.04
+      ],
+      "gamma": 1.02,
+      "threshold": 0.468,
+      "mIoU": 0.8938428874734607
+    },
+    {
+      "fold": 1,
+      "weights": [
+        0.88,
+        0.08,
+        0.04
+      ],
+      "gamma": 1.02,
+      "threshold": 0.468,
+      "mIoU": 0.8998920669185105
+    },
+    {
+      "fold": 2,
+      "weights": [
+        0.88,
+        0.08,
+        0.04
+      ],
+      "gamma": 1.02,
+      "threshold": 0.468,
+      "mIoU": 0.8881530537159676
+    },
+    {
+      "fold": 0,
+      "weights": [
+        0.88,
+        0.08,
+        0.04
+      ],
+      "gamma": 1.02,
+      "threshold": 0.472,
+      "mIoU": 0.8941140776699029
+    },
+    {
+      "fold": 1,
+      "weights": [
+        0.88,
+        0.08,
+        0.04
+      ],
+      "gamma": 1.02,
+      "threshold": 0.472,
+      "mIoU": 0.899055330634278
+    },
+    {
+      "fold": 2,
+      "weights": [
+        0.88,
+        0.08,
+        0.04
+      ],
+      "gamma": 1.02,
+      "threshold": 0.472,
+      "mIoU": 0.8877438351122562
+    },
+    {
+      "fold": 0,
+      "weights": [
+        0.9400000000000001,
+        0.1,
+        -0.04
+      ],
+      "gamma": 0.98,
+      "threshold": 0.464,
+      "mIoU": 0.8940677966101694
+    },
+    {
+      "fold": 1,
+      "weights": [
+        0.9400000000000001,
+        0.1,
+        -0.04
+      ],
+      "gamma": 0.98,
+      "threshold": 0.464,
+      "mIoU": 0.8996232508073198
+    },
+    {
+      "fold": 2,
+      "weights": [
+        0.9400000000000001,
+        0.1,
+        -0.04
+      ],
+      "gamma": 0.98,
+      "threshold": 0.464,
+      "mIoU": 0.8881144534115921
+    },
+    {
+      "fold": 0,
+      "weights": [
+        0.9400000000000001,
+        0.1,
+        -0.04
+      ],
+      "gamma": 0.98,
+      "threshold": 0.468,
+      "mIoU": 0.8943384801695429
+    },
+    {
+      "fold": 1,
+      "weights": [
+        0.9400000000000001,
+        0.1,
+        -0.04
+      ],
+      "gamma": 0.98,
+      "threshold": 0.468,
+      "mIoU": 0.8995421492054942
+    },
+    {
+      "fold": 2,
+      "weights": [
+        0.9400000000000001,
+        0.1,
+        -0.04
+      ],
+      "gamma": 0.98,
+      "threshold": 0.468,
+      "mIoU": 0.889092912229159
+    },
+    {
+      "fold": 0,
+      "weights": [
+        0.9400000000000001,
+        0.1,
+        -0.04
+      ],
+      "gamma": 0.98,
+      "threshold": 0.472,
+      "mIoU": 0.8951515151515151
+    },
+    {
+      "fold": 1,
+      "weights": [
+        0.9400000000000001,
+        0.1,
+        -0.04
+      ],
+      "gamma": 0.98,
+      "threshold": 0.472,
+      "mIoU": 0.8994609164420485
+    },
+    {
+      "fold": 2,
+      "weights": [
+        0.9400000000000001,
+        0.1,
+        -0.04
+      ],
+      "gamma": 0.98,
+      "threshold": 0.472,
+      "mIoU": 0.8882763689819919
+    },
+    {
+      "fold": 0,
+      "weights": [
+        0.9400000000000001,
+        0.1,
+        -0.04
+      ],
+      "gamma": 1.0,
+      "threshold": 0.464,
+      "mIoU": 0.8948803392911239
+    },
+    {
+      "fold": 1,
+      "weights": [
+        0.9400000000000001,
+        0.1,
+        -0.04
+      ],
+      "gamma": 1.0,
+      "threshold": 0.464,
+      "mIoU": 0.8997304582210243
+    },
+    {
+      "fold": 2,
+      "weights": [
+        0.9400000000000001,
+        0.1,
+        -0.04
+      ],
+      "gamma": 1.0,
+      "threshold": 0.464,
+      "mIoU": 0.8876239441792141
+    },
+    {
+      "fold": 0,
+      "weights": [
+        0.9400000000000001,
+        0.1,
+        -0.04
+      ],
+      "gamma": 1.0,
+      "threshold": 0.468,
+      "mIoU": 0.8944815039417829
+    },
+    {
+      "fold": 1,
+      "weights": [
+        0.9400000000000001,
+        0.1,
+        -0.04
+      ],
+      "gamma": 1.0,
+      "threshold": 0.468,
+      "mIoU": 0.8999460625674218
+    },
+    {
+      "fold": 2,
+      "weights": [
+        0.9400000000000001,
+        0.1,
+        -0.04
+      ],
+      "gamma": 1.0,
+      "threshold": 0.468,
+      "mIoU": 0.8885619713129828
+    },
+    {
+      "fold": 0,
+      "weights": [
+        0.9400000000000001,
+        0.1,
+        -0.04
+      ],
+      "gamma": 1.0,
+      "threshold": 0.472,
+      "mIoU": 0.8941782898726501
+    },
+    {
+      "fold": 1,
+      "weights": [
+        0.9400000000000001,
+        0.1,
+        -0.04
+      ],
+      "gamma": 1.0,
+      "threshold": 0.472,
+      "mIoU": 0.8998920669185105
+    },
+    {
+      "fold": 2,
+      "weights": [
+        0.9400000000000001,
+        0.1,
+        -0.04
+      ],
+      "gamma": 1.0,
+      "threshold": 0.472,
+      "mIoU": 0.8888888888888888
+    },
+    {
+      "fold": 0,
+      "weights": [
+        0.9400000000000001,
+        0.1,
+        -0.04
+      ],
+      "gamma": 1.02,
+      "threshold": 0.464,
+      "mIoU": 0.8941782898726501
+    },
+    {
+      "fold": 1,
+      "weights": [
+        0.9400000000000001,
+        0.1,
+        -0.04
+      ],
+      "gamma": 1.02,
+      "threshold": 0.464,
+      "mIoU": 0.8996493121122201
+    },
+    {
+      "fold": 2,
+      "weights": [
+        0.9400000000000001,
+        0.1,
+        -0.04
+      ],
+      "gamma": 1.02,
+      "threshold": 0.464,
+      "mIoU": 0.8888888888888888
+    },
+    {
+      "fold": 0,
+      "weights": [
+        0.9400000000000001,
+        0.1,
+        -0.04
+      ],
+      "gamma": 1.02,
+      "threshold": 0.468,
+      "mIoU": 0.8941461935092508
+    },
+    {
+      "fold": 1,
+      "weights": [
+        0.9400000000000001,
+        0.1,
+        -0.04
+      ],
+      "gamma": 1.02,
+      "threshold": 0.468,
+      "mIoU": 0.8993524015110631
+    },
+    {
+      "fold": 2,
+      "weights": [
+        0.9400000000000001,
+        0.1,
+        -0.04
+      ],
+      "gamma": 1.02,
+      "threshold": 0.468,
+      "mIoU": 0.8884388807069219
+    },
+    {
+      "fold": 0,
+      "weights": [
+        0.9400000000000001,
+        0.1,
+        -0.04
+      ],
+      "gamma": 1.02,
+      "threshold": 0.472,
+      "mIoU": 0.8949605343047966
+    },
+    {
+      "fold": 1,
+      "weights": [
+        0.9400000000000001,
+        0.1,
+        -0.04
+      ],
+      "gamma": 1.02,
+      "threshold": 0.472,
+      "mIoU": 0.8993252361673414
+    },
+    {
+      "fold": 2,
+      "weights": [
+        0.9400000000000001,
+        0.1,
+        -0.04
+      ],
+      "gamma": 1.02,
+      "threshold": 0.472,
+      "mIoU": 0.8887661141804788
+    },
+    {
+      "fold": 0,
+      "weights": [
+        0.9,
+        0.1,
+        0.0
+      ],
+      "gamma": 0.98,
+      "threshold": 0.464,
+      "mIoU": 0.8940677966101694
+    },
+    {
+      "fold": 1,
+      "weights": [
+        0.9,
+        0.1,
+        0.0
+      ],
+      "gamma": 0.98,
+      "threshold": 0.464,
+      "mIoU": 0.8996232508073198
+    },
+    {
+      "fold": 2,
+      "weights": [
+        0.9,
+        0.1,
+        0.0
+      ],
+      "gamma": 0.98,
+      "threshold": 0.464,
+      "mIoU": 0.8881144534115921
+    },
+    {
+      "fold": 0,
+      "weights": [
+        0.9,
+        0.1,
+        0.0
+      ],
+      "gamma": 0.98,
+      "threshold": 0.468,
+      "mIoU": 0.8943384801695429
+    },
+    {
+      "fold": 1,
+      "weights": [
+        0.9,
+        0.1,
+        0.0
+      ],
+      "gamma": 0.98,
+      "threshold": 0.468,
+      "mIoU": 0.8995421492054942
+    },
+    {
+      "fold": 2,
+      "weights": [
+        0.9,
+        0.1,
+        0.0
+      ],
+      "gamma": 0.98,
+      "threshold": 0.468,
+      "mIoU": 0.889092912229159
+    },
+    {
+      "fold": 0,
+      "weights": [
+        0.9,
+        0.1,
+        0.0
+      ],
+      "gamma": 0.98,
+      "threshold": 0.472,
+      "mIoU": 0.8948803392911239
+    },
+    {
+      "fold": 1,
+      "weights": [
+        0.9,
+        0.1,
+        0.0
+      ],
+      "gamma": 0.98,
+      "threshold": 0.472,
+      "mIoU": 0.8994609164420485
+    },
+    {
+      "fold": 2,
+      "weights": [
+        0.9,
+        0.1,
+        0.0
+      ],
+      "gamma": 0.98,
+      "threshold": 0.472,
+      "mIoU": 0.8882763689819919
+    },
+    {
+      "fold": 0,
+      "weights": [
+        0.9,
+        0.1,
+        0.0
+      ],
+      "gamma": 1.0,
+      "threshold": 0.464,
+      "mIoU": 0.8948803392911239
+    },
+    {
+      "fold": 1,
+      "weights": [
+        0.9,
+        0.1,
+        0.0
+      ],
+      "gamma": 1.0,
+      "threshold": 0.464,
+      "mIoU": 0.8994609164420485
+    },
+    {
+      "fold": 2,
+      "weights": [
+        0.9,
+        0.1,
+        0.0
+      ],
+      "gamma": 1.0,
+      "threshold": 0.464,
+      "mIoU": 0.8879911861917004
+    },
+    {
+      "fold": 0,
+      "weights": [
+        0.9,
+        0.1,
+        0.0
+      ],
+      "gamma": 1.0,
+      "threshold": 0.468,
+      "mIoU": 0.8944815039417829
+    },
+    {
+      "fold": 1,
+      "weights": [
+        0.9,
+        0.1,
+        0.0
+      ],
+      "gamma": 1.0,
+      "threshold": 0.468,
+      "mIoU": 0.8999460625674218
+    },
+    {
+      "fold": 2,
+      "weights": [
+        0.9,
+        0.1,
+        0.0
+      ],
+      "gamma": 1.0,
+      "threshold": 0.468,
+      "mIoU": 0.8885619713129828
+    },
+    {
+      "fold": 0,
+      "weights": [
+        0.9,
+        0.1,
+        0.0
+      ],
+      "gamma": 1.0,
+      "threshold": 0.472,
+      "mIoU": 0.8938750758035173
+    },
+    {
+      "fold": 1,
+      "weights": [
+        0.9,
+        0.1,
+        0.0
+      ],
+      "gamma": 1.0,
+      "threshold": 0.472,
+      "mIoU": 0.8998920669185105
+    },
+    {
+      "fold": 2,
+      "weights": [
+        0.9,
+        0.1,
+        0.0
+      ],
+      "gamma": 1.0,
+      "threshold": 0.472,
+      "mIoU": 0.8888888888888888
+    },
+    {
+      "fold": 0,
+      "weights": [
+        0.9,
+        0.1,
+        0.0
+      ],
+      "gamma": 1.02,
+      "threshold": 0.464,
+      "mIoU": 0.8941782898726501
+    },
+    {
+      "fold": 1,
+      "weights": [
+        0.9,
+        0.1,
+        0.0
+      ],
+      "gamma": 1.02,
+      "threshold": 0.464,
+      "mIoU": 0.8996493121122201
+    },
+    {
+      "fold": 2,
+      "weights": [
+        0.9,
+        0.1,
+        0.0
+      ],
+      "gamma": 1.02,
+      "threshold": 0.464,
+      "mIoU": 0.8888888888888888
+    },
+    {
+      "fold": 0,
+      "weights": [
+        0.9,
+        0.1,
+        0.0
+      ],
+      "gamma": 1.02,
+      "threshold": 0.468,
+      "mIoU": 0.8941461935092508
+    },
+    {
+      "fold": 1,
+      "weights": [
+        0.9,
+        0.1,
+        0.0
+      ],
+      "gamma": 1.02,
+      "threshold": 0.468,
+      "mIoU": 0.8993524015110631
+    },
+    {
+      "fold": 2,
+      "weights": [
+        0.9,
+        0.1,
+        0.0
+      ],
+      "gamma": 1.02,
+      "threshold": 0.468,
+      "mIoU": 0.8881118881118881
+    },
+    {
+      "fold": 0,
+      "weights": [
+        0.9,
+        0.1,
+        0.0
+      ],
+      "gamma": 1.02,
+      "threshold": 0.472,
+      "mIoU": 0.8944174757281553
+    },
+    {
+      "fold": 1,
+      "weights": [
+        0.9,
+        0.1,
+        0.0
+      ],
+      "gamma": 1.02,
+      "threshold": 0.472,
+      "mIoU": 0.8993252361673414
+    },
+    {
+      "fold": 2,
+      "weights": [
+        0.9,
+        0.1,
+        0.0
+      ],
+      "gamma": 1.02,
+      "threshold": 0.472,
+      "mIoU": 0.8884388807069219
+    },
+    {
+      "fold": 0,
+      "weights": [
+        0.86,
+        0.1,
+        0.04
+      ],
+      "gamma": 0.98,
+      "threshold": 0.464,
+      "mIoU": 0.8940677966101694
+    },
+    {
+      "fold": 1,
+      "weights": [
+        0.86,
+        0.1,
+        0.04
+      ],
+      "gamma": 0.98,
+      "threshold": 0.464,
+      "mIoU": 0.8993812214151197
+    },
+    {
+      "fold": 2,
+      "weights": [
+        0.86,
+        0.1,
+        0.04
+      ],
+      "gamma": 0.98,
+      "threshold": 0.464,
+      "mIoU": 0.8874633431085044
+    },
+    {
+      "fold": 0,
+      "weights": [
+        0.86,
+        0.1,
+        0.04
+      ],
+      "gamma": 0.98,
+      "threshold": 0.468,
+      "mIoU": 0.8940677966101694
+    },
+    {
+      "fold": 1,
+      "weights": [
+        0.86,
+        0.1,
+        0.04
+      ],
+      "gamma": 0.98,
+      "threshold": 0.468,
+      "mIoU": 0.8990578734858681
+    },
+    {
+      "fold": 2,
+      "weights": [
+        0.86,
+        0.1,
+        0.04
+      ],
+      "gamma": 0.98,
+      "threshold": 0.468,
+      "mIoU": 0.889092912229159
+    },
+    {
+      "fold": 0,
+      "weights": [
+        0.86,
+        0.1,
+        0.04
+      ],
+      "gamma": 0.98,
+      "threshold": 0.472,
+      "mIoU": 0.8948484848484849
+    },
+    {
+      "fold": 1,
+      "weights": [
+        0.86,
+        0.1,
+        0.04
+      ],
+      "gamma": 0.98,
+      "threshold": 0.472,
+      "mIoU": 0.8992185394772299
+    },
+    {
+      "fold": 2,
+      "weights": [
+        0.86,
+        0.1,
+        0.04
+      ],
+      "gamma": 0.98,
+      "threshold": 0.472,
+      "mIoU": 0.8886438809261301
+    },
+    {
+      "fold": 0,
+      "weights": [
+        0.86,
+        0.1,
+        0.04
+      ],
+      "gamma": 1.0,
+      "threshold": 0.464,
+      "mIoU": 0.8948803392911239
+    },
+    {
+      "fold": 1,
+      "weights": [
+        0.86,
+        0.1,
+        0.04
+      ],
+      "gamma": 1.0,
+      "threshold": 0.464,
+      "mIoU": 0.8992185394772299
+    },
+    {
+      "fold": 2,
+      "weights": [
+        0.86,
+        0.1,
+        0.04
+      ],
+      "gamma": 1.0,
+      "threshold": 0.464,
+      "mIoU": 0.8883584282041865
+    },
+    {
+      "fold": 0,
+      "weights": [
+        0.86,
+        0.1,
+        0.04
+      ],
+      "gamma": 1.0,
+      "threshold": 0.468,
+      "mIoU": 0.8944815039417829
+    },
+    {
+      "fold": 1,
+      "weights": [
+        0.86,
+        0.1,
+        0.04
+      ],
+      "gamma": 1.0,
+      "threshold": 0.468,
+      "mIoU": 0.8999460625674218
+    },
+    {
+      "fold": 2,
+      "weights": [
+        0.86,
+        0.1,
+        0.04
+      ],
+      "gamma": 1.0,
+      "threshold": 0.468,
+      "mIoU": 0.8885619713129828
+    },
+    {
+      "fold": 0,
+      "weights": [
+        0.86,
+        0.1,
+        0.04
+      ],
+      "gamma": 1.0,
+      "threshold": 0.472,
+      "mIoU": 0.8938750758035173
+    },
+    {
+      "fold": 1,
+      "weights": [
+        0.86,
+        0.1,
+        0.04
+      ],
+      "gamma": 1.0,
+      "threshold": 0.472,
+      "mIoU": 0.8998920669185105
+    },
+    {
+      "fold": 2,
+      "weights": [
+        0.86,
+        0.1,
+        0.04
+      ],
+      "gamma": 1.0,
+      "threshold": 0.472,
+      "mIoU": 0.888847994111152
+    },
+    {
+      "fold": 0,
+      "weights": [
+        0.86,
+        0.1,
+        0.04
+      ],
+      "gamma": 1.02,
+      "threshold": 0.464,
+      "mIoU": 0.8941782898726501
+    },
+    {
+      "fold": 1,
+      "weights": [
+        0.86,
+        0.1,
+        0.04
+      ],
+      "gamma": 1.02,
+      "threshold": 0.464,
+      "mIoU": 0.8998920669185105
+    },
+    {
+      "fold": 2,
+      "weights": [
+        0.86,
+        0.1,
+        0.04
+      ],
+      "gamma": 1.02,
+      "threshold": 0.464,
+      "mIoU": 0.8888888888888888
+    },
+    {
+      "fold": 0,
+      "weights": [
+        0.86,
+        0.1,
+        0.04
+      ],
+      "gamma": 1.02,
+      "threshold": 0.468,
+      "mIoU": 0.8938750758035173
+    },
+    {
+      "fold": 1,
+      "weights": [
+        0.86,
+        0.1,
+        0.04
+      ],
+      "gamma": 1.02,
+      "threshold": 0.468,
+      "mIoU": 0.8993524015110631
+    },
+    {
+      "fold": 2,
+      "weights": [
+        0.86,
+        0.1,
+        0.04
+      ],
+      "gamma": 1.02,
+      "threshold": 0.468,
+      "mIoU": 0.8881118881118881
+    },
+    {
+      "fold": 0,
+      "weights": [
+        0.86,
+        0.1,
+        0.04
+      ],
+      "gamma": 1.02,
+      "threshold": 0.472,
+      "mIoU": 0.8944174757281553
+    },
+    {
+      "fold": 1,
+      "weights": [
+        0.86,
+        0.1,
+        0.04
+      ],
+      "gamma": 1.02,
+      "threshold": 0.472,
+      "mIoU": 0.8993252361673414
+    },
+    {
+      "fold": 2,
+      "weights": [
+        0.86,
+        0.1,
+        0.04
+      ],
+      "gamma": 1.02,
+      "threshold": 0.472,
+      "mIoU": 0.8884388807069219
+    },
+    {
+      "fold": 0,
+      "weights": [
+        0.92,
+        0.12,
+        -0.04
+      ],
+      "gamma": 0.98,
+      "threshold": 0.464,
+      "mIoU": 0.8949439903118377
+    },
+    {
+      "fold": 1,
+      "weights": [
+        0.92,
+        0.12,
+        -0.04
+      ],
+      "gamma": 0.98,
+      "threshold": 0.464,
+      "mIoU": 0.8993270524899057
+    },
+    {
+      "fold": 2,
+      "weights": [
+        0.92,
+        0.12,
+        -0.04
+      ],
+      "gamma": 0.98,
+      "threshold": 0.464,
+      "mIoU": 0.8887256702166728
+    },
+    {
+      "fold": 0,
+      "weights": [
+        0.92,
+        0.12,
+        -0.04
+      ],
+      "gamma": 0.98,
+      "threshold": 0.468,
+      "mIoU": 0.8948803392911239
+    },
+    {
+      "fold": 1,
+      "weights": [
+        0.92,
+        0.12,
+        -0.04
+      ],
+      "gamma": 0.98,
+      "threshold": 0.468,
+      "mIoU": 0.8992728252087261
+    },
+    {
+      "fold": 2,
+      "weights": [
+        0.92,
+        0.12,
+        -0.04
+      ],
+      "gamma": 0.98,
+      "threshold": 0.468,
+      "mIoU": 0.8879911861917004
+    },
+    {
+      "fold": 0,
+      "weights": [
+        0.92,
+        0.12,
+        -0.04
+      ],
+      "gamma": 0.98,
+      "threshold": 0.472,
+      "mIoU": 0.8945454545454545
+    },
+    {
+      "fold": 1,
+      "weights": [
+        0.92,
+        0.12,
+        -0.04
+      ],
+      "gamma": 0.98,
+      "threshold": 0.472,
+      "mIoU": 0.8997304582210243
+    },
+    {
+      "fold": 2,
+      "weights": [
+        0.92,
+        0.12,
+        -0.04
+      ],
+      "gamma": 0.98,
+      "threshold": 0.472,
+      "mIoU": 0.8882763689819919
+    },
+    {
+      "fold": 0,
+      "weights": [
+        0.92,
+        0.12,
+        -0.04
+      ],
+      "gamma": 1.0,
+      "threshold": 0.464,
+      "mIoU": 0.8942744622841563
+    },
+    {
+      "fold": 1,
+      "weights": [
+        0.92,
+        0.12,
+        -0.04
+      ],
+      "gamma": 1.0,
+      "threshold": 0.464,
+      "mIoU": 0.8997304582210243
+    },
+    {
+      "fold": 2,
+      "weights": [
+        0.92,
+        0.12,
+        -0.04
+      ],
+      "gamma": 1.0,
+      "threshold": 0.464,
+      "mIoU": 0.8882763689819919
+    },
+    {
+      "fold": 0,
+      "weights": [
+        0.92,
+        0.12,
+        -0.04
+      ],
+      "gamma": 1.0,
+      "threshold": 0.468,
+      "mIoU": 0.8947847180109157
+    },
+    {
+      "fold": 1,
+      "weights": [
+        0.92,
+        0.12,
+        -0.04
+      ],
+      "gamma": 1.0,
+      "threshold": 0.468,
+      "mIoU": 0.899703424103532
+    },
+    {
+      "fold": 2,
+      "weights": [
+        0.92,
+        0.12,
+        -0.04
+      ],
+      "gamma": 1.0,
+      "threshold": 0.468,
+      "mIoU": 0.8885619713129828
+    },
+    {
+      "fold": 0,
+      "weights": [
+        0.92,
+        0.12,
+        -0.04
+      ],
+      "gamma": 1.0,
+      "threshold": 0.472,
+      "mIoU": 0.8947208737864077
+    },
+    {
+      "fold": 1,
+      "weights": [
+        0.92,
+        0.12,
+        -0.04
+      ],
+      "gamma": 1.0,
+      "threshold": 0.472,
+      "mIoU": 0.8998920669185105
+    },
+    {
+      "fold": 2,
+      "weights": [
+        0.92,
+        0.12,
+        -0.04
+      ],
+      "gamma": 1.0,
+      "threshold": 0.472,
+      "mIoU": 0.889216047110784
+    },
+    {
+      "fold": 0,
+      "weights": [
+        0.92,
+        0.12,
+        -0.04
+      ],
+      "gamma": 1.02,
+      "threshold": 0.464,
+      "mIoU": 0.8947208737864077
+    },
+    {
+      "fold": 1,
+      "weights": [
+        0.92,
+        0.12,
+        -0.04
+      ],
+      "gamma": 1.02,
+      "threshold": 0.464,
+      "mIoU": 0.9001888319395738
+    },
+    {
+      "fold": 2,
+      "weights": [
+        0.92,
+        0.12,
+        -0.04
+      ],
+      "gamma": 1.02,
+      "threshold": 0.464,
+      "mIoU": 0.8888888888888888
+    },
+    {
+      "fold": 0,
+      "weights": [
+        0.92,
+        0.12,
+        -0.04
+      ],
+      "gamma": 1.02,
+      "threshold": 0.468,
+      "mIoU": 0.8955042527339003
+    },
+    {
+      "fold": 1,
+      "weights": [
+        0.92,
+        0.12,
+        -0.04
+      ],
+      "gamma": 1.02,
+      "threshold": 0.468,
+      "mIoU": 0.8990825688073395
+    },
+    {
+      "fold": 2,
+      "weights": [
+        0.92,
+        0.12,
+        -0.04
+      ],
+      "gamma": 1.02,
+      "threshold": 0.468,
+      "mIoU": 0.8894620486366986
+    },
+    {
+      "fold": 0,
+      "weights": [
+        0.92,
+        0.12,
+        -0.04
+      ],
+      "gamma": 1.02,
+      "threshold": 0.472,
+      "mIoU": 0.8957763597690671
+    },
+    {
+      "fold": 1,
+      "weights": [
+        0.92,
+        0.12,
+        -0.04
+      ],
+      "gamma": 1.02,
+      "threshold": 0.472,
+      "mIoU": 0.8987580993520519
+    },
+    {
+      "fold": 2,
+      "weights": [
+        0.92,
+        0.12,
+        -0.04
+      ],
+      "gamma": 1.02,
+      "threshold": 0.472,
+      "mIoU": 0.8910635155096012
+    },
+    {
+      "fold": 0,
+      "weights": [
+        0.88,
+        0.12,
+        0.0
+      ],
+      "gamma": 0.98,
+      "threshold": 0.464,
+      "mIoU": 0.8946731234866828
+    },
+    {
+      "fold": 1,
+      "weights": [
+        0.88,
+        0.12,
+        0.0
+      ],
+      "gamma": 0.98,
+      "threshold": 0.464,
+      "mIoU": 0.8990578734858681
+    },
+    {
+      "fold": 2,
+      "weights": [
+        0.88,
+        0.12,
+        0.0
+      ],
+      "gamma": 0.98,
+      "threshold": 0.464,
+      "mIoU": 0.8887256702166728
+    },
+    {
+      "fold": 0,
+      "weights": [
+        0.88,
+        0.12,
+        0.0
+      ],
+      "gamma": 0.98,
+      "threshold": 0.468,
+      "mIoU": 0.8948803392911239
+    },
+    {
+      "fold": 1,
+      "weights": [
+        0.88,
+        0.12,
+        0.0
+      ],
+      "gamma": 0.98,
+      "threshold": 0.468,
+      "mIoU": 0.8992728252087261
+    },
+    {
+      "fold": 2,
+      "weights": [
+        0.88,
+        0.12,
+        0.0
+      ],
+      "gamma": 0.98,
+      "threshold": 0.468,
+      "mIoU": 0.8879911861917004
+    },
+    {
+      "fold": 0,
+      "weights": [
+        0.88,
+        0.12,
+        0.0
+      ],
+      "gamma": 0.98,
+      "threshold": 0.472,
+      "mIoU": 0.8942744622841563
+    },
+    {
+      "fold": 1,
+      "weights": [
+        0.88,
+        0.12,
+        0.0
+      ],
+      "gamma": 0.98,
+      "threshold": 0.472,
+      "mIoU": 0.8997304582210243
+    },
+    {
+      "fold": 2,
+      "weights": [
+        0.88,
+        0.12,
+        0.0
+      ],
+      "gamma": 0.98,
+      "threshold": 0.472,
+      "mIoU": 0.8882763689819919
+    },
+    {
+      "fold": 0,
+      "weights": [
+        0.88,
+        0.12,
+        0.0
+      ],
+      "gamma": 1.0,
+      "threshold": 0.464,
+      "mIoU": 0.8942744622841563
+    },
+    {
+      "fold": 1,
+      "weights": [
+        0.88,
+        0.12,
+        0.0
+      ],
+      "gamma": 1.0,
+      "threshold": 0.464,
+      "mIoU": 0.8997304582210243
+    },
+    {
+      "fold": 2,
+      "weights": [
+        0.88,
+        0.12,
+        0.0
+      ],
+      "gamma": 1.0,
+      "threshold": 0.464,
+      "mIoU": 0.8882763689819919
+    },
+    {
+      "fold": 0,
+      "weights": [
+        0.88,
+        0.12,
+        0.0
+      ],
+      "gamma": 1.0,
+      "threshold": 0.468,
+      "mIoU": 0.8945134889360412
+    },
+    {
+      "fold": 1,
+      "weights": [
+        0.88,
+        0.12,
+        0.0
+      ],
+      "gamma": 1.0,
+      "threshold": 0.468,
+      "mIoU": 0.899703424103532
+    },
+    {
+      "fold": 2,
+      "weights": [
+        0.88,
+        0.12,
+        0.0
+      ],
+      "gamma": 1.0,
+      "threshold": 0.468,
+      "mIoU": 0.8885619713129828
+    },
+    {
+      "fold": 0,
+      "weights": [
+        0.88,
+        0.12,
+        0.0
+      ],
+      "gamma": 1.0,
+      "threshold": 0.472,
+      "mIoU": 0.8947208737864077
+    },
+    {
+      "fold": 1,
+      "weights": [
+        0.88,
+        0.12,
+        0.0
+      ],
+      "gamma": 1.0,
+      "threshold": 0.472,
+      "mIoU": 0.8996222342147868
+    },
+    {
+      "fold": 2,
+      "weights": [
+        0.88,
+        0.12,
+        0.0
+      ],
+      "gamma": 1.0,
+      "threshold": 0.472,
+      "mIoU": 0.8888888888888888
+    },
+    {
+      "fold": 0,
+      "weights": [
+        0.88,
+        0.12,
+        0.0
+      ],
+      "gamma": 1.02,
+      "threshold": 0.464,
+      "mIoU": 0.8950242718446602
+    },
+    {
+      "fold": 1,
+      "weights": [
+        0.88,
+        0.12,
+        0.0
+      ],
+      "gamma": 1.02,
+      "threshold": 0.464,
+      "mIoU": 0.9001888319395738
+    },
+    {
+      "fold": 2,
+      "weights": [
+        0.88,
+        0.12,
+        0.0
+      ],
+      "gamma": 1.02,
+      "threshold": 0.464,
+      "mIoU": 0.8885619713129828
+    },
+    {
+      "fold": 0,
+      "weights": [
+        0.88,
+        0.12,
+        0.0
+      ],
+      "gamma": 1.02,
+      "threshold": 0.468,
+      "mIoU": 0.895232310962648
+    },
+    {
+      "fold": 1,
+      "weights": [
+        0.88,
+        0.12,
+        0.0
+      ],
+      "gamma": 1.02,
+      "threshold": 0.468,
+      "mIoU": 0.8990825688073395
+    },
+    {
+      "fold": 2,
+      "weights": [
+        0.88,
+        0.12,
+        0.0
+      ],
+      "gamma": 1.02,
+      "threshold": 0.468,
+      "mIoU": 0.889134438305709
+    },
+    {
+      "fold": 0,
+      "weights": [
+        0.88,
+        0.12,
+        0.0
+      ],
+      "gamma": 1.02,
+      "threshold": 0.472,
+      "mIoU": 0.8957763597690671
+    },
+    {
+      "fold": 1,
+      "weights": [
+        0.88,
+        0.12,
+        0.0
+      ],
+      "gamma": 1.02,
+      "threshold": 0.472,
+      "mIoU": 0.8990280777537797
+    },
+    {
+      "fold": 2,
+      "weights": [
+        0.88,
+        0.12,
+        0.0
+      ],
+      "gamma": 1.02,
+      "threshold": 0.472,
+      "mIoU": 0.890734588409007
+    },
+    {
+      "fold": 0,
+      "weights": [
+        0.84,
+        0.12,
+        0.04
+      ],
+      "gamma": 0.98,
+      "threshold": 0.464,
+      "mIoU": 0.8946731234866828
+    },
+    {
+      "fold": 1,
+      "weights": [
+        0.84,
+        0.12,
+        0.04
+      ],
+      "gamma": 0.98,
+      "threshold": 0.464,
+      "mIoU": 0.8990578734858681
+    },
+    {
+      "fold": 2,
+      "weights": [
+        0.84,
+        0.12,
+        0.04
+      ],
+      "gamma": 0.98,
+      "threshold": 0.464,
+      "mIoU": 0.8883584282041865
+    },
+    {
+      "fold": 0,
+      "weights": [
+        0.84,
+        0.12,
+        0.04
+      ],
+      "gamma": 0.98,
+      "threshold": 0.468,
+      "mIoU": 0.8948803392911239
+    },
+    {
+      "fold": 1,
+      "weights": [
+        0.84,
+        0.12,
+        0.04
+      ],
+      "gamma": 0.98,
+      "threshold": 0.468,
+      "mIoU": 0.8990306946688207
+    },
+    {
+      "fold": 2,
+      "weights": [
+        0.84,
+        0.12,
+        0.04
+      ],
+      "gamma": 0.98,
+      "threshold": 0.468,
+      "mIoU": 0.8879911861917004
+    },
+    {
+      "fold": 0,
+      "weights": [
+        0.84,
+        0.12,
+        0.04
+      ],
+      "gamma": 0.98,
+      "threshold": 0.472,
+      "mIoU": 0.8942744622841563
+    },
+    {
+      "fold": 1,
+      "weights": [
+        0.84,
+        0.12,
+        0.04
+      ],
+      "gamma": 0.98,
+      "threshold": 0.472,
+      "mIoU": 0.8994880086230127
+    },
+    {
+      "fold": 2,
+      "weights": [
+        0.84,
+        0.12,
+        0.04
+      ],
+      "gamma": 0.98,
+      "threshold": 0.472,
+      "mIoU": 0.8882763689819919
+    },
+    {
+      "fold": 0,
+      "weights": [
+        0.84,
+        0.12,
+        0.04
+      ],
+      "gamma": 1.0,
+      "threshold": 0.464,
+      "mIoU": 0.8942744622841563
+    },
+    {
+      "fold": 1,
+      "weights": [
+        0.84,
+        0.12,
+        0.04
+      ],
+      "gamma": 1.0,
+      "threshold": 0.464,
+      "mIoU": 0.8994880086230127
+    },
+    {
+      "fold": 2,
+      "weights": [
+        0.84,
+        0.12,
+        0.04
+      ],
+      "gamma": 1.0,
+      "threshold": 0.464,
+      "mIoU": 0.8882763689819919
+    },
+    {
+      "fold": 0,
+      "weights": [
+        0.84,
+        0.12,
+        0.04
+      ],
+      "gamma": 1.0,
+      "threshold": 0.468,
+      "mIoU": 0.8945134889360412
+    },
+    {
+      "fold": 1,
+      "weights": [
+        0.84,
+        0.12,
+        0.04
+      ],
+      "gamma": 1.0,
+      "threshold": 0.468,
+      "mIoU": 0.8999460625674218
+    },
+    {
+      "fold": 2,
+      "weights": [
+        0.84,
+        0.12,
+        0.04
+      ],
+      "gamma": 1.0,
+      "threshold": 0.468,
+      "mIoU": 0.8885619713129828
+    },
+    {
+      "fold": 0,
+      "weights": [
+        0.84,
+        0.12,
+        0.04
+      ],
+      "gamma": 1.0,
+      "threshold": 0.472,
+      "mIoU": 0.8950242718446602
+    },
+    {
+      "fold": 1,
+      "weights": [
+        0.84,
+        0.12,
+        0.04
+      ],
+      "gamma": 1.0,
+      "threshold": 0.472,
+      "mIoU": 0.8996222342147868
+    },
+    {
+      "fold": 2,
+      "weights": [
+        0.84,
+        0.12,
+        0.04
+      ],
+      "gamma": 1.0,
+      "threshold": 0.472,
+      "mIoU": 0.8885209713024282
+    },
+    {
+      "fold": 0,
+      "weights": [
+        0.84,
+        0.12,
+        0.04
+      ],
+      "gamma": 1.02,
+      "threshold": 0.464,
+      "mIoU": 0.8950242718446602
+    },
+    {
+      "fold": 1,
+      "weights": [
+        0.84,
+        0.12,
+        0.04
+      ],
+      "gamma": 1.02,
+      "threshold": 0.464,
+      "mIoU": 0.9001888319395738
+    },
+    {
+      "fold": 2,
+      "weights": [
+        0.84,
+        0.12,
+        0.04
+      ],
+      "gamma": 1.02,
+      "threshold": 0.464,
+      "mIoU": 0.8885619713129828
+    },
+    {
+      "fold": 0,
+      "weights": [
+        0.84,
+        0.12,
+        0.04
+      ],
+      "gamma": 1.02,
+      "threshold": 0.468,
+      "mIoU": 0.8946889226100152
+    },
+    {
+      "fold": 1,
+      "weights": [
+        0.84,
+        0.12,
+        0.04
+      ],
+      "gamma": 1.02,
+      "threshold": 0.468,
+      "mIoU": 0.8990825688073395
+    },
+    {
+      "fold": 2,
+      "weights": [
+        0.84,
+        0.12,
+        0.04
+      ],
+      "gamma": 1.02,
+      "threshold": 0.468,
+      "mIoU": 0.889134438305709
+    },
+    {
+      "fold": 0,
+      "weights": [
+        0.84,
+        0.12,
+        0.04
+      ],
+      "gamma": 1.02,
+      "threshold": 0.472,
+      "mIoU": 0.8957763597690671
+    },
+    {
+      "fold": 1,
+      "weights": [
+        0.84,
+        0.12,
+        0.04
+      ],
+      "gamma": 1.02,
+      "threshold": 0.472,
+      "mIoU": 0.8990280777537797
+    },
+    {
+      "fold": 2,
+      "weights": [
+        0.84,
+        0.12,
+        0.04
+      ],
+      "gamma": 1.02,
+      "threshold": 0.472,
+      "mIoU": 0.8904059040590406
+    },
+    {
+      "fold": 0,
+      "weights": [
+        0.92,
+        0.08,
+        0.0
+      ],
+      "gamma": 0.98,
+      "threshold": 0.464,
+      "mIoU": 0.8940677966101694
+    },
+    {
+      "fold": 1,
+      "weights": [
+        0.92,
+        0.08,
+        0.0
+      ],
+      "gamma": 0.98,
+      "threshold": 0.464,
+      "mIoU": 0.8994353320785158
+    },
+    {
+      "fold": 2,
+      "weights": [
+        0.92,
+        0.08,
+        0.0
+      ],
+      "gamma": 0.98,
+      "threshold": 0.464,
+      "mIoU": 0.8881964809384164
+    },
+    {
+      "fold": 0,
+      "weights": [
+        0.92,
+        0.08,
+        0.0
+      ],
+      "gamma": 0.98,
+      "threshold": 0.468,
+      "mIoU": 0.8946093276801939
+    },
+    {
+      "fold": 1,
+      "weights": [
+        0.92,
+        0.08,
+        0.0
+      ],
+      "gamma": 0.98,
+      "threshold": 0.468,
+      "mIoU": 0.9001345895020189
+    },
+    {
+      "fold": 2,
+      "weights": [
+        0.92,
+        0.08,
+        0.0
+      ],
+      "gamma": 0.98,
+      "threshold": 0.468,
+      "mIoU": 0.8877476155539251
+    },
+    {
+      "fold": 0,
+      "weights": [
+        0.92,
+        0.08,
+        0.0
+      ],
+      "gamma": 0.98,
+      "threshold": 0.472,
+      "mIoU": 0.8942744622841563
+    },
+    {
+      "fold": 1,
+      "weights": [
+        0.92,
+        0.08,
+        0.0
+      ],
+      "gamma": 0.98,
+      "threshold": 0.472,
+      "mIoU": 0.8995150862068966
+    },
+    {
+      "fold": 2,
+      "weights": [
+        0.92,
+        0.08,
+        0.0
+      ],
+      "gamma": 0.98,
+      "threshold": 0.472,
+      "mIoU": 0.8887256702166728
+    },
+    {
+      "fold": 0,
+      "weights": [
+        0.92,
+        0.08,
+        0.0
+      ],
+      "gamma": 1.0,
+      "threshold": 0.464,
+      "mIoU": 0.8940036341611145
+    },
+    {
+      "fold": 1,
+      "weights": [
+        0.92,
+        0.08,
+        0.0
+      ],
+      "gamma": 1.0,
+      "threshold": 0.464,
+      "mIoU": 0.8995150862068966
+    },
+    {
+      "fold": 2,
+      "weights": [
+        0.92,
+        0.08,
+        0.0
+      ],
+      "gamma": 1.0,
+      "threshold": 0.464,
+      "mIoU": 0.8883994126284875
+    },
+    {
+      "fold": 0,
+      "weights": [
+        0.92,
+        0.08,
+        0.0
+      ],
+      "gamma": 1.0,
+      "threshold": 0.468,
+      "mIoU": 0.894816611094271
+    },
+    {
+      "fold": 1,
+      "weights": [
+        0.92,
+        0.08,
+        0.0
+      ],
+      "gamma": 1.0,
+      "threshold": 0.468,
+      "mIoU": 0.8991913746630728
+    },
+    {
+      "fold": 2,
+      "weights": [
+        0.92,
+        0.08,
+        0.0
+      ],
+      "gamma": 1.0,
+      "threshold": 0.468,
+      "mIoU": 0.8886847905951506
+    },
+    {
+      "fold": 0,
+      "weights": [
+        0.92,
+        0.08,
+        0.0
+      ],
+      "gamma": 1.0,
+      "threshold": 0.472,
+      "mIoU": 0.8936041224613519
+    },
+    {
+      "fold": 1,
+      "weights": [
+        0.92,
+        0.08,
+        0.0
+      ],
+      "gamma": 1.0,
+      "threshold": 0.472,
+      "mIoU": 0.9001618996222343
+    },
+    {
+      "fold": 2,
+      "weights": [
+        0.92,
+        0.08,
+        0.0
+      ],
+      "gamma": 1.0,
+      "threshold": 0.472,
+      "mIoU": 0.8889297535858771
+    },
+    {
+      "fold": 0,
+      "weights": [
+        0.92,
+        0.08,
+        0.0
+      ],
+      "gamma": 1.02,
+      "threshold": 0.464,
+      "mIoU": 0.8936041224613519
+    },
+    {
+      "fold": 1,
+      "weights": [
+        0.92,
+        0.08,
+        0.0
+      ],
+      "gamma": 1.02,
+      "threshold": 0.464,
+      "mIoU": 0.9001618996222343
+    },
+    {
+      "fold": 2,
+      "weights": [
+        0.92,
+        0.08,
+        0.0
+      ],
+      "gamma": 1.02,
+      "threshold": 0.464,
+      "mIoU": 0.8892975358587716
+    },
+    {
+      "fold": 0,
+      "weights": [
+        0.92,
+        0.08,
+        0.0
+      ],
+      "gamma": 1.02,
+      "threshold": 0.468,
+      "mIoU": 0.8935718617343845
+    },
+    {
+      "fold": 1,
+      "weights": [
+        0.92,
+        0.08,
+        0.0
+      ],
+      "gamma": 1.02,
+      "threshold": 0.468,
+      "mIoU": 0.8998920669185105
+    },
+    {
+      "fold": 2,
+      "weights": [
+        0.92,
+        0.08,
+        0.0
+      ],
+      "gamma": 1.02,
+      "threshold": 0.468,
+      "mIoU": 0.8877851361295069
+    },
+    {
+      "fold": 0,
+      "weights": [
+        0.92,
+        0.08,
+        0.0
+      ],
+      "gamma": 1.02,
+      "threshold": 0.472,
+      "mIoU": 0.8943854324734446
+    },
+    {
+      "fold": 1,
+      "weights": [
+        0.92,
+        0.08,
+        0.0
+      ],
+      "gamma": 1.02,
+      "threshold": 0.472,
+      "mIoU": 0.899055330634278
+    },
+    {
+      "fold": 2,
+      "weights": [
+        0.92,
+        0.08,
+        0.0
+      ],
+      "gamma": 1.02,
+      "threshold": 0.472,
+      "mIoU": 0.8877438351122562
+    },
+    {
+      "fold": 0,
+      "weights": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "gamma": 0.98,
+      "threshold": 0.464,
+      "mIoU": 0.893212669683258
+    },
+    {
+      "fold": 1,
+      "weights": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "gamma": 0.98,
+      "threshold": 0.464,
+      "mIoU": 0.8961178045515394
+    },
+    {
+      "fold": 2,
+      "weights": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "gamma": 0.98,
+      "threshold": 0.464,
+      "mIoU": 0.8861313868613139
+    },
+    {
+      "fold": 0,
+      "weights": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "gamma": 0.98,
+      "threshold": 0.468,
+      "mIoU": 0.8939897311990336
+    },
+    {
+      "fold": 1,
+      "weights": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "gamma": 0.98,
+      "threshold": 0.468,
+      "mIoU": 0.896514745308311
+    },
+    {
+      "fold": 2,
+      "weights": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "gamma": 0.98,
+      "threshold": 0.468,
+      "mIoU": 0.8866959064327485
+    },
+    {
+      "fold": 0,
+      "weights": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "gamma": 0.98,
+      "threshold": 0.472,
+      "mIoU": 0.8944981862152358
+    },
+    {
+      "fold": 1,
+      "weights": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "gamma": 0.98,
+      "threshold": 0.472,
+      "mIoU": 0.8983870967741936
+    },
+    {
+      "fold": 2,
+      "weights": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "gamma": 0.98,
+      "threshold": 0.472,
+      "mIoU": 0.8888888888888888
+    },
+    {
+      "fold": 0,
+      "weights": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "gamma": 1.0,
+      "threshold": 0.464,
+      "mIoU": 0.8944981862152358
+    },
+    {
+      "fold": 1,
+      "weights": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "gamma": 1.0,
+      "threshold": 0.464,
+      "mIoU": 0.8981456597688793
+    },
+    {
+      "fold": 2,
+      "weights": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "gamma": 1.0,
+      "threshold": 0.464,
+      "mIoU": 0.8879120879120879
+    },
+    {
+      "fold": 0,
+      "weights": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "gamma": 1.0,
+      "threshold": 0.468,
+      "mIoU": 0.893861505896583
+    },
+    {
+      "fold": 1,
+      "weights": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "gamma": 1.0,
+      "threshold": 0.468,
+      "mIoU": 0.8990578734858681
+    },
+    {
+      "fold": 2,
+      "weights": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "gamma": 1.0,
+      "threshold": 0.468,
+      "mIoU": 0.8881144534115921
+    },
+    {
+      "fold": 0,
+      "weights": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "gamma": 1.0,
+      "threshold": 0.472,
+      "mIoU": 0.8937972768532526
+    },
+    {
+      "fold": 1,
+      "weights": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "gamma": 1.0,
+      "threshold": 0.472,
+      "mIoU": 0.9004854368932039
+    },
+    {
+      "fold": 2,
+      "weights": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "gamma": 1.0,
+      "threshold": 0.472,
+      "mIoU": 0.8887256702166728
+    },
+    {
+      "fold": 0,
+      "weights": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "gamma": 1.02,
+      "threshold": 0.464,
+      "mIoU": 0.8935269207501513
+    },
+    {
+      "fold": 1,
+      "weights": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "gamma": 1.02,
+      "threshold": 0.464,
+      "mIoU": 0.9004854368932039
+    },
+    {
+      "fold": 2,
+      "weights": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "gamma": 1.02,
+      "threshold": 0.464,
+      "mIoU": 0.8887665198237885
+    },
+    {
+      "fold": 0,
+      "weights": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "gamma": 1.02,
+      "threshold": 0.468,
+      "mIoU": 0.8937651331719129
+    },
+    {
+      "fold": 1,
+      "weights": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "gamma": 1.02,
+      "threshold": 0.468,
+      "mIoU": 0.9004317323259579
+    },
+    {
+      "fold": 2,
+      "weights": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "gamma": 1.02,
+      "threshold": 0.468,
+      "mIoU": 0.8886847905951506
+    },
+    {
+      "fold": 0,
+      "weights": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "gamma": 1.02,
+      "threshold": 0.472,
+      "mIoU": 0.8931274598849531
+    },
+    {
+      "fold": 1,
+      "weights": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "gamma": 1.02,
+      "threshold": 0.472,
+      "mIoU": 0.9006211180124224
+    },
+    {
+      "fold": 2,
+      "weights": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "gamma": 1.02,
+      "threshold": 0.472,
+      "mIoU": 0.8881941890400883
+    }
+  ],
+  "test_from_val_top": [
+    {
+      "weights": [
+        0.88,
+        0.12,
+        0.0
+      ],
+      "gamma": 1.02,
+      "threshold": 0.472,
+      "folds": 3,
+      "val_mean_mIoU": 0.8951796753106179,
+      "val_min_mIoU": 0.890734588409007,
+      "min_area": 1,
+      "mIoU": 0.8168030551009274,
+      "nIoU": 0.8190599874041266,
+      "Pd": 0.9953271028037384,
+      "Fa": 5.330286357800925e-05
+    },
+    {
+      "weights": [
+        0.92,
+        0.12,
+        -0.04
+      ],
+      "gamma": 1.02,
+      "threshold": 0.472,
+      "folds": 3,
+      "val_mean_mIoU": 0.8951993248769067,
+      "val_min_mIoU": 0.8910635155096012,
+      "min_area": 1,
+      "mIoU": 0.8166939443535188,
+      "nIoU": 0.8187005337736448,
+      "Pd": 0.9953271028037384,
+      "Fa": 5.330286357800925e-05
+    },
+    {
+      "weights": [
+        0.84,
+        0.12,
+        0.04
+      ],
+      "gamma": 1.02,
+      "threshold": 0.472,
+      "folds": 3,
+      "val_mean_mIoU": 0.8950701138606293,
+      "val_min_mIoU": 0.8904059040590406,
+      "min_area": 1,
+      "mIoU": 0.8166048439886537,
+      "nIoU": 0.8189025541440033,
+      "Pd": 0.9953271028037384,
+      "Fa": 5.3371464432035006e-05
+    },
+    {
+      "weights": [
+        0.84,
+        0.12,
+        0.04
+      ],
+      "gamma": 1.02,
+      "threshold": 0.464,
+      "folds": 3,
+      "val_mean_mIoU": 0.8945916916990723,
+      "val_min_mIoU": 0.8885619713129828,
+      "min_area": 1,
+      "mIoU": 0.816586748038361,
+      "nIoU": 0.8184276508915083,
+      "Pd": 0.9953271028037384,
+      "Fa": 5.4057472972292524e-05
+    },
+    {
+      "weights": [
+        0.84,
+        0.12,
+        0.04
+      ],
+      "gamma": 1.0,
+      "threshold": 0.472,
+      "folds": 3,
+      "val_mean_mIoU": 0.8943891591206251,
+      "val_min_mIoU": 0.8885209713024282,
+      "min_area": 1,
+      "mIoU": 0.8164577656675749,
+      "nIoU": 0.818454264140299,
+      "Pd": 0.9953271028037384,
+      "Fa": 5.3988872118266776e-05
+    },
+    {
+      "weights": [
+        0.92,
+        0.12,
+        -0.04
+      ],
+      "gamma": 1.0,
+      "threshold": 0.468,
+      "folds": 3,
+      "val_mean_mIoU": 0.8943500378091435,
+      "val_min_mIoU": 0.8885619713129828,
+      "min_area": 1,
+      "mIoU": 0.8164488017429193,
+      "nIoU": 0.8183988598552726,
+      "Pd": 0.9953271028037384,
+      "Fa": 5.4331876388395535e-05
+    },
+    {
+      "weights": [
+        0.88,
+        0.12,
+        0.0
+      ],
+      "gamma": 1.02,
+      "threshold": 0.464,
+      "folds": 3,
+      "val_mean_mIoU": 0.8945916916990723,
+      "val_min_mIoU": 0.8885619713129828,
+      "min_area": 1,
+      "mIoU": 0.8163887980821619,
+      "nIoU": 0.8182221429483206,
+      "Pd": 0.9953271028037384,
+      "Fa": 5.412607382631828e-05
+    },
+    {
+      "weights": [
+        0.92,
+        0.12,
+        -0.04
+      ],
+      "gamma": 1.02,
+      "threshold": 0.468,
+      "folds": 3,
+      "val_mean_mIoU": 0.8946829567259794,
+      "val_min_mIoU": 0.8894620486366986,
+      "min_area": 1,
+      "mIoU": 0.8163777123541599,
+      "nIoU": 0.8184722216827116,
+      "Pd": 0.9953271028037384,
+      "Fa": 5.3714468702163765e-05
+    },
+    {
+      "weights": [
+        0.88,
+        0.12,
+        0.0
+      ],
+      "gamma": 1.02,
+      "threshold": 0.468,
+      "folds": 3,
+      "val_mean_mIoU": 0.8944831060252322,
+      "val_min_mIoU": 0.889134438305709,
+      "min_area": 1,
+      "mIoU": 0.8163777123541599,
+      "nIoU": 0.8184722216827116,
+      "Pd": 0.9953271028037384,
+      "Fa": 5.3714468702163765e-05
+    },
+    {
+      "weights": [
+        0.92,
+        0.12,
+        -0.04
+      ],
+      "gamma": 1.0,
+      "threshold": 0.472,
+      "folds": 3,
+      "val_mean_mIoU": 0.8946096626052341,
+      "val_min_mIoU": 0.889216047110784,
+      "min_area": 1,
+      "mIoU": 0.816328755177676,
+      "nIoU": 0.8183391381773293,
+      "Pd": 0.9953271028037384,
+      "Fa": 5.392027126424102e-05
+    },
+    {
+      "weights": [
+        0.88,
+        0.12,
+        0.0
+      ],
+      "gamma": 1.0,
+      "threshold": 0.472,
+      "folds": 3,
+      "val_mean_mIoU": 0.8944106656300278,
+      "val_min_mIoU": 0.8888888888888888,
+      "min_area": 1,
+      "mIoU": 0.816328755177676,
+      "nIoU": 0.8183391381773293,
+      "Pd": 0.9953271028037384,
+      "Fa": 5.392027126424102e-05
+    },
+    {
+      "weights": [
+        0.84,
+        0.12,
+        0.04
+      ],
+      "gamma": 1.0,
+      "threshold": 0.468,
+      "folds": 3,
+      "val_mean_mIoU": 0.8943405076054819,
+      "val_min_mIoU": 0.8885619713129828,
+      "min_area": 1,
+      "mIoU": 0.8162020905923345,
+      "nIoU": 0.8181091220384145,
+      "Pd": 0.9953271028037384,
+      "Fa": 5.460627980449854e-05
+    },
+    {
+      "weights": [
+        0.92,
+        0.12,
+        -0.04
+      ],
+      "gamma": 1.02,
+      "threshold": 0.464,
+      "folds": 3,
+      "val_mean_mIoU": 0.8945995315382902,
+      "val_min_mIoU": 0.8888888888888888,
+      "min_area": 1,
+      "mIoU": 0.8161708619374524,
+      "nIoU": 0.818066507131757,
+      "Pd": 0.9953271028037384,
+      "Fa": 5.412607382631828e-05
+    },
+    {
+      "weights": [
+        0.92,
+        0.12,
+        -0.04
+      ],
+      "gamma": 0.98,
+      "threshold": 0.464,
+      "folds": 3,
+      "val_mean_mIoU": 0.8943322376728053,
+      "val_min_mIoU": 0.8887256702166728,
+      "min_area": 1,
+      "mIoU": 0.815752308527974,
+      "nIoU": 0.8174204539662817,
+      "Pd": 0.9953271028037384,
+      "Fa": 5.6046897739039335e-05
+    },
+    {
+      "weights": [
+        0.9,
+        0.1,
+        0.0
+      ],
+      "gamma": 1.0,
+      "threshold": 0.468,
+      "folds": 3,
+      "val_mean_mIoU": 0.8943298459407291,
+      "val_min_mIoU": 0.8885619713129828,
+      "min_area": 1,
+      "mIoU": 0.8157178621965822,
+      "nIoU": 0.8177013834616051,
+      "Pd": 0.9953271028037384,
+      "Fa": 5.4812082366575796e-05
+    },
+    {
+      "weights": [
+        0.9400000000000001,
+        0.1,
+        -0.04
+      ],
+      "gamma": 1.0,
+      "threshold": 0.468,
+      "folds": 3,
+      "val_mean_mIoU": 0.8943298459407291,
+      "val_min_mIoU": 0.8885619713129828,
+      "min_area": 1,
+      "mIoU": 0.8156290814105355,
+      "nIoU": 0.8175785488929979,
+      "Pd": 0.9953271028037384,
+      "Fa": 5.488068322060155e-05
+    },
+    {
+      "weights": [
+        0.86,
+        0.1,
+        0.04
+      ],
+      "gamma": 1.0,
+      "threshold": 0.468,
+      "folds": 3,
+      "val_mean_mIoU": 0.8943298459407291,
+      "val_min_mIoU": 0.8885619713129828,
+      "min_area": 1,
+      "mIoU": 0.8156290814105355,
+      "nIoU": 0.8177233562016206,
+      "Pd": 0.9953271028037384,
+      "Fa": 5.488068322060155e-05
+    },
+    {
+      "weights": [
+        0.9400000000000001,
+        0.1,
+        -0.04
+      ],
+      "gamma": 1.02,
+      "threshold": 0.472,
+      "folds": 3,
+      "val_mean_mIoU": 0.894350628217539,
+      "val_min_mIoU": 0.8887661141804788,
+      "min_area": 1,
+      "mIoU": 0.8155943293347874,
+      "nIoU": 0.8176886315886063,
+      "Pd": 0.9953271028037384,
+      "Fa": 5.364586784813802e-05
+    },
+    {
+      "weights": [
+        0.9400000000000001,
+        0.1,
+        -0.04
+      ],
+      "gamma": 0.98,
+      "threshold": 0.468,
+      "folds": 3,
+      "val_mean_mIoU": 0.8943245138680654,
+      "val_min_mIoU": 0.889092912229159,
+      "min_area": 1,
+      "mIoU": 0.8153260869565218,
+      "nIoU": 0.8174642733384805,
+      "Pd": 0.9953271028037384,
+      "Fa": 5.5703893468910577e-05
+    },
+    {
+      "weights": [
+        0.9,
+        0.1,
+        0.0
+      ],
+      "gamma": 0.98,
+      "threshold": 0.468,
+      "folds": 3,
+      "val_mean_mIoU": 0.8943245138680654,
+      "val_min_mIoU": 0.889092912229159,
+      "min_area": 1,
+      "mIoU": 0.8152575527059335,
+      "nIoU": 0.8170704922066563,
+      "Pd": 0.9953271028037384,
+      "Fa": 5.584109517696208e-05
+    },
+    {
+      "weights": [
+        0.92,
+        0.08,
+        0.0
+      ],
+      "gamma": 1.02,
+      "threshold": 0.464,
+      "folds": 3,
+      "val_mean_mIoU": 0.8943545193141192,
+      "val_min_mIoU": 0.8892975358587716,
+      "min_area": 1,
+      "mIoU": 0.8150364486998151,
+      "nIoU": 0.8173883542829495,
+      "Pd": 0.9953271028037384,
+      "Fa": 5.508648578267881e-05
+    },
+    {
+      "weights": [
+        0.92,
+        0.08,
+        0.0
+      ],
+      "gamma": 1.02,
+      "threshold": 0.464,
+      "folds": 3,
+      "val_mean_mIoU": 0.8943545193141192,
+      "val_min_mIoU": 0.8892975358587716,
+      "min_area": 1,
+      "mIoU": 0.8150364486998151,
+      "nIoU": 0.8173883542829495,
+      "Pd": 0.9953271028037384,
+      "Fa": 5.508648578267881e-05
+    },
+    {
+      "weights": [
+        0.9600000000000001,
+        0.08,
+        -0.04
+      ],
+      "gamma": 0.98,
+      "threshold": 0.472,
+      "folds": 3,
+      "val_mean_mIoU": 0.8943709027587435,
+      "val_min_mIoU": 0.8890521675238795,
+      "min_area": 1,
+      "mIoU": 0.8149114226714488,
+      "nIoU": 0.8169891884129008,
+      "Pd": 0.9953271028037384,
+      "Fa": 5.5772494322936324e-05
+    },
+    {
+      "weights": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "gamma": 1.0,
+      "threshold": 0.472,
+      "folds": 3,
+      "val_mean_mIoU": 0.8943361279877098,
+      "val_min_mIoU": 0.8887256702166728,
+      "min_area": 1,
+      "mIoU": 0.8126626192541196,
+      "nIoU": 0.8142888094843771,
+      "Pd": 0.9953271028037384,
+      "Fa": 5.735031396552862e-05
+    }
+  ]
+}

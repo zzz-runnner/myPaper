@@ -1,0 +1,19 @@
+{
+  "dataset_dir": "/home/cx/hongwai/irstd-lab/datasets",
+  "dataset_name": "NUAA-SIRST",
+  "train_datasets": "NUAA-SIRST",
+  "model_name": "MSDA",
+  "epochs": 1,
+  "batch_size": 8,
+  "patch_size": 512,
+  "target_repeat": 1,
+  "lr": 0.0002,
+  "pos_weight": 25.0,
+  "thresholds": "0.20,0.25,0.30,0.35,0.40,0.45,0.50,0.55,0.60,0.65,0.70",
+  "eval_interval": 1,
+  "eval_max_samples": 2,
+  "seed": 20260614,
+  "device": "cuda:0",
+  "amp": true,
+  "output_dir": "runs/smoke_pal_msda_amp_b8"
+}

@@ -1,0 +1,279 @@
+{
+  "args": {
+    "train_cache": "/home/cx/hongwai/irstd-lab/reports/fusion_cache_official_mamba_teacher_nuaa/NUAA-SIRST__train.npz",
+    "test_cache": "/home/cx/hongwai/irstd-lab/reports/fusion_cache_official_mamba_teacher_nuaa/NUAA-SIRST__test.npz",
+    "dfaware_train": "/home/cx/hongwai/irstd-lab/reports/tmp_dfaware_train_maps.npz",
+    "dfaware_test": "/home/cx/hongwai/irstd-lab/reports/tmp_dfaware_test_maps.npz",
+    "hfm_train": "/home/cx/hongwai/irstd-lab/reports/tmp_hfmnet_train_maps.npz",
+    "hfm_test": "/home/cx/hongwai/irstd-lab/reports/tmp_hfmnet_test_maps.npz",
+    "s703_train": "/home/cx/hongwai/irstd-lab/reports/tmp_s703_train_maps.npz",
+    "s703_test": "/home/cx/hongwai/irstd-lab/reports/tmp_s703_test_maps.npz",
+    "pos_per_image": 768,
+    "neg_per_image": 3072,
+    "steps": 900,
+    "batch_pixels": 65536,
+    "lr": 0.0003,
+    "weight_decay": 0.0001,
+    "residual_scale": 0.035,
+    "max_pos_weight": 24.0,
+    "thresholds": "0.492,0.494,0.496,0.498,0.500,0.502",
+    "min_areas": "2,3,4",
+    "seed": 20260616,
+    "device": "cuda:0",
+    "output": "reports/nuaa_external_mamba_residual_pixel_s900_r0035.json"
+  },
+  "train_pixels": 663469,
+  "train_positive": 9133,
+  "best": {
+    "kind": "component",
+    "threshold": 0.494,
+    "min_area": 3,
+    "pixAcc": 0.8936576247215271,
+    "mIoU": 0.8229223844549347,
+    "nIoU": 0.8203941371245415,
+    "Pd": 0.9695817490494296,
+    "Fa": 9.329716147502263e-06
+  },
+  "rows": [
+    {
+      "kind": "component",
+      "threshold": 0.494,
+      "min_area": 3,
+      "pixAcc": 0.8936576247215271,
+      "mIoU": 0.8229223844549347,
+      "nIoU": 0.8203941371245415,
+      "Pd": 0.9695817490494296,
+      "Fa": 9.329716147502263e-06
+    },
+    {
+      "kind": "threshold",
+      "threshold": 0.494,
+      "min_area": 1,
+      "pixAcc": 0.8937768340110779,
+      "mIoU": 0.8227611940298507,
+      "nIoU": 0.8202958461975208,
+      "Pd": 0.9695817490494296,
+      "Fa": 9.604119563605271e-06
+    },
+    {
+      "kind": "component",
+      "threshold": 0.496,
+      "min_area": 3,
+      "pixAcc": 0.8931807279586792,
+      "mIoU": 0.8227542279815506,
+      "nIoU": 0.8208005239172593,
+      "Pd": 0.9695817490494296,
+      "Fa": 9.329716147502263e-06
+    },
+    {
+      "kind": "component",
+      "threshold": 0.494,
+      "min_area": 2,
+      "pixAcc": 0.8936576247215271,
+      "mIoU": 0.822741740752936,
+      "nIoU": 0.8202565080323481,
+      "Pd": 0.9695817490494296,
+      "Fa": 9.466917855553767e-06
+    },
+    {
+      "kind": "threshold",
+      "threshold": 0.496,
+      "min_area": 1,
+      "pixAcc": 0.89329993724823,
+      "mIoU": 0.8225930398506971,
+      "nIoU": 0.8207022329902387,
+      "Pd": 0.9695817490494296,
+      "Fa": 9.604119563605271e-06
+    },
+    {
+      "kind": "component",
+      "threshold": 0.5,
+      "min_area": 3,
+      "pixAcc": 0.8921077847480774,
+      "mIoU": 0.8225788721556557,
+      "nIoU": 0.8210627071573069,
+      "Pd": 0.9695817490494296,
+      "Fa": 8.986711877373503e-06
+    },
+    {
+      "kind": "component",
+      "threshold": 0.496,
+      "min_area": 2,
+      "pixAcc": 0.8931807279586792,
+      "mIoU": 0.8225735617039965,
+      "nIoU": 0.8206628948250659,
+      "Pd": 0.9695817490494296,
+      "Fa": 9.466917855553767e-06
+    },
+    {
+      "kind": "component",
+      "threshold": 0.498,
+      "min_area": 3,
+      "pixAcc": 0.8927038908004761,
+      "mIoU": 0.8224956063268892,
+      "nIoU": 0.8208288981876458,
+      "Pd": 0.9695817490494296,
+      "Fa": 9.123913585425007e-06
+    },
+    {
+      "kind": "component",
+      "threshold": 0.492,
+      "min_area": 3,
+      "pixAcc": 0.8937768340110779,
+      "mIoU": 0.822490400438837,
+      "nIoU": 0.8201127898575574,
+      "Pd": 0.9695817490494296,
+      "Fa": 9.398317001528016e-06
+    },
+    {
+      "kind": "threshold",
+      "threshold": 0.5,
+      "min_area": 1,
+      "pixAcc": 0.8922269940376282,
+      "mIoU": 0.8224175824175824,
+      "nIoU": 0.8209644162302864,
+      "Pd": 0.9695817490494296,
+      "Fa": 9.26111529347651e-06
+    },
+    {
+      "kind": "component",
+      "threshold": 0.5,
+      "min_area": 2,
+      "pixAcc": 0.8921077847480774,
+      "mIoU": 0.8223980657215079,
+      "nIoU": 0.8209250780651138,
+      "Pd": 0.9695817490494296,
+      "Fa": 9.123913585425007e-06
+    },
+    {
+      "kind": "component",
+      "threshold": 0.502,
+      "min_area": 3,
+      "pixAcc": 0.8915116786956787,
+      "mIoU": 0.822390850104476,
+      "nIoU": 0.821184212180753,
+      "Pd": 0.9695817490494296,
+      "Fa": 8.643707607244744e-06
+    },
+    {
+      "kind": "threshold",
+      "threshold": 0.498,
+      "min_area": 1,
+      "pixAcc": 0.8928231000900269,
+      "mIoU": 0.8223344679916548,
+      "nIoU": 0.8207306072606252,
+      "Pd": 0.9695817490494296,
+      "Fa": 9.398317001528016e-06
+    },
+    {
+      "kind": "threshold",
+      "threshold": 0.492,
+      "min_area": 1,
+      "pixAcc": 0.8938960433006287,
+      "mIoU": 0.8223294582145207,
+      "nIoU": 0.8200144989305368,
+      "Pd": 0.9695817490494296,
+      "Fa": 9.672720417631024e-06
+    },
+    {
+      "kind": "component",
+      "threshold": 0.498,
+      "min_area": 2,
+      "pixAcc": 0.8927038908004761,
+      "mIoU": 0.8223149571710959,
+      "nIoU": 0.8206912690954524,
+      "Pd": 0.9695817490494296,
+      "Fa": 9.26111529347651e-06
+    },
+    {
+      "kind": "component",
+      "threshold": 0.492,
+      "min_area": 2,
+      "pixAcc": 0.8937768340110779,
+      "mIoU": 0.8223099703849951,
+      "nIoU": 0.8199751607653641,
+      "Pd": 0.9695817490494296,
+      "Fa": 9.53551870957952e-06
+    },
+    {
+      "kind": "component",
+      "threshold": 0.494,
+      "min_area": 4,
+      "pixAcc": 0.8929423093795776,
+      "mIoU": 0.8222636952464596,
+      "nIoU": 0.8194286989302195,
+      "Pd": 0.9619771863117871,
+      "Fa": 9.329716147502263e-06
+    },
+    {
+      "kind": "threshold",
+      "threshold": 0.502,
+      "min_area": 1,
+      "pixAcc": 0.8916308879852295,
+      "mIoU": 0.8222295514511874,
+      "nIoU": 0.8210859212537324,
+      "Pd": 0.9695817490494296,
+      "Fa": 8.918111023347752e-06
+    },
+    {
+      "kind": "component",
+      "threshold": 0.502,
+      "min_area": 2,
+      "pixAcc": 0.8915116786956787,
+      "mIoU": 0.8222100054975261,
+      "nIoU": 0.8210465830885596,
+      "Pd": 0.9695817490494296,
+      "Fa": 8.780909315296248e-06
+    },
+    {
+      "kind": "component",
+      "threshold": 0.496,
+      "min_area": 4,
+      "pixAcc": 0.8924654126167297,
+      "mIoU": 0.8220953217658686,
+      "nIoU": 0.8198350857229374,
+      "Pd": 0.9619771863117871,
+      "Fa": 9.329716147502263e-06
+    },
+    {
+      "kind": "component",
+      "threshold": 0.5,
+      "min_area": 4,
+      "pixAcc": 0.8913924694061279,
+      "mIoU": 0.8219193140595801,
+      "nIoU": 0.820097268962985,
+      "Pd": 0.9619771863117871,
+      "Fa": 8.986711877373503e-06
+    },
+    {
+      "kind": "component",
+      "threshold": 0.498,
+      "min_area": 4,
+      "pixAcc": 0.8919885754585266,
+      "mIoU": 0.8218365553602812,
+      "nIoU": 0.8198634599933239,
+      "Pd": 0.9619771863117871,
+      "Fa": 9.123913585425007e-06
+    },
+    {
+      "kind": "component",
+      "threshold": 0.492,
+      "min_area": 4,
+      "pixAcc": 0.8930615186691284,
+      "mIoU": 0.821832144816237,
+      "nIoU": 0.8191473516632355,
+      "Pd": 0.9619771863117871,
+      "Fa": 9.398317001528016e-06
+    },
+    {
+      "kind": "component",
+      "threshold": 0.502,
+      "min_area": 4,
+      "pixAcc": 0.8907963633537292,
+      "mIoU": 0.82173100186957,
+      "nIoU": 0.8202187739864311,
+      "Pd": 0.9619771863117871,
+      "Fa": 8.643707607244744e-06
+    }
+  ]
+}

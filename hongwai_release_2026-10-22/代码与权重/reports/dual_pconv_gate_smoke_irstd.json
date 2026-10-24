@@ -1,0 +1,139 @@
+{
+  "dataset": "IRSTD-1K",
+  "fit_datasets": [
+    "IRSTD-1K"
+  ],
+  "teacher_names": [
+    "baseq",
+    "refiner"
+  ],
+  "pconv_names": [
+    "pconv_d05",
+    "pconv_p43"
+  ],
+  "best": {
+    "kind": "dual_pconv_gate",
+    "fit_fast_nIoU": 0.7397596061470942,
+    "output_threshold": 0.5,
+    "base_mode": "teacher_max",
+    "seed": 0.45,
+    "min_area": 1,
+    "max_area": 32,
+    "max_side": 12,
+    "min_fill": 0.1,
+    "min_z": -0.25,
+    "min_delta": -1.0,
+    "max_teacher_mean": 1.1,
+    "fill": "prob",
+    "boost": 1.15,
+    "pixAcc": 0.8954869508743286,
+    "mIoU": 0.7953586497890295,
+    "nIoU": 0.7330422123909279,
+    "Pd": 1.0,
+    "Fa": 1.621246337890625e-05
+  },
+  "rows": [
+    {
+      "kind": "dual_pconv_gate",
+      "fit_fast_nIoU": 0.7397596061470942,
+      "output_threshold": 0.5,
+      "base_mode": "teacher_max",
+      "seed": 0.45,
+      "min_area": 1,
+      "max_area": 32,
+      "max_side": 12,
+      "min_fill": 0.1,
+      "min_z": -0.25,
+      "min_delta": -1.0,
+      "max_teacher_mean": 1.1,
+      "fill": "prob",
+      "boost": 1.15,
+      "pixAcc": 0.8954869508743286,
+      "mIoU": 0.7953586497890295,
+      "nIoU": 0.7330422123909279,
+      "Pd": 1.0,
+      "Fa": 1.621246337890625e-05
+    },
+    {
+      "kind": "dual_pconv_gate",
+      "fit_fast_nIoU": 0.7397596061470942,
+      "output_threshold": 0.5,
+      "base_mode": "teacher_max",
+      "seed": 0.45,
+      "min_area": 1,
+      "max_area": 32,
+      "max_side": 12,
+      "min_fill": 0.1,
+      "min_z": -0.25,
+      "min_delta": -1.0,
+      "max_teacher_mean": 1.1,
+      "fill": "binary",
+      "boost": 1.15,
+      "pixAcc": 0.8954869508743286,
+      "mIoU": 0.7953586497890295,
+      "nIoU": 0.7330422123909279,
+      "Pd": 1.0,
+      "Fa": 1.621246337890625e-05
+    },
+    {
+      "kind": "baseline",
+      "mode": "teacher_max",
+      "output_threshold": 0.45,
+      "pixAcc": 0.8812351822853088,
+      "mIoU": 0.7810526315789473,
+      "nIoU": 0.6967944758364428,
+      "Pd": 1.0,
+      "Fa": 1.621246337890625e-05
+    },
+    {
+      "kind": "baseline",
+      "mode": "teacher_max",
+      "output_threshold": 0.5,
+      "pixAcc": 0.8693586587905884,
+      "mIoU": 0.7803837953091685,
+      "nIoU": 0.6938401683657709,
+      "Pd": 1.0,
+      "Fa": 1.621246337890625e-05
+    },
+    {
+      "kind": "baseline",
+      "mode": "avg_all",
+      "output_threshold": 0.45,
+      "pixAcc": 0.8883610367774963,
+      "mIoU": 0.7420634920634921,
+      "nIoU": 0.684696949301876,
+      "Pd": 1.0,
+      "Fa": 1.1444091796875e-05
+    },
+    {
+      "kind": "baseline",
+      "mode": "avg_all",
+      "output_threshold": 0.5,
+      "pixAcc": 0.8788598775863647,
+      "mIoU": 0.7414829659318637,
+      "nIoU": 0.6885345576319866,
+      "Pd": 1.0,
+      "Fa": 7.62939453125e-06
+    },
+    {
+      "kind": "baseline",
+      "mode": "max_all",
+      "output_threshold": 0.45,
+      "pixAcc": 0.9453681707382202,
+      "mIoU": 0.7197106690777577,
+      "nIoU": 0.7092906139635968,
+      "Pd": 1.0,
+      "Fa": 1.621246337890625e-05
+    },
+    {
+      "kind": "baseline",
+      "mode": "max_all",
+      "output_threshold": 0.5,
+      "pixAcc": 0.940617561340332,
+      "mIoU": 0.7186932849364791,
+      "nIoU": 0.7057584165741768,
+      "Pd": 1.0,
+      "Fa": 1.621246337890625e-05
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+/home/cx/hongwai/irstd-lab/scripts/train_hybrid_methods.py:686: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  ckpt = torch.load(checkpoint, map_location="cpu")
+/home/cx/hongwai/irstd-lab/scripts/train_hybrid_methods.py:2068: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  ckpt = torch.load(checkpoint, map_location="cpu")
+Deep-Supervision: True
+Resume skipped shape-mismatched keys: 1
+Resume missing keys: 2
+IRSTD-1K	PConvTCF-TPCDHiFTeacher	pconv_tcf
+train_datasets=IRSTD-1K,NUAA-SIRST,NUDT-SIRST,SIRST3 train_size=8152 target_repeat=7 batch_size=12 run_dir=/home/cx/hongwai/irstd-lab/runs/teacher_pconv_irstd_gpu2/IRSTD-1K_PConvTCF-TPCDHiFTeacher_gpu2
+Jun 13 02:58:15 Epoch---1, total_loss---1.103728, lr---0.00013000,
+Jun 13 03:04:52 Epoch---2, total_loss---0.845974, lr---0.00019500,
+Jun 13 03:11:51 Epoch---3, total_loss---0.782823, lr---0.00026000,
+Jun 13 03:18:29 Epoch---4, total_loss---0.723739, lr---0.00026000,
+Jun 13 03:25:11 Epoch---5, total_loss---0.833340, lr---0.00025996,
+eval epoch=5 pixAcc=0.782154 mIoU=0.521185 Pd=0.919192 Fa=0.0000451121
+best epoch=5 pixAcc=0.782154 mIoU=0.521185 Pd=0.919192 Fa=0.0000451121

@@ -1,0 +1,9 @@
+/home/cx/hongwai/irstd-lab/scripts/train_dual_gate_hfmlk_refiner_from_cache.py:122: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  scaler = torch.cuda.amp.GradScaler(enabled=args.amp and device.type == "cuda")
+/home/cx/hongwai/irstd-lab/scripts/train_dual_gate_hfmlk_refiner_from_cache.py:146: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(enabled=args.amp and device.type == "cuda"):
+/home/cx/hongwai/irstd-lab/scripts/train_dual_gate_hfmlk_refiner_from_cache.py:168: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.no_grad(), torch.cuda.amp.autocast(enabled=args.amp and device.type == "cuda"):
+{"epoch": 1, "eval": {"NUAA-SIRST": {"Fa": 1.9345440835262048e-05, "Pd": 0.973384030418251, "mIoU": 0.7320390170699681, "nIoU": 0.7062113996066228, "pixAcc": 0.9304959177970886, "threshold": 0.6}}, "loss": 1.2086682291634754, "lr": 0.000145485291572496, "seconds": 589.1971824169159}
+/home/cx/hongwai/irstd-lab/scripts/train_dual_gate_hfmlk_refiner_from_cache.py:146: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(enabled=args.amp and device.type == "cuda"):

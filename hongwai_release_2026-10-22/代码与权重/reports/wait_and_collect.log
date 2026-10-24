@@ -1,0 +1,2524 @@
+[2026-06-09 06:57:34 UTC] waiting for baseline training to finish
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/IRSTD-1K/checkpoints/IRSTD-1K_SCTransNet_Tue_Jun__9_06_40_29_2026.txt
+  latest_epoch=None latest_loss=None
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/NUAA-SIRST/checkpoints/NUAA-SIRST_SCTransNet_Tue_Jun__9_06_40_29_2026.txt
+  latest_epoch=None latest_loss=None
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/NUDT-SIRST/checkpoints/NUDT-SIRST_SCTransNet_Tue_Jun__9_06_40_29_2026.txt
+  latest_epoch=None latest_loss=None
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/SIRST3/checkpoints/SIRST3_SCTransNet_Tue_Jun__9_06_40_29_2026.txt
+  latest_epoch=None latest_loss=None
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=60 latest_loss=0.010391
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=210 latest_loss=0.007085
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=70 latest_loss=0.010841
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=20 latest_loss=0.03209
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/IRSTD-1K/checkpoints/IRSTD-1K_SCTransNet_Tue_Jun__9_06_40_29_2026.txt
+  latest_epoch=None latest_loss=None
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/NUAA-SIRST/checkpoints/NUAA-SIRST_SCTransNet_Tue_Jun__9_06_40_29_2026.txt
+  latest_epoch=None latest_loss=None
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/NUDT-SIRST/checkpoints/NUDT-SIRST_SCTransNet_Tue_Jun__9_06_40_29_2026.txt
+  latest_epoch=None latest_loss=None
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/SIRST3/checkpoints/SIRST3_SCTransNet_Tue_Jun__9_06_40_29_2026.txt
+  latest_epoch=None latest_loss=None
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=70 latest_loss=0.008943
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=280 latest_loss=0.005123
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=90 latest_loss=0.008368
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=30 latest_loss=0.013831
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/IRSTD-1K/checkpoints/IRSTD-1K_SCTransNet_Tue_Jun__9_06_40_29_2026.txt
+  latest_epoch=None latest_loss=None
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/NUAA-SIRST/checkpoints/NUAA-SIRST_SCTransNet_Tue_Jun__9_06_40_29_2026.txt
+  latest_epoch=None latest_loss=None
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/NUDT-SIRST/checkpoints/NUDT-SIRST_SCTransNet_Tue_Jun__9_06_40_29_2026.txt
+  latest_epoch=None latest_loss=None
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/SIRST3/checkpoints/SIRST3_SCTransNet_Tue_Jun__9_06_40_29_2026.txt
+  latest_epoch=None latest_loss=None
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=90 latest_loss=0.007579
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=340 latest_loss=0.004599
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=110 latest_loss=0.006991
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=40 latest_loss=0.009956
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/IRSTD-1K/checkpoints/IRSTD-1K_SCTransNet_Tue_Jun__9_06_40_29_2026.txt
+  latest_epoch=None latest_loss=None
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/NUAA-SIRST/checkpoints/NUAA-SIRST_SCTransNet_Tue_Jun__9_06_40_29_2026.txt
+  latest_epoch=None latest_loss=None
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/NUDT-SIRST/checkpoints/NUDT-SIRST_SCTransNet_Tue_Jun__9_06_40_29_2026.txt
+  latest_epoch=None latest_loss=None
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/SIRST3/checkpoints/SIRST3_SCTransNet_Tue_Jun__9_06_40_29_2026.txt
+  latest_epoch=None latest_loss=None
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=110 latest_loss=0.006416
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=410 latest_loss=0.004076
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=130 latest_loss=0.006124
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=50 latest_loss=0.008431
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/IRSTD-1K/checkpoints/IRSTD-1K_SCTransNet_Tue_Jun__9_06_40_29_2026.txt
+  latest_epoch=None latest_loss=None
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/NUAA-SIRST/checkpoints/NUAA-SIRST_SCTransNet_Tue_Jun__9_06_40_29_2026.txt
+  latest_epoch=None latest_loss=None
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/NUDT-SIRST/checkpoints/NUDT-SIRST_SCTransNet_Tue_Jun__9_06_40_29_2026.txt
+  latest_epoch=None latest_loss=None
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/SIRST3/checkpoints/SIRST3_SCTransNet_Tue_Jun__9_06_40_29_2026.txt
+  latest_epoch=None latest_loss=None
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=130 latest_loss=0.006769
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=470 latest_loss=0.003768
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=160 latest_loss=0.005172
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=60 latest_loss=0.007519
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/IRSTD-1K/checkpoints/IRSTD-1K_SCTransNet_Tue_Jun__9_06_40_29_2026.txt
+  latest_epoch=None latest_loss=None
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/NUAA-SIRST/checkpoints/NUAA-SIRST_SCTransNet_Tue_Jun__9_06_40_29_2026.txt
+  latest_epoch=None latest_loss=None
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/NUDT-SIRST/checkpoints/NUDT-SIRST_SCTransNet_Tue_Jun__9_06_40_29_2026.txt
+  latest_epoch=None latest_loss=None
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/SIRST3/checkpoints/SIRST3_SCTransNet_Tue_Jun__9_06_40_29_2026.txt
+  latest_epoch=None latest_loss=None
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=150 latest_loss=0.005845
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=510 latest_loss=0.003679
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=180 latest_loss=0.004606
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=70 latest_loss=0.006909
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/IRSTD-1K/checkpoints/IRSTD-1K_SCTransNet_Tue_Jun__9_06_40_29_2026.txt
+  latest_epoch=None latest_loss=None
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/NUAA-SIRST/checkpoints/NUAA-SIRST_SCTransNet_Tue_Jun__9_06_40_29_2026.txt
+  latest_epoch=None latest_loss=None
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/NUDT-SIRST/checkpoints/NUDT-SIRST_SCTransNet_Tue_Jun__9_06_40_29_2026.txt
+  latest_epoch=None latest_loss=None
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/SIRST3/checkpoints/SIRST3_SCTransNet_Tue_Jun__9_06_40_29_2026.txt
+  latest_epoch=None latest_loss=None
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=160 latest_loss=0.005638
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=530 latest_loss=0.00561
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=200 latest_loss=0.004421
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=80 latest_loss=0.006437
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/IRSTD-1K/checkpoints/IRSTD-1K_SCTransNet_Tue_Jun__9_06_40_29_2026.txt
+  latest_epoch=None latest_loss=None
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/NUAA-SIRST/checkpoints/NUAA-SIRST_SCTransNet_Tue_Jun__9_06_40_29_2026.txt
+  latest_epoch=None latest_loss=None
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/NUDT-SIRST/checkpoints/NUDT-SIRST_SCTransNet_Tue_Jun__9_06_40_29_2026.txt
+  latest_epoch=None latest_loss=None
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/SIRST3/checkpoints/SIRST3_SCTransNet_Tue_Jun__9_06_40_29_2026.txt
+  latest_epoch=None latest_loss=None
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=180 latest_loss=0.005408
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=550 latest_loss=0.003734
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=220 latest_loss=0.004204
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=90 latest_loss=0.005961
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/IRSTD-1K/checkpoints/IRSTD-1K_SCTransNet_Tue_Jun__9_06_40_29_2026.txt
+  latest_epoch=None latest_loss=None
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/NUAA-SIRST/checkpoints/NUAA-SIRST_SCTransNet_Tue_Jun__9_06_40_29_2026.txt
+  latest_epoch=None latest_loss=None
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/NUDT-SIRST/checkpoints/NUDT-SIRST_SCTransNet_Tue_Jun__9_06_40_29_2026.txt
+  latest_epoch=None latest_loss=None
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/SIRST3/checkpoints/SIRST3_SCTransNet_Tue_Jun__9_06_40_29_2026.txt
+  latest_epoch=None latest_loss=None
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=200 latest_loss=0.004928
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=570 latest_loss=0.003437
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=240 latest_loss=0.004041
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=90 latest_loss=0.005961
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/IRSTD-1K/checkpoints/IRSTD-1K_SCTransNet_Tue_Jun__9_06_40_29_2026.txt
+  latest_epoch=None latest_loss=None
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/NUAA-SIRST/checkpoints/NUAA-SIRST_SCTransNet_Tue_Jun__9_06_40_29_2026.txt
+  latest_epoch=None latest_loss=None
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/NUDT-SIRST/checkpoints/NUDT-SIRST_SCTransNet_Tue_Jun__9_06_40_29_2026.txt
+  latest_epoch=None latest_loss=None
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/SIRST3/checkpoints/SIRST3_SCTransNet_Tue_Jun__9_06_40_29_2026.txt
+  latest_epoch=None latest_loss=None
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=220 latest_loss=0.00484
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=590 latest_loss=0.003371
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=260 latest_loss=0.003803
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=100 latest_loss=0.005802
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/IRSTD-1K/checkpoints/IRSTD-1K_SCTransNet_Tue_Jun__9_06_40_29_2026.txt
+  latest_epoch=None latest_loss=None
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/NUAA-SIRST/checkpoints/NUAA-SIRST_SCTransNet_Tue_Jun__9_06_40_29_2026.txt
+  latest_epoch=None latest_loss=None
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/NUDT-SIRST/checkpoints/NUDT-SIRST_SCTransNet_Tue_Jun__9_06_40_29_2026.txt
+  latest_epoch=None latest_loss=None
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/SIRST3/checkpoints/SIRST3_SCTransNet_Tue_Jun__9_06_40_29_2026.txt
+  latest_epoch=None latest_loss=None
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=240 latest_loss=0.004872
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=610 latest_loss=0.003661
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=290 latest_loss=0.004192
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=110 latest_loss=0.00541
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/IRSTD-1K/checkpoints/IRSTD-1K_SCTransNet_Tue_Jun__9_06_40_29_2026.txt
+  latest_epoch=None latest_loss=None
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/NUAA-SIRST/checkpoints/NUAA-SIRST_SCTransNet_Tue_Jun__9_06_40_29_2026.txt
+  latest_epoch=None latest_loss=None
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/NUDT-SIRST/checkpoints/NUDT-SIRST_SCTransNet_Tue_Jun__9_06_40_29_2026.txt
+  latest_epoch=None latest_loss=None
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/SIRST3/checkpoints/SIRST3_SCTransNet_Tue_Jun__9_06_40_29_2026.txt
+  latest_epoch=None latest_loss=None
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=250 latest_loss=0.00449
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=630 latest_loss=0.003366
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=310 latest_loss=0.003498
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=120 latest_loss=0.005099
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/IRSTD-1K/checkpoints/IRSTD-1K_SCTransNet_Tue_Jun__9_06_40_29_2026.txt
+  latest_epoch=None latest_loss=None
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/NUAA-SIRST/checkpoints/NUAA-SIRST_SCTransNet_Tue_Jun__9_06_40_29_2026.txt
+  latest_epoch=None latest_loss=None
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/NUDT-SIRST/checkpoints/NUDT-SIRST_SCTransNet_Tue_Jun__9_06_40_29_2026.txt
+  latest_epoch=None latest_loss=None
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/SIRST3/checkpoints/SIRST3_SCTransNet_Tue_Jun__9_06_40_29_2026.txt
+  latest_epoch=None latest_loss=None
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=270 latest_loss=0.004273
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=660 latest_loss=0.003161
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=330 latest_loss=0.003463
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=130 latest_loss=0.004982
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/IRSTD-1K/checkpoints/IRSTD-1K_SCTransNet_Tue_Jun__9_06_40_29_2026.txt
+  latest_epoch=None latest_loss=None
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/NUAA-SIRST/checkpoints/NUAA-SIRST_SCTransNet_Tue_Jun__9_06_40_29_2026.txt
+  latest_epoch=None latest_loss=None
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/NUDT-SIRST/checkpoints/NUDT-SIRST_SCTransNet_Tue_Jun__9_06_40_29_2026.txt
+  latest_epoch=None latest_loss=None
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/SIRST3/checkpoints/SIRST3_SCTransNet_Tue_Jun__9_06_40_29_2026.txt
+  latest_epoch=None latest_loss=None
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=290 latest_loss=0.004434
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=680 latest_loss=0.003135
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=350 latest_loss=0.003603
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=140 latest_loss=0.004986
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/IRSTD-1K/checkpoints/IRSTD-1K_SCTransNet_Tue_Jun__9_06_40_29_2026.txt
+  latest_epoch=None latest_loss=None
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/NUAA-SIRST/checkpoints/NUAA-SIRST_SCTransNet_Tue_Jun__9_06_40_29_2026.txt
+  latest_epoch=None latest_loss=None
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/NUDT-SIRST/checkpoints/NUDT-SIRST_SCTransNet_Tue_Jun__9_06_40_29_2026.txt
+  latest_epoch=None latest_loss=None
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/SIRST3/checkpoints/SIRST3_SCTransNet_Tue_Jun__9_06_40_29_2026.txt
+  latest_epoch=None latest_loss=None
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=310 latest_loss=0.004143
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=700 latest_loss=0.00309
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=370 latest_loss=0.003307
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=150 latest_loss=0.00473
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/IRSTD-1K/checkpoints/IRSTD-1K_SCTransNet_Tue_Jun__9_06_40_29_2026.txt
+  latest_epoch=None latest_loss=None
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/NUAA-SIRST/checkpoints/NUAA-SIRST_SCTransNet_Tue_Jun__9_06_40_29_2026.txt
+  latest_epoch=None latest_loss=None
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/NUDT-SIRST/checkpoints/NUDT-SIRST_SCTransNet_Tue_Jun__9_06_40_29_2026.txt
+  latest_epoch=None latest_loss=None
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/SIRST3/checkpoints/SIRST3_SCTransNet_Tue_Jun__9_06_40_29_2026.txt
+  latest_epoch=None latest_loss=None
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=330 latest_loss=0.004133
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=720 latest_loss=0.003041
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=390 latest_loss=0.00325
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=160 latest_loss=0.004435
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/IRSTD-1K/checkpoints/IRSTD-1K_SCTransNet_Tue_Jun__9_06_40_29_2026.txt
+  latest_epoch=None latest_loss=None
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/NUAA-SIRST/checkpoints/NUAA-SIRST_SCTransNet_Tue_Jun__9_06_40_29_2026.txt
+  latest_epoch=None latest_loss=None
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/NUDT-SIRST/checkpoints/NUDT-SIRST_SCTransNet_Tue_Jun__9_06_40_29_2026.txt
+  latest_epoch=None latest_loss=None
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/SIRST3/checkpoints/SIRST3_SCTransNet_Tue_Jun__9_06_40_29_2026.txt
+  latest_epoch=None latest_loss=None
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=340 latest_loss=0.00407
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=740 latest_loss=0.002982
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=420 latest_loss=0.003396
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=160 latest_loss=0.004435
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/IRSTD-1K/checkpoints/IRSTD-1K_SCTransNet_Tue_Jun__9_06_40_29_2026.txt
+  latest_epoch=None latest_loss=None
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/NUAA-SIRST/checkpoints/NUAA-SIRST_SCTransNet_Tue_Jun__9_06_40_29_2026.txt
+  latest_epoch=None latest_loss=None
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/NUDT-SIRST/checkpoints/NUDT-SIRST_SCTransNet_Tue_Jun__9_06_40_29_2026.txt
+  latest_epoch=None latest_loss=None
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/SIRST3/checkpoints/SIRST3_SCTransNet_Tue_Jun__9_06_40_29_2026.txt
+  latest_epoch=None latest_loss=None
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=360 latest_loss=0.004024
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=760 latest_loss=0.002909
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=440 latest_loss=0.003091
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=170 latest_loss=0.0045
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/IRSTD-1K/checkpoints/IRSTD-1K_SCTransNet_Tue_Jun__9_06_40_29_2026.txt
+  latest_epoch=None latest_loss=None
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/NUAA-SIRST/checkpoints/NUAA-SIRST_SCTransNet_Tue_Jun__9_06_40_29_2026.txt
+  latest_epoch=None latest_loss=None
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/NUDT-SIRST/checkpoints/NUDT-SIRST_SCTransNet_Tue_Jun__9_06_40_29_2026.txt
+  latest_epoch=None latest_loss=None
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/SIRST3/checkpoints/SIRST3_SCTransNet_Tue_Jun__9_06_40_29_2026.txt
+  latest_epoch=None latest_loss=None
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=380 latest_loss=0.003916
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=780 latest_loss=0.00293
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=460 latest_loss=0.003069
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=180 latest_loss=0.00429
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/IRSTD-1K/checkpoints/IRSTD-1K_SCTransNet_Tue_Jun__9_06_40_29_2026.txt
+  latest_epoch=None latest_loss=None
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/NUAA-SIRST/checkpoints/NUAA-SIRST_SCTransNet_Tue_Jun__9_06_40_29_2026.txt
+  latest_epoch=None latest_loss=None
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/NUDT-SIRST/checkpoints/NUDT-SIRST_SCTransNet_Tue_Jun__9_06_40_29_2026.txt
+  latest_epoch=None latest_loss=None
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/SIRST3/checkpoints/SIRST3_SCTransNet_Tue_Jun__9_06_40_29_2026.txt
+  latest_epoch=None latest_loss=None
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=400 latest_loss=0.003931
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=800 latest_loss=0.002881
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=480 latest_loss=0.00302
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=190 latest_loss=0.004351
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/IRSTD-1K/checkpoints/IRSTD-1K_SCTransNet_Tue_Jun__9_06_40_29_2026.txt
+  latest_epoch=None latest_loss=None
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/NUAA-SIRST/checkpoints/NUAA-SIRST_SCTransNet_Tue_Jun__9_06_40_29_2026.txt
+  latest_epoch=None latest_loss=None
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/NUDT-SIRST/checkpoints/NUDT-SIRST_SCTransNet_Tue_Jun__9_06_40_29_2026.txt
+  latest_epoch=None latest_loss=None
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/SIRST3/checkpoints/SIRST3_SCTransNet_Tue_Jun__9_06_40_29_2026.txt
+  latest_epoch=None latest_loss=None
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=420 latest_loss=0.003726
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=820 latest_loss=0.002936
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=500 latest_loss=0.003017
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=200 latest_loss=0.004213
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/IRSTD-1K/checkpoints/IRSTD-1K_SCTransNet_Tue_Jun__9_06_40_29_2026.txt
+  latest_epoch=None latest_loss=None
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/NUAA-SIRST/checkpoints/NUAA-SIRST_SCTransNet_Tue_Jun__9_06_40_29_2026.txt
+  latest_epoch=None latest_loss=None
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/NUDT-SIRST/checkpoints/NUDT-SIRST_SCTransNet_Tue_Jun__9_06_40_29_2026.txt
+  latest_epoch=None latest_loss=None
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/SIRST3/checkpoints/SIRST3_SCTransNet_Tue_Jun__9_06_40_29_2026.txt
+  latest_epoch=None latest_loss=None
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=430 latest_loss=0.003718
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=840 latest_loss=0.002863
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=500 latest_loss=0.003017
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=210 latest_loss=0.004037
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=450 latest_loss=0.003763
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=860 latest_loss=0.002777
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=510 latest_loss=0.002948
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=220 latest_loss=0.004081
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=470 latest_loss=0.003786
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=880 latest_loss=0.002787
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=520 latest_loss=0.002926
+  best epoch=515 mIoU=93.61 Pd=98.84 Fa=5.12
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=220 latest_loss=0.004081
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=490 latest_loss=0.003631
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=900 latest_loss=0.002782
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=520 latest_loss=0.002926
+  best epoch=515 mIoU=93.61 Pd=98.84 Fa=5.12
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=230 latest_loss=0.004055
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=500 latest_loss=0.003595
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=920 latest_loss=0.002765
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=530 latest_loss=0.002907
+  best epoch=515 mIoU=93.61 Pd=98.84 Fa=5.12
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=240 latest_loss=0.003855
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=510 latest_loss=0.003463
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=940 latest_loss=0.002732
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=540 latest_loss=0.002894
+  best epoch=515 mIoU=93.61 Pd=98.84 Fa=5.12
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=250 latest_loss=0.003839
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=520 latest_loss=0.00353
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=960 latest_loss=0.002791
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=540 latest_loss=0.002894
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=260 latest_loss=0.003785
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=530 latest_loss=0.003524
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=980 latest_loss=0.002673
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=550 latest_loss=0.002909
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=270 latest_loss=0.003698
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=530 latest_loss=0.003524
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=76.66 Pd=95.82 Fa=33.27
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=560 latest_loss=0.002881
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=280 latest_loss=0.003755
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=540 latest_loss=0.003427
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=76.66 Pd=95.82 Fa=33.27
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=560 latest_loss=0.002881
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=290 latest_loss=0.003642
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=550 latest_loss=0.003535
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=570 latest_loss=0.002858
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=290 latest_loss=0.003642
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=560 latest_loss=0.003461
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=580 latest_loss=0.002843
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=300 latest_loss=0.003646
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=570 latest_loss=0.003413
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=580 latest_loss=0.002843
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=310 latest_loss=0.003711
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=580 latest_loss=0.003359
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=590 latest_loss=0.002834
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=320 latest_loss=0.003661
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=590 latest_loss=0.003362
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=600 latest_loss=0.002819
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=330 latest_loss=0.003639
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=600 latest_loss=0.00332
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=610 latest_loss=0.002818
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=340 latest_loss=0.003493
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=600 latest_loss=0.00332
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=610 latest_loss=0.002818
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=350 latest_loss=0.003531
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=610 latest_loss=0.003307
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=620 latest_loss=0.002804
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=360 latest_loss=0.00348
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=620 latest_loss=0.00337
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=630 latest_loss=0.002786
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=360 latest_loss=0.00348
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=630 latest_loss=0.003325
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=630 latest_loss=0.002786
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=370 latest_loss=0.003427
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=640 latest_loss=0.003278
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=640 latest_loss=0.002805
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=380 latest_loss=0.003515
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=650 latest_loss=0.003231
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=650 latest_loss=0.002774
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=390 latest_loss=0.003355
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=660 latest_loss=0.003259
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=650 latest_loss=0.002774
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=400 latest_loss=0.003393
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=670 latest_loss=0.003226
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=660 latest_loss=0.002761
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=410 latest_loss=0.003385
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=680 latest_loss=0.003327
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=670 latest_loss=0.002746
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=420 latest_loss=0.003381
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=680 latest_loss=0.003327
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=680 latest_loss=0.002737
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=420 latest_loss=0.003381
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=690 latest_loss=0.003258
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=680 latest_loss=0.002737
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=430 latest_loss=0.003312
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=700 latest_loss=0.00324
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=690 latest_loss=0.002734
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=440 latest_loss=0.003302
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=710 latest_loss=0.003177
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=700 latest_loss=0.002728
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=450 latest_loss=0.003276
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=720 latest_loss=0.003164
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=700 latest_loss=0.002728
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=460 latest_loss=0.003243
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=730 latest_loss=0.003217
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=710 latest_loss=0.002726
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=470 latest_loss=0.003245
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=740 latest_loss=0.003179
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=720 latest_loss=0.00271
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=480 latest_loss=0.003398
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=750 latest_loss=0.003109
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=720 latest_loss=0.00271
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=490 latest_loss=0.003254
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=750 latest_loss=0.003109
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=730 latest_loss=0.002707
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=490 latest_loss=0.003254
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=760 latest_loss=0.003137
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=740 latest_loss=0.002703
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=500 latest_loss=0.003248
+  best epoch=501 mIoU=82.19 Pd=96.54 Fa=11.52
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=770 latest_loss=0.003067
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=740 latest_loss=0.002703
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=500 latest_loss=0.003248
+  best epoch=503 mIoU=82.24 Pd=96.68 Fa=10.92
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=780 latest_loss=0.003146
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=750 latest_loss=0.002692
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=500 latest_loss=0.003248
+  best epoch=503 mIoU=82.24 Pd=96.68 Fa=10.92
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=790 latest_loss=0.003143
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=760 latest_loss=0.002695
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=510 latest_loss=0.003203
+  best epoch=503 mIoU=82.24 Pd=96.68 Fa=10.92
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=800 latest_loss=0.003107
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=760 latest_loss=0.002695
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=510 latest_loss=0.003203
+  best epoch=514 mIoU=82.57 Pd=96.68 Fa=9.98
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=810 latest_loss=0.003063
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=770 latest_loss=0.002687
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=510 latest_loss=0.003203
+  best epoch=514 mIoU=82.57 Pd=96.68 Fa=9.98
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=810 latest_loss=0.003063
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=780 latest_loss=0.002673
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=520 latest_loss=0.003192
+  best epoch=514 mIoU=82.57 Pd=96.68 Fa=9.98
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=820 latest_loss=0.003114
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=780 latest_loss=0.002673
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=520 latest_loss=0.003192
+  best epoch=522 mIoU=82.67 Pd=96.41 Fa=7.25
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=830 latest_loss=0.003061
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=790 latest_loss=0.002677
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=520 latest_loss=0.003192
+  best epoch=522 mIoU=82.67 Pd=96.41 Fa=7.25
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=840 latest_loss=0.003051
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=800 latest_loss=0.002671
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=530 latest_loss=0.00316
+  best epoch=522 mIoU=82.67 Pd=96.41 Fa=7.25
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=850 latest_loss=0.003044
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=810 latest_loss=0.002663
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=530 latest_loss=0.00316
+  best epoch=522 mIoU=82.67 Pd=96.41 Fa=7.25
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=860 latest_loss=0.003052
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=810 latest_loss=0.002663
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=530 latest_loss=0.00316
+  best epoch=536 mIoU=82.87 Pd=96.54 Fa=6.95
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=870 latest_loss=0.003014
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=820 latest_loss=0.002661
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=540 latest_loss=0.003158
+  best epoch=536 mIoU=82.87 Pd=96.54 Fa=6.95
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=880 latest_loss=0.003031
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=830 latest_loss=0.00266
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=540 latest_loss=0.003158
+  best epoch=536 mIoU=82.87 Pd=96.54 Fa=6.95
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=880 latest_loss=0.003031
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=830 latest_loss=0.00266
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=540 latest_loss=0.003158
+  best epoch=536 mIoU=82.87 Pd=96.54 Fa=6.95
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=890 latest_loss=0.003038
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=840 latest_loss=0.002657
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=550 latest_loss=0.003173
+  best epoch=536 mIoU=82.87 Pd=96.54 Fa=6.95
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=900 latest_loss=0.002984
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=850 latest_loss=0.00265
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=550 latest_loss=0.003173
+  best epoch=536 mIoU=82.87 Pd=96.54 Fa=6.95
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=910 latest_loss=0.002994
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=850 latest_loss=0.00265
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=550 latest_loss=0.003173
+  best epoch=536 mIoU=82.87 Pd=96.54 Fa=6.95
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=920 latest_loss=0.003025
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=860 latest_loss=0.002649
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=560 latest_loss=0.003191
+  best epoch=536 mIoU=82.87 Pd=96.54 Fa=6.95
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=930 latest_loss=0.003043
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=870 latest_loss=0.00265
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=560 latest_loss=0.003191
+  best epoch=536 mIoU=82.87 Pd=96.54 Fa=6.95
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=940 latest_loss=0.002962
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=870 latest_loss=0.00265
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=560 latest_loss=0.003191
+  best epoch=536 mIoU=82.87 Pd=96.54 Fa=6.95
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=940 latest_loss=0.002962
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=880 latest_loss=0.002647
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=570 latest_loss=0.003147
+  best epoch=536 mIoU=82.87 Pd=96.54 Fa=6.95
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=950 latest_loss=0.002958
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=890 latest_loss=0.002647
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=570 latest_loss=0.003147
+  best epoch=536 mIoU=82.87 Pd=96.54 Fa=6.95
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=960 latest_loss=0.002999
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=890 latest_loss=0.002647
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=570 latest_loss=0.003147
+  best epoch=536 mIoU=82.87 Pd=96.54 Fa=6.95
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=970 latest_loss=0.003007
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=900 latest_loss=0.002639
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=580 latest_loss=0.003093
+  best epoch=536 mIoU=82.87 Pd=96.54 Fa=6.95
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=980 latest_loss=0.003017
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=910 latest_loss=0.002637
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=580 latest_loss=0.003093
+  best epoch=536 mIoU=82.87 Pd=96.54 Fa=6.95
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=990 latest_loss=0.00299
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=910 latest_loss=0.002637
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=580 latest_loss=0.003093
+  best epoch=536 mIoU=82.87 Pd=96.54 Fa=6.95
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=1000 latest_loss=0.003003
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=920 latest_loss=0.002642
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=590 latest_loss=0.003104
+  best epoch=536 mIoU=82.87 Pd=96.54 Fa=6.95
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=1000 latest_loss=0.003003
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=930 latest_loss=0.002634
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=590 latest_loss=0.003104
+  best epoch=590 mIoU=82.96 Pd=97.34 Fa=8.31
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=1000 latest_loss=0.003003
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=930 latest_loss=0.002634
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=590 latest_loss=0.003104
+  best epoch=590 mIoU=82.96 Pd=97.34 Fa=8.31
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=1000 latest_loss=0.003003
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=940 latest_loss=0.002639
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=600 latest_loss=0.003098
+  best epoch=590 mIoU=82.96 Pd=97.34 Fa=8.31
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=1000 latest_loss=0.003003
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=950 latest_loss=0.002635
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=600 latest_loss=0.003098
+  best epoch=590 mIoU=82.96 Pd=97.34 Fa=8.31
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=1000 latest_loss=0.003003
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=960 latest_loss=0.002634
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=600 latest_loss=0.003098
+  best epoch=590 mIoU=82.96 Pd=97.34 Fa=8.31
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=1000 latest_loss=0.003003
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=960 latest_loss=0.002634
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=600 latest_loss=0.003098
+  best epoch=590 mIoU=82.96 Pd=97.34 Fa=8.31
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=1000 latest_loss=0.003003
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=970 latest_loss=0.002635
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=610 latest_loss=0.00308
+  best epoch=590 mIoU=82.96 Pd=97.34 Fa=8.31
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=1000 latest_loss=0.003003
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=980 latest_loss=0.00263
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=610 latest_loss=0.00308
+  best epoch=590 mIoU=82.96 Pd=97.34 Fa=8.31
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=1000 latest_loss=0.003003
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=980 latest_loss=0.00263
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=610 latest_loss=0.00308
+  best epoch=590 mIoU=82.96 Pd=97.34 Fa=8.31
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=1000 latest_loss=0.003003
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=990 latest_loss=0.002637
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=620 latest_loss=0.003048
+  best epoch=590 mIoU=82.96 Pd=97.34 Fa=8.31
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=1000 latest_loss=0.003003
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=1000 latest_loss=0.00263
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=620 latest_loss=0.003048
+  best epoch=590 mIoU=82.96 Pd=97.34 Fa=8.31
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=1000 latest_loss=0.003003
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=1000 latest_loss=0.00263
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=620 latest_loss=0.003048
+  best epoch=590 mIoU=82.96 Pd=97.34 Fa=8.31
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=1000 latest_loss=0.003003
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=1000 latest_loss=0.00263
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=630 latest_loss=0.003035
+  best epoch=590 mIoU=82.96 Pd=97.34 Fa=8.31
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=1000 latest_loss=0.003003
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=1000 latest_loss=0.00263
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=630 latest_loss=0.003035
+  best epoch=590 mIoU=82.96 Pd=97.34 Fa=8.31
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=1000 latest_loss=0.003003
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=1000 latest_loss=0.00263
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=630 latest_loss=0.003035
+  best epoch=590 mIoU=82.96 Pd=97.34 Fa=8.31
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=1000 latest_loss=0.003003
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=1000 latest_loss=0.00263
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=640 latest_loss=0.003049
+  best epoch=590 mIoU=82.96 Pd=97.34 Fa=8.31
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=1000 latest_loss=0.003003
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=1000 latest_loss=0.00263
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=640 latest_loss=0.003049
+  best epoch=590 mIoU=82.96 Pd=97.34 Fa=8.31
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=1000 latest_loss=0.003003
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=1000 latest_loss=0.00263
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=640 latest_loss=0.003049
+  best epoch=590 mIoU=82.96 Pd=97.34 Fa=8.31
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=1000 latest_loss=0.003003
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=1000 latest_loss=0.00263
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=650 latest_loss=0.003016
+  best epoch=590 mIoU=82.96 Pd=97.34 Fa=8.31
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=1000 latest_loss=0.003003
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=1000 latest_loss=0.00263
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=650 latest_loss=0.003016
+  best epoch=590 mIoU=82.96 Pd=97.34 Fa=8.31
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=1000 latest_loss=0.003003
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=1000 latest_loss=0.00263
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=650 latest_loss=0.003016
+  best epoch=590 mIoU=82.96 Pd=97.34 Fa=8.31
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=1000 latest_loss=0.003003
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=1000 latest_loss=0.00263
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=660 latest_loss=0.003023
+  best epoch=590 mIoU=82.96 Pd=97.34 Fa=8.31
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=1000 latest_loss=0.003003
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=1000 latest_loss=0.00263
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=660 latest_loss=0.003023
+  best epoch=590 mIoU=82.96 Pd=97.34 Fa=8.31
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=1000 latest_loss=0.003003
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=1000 latest_loss=0.00263
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=660 latest_loss=0.003023
+  best epoch=590 mIoU=82.96 Pd=97.34 Fa=8.31
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=1000 latest_loss=0.003003
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=1000 latest_loss=0.00263
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=670 latest_loss=0.002997
+  best epoch=590 mIoU=82.96 Pd=97.34 Fa=8.31
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=1000 latest_loss=0.003003
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=1000 latest_loss=0.00263
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=670 latest_loss=0.002997
+  best epoch=590 mIoU=82.96 Pd=97.34 Fa=8.31
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=1000 latest_loss=0.003003
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=1000 latest_loss=0.00263
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=670 latest_loss=0.002997
+  best epoch=678 mIoU=82.96 Pd=96.94 Fa=7.83
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=1000 latest_loss=0.003003
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=1000 latest_loss=0.00263
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=680 latest_loss=0.003
+  best epoch=678 mIoU=82.96 Pd=96.94 Fa=7.83
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=1000 latest_loss=0.003003
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=1000 latest_loss=0.00263
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=680 latest_loss=0.003
+  best epoch=678 mIoU=82.96 Pd=96.94 Fa=7.83
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=1000 latest_loss=0.003003
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=1000 latest_loss=0.00263
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=690 latest_loss=0.002977
+  best epoch=678 mIoU=82.96 Pd=96.94 Fa=7.83
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=1000 latest_loss=0.003003
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=1000 latest_loss=0.00263
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=690 latest_loss=0.002977
+  best epoch=678 mIoU=82.96 Pd=96.94 Fa=7.83
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=1000 latest_loss=0.003003
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=1000 latest_loss=0.00263
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=690 latest_loss=0.002977
+  best epoch=678 mIoU=82.96 Pd=96.94 Fa=7.83
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=1000 latest_loss=0.003003
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=1000 latest_loss=0.00263
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=700 latest_loss=0.00295
+  best epoch=678 mIoU=82.96 Pd=96.94 Fa=7.83
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=1000 latest_loss=0.003003
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=1000 latest_loss=0.00263
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=700 latest_loss=0.00295
+  best epoch=678 mIoU=82.96 Pd=96.94 Fa=7.83
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=1000 latest_loss=0.003003
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=1000 latest_loss=0.00263
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=700 latest_loss=0.00295
+  best epoch=678 mIoU=82.96 Pd=96.94 Fa=7.83
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=1000 latest_loss=0.003003
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=1000 latest_loss=0.00263
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=710 latest_loss=0.002985
+  best epoch=678 mIoU=82.96 Pd=96.94 Fa=7.83
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=1000 latest_loss=0.003003
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=1000 latest_loss=0.00263
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=710 latest_loss=0.002985
+  best epoch=678 mIoU=82.96 Pd=96.94 Fa=7.83
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=1000 latest_loss=0.003003
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=1000 latest_loss=0.00263
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=710 latest_loss=0.002985
+  best epoch=678 mIoU=82.96 Pd=96.94 Fa=7.83
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=1000 latest_loss=0.003003
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=1000 latest_loss=0.00263
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=720 latest_loss=0.002957
+  best epoch=678 mIoU=82.96 Pd=96.94 Fa=7.83
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=1000 latest_loss=0.003003
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=1000 latest_loss=0.00263
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=720 latest_loss=0.002957
+  best epoch=678 mIoU=82.96 Pd=96.94 Fa=7.83
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=1000 latest_loss=0.003003
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=1000 latest_loss=0.00263
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=720 latest_loss=0.002957
+  best epoch=678 mIoU=82.96 Pd=96.94 Fa=7.83
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=1000 latest_loss=0.003003
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=1000 latest_loss=0.00263
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=730 latest_loss=0.002941
+  best epoch=678 mIoU=82.96 Pd=96.94 Fa=7.83
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=1000 latest_loss=0.003003
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=1000 latest_loss=0.00263
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=730 latest_loss=0.002941
+  best epoch=678 mIoU=82.96 Pd=96.94 Fa=7.83
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=1000 latest_loss=0.003003
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=1000 latest_loss=0.00263
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=730 latest_loss=0.002941
+  best epoch=678 mIoU=82.96 Pd=96.94 Fa=7.83
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=1000 latest_loss=0.003003
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=1000 latest_loss=0.00263
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=740 latest_loss=0.002915
+  best epoch=678 mIoU=82.96 Pd=96.94 Fa=7.83
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=1000 latest_loss=0.003003
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=1000 latest_loss=0.00263
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=740 latest_loss=0.002915
+  best epoch=678 mIoU=82.96 Pd=96.94 Fa=7.83
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=1000 latest_loss=0.003003
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=1000 latest_loss=0.00263
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=740 latest_loss=0.002915
+  best epoch=678 mIoU=82.96 Pd=96.94 Fa=7.83
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=1000 latest_loss=0.003003
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=1000 latest_loss=0.00263
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=750 latest_loss=0.002947
+  best epoch=678 mIoU=82.96 Pd=96.94 Fa=7.83
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=1000 latest_loss=0.003003
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=1000 latest_loss=0.00263
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=750 latest_loss=0.002947
+  best epoch=678 mIoU=82.96 Pd=96.94 Fa=7.83
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=1000 latest_loss=0.003003
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=1000 latest_loss=0.00263
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=750 latest_loss=0.002947
+  best epoch=678 mIoU=82.96 Pd=96.94 Fa=7.83
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=1000 latest_loss=0.003003
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=1000 latest_loss=0.00263
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=760 latest_loss=0.002928
+  best epoch=678 mIoU=82.96 Pd=96.94 Fa=7.83
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=1000 latest_loss=0.003003
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=1000 latest_loss=0.00263
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=760 latest_loss=0.002928
+  best epoch=678 mIoU=82.96 Pd=96.94 Fa=7.83
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=1000 latest_loss=0.003003
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=1000 latest_loss=0.00263
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=760 latest_loss=0.002928
+  best epoch=678 mIoU=82.96 Pd=96.94 Fa=7.83
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=1000 latest_loss=0.003003
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=1000 latest_loss=0.00263
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=770 latest_loss=0.002923
+  best epoch=678 mIoU=82.96 Pd=96.94 Fa=7.83
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=1000 latest_loss=0.003003
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=1000 latest_loss=0.00263
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=770 latest_loss=0.002923
+  best epoch=678 mIoU=82.96 Pd=96.94 Fa=7.83
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=1000 latest_loss=0.003003
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=1000 latest_loss=0.00263
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=770 latest_loss=0.002923
+  best epoch=678 mIoU=82.96 Pd=96.94 Fa=7.83
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=1000 latest_loss=0.003003
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=1000 latest_loss=0.00263
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=780 latest_loss=0.002931
+  best epoch=678 mIoU=82.96 Pd=96.94 Fa=7.83
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=1000 latest_loss=0.003003
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=1000 latest_loss=0.00263
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=780 latest_loss=0.002931
+  best epoch=678 mIoU=82.96 Pd=96.94 Fa=7.83
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=1000 latest_loss=0.003003
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=1000 latest_loss=0.00263
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=780 latest_loss=0.002931
+  best epoch=678 mIoU=82.96 Pd=96.94 Fa=7.83
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=1000 latest_loss=0.003003
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=1000 latest_loss=0.00263
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=790 latest_loss=0.002896
+  best epoch=678 mIoU=82.96 Pd=96.94 Fa=7.83
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=1000 latest_loss=0.003003
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=1000 latest_loss=0.00263
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=790 latest_loss=0.002896
+  best epoch=678 mIoU=82.96 Pd=96.94 Fa=7.83
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=1000 latest_loss=0.003003
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=1000 latest_loss=0.00263
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=790 latest_loss=0.002896
+  best epoch=678 mIoU=82.96 Pd=96.94 Fa=7.83
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=1000 latest_loss=0.003003
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=1000 latest_loss=0.00263
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=800 latest_loss=0.002877
+  best epoch=678 mIoU=82.96 Pd=96.94 Fa=7.83
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=1000 latest_loss=0.003003
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=1000 latest_loss=0.00263
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=800 latest_loss=0.002877
+  best epoch=678 mIoU=82.96 Pd=96.94 Fa=7.83
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=1000 latest_loss=0.003003
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=1000 latest_loss=0.00263
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=800 latest_loss=0.002877
+  best epoch=678 mIoU=82.96 Pd=96.94 Fa=7.83
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=1000 latest_loss=0.003003
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=1000 latest_loss=0.00263
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=810 latest_loss=0.002907
+  best epoch=678 mIoU=82.96 Pd=96.94 Fa=7.83
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=1000 latest_loss=0.003003
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=1000 latest_loss=0.00263
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=810 latest_loss=0.002907
+  best epoch=678 mIoU=82.96 Pd=96.94 Fa=7.83
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=1000 latest_loss=0.003003
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=1000 latest_loss=0.00263
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=810 latest_loss=0.002907
+  best epoch=678 mIoU=82.96 Pd=96.94 Fa=7.83
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=1000 latest_loss=0.003003
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=1000 latest_loss=0.00263
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=820 latest_loss=0.002919
+  best epoch=678 mIoU=82.96 Pd=96.94 Fa=7.83
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=1000 latest_loss=0.003003
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=1000 latest_loss=0.00263
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=820 latest_loss=0.002919
+  best epoch=678 mIoU=82.96 Pd=96.94 Fa=7.83
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=1000 latest_loss=0.003003
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=1000 latest_loss=0.00263
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=820 latest_loss=0.002919
+  best epoch=678 mIoU=82.96 Pd=96.94 Fa=7.83
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=1000 latest_loss=0.003003
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=1000 latest_loss=0.00263
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=830 latest_loss=0.002901
+  best epoch=678 mIoU=82.96 Pd=96.94 Fa=7.83
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=1000 latest_loss=0.003003
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=1000 latest_loss=0.00263
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=830 latest_loss=0.002901
+  best epoch=678 mIoU=82.96 Pd=96.94 Fa=7.83
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=1000 latest_loss=0.003003
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=1000 latest_loss=0.00263
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=830 latest_loss=0.002901
+  best epoch=678 mIoU=82.96 Pd=96.94 Fa=7.83
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=1000 latest_loss=0.003003
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=1000 latest_loss=0.00263
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=840 latest_loss=0.002875
+  best epoch=678 mIoU=82.96 Pd=96.94 Fa=7.83
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=1000 latest_loss=0.003003
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=1000 latest_loss=0.00263
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=840 latest_loss=0.002875
+  best epoch=678 mIoU=82.96 Pd=96.94 Fa=7.83
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=1000 latest_loss=0.003003
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=1000 latest_loss=0.00263
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=840 latest_loss=0.002875
+  best epoch=678 mIoU=82.96 Pd=96.94 Fa=7.83
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=1000 latest_loss=0.003003
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=1000 latest_loss=0.00263
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=850 latest_loss=0.002905
+  best epoch=678 mIoU=82.96 Pd=96.94 Fa=7.83
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=1000 latest_loss=0.003003
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=1000 latest_loss=0.00263
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=850 latest_loss=0.002905
+  best epoch=678 mIoU=82.96 Pd=96.94 Fa=7.83
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=1000 latest_loss=0.003003
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=1000 latest_loss=0.00263
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=850 latest_loss=0.002905
+  best epoch=678 mIoU=82.96 Pd=96.94 Fa=7.83
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=1000 latest_loss=0.003003
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=1000 latest_loss=0.00263
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=860 latest_loss=0.002878
+  best epoch=678 mIoU=82.96 Pd=96.94 Fa=7.83
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=1000 latest_loss=0.003003
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=1000 latest_loss=0.00263
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=860 latest_loss=0.002878
+  best epoch=678 mIoU=82.96 Pd=96.94 Fa=7.83
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=1000 latest_loss=0.003003
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=1000 latest_loss=0.00263
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=860 latest_loss=0.002878
+  best epoch=678 mIoU=82.96 Pd=96.94 Fa=7.83
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=1000 latest_loss=0.003003
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=1000 latest_loss=0.00263
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=870 latest_loss=0.00286
+  best epoch=678 mIoU=82.96 Pd=96.94 Fa=7.83
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=1000 latest_loss=0.003003
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=1000 latest_loss=0.00263
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=870 latest_loss=0.00286
+  best epoch=678 mIoU=82.96 Pd=96.94 Fa=7.83
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=1000 latest_loss=0.003003
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=1000 latest_loss=0.00263
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=870 latest_loss=0.00286
+  best epoch=678 mIoU=82.96 Pd=96.94 Fa=7.83
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=1000 latest_loss=0.003003
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=1000 latest_loss=0.00263
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=880 latest_loss=0.002876
+  best epoch=678 mIoU=82.96 Pd=96.94 Fa=7.83
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=1000 latest_loss=0.003003
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=1000 latest_loss=0.00263
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=880 latest_loss=0.002876
+  best epoch=678 mIoU=82.96 Pd=96.94 Fa=7.83
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=1000 latest_loss=0.003003
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=1000 latest_loss=0.00263
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=880 latest_loss=0.002876
+  best epoch=678 mIoU=82.96 Pd=96.94 Fa=7.83
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=1000 latest_loss=0.003003
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=1000 latest_loss=0.00263
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=890 latest_loss=0.002868
+  best epoch=678 mIoU=82.96 Pd=96.94 Fa=7.83
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=1000 latest_loss=0.003003
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=1000 latest_loss=0.00263
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=890 latest_loss=0.002868
+  best epoch=678 mIoU=82.96 Pd=96.94 Fa=7.83
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=1000 latest_loss=0.003003
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=1000 latest_loss=0.00263
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=890 latest_loss=0.002868
+  best epoch=678 mIoU=82.96 Pd=96.94 Fa=7.83
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=1000 latest_loss=0.003003
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=1000 latest_loss=0.00263
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=900 latest_loss=0.002891
+  best epoch=678 mIoU=82.96 Pd=96.94 Fa=7.83
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=1000 latest_loss=0.003003
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=1000 latest_loss=0.00263
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=900 latest_loss=0.002891
+  best epoch=678 mIoU=82.96 Pd=96.94 Fa=7.83
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=1000 latest_loss=0.003003
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=1000 latest_loss=0.00263
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=900 latest_loss=0.002891
+  best epoch=678 mIoU=82.96 Pd=96.94 Fa=7.83
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=1000 latest_loss=0.003003
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=1000 latest_loss=0.00263
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=910 latest_loss=0.002857
+  best epoch=678 mIoU=82.96 Pd=96.94 Fa=7.83
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=1000 latest_loss=0.003003
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=1000 latest_loss=0.00263
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=910 latest_loss=0.002857
+  best epoch=678 mIoU=82.96 Pd=96.94 Fa=7.83
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=1000 latest_loss=0.003003
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=1000 latest_loss=0.00263
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=910 latest_loss=0.002857
+  best epoch=678 mIoU=82.96 Pd=96.94 Fa=7.83
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=1000 latest_loss=0.003003
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=1000 latest_loss=0.00263
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=920 latest_loss=0.002869
+  best epoch=678 mIoU=82.96 Pd=96.94 Fa=7.83
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=1000 latest_loss=0.003003
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=1000 latest_loss=0.00263
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=920 latest_loss=0.002869
+  best epoch=678 mIoU=82.96 Pd=96.94 Fa=7.83
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=1000 latest_loss=0.003003
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=1000 latest_loss=0.00263
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=920 latest_loss=0.002869
+  best epoch=678 mIoU=82.96 Pd=96.94 Fa=7.83
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=1000 latest_loss=0.003003
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=1000 latest_loss=0.00263
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=930 latest_loss=0.002877
+  best epoch=678 mIoU=82.96 Pd=96.94 Fa=7.83
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=1000 latest_loss=0.003003
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=1000 latest_loss=0.00263
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=930 latest_loss=0.002877
+  best epoch=678 mIoU=82.96 Pd=96.94 Fa=7.83
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=1000 latest_loss=0.003003
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=1000 latest_loss=0.00263
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=930 latest_loss=0.002877
+  best epoch=678 mIoU=82.96 Pd=96.94 Fa=7.83
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=1000 latest_loss=0.003003
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=1000 latest_loss=0.00263
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=940 latest_loss=0.002887
+  best epoch=678 mIoU=82.96 Pd=96.94 Fa=7.83
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=1000 latest_loss=0.003003
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=1000 latest_loss=0.00263
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=940 latest_loss=0.002887
+  best epoch=678 mIoU=82.96 Pd=96.94 Fa=7.83
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=1000 latest_loss=0.003003
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=1000 latest_loss=0.00263
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=940 latest_loss=0.002887
+  best epoch=678 mIoU=82.96 Pd=96.94 Fa=7.83
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=1000 latest_loss=0.003003
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=1000 latest_loss=0.00263
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=950 latest_loss=0.002847
+  best epoch=678 mIoU=82.96 Pd=96.94 Fa=7.83
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=1000 latest_loss=0.003003
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=1000 latest_loss=0.00263
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=950 latest_loss=0.002847
+  best epoch=678 mIoU=82.96 Pd=96.94 Fa=7.83
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=1000 latest_loss=0.003003
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=1000 latest_loss=0.00263
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=950 latest_loss=0.002847
+  best epoch=678 mIoU=82.96 Pd=96.94 Fa=7.83
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=1000 latest_loss=0.003003
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=1000 latest_loss=0.00263
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=960 latest_loss=0.002882
+  best epoch=678 mIoU=82.96 Pd=96.94 Fa=7.83
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=1000 latest_loss=0.003003
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=1000 latest_loss=0.00263
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=960 latest_loss=0.002882
+  best epoch=678 mIoU=82.96 Pd=96.94 Fa=7.83
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=1000 latest_loss=0.003003
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=1000 latest_loss=0.00263
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=960 latest_loss=0.002882
+  best epoch=678 mIoU=82.96 Pd=96.94 Fa=7.83
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=1000 latest_loss=0.003003
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=1000 latest_loss=0.00263
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=970 latest_loss=0.002855
+  best epoch=678 mIoU=82.96 Pd=96.94 Fa=7.83
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=1000 latest_loss=0.003003
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=1000 latest_loss=0.00263
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=970 latest_loss=0.002855
+  best epoch=678 mIoU=82.96 Pd=96.94 Fa=7.83
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=1000 latest_loss=0.003003
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=1000 latest_loss=0.00263
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=970 latest_loss=0.002855
+  best epoch=678 mIoU=82.96 Pd=96.94 Fa=7.83
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=1000 latest_loss=0.003003
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=1000 latest_loss=0.00263
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=980 latest_loss=0.002849
+  best epoch=678 mIoU=82.96 Pd=96.94 Fa=7.83
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=1000 latest_loss=0.003003
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=1000 latest_loss=0.00263
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=980 latest_loss=0.002849
+  best epoch=678 mIoU=82.96 Pd=96.94 Fa=7.83
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=1000 latest_loss=0.003003
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=1000 latest_loss=0.00263
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=980 latest_loss=0.002849
+  best epoch=678 mIoU=82.96 Pd=96.94 Fa=7.83
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=1000 latest_loss=0.003003
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=1000 latest_loss=0.00263
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=990 latest_loss=0.002849
+  best epoch=678 mIoU=82.96 Pd=96.94 Fa=7.83
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=1000 latest_loss=0.003003
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=1000 latest_loss=0.00263
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=990 latest_loss=0.002849
+  best epoch=678 mIoU=82.96 Pd=96.94 Fa=7.83
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/IRSTD-1K_gpu2.log
+  latest_epoch=1000 latest_loss=0.003003
+  best epoch=500 mIoU=67.32 Pd=93.60 Fa=13.61
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUAA-SIRST_gpu3.log
+  latest_epoch=1000 latest_loss=0.002671
+  best epoch=823 mIoU=77.52 Pd=96.20 Fa=18.04
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/NUDT-SIRST_gpu1.log
+  latest_epoch=1000 latest_loss=0.00263
+  best epoch=547 mIoU=93.76 Pd=98.94 Fa=4.37
+/home/cx/hongwai/irstd-lab/runs/baseline_4gpu/logs/SIRST3_gpu0.log
+  latest_epoch=990 latest_loss=0.002849
+  best epoch=678 mIoU=82.96 Pd=96.94 Fa=7.83
+[2026-06-10 00:02:52 UTC] training finished, collecting results
+/home/cx/hongwai/irstd-lab/scripts/eval_checkpoint.py:60: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  ckpt = torch.load(checkpoint, map_location="cpu")
+/home/cx/hongwai/irstd-lab/scripts/eval_checkpoint.py:60: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  ckpt = torch.load(checkpoint, map_location="cpu")
+/home/cx/hongwai/irstd-lab/scripts/eval_checkpoint.py:60: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  ckpt = torch.load(checkpoint, map_location="cpu")
+/home/cx/hongwai/irstd-lab/scripts/eval_checkpoint.py:60: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  ckpt = torch.load(checkpoint, map_location="cpu")
+/home/cx/hongwai/irstd-lab/scripts/eval_checkpoint.py:60: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  ckpt = torch.load(checkpoint, map_location="cpu")
+/home/cx/hongwai/irstd-lab/reports/from_scratch_baseline_results.md
+[2026-06-10 00:05:05 UTC] done

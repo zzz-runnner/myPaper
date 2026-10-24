@@ -1,0 +1,39 @@
+{
+  "dataset_dir": "/home/cx/hongwai/irstd-lab/datasets",
+  "train_cache_spec": [
+    "IRSTD-1K|/home/cx/hongwai/irstd-lab/reports/fusion_cache_bgm_rpcanet_train_a/IRSTD-1K__train.npz",
+    "NUAA-SIRST|/home/cx/hongwai/irstd-lab/reports/fusion_cache_official_mamba_teacher_nuaa/NUAA-SIRST__train.npz",
+    "NUDT-SIRST|/home/cx/hongwai/irstd-lab/reports/fusion_cache_bgm_rpcanet_train_b_test/NUDT-SIRST__train.npz",
+    "SIRST3|/home/cx/hongwai/irstd-lab/reports/fusion_cache_bgm_rpcanet_train_b_test/SIRST3__train.npz"
+  ],
+  "test_cache_spec": [
+    "NUAA-SIRST|/home/cx/hongwai/irstd-lab/reports/fusion_cache_official_mamba_teacher_nuaa/NUAA-SIRST__test.npz"
+  ],
+  "teacher_mode": "local_rule",
+  "epochs": 3,
+  "batch_size": 4,
+  "patch_size": 512,
+  "base_channels": 64,
+  "dhif_stages": "e1",
+  "lr": 4e-05,
+  "residual_scale": 0.04,
+  "anchor_weight": 0.18,
+  "pos_weight": 30.0,
+  "hard_clutter_weight": 0.4,
+  "hard_clutter_threshold": 0.35,
+  "miss_weight": 0.8,
+  "miss_threshold": 0.2,
+  "uncertainty_weight": 0.1,
+  "weighted_dice": true,
+  "thresholds": "0.488,0.492,0.496,0.498,0.500,0.502,0.504,0.508,0.512",
+  "eval_interval": 1,
+  "max_train_samples_per_cache": 128,
+  "eval_max_samples": 0,
+  "seed": 20260641,
+  "device": "cuda:0",
+  "amp": true,
+  "output_dir": "/home/cx/hongwai/irstd-lab/runs/local_rule_dhif_nuaa_4gpu_screen/s1201_e1_r004_hc04_m08"
+}
+{"epoch": 1, "eval": {"NUAA-SIRST": {"Fa": 9.604119563605271e-06, "Pd": 0.9695817490494296, "mIoU": 0.8226514486391572, "nIoU": 0.8202335409015707, "pixAcc": 0.8936576247215271, "threshold": 0.496}}, "loss": 1.4596714652143419, "lr": 3.0500000000000003e-05, "seconds": 54.801292181015015}
+{"epoch": 2, "eval": {"NUAA-SIRST": {"Fa": 7.820497358935721e-06, "Pd": 0.973384030418251, "mIoU": 0.8219975826832217, "nIoU": 0.820983543222212, "pixAcc": 0.8918693661689758, "threshold": 0.496}}, "loss": 1.4588189800269902, "lr": 1.1500000000000005e-05, "seconds": 54.33799910545349}
+{"epoch": 3, "eval": {"NUAA-SIRST": {"Fa": 9.398317001528016e-06, "Pd": 0.9695817490494296, "mIoU": 0.8222027589227063, "nIoU": 0.8207112053257971, "pixAcc": 0.8953266739845276, "threshold": 0.488}}, "loss": 1.4587213820777833, "lr": 2.0000000000000003e-06, "seconds": 54.3768093585968}

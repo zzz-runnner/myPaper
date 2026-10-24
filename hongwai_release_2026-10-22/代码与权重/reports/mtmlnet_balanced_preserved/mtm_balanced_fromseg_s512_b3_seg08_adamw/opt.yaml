@@ -1,0 +1,77 @@
+weights: /home/cx/hongwai/irstd-lab/runs/mtmlnet_full_4gpu/mtm_segheavy_s512_b3_adamw/weights/best.pt
+cfg: /home/cx/hongwai/irstd-lab/external/MTMLNet/models/detect/P234-MEA-HPDown-HFF.yaml
+data: /home/cx/hongwai/irstd-lab/generated/mtmlnet_balanced_target/mtmlnet_full.yaml
+hyp:
+  lr0: 0.003
+  lrf: 0.02
+  momentum: 0.9
+  weight_decay: 0.0002
+  warmup_epochs: 3.0
+  warmup_momentum: 0.8
+  warmup_bias_lr: 0.03
+  box: 7.5
+  cls: 0.5
+  cls_pw: 1.0
+  obj: 0.7
+  obj_pw: 1.0
+  dfl: 1.5
+  iou_t: 0.2
+  anchor_t: 5.0
+  fl_gamma: 0.0
+  hsv_h: 0.015
+  hsv_s: 0.35
+  hsv_v: 0.25
+  degrees: 0.0
+  translate: 0.08
+  scale: 0.75
+  shear: 0.0
+  perspective: 0.0
+  flipud: 0.0
+  fliplr: 0.5
+  mosaic: 0.8
+  mixup: 0.08
+  copy_paste: 0.15
+epochs: 120
+batch_size: 3
+imgsz: 512
+rect: false
+resume: false
+nosave: false
+noval: false
+noautoanchor: false
+noplots: true
+evolve: null
+bucket: ''
+cache: null
+image_weights: false
+device: ''
+multi_scale: false
+single_cls: false
+optimizer: AdamW
+sync_bn: false
+workers: 4
+project: /home/cx/hongwai/irstd-lab/runs/mtmlnet_full_4gpu
+name: mtm_balanced_fromseg_s512_b3_seg08_adamw
+exist_ok: true
+quad: false
+cos_lr: true
+flat_cos_lr: false
+fixed_lr: false
+label_smoothing: 0.0
+patience: 30
+freeze:
+- 0
+save_period: -1
+seed: 6125
+local_rank: -1
+min_items: 0
+close_mosaic: 20
+det_gain: 0.2
+seg_gain: 0.8
+det_val_batch_mult: 1.0
+seg_val_batch: 2
+entity: null
+upload_dataset: false
+bbox_interval: -1
+artifact_alias: latest
+save_dir: /home/cx/hongwai/irstd-lab/runs/mtmlnet_full_4gpu/mtm_balanced_fromseg_s512_b3_seg08_adamw

@@ -1,0 +1,182 @@
+{
+  "dataset": "NUAA-SIRST",
+  "fit_datasets": [
+    "NUAA-SIRST"
+  ],
+  "fit_split": "train",
+  "eval_split": "test",
+  "models": [
+    "tpc_a",
+    "lca",
+    "bgm_nuaa"
+  ],
+  "official_pconv_mshnet_specs": [],
+  "official_bgm_specs": [
+    "bgm_nuaa|NUAA-SIRST|/home/cx/hongwai/irstd-lab/external/BGM/checkpoints_download/weights/BasicUNet_plus-2024-09-20-21-17-03-NUAA-SIRST/best_mIoU_on_NUAA-SIRST.pth.tar|0.25"
+  ],
+  "handcrafted_candidates": false,
+  "handcrafted_full": false,
+  "handcrafted_topk": 32,
+  "contrast_candidates": false,
+  "contrast_topk": 24,
+  "contrast_threshold": 0.78,
+  "background_normality_candidates": false,
+  "background_as_candidate": false,
+  "background_topk": 16,
+  "background_threshold": 0.88,
+  "background_sample_pixels": 2048,
+  "target_prototype_candidates": false,
+  "prototype_topk": 24,
+  "prototype_threshold": 0.72,
+  "prototype_teacher_suppress": 0.35,
+  "prototype_positive_dilate": 3,
+  "prototype_background_ring": 17,
+  "prototype_hard_negative_quantile": 97.0,
+  "prototype_max_fit_samples": -1,
+  "max_components_per_image": 0,
+  "fill_modes": [
+    "avg"
+  ],
+  "model_specs": [
+    "tpc_a|sct_tpc_dhif_refiner|/home/cx/hongwai/irstd-lab/runs/selected_checkpoints/our_method/NUAA-SIRST_TCD-SCTransNet-L_66_best.pth.tar|/home/cx/hongwai/irstd-lab/runs/tpc_dhif_teacher4/NUAA-SIRST_SCT-TPC-DHiF-A_gpu2/checkpoints/NUAA-SIRST/best_mIoU.pth.tar",
+    "lca|sct_lca_refiner|/home/cx/hongwai/irstd-lab/runs/selected_checkpoints/our_method/NUAA-SIRST_TCD-SCTransNet-L_66_best.pth.tar|/home/cx/hongwai/irstd-lab/runs/selected_checkpoints/lca/NUAA-SIRST_SCT-LCA-B_epoch5_best.pth.tar"
+  ],
+  "best_valid": {
+    "kind": "baseline",
+    "mode": "bgm_nuaa",
+    "output_threshold": 0.45,
+    "pixAcc": 0.954356849193573,
+    "mIoU": 0.8185053380782918,
+    "nIoU": 0.8796446446446445,
+    "Pd": 1.0,
+    "Fa": 0.0
+  },
+  "best_oracle_not_valid": {
+    "kind": "test_oracle_not_valid",
+    "seed_threshold": 0.4,
+    "fill_mode": "avg",
+    "keep_threshold": 0.5,
+    "output_threshold": 0.4,
+    "train_components": 11,
+    "train_positive": 11,
+    "eval_components": 8,
+    "eval_positive": 7,
+    "train_score_pos_mean": 0.6608467698097229,
+    "train_score_neg_mean": 0.0,
+    "eval_score_pos_mean": 0.660862386226654,
+    "eval_score_neg_mean": 0.6608470678329468,
+    "kept_components": 7,
+    "total_components": 8,
+    "pixAcc": 0.8589211702346802,
+    "mIoU": 0.7752808988764045,
+    "nIoU": 0.8495065562456867,
+    "Pd": 1.0,
+    "Fa": 0.0
+  },
+  "rows": [
+    {
+      "kind": "baseline",
+      "mode": "bgm_nuaa",
+      "output_threshold": 0.45,
+      "pixAcc": 0.954356849193573,
+      "mIoU": 0.8185053380782918,
+      "nIoU": 0.8796446446446445,
+      "Pd": 1.0,
+      "Fa": 0.0
+    },
+    {
+      "kind": "baseline",
+      "mode": "max",
+      "output_threshold": 0.45,
+      "pixAcc": 0.9626556038856506,
+      "mIoU": 0.8083623693379791,
+      "nIoU": 0.8838042794210196,
+      "Pd": 1.0,
+      "Fa": 1.641319226741686e-05
+    },
+    {
+      "kind": "test_oracle_not_valid",
+      "seed_threshold": 0.4,
+      "fill_mode": "avg",
+      "keep_threshold": 0.5,
+      "output_threshold": 0.4,
+      "train_components": 11,
+      "train_positive": 11,
+      "eval_components": 8,
+      "eval_positive": 7,
+      "train_score_pos_mean": 0.6608467698097229,
+      "train_score_neg_mean": 0.0,
+      "eval_score_pos_mean": 0.660862386226654,
+      "eval_score_neg_mean": 0.6608470678329468,
+      "kept_components": 7,
+      "total_components": 8,
+      "pixAcc": 0.8589211702346802,
+      "mIoU": 0.7752808988764045,
+      "nIoU": 0.8495065562456867,
+      "Pd": 1.0,
+      "Fa": 0.0
+    },
+    {
+      "kind": "baseline",
+      "mode": "min",
+      "output_threshold": 0.45,
+      "pixAcc": 0.817427396774292,
+      "mIoU": 0.7725490196078432,
+      "nIoU": 0.859059973679263,
+      "Pd": 1.0,
+      "Fa": 0.0
+    },
+    {
+      "kind": "baseline",
+      "mode": "avg",
+      "output_threshold": 0.45,
+      "pixAcc": 0.8464730381965637,
+      "mIoU": 0.7669172932330827,
+      "nIoU": 0.8473162274618586,
+      "Pd": 1.0,
+      "Fa": 9.847915360450116e-06
+    },
+    {
+      "kind": "train_fit_eval",
+      "seed_threshold": 0.4,
+      "fill_mode": "avg",
+      "keep_threshold": 0.2,
+      "output_threshold": 0.45,
+      "train_components": 11,
+      "train_positive": 11,
+      "eval_components": 8,
+      "eval_positive": 7,
+      "train_score_pos_mean": 0.6608467698097229,
+      "train_score_neg_mean": 0.0,
+      "eval_score_pos_mean": 0.660862386226654,
+      "eval_score_neg_mean": 0.6608470678329468,
+      "kept_components": 8,
+      "total_components": 8,
+      "pixAcc": 0.8464730381965637,
+      "mIoU": 0.7669172932330827,
+      "nIoU": 0.8473162274618586,
+      "Pd": 1.0,
+      "Fa": 9.847915360450116e-06
+    },
+    {
+      "kind": "baseline",
+      "mode": "tpc_a",
+      "output_threshold": 0.45,
+      "pixAcc": 0.8257261514663696,
+      "mIoU": 0.7624521072796935,
+      "nIoU": 0.863088165959453,
+      "Pd": 1.0,
+      "Fa": 1.641319226741686e-05
+    },
+    {
+      "kind": "baseline",
+      "mode": "lca",
+      "output_threshold": 0.45,
+      "pixAcc": 0.8257261514663696,
+      "mIoU": 0.7624521072796935,
+      "nIoU": 0.863088165959453,
+      "Pd": 1.0,
+      "Fa": 1.641319226741686e-05
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "dataset_dir": "/home/cx/hongwai/irstd-lab/datasets",
+  "train_cache_spec": [
+    "IRSTD-1K|/home/cx/hongwai/irstd-lab/reports/fusion_cache_bgm_rpcanet_train_a/IRSTD-1K__train.npz",
+    "NUAA-SIRST|/home/cx/hongwai/irstd-lab/reports/fusion_cache_official_mamba_teacher_nuaa/NUAA-SIRST__train.npz",
+    "NUDT-SIRST|/home/cx/hongwai/irstd-lab/reports/fusion_cache_bgm_rpcanet_train_b_test/NUDT-SIRST__train.npz",
+    "SIRST3|/home/cx/hongwai/irstd-lab/reports/fusion_cache_bgm_rpcanet_train_b_test/SIRST3__train.npz"
+  ],
+  "test_cache_spec": [
+    "NUAA-SIRST|/home/cx/hongwai/irstd-lab/reports/fusion_cache_official_mamba_teacher_nuaa/NUAA-SIRST__test.npz"
+  ],
+  "teacher_mode": "local_rule",
+  "epochs": 3,
+  "batch_size": 4,
+  "patch_size": 512,
+  "base_channels": 64,
+  "lr": 6e-05,
+  "residual_scale": 0.1,
+  "anchor_weight": 0.06,
+  "confident_anchor_weight": 0.03,
+  "pos_weight": 30.0,
+  "uncertainty_weight": 1.0,
+  "boundary_weight": 2.5,
+  "false_positive_weight": 1.2,
+  "thresholds": "0.488,0.492,0.496,0.498,0.500,0.502,0.504,0.508,0.512",
+  "eval_interval": 1,
+  "max_train_samples_per_cache": 128,
+  "eval_max_samples": 0,
+  "seed": 20260633,
+  "device": "cuda:0",
+  "output_dir": "/home/cx/hongwai/irstd-lab/runs/local_rule_ub_nuaa_4gpu_screen/s1103_r010_a006_ub25"
+}
+{"epoch": 1, "eval": {"NUAA-SIRST": {"Fa": 1.1593544330352077e-05, "Pd": 0.9657794676806084, "mIoU": 0.8225188751504541, "nIoU": 0.8206513718763323, "pixAcc": 0.8961611986160278, "threshold": 0.502}}, "loss": 1.7920451234094799, "lr": 4.575e-05, "seconds": 50.55573344230652}
+{"epoch": 2, "eval": {"NUAA-SIRST": {"Fa": 7.751896504909969e-06, "Pd": 0.973384030418251, "mIoU": 0.8212994412183631, "nIoU": 0.8199311611597404, "pixAcc": 0.8936576247215271, "threshold": 0.496}}, "loss": 1.7898699040524662, "lr": 1.7250000000000006e-05, "seconds": 49.98612070083618}
+{"epoch": 3, "eval": {"NUAA-SIRST": {"Fa": 9.604119563605271e-06, "Pd": 0.9695817490494296, "mIoU": 0.8213385913024428, "nIoU": 0.8203444931357226, "pixAcc": 0.8938960433006287, "threshold": 0.504}}, "loss": 1.7894804845564067, "lr": 3e-06, "seconds": 50.24351739883423}

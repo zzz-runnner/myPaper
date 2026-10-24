@@ -1,0 +1,76 @@
+{
+  "args": {
+    "dataset_dir": "/home/cx/hongwai/irstd-lab/datasets",
+    "train_cache_spec": [
+      "IRSTD-1K|reports/prediction_cache_irstd_dual_train_a/IRSTD-1K__train.npz",
+      "NUAA-SIRST|reports/prediction_cache_irstd_dual_train_a/NUAA-SIRST__train.npz",
+      "NUDT-SIRST|reports/prediction_cache_irstd_dual_train_b_test/NUDT-SIRST__train.npz",
+      "SIRST3|reports/prediction_cache_irstd_dual_train_b_test/SIRST3__train.npz"
+    ],
+    "test_cache_spec": [
+      "IRSTD-1K|reports/prediction_cache_irstd_dual_train_b_test/IRSTD-1K__test.npz"
+    ],
+    "pseudo_mode": "avg",
+    "epochs": 2,
+    "batch_size": 8,
+    "patch_size": 256,
+    "base_channels": 16,
+    "lr": 0.001,
+    "pseudo_weight": 0.5,
+    "thresholds": "0.30,0.35,0.40,0.45,0.50,0.55,0.60",
+    "eval_interval": 1,
+    "max_train_samples_per_cache": 50,
+    "eval_max_samples": 40,
+    "seed": 20260614,
+    "device": "cuda:0",
+    "output_dir": "runs/hf_student_smoke_irstd"
+  },
+  "best": {
+    "epoch": 2,
+    "mean_mIoU": 0.20992028343666963,
+    "eval": {
+      "IRSTD-1K": {
+        "threshold": 0.55,
+        "pixAcc": 0.27462339401245117,
+        "mIoU": 0.20992028343666963,
+        "nIoU": 0.2205319674068389,
+        "Pd": 0.4461538461538462,
+        "Fa": 3.595352172851563e-05
+      }
+    }
+  },
+  "history": [
+    {
+      "epoch": 1,
+      "loss": 1.8582410097122193,
+      "lr": 0.000525,
+      "seconds": 3.1282753944396973,
+      "eval": {
+        "IRSTD-1K": {
+          "threshold": 0.45,
+          "pixAcc": 0.033314019441604614,
+          "mIoU": 0.0014764411349338811,
+          "nIoU": 0.0013711340291983946,
+          "Pd": 0.07692307692307693,
+          "Fa": 0.007094860076904297
+        }
+      }
+    },
+    {
+      "epoch": 2,
+      "loss": 1.767225875854492,
+      "lr": 5e-05,
+      "seconds": 2.491856336593628,
+      "eval": {
+        "IRSTD-1K": {
+          "threshold": 0.55,
+          "pixAcc": 0.27462339401245117,
+          "mIoU": 0.20992028343666963,
+          "nIoU": 0.2205319674068389,
+          "Pd": 0.4461538461538462,
+          "Fa": 3.595352172851563e-05
+        }
+      }
+    }
+  ]
+}

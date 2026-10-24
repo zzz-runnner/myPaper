@@ -1,0 +1,98 @@
+{
+  "args": {
+    "dataset_dir": "/home/cx/hongwai/irstd-lab/datasets",
+    "train_cache_spec": [
+      "IRSTD-1K|/home/cx/hongwai/irstd-lab/reports/fusion_cache_bgm_rpcanet_train_a/IRSTD-1K__train.npz",
+      "NUAA-SIRST|/home/cx/hongwai/irstd-lab/reports/fusion_cache_official_mamba_teacher_nuaa/NUAA-SIRST__train.npz",
+      "NUDT-SIRST|/home/cx/hongwai/irstd-lab/reports/fusion_cache_bgm_rpcanet_train_b_test/NUDT-SIRST__train.npz",
+      "SIRST3|/home/cx/hongwai/irstd-lab/reports/fusion_cache_bgm_rpcanet_train_b_test/SIRST3__train.npz"
+    ],
+    "test_cache_spec": [
+      "NUAA-SIRST|/home/cx/hongwai/irstd-lab/reports/fusion_cache_official_mamba_teacher_nuaa/NUAA-SIRST__test.npz"
+    ],
+    "teacher_mode": "local_rule",
+    "epochs": 3,
+    "batch_size": 4,
+    "patch_size": 512,
+    "base_channels": 64,
+    "lr": 5e-05,
+    "residual_scale": 0.12,
+    "anchor_weight": 0.04,
+    "confident_anchor_weight": 0.03,
+    "pos_weight": 32.0,
+    "uncertainty_weight": 1.2,
+    "boundary_weight": 3.0,
+    "false_positive_weight": 1.5,
+    "thresholds": "0.488,0.492,0.496,0.498,0.500,0.502,0.504,0.508,0.512",
+    "eval_interval": 1,
+    "max_train_samples_per_cache": 128,
+    "eval_max_samples": 0,
+    "seed": 20260634,
+    "device": "cuda:0",
+    "output_dir": "/home/cx/hongwai/irstd-lab/runs/local_rule_ub_nuaa_4gpu_screen/s1104_r012_a004_ub30"
+  },
+  "best": {
+    "epoch": 2,
+    "mean_mIoU": 0.8224800262668271,
+    "eval": {
+      "NUAA-SIRST": {
+        "threshold": 0.508,
+        "pixAcc": 0.8959227204322815,
+        "mIoU": 0.8224800262668271,
+        "nIoU": 0.8207755828848234,
+        "Pd": 0.9657794676806084,
+        "Fa": 1.1524943476326325e-05
+      }
+    }
+  },
+  "history": [
+    {
+      "epoch": 1,
+      "loss": 1.8747274328488857,
+      "lr": 3.8125e-05,
+      "seconds": 50.44801306724548,
+      "eval": {
+        "NUAA-SIRST": {
+          "threshold": 0.508,
+          "pixAcc": 0.8958035111427307,
+          "mIoU": 0.8223705811535514,
+          "nIoU": 0.8207323153181915,
+          "Pd": 0.9657794676806084,
+          "Fa": 1.1524943476326325e-05
+        }
+      }
+    },
+    {
+      "epoch": 2,
+      "loss": 1.8697799518704414,
+      "lr": 1.4375000000000004e-05,
+      "seconds": 49.83355212211609,
+      "eval": {
+        "NUAA-SIRST": {
+          "threshold": 0.508,
+          "pixAcc": 0.8959227204322815,
+          "mIoU": 0.8224800262668271,
+          "nIoU": 0.8207755828848234,
+          "Pd": 0.9657794676806084,
+          "Fa": 1.1524943476326325e-05
+        }
+      }
+    },
+    {
+      "epoch": 3,
+      "loss": 1.869418848771602,
+      "lr": 2.5e-06,
+      "seconds": 49.76014804840088,
+      "eval": {
+        "NUAA-SIRST": {
+          "threshold": 0.502,
+          "pixAcc": 0.8968765139579773,
+          "mIoU": 0.8222756585419172,
+          "nIoU": 0.8202954282673766,
+          "Pd": 0.9657794676806084,
+          "Fa": 1.166214518437783e-05
+        }
+      }
+    }
+  ]
+}

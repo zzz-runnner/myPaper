@@ -1,0 +1,42 @@
+{
+  "dataset_dir": "/home/cx/hongwai/irstd-lab/datasets",
+  "train_cache_spec": [
+    "IRSTD-1K|/home/cx/hongwai/irstd-lab/reports/fusion_cache_bgm_rpcanet_train_a/IRSTD-1K__train.npz",
+    "NUAA-SIRST|/home/cx/hongwai/irstd-lab/reports/fusion_cache_bgm_rpcanet_train_a/NUAA-SIRST__train.npz",
+    "NUDT-SIRST|/home/cx/hongwai/irstd-lab/reports/fusion_cache_bgm_rpcanet_train_b_test/NUDT-SIRST__train.npz",
+    "SIRST3|/home/cx/hongwai/irstd-lab/reports/fusion_cache_bgm_rpcanet_train_b_test/SIRST3__train.npz"
+  ],
+  "test_cache_spec": [
+    "NUAA-SIRST|/home/cx/hongwai/irstd-lab/reports/fusion_cache_bgm_rpcanet_train_b_test/NUAA-SIRST__test.npz"
+  ],
+  "teacher_mode": "strong_fusion",
+  "epochs": 5,
+  "batch_size": 2,
+  "patch_size": 512,
+  "base_channels": 48,
+  "lr": 0.00012,
+  "residual_scale": 0.18,
+  "anchor_weight": 0.09,
+  "pos_weight": 32.0,
+  "hard_clutter_weight": 3.0,
+  "hard_clutter_threshold": 0.44,
+  "miss_weight": 1.2,
+  "miss_threshold": 0.14,
+  "uncertainty_weight": 0.25,
+  "weighted_dice": true,
+  "thresholds": "0.42,0.44,0.46,0.48,0.50,0.52,0.54,0.56,0.58,0.60",
+  "eval_interval": 1,
+  "max_train_samples_per_cache": 0,
+  "eval_max_samples": 0,
+  "focus_dataset": "NUAA-SIRST",
+  "focus_patch_prob": 0.9,
+  "focus_hard_threshold": 0.44,
+  "focus_miss_threshold": 0.14,
+  "seed": 902,
+  "device": "cuda:0",
+  "amp": true,
+  "resume_checkpoint": "",
+  "output_dir": "/home/cx/hongwai/irstd-lab/runs/hfmlk_focus_nuaa_4gpu/nuaa_focus_strong_s902"
+}
+{"epoch": 1, "eval": {"NUAA-SIRST": {"Fa": 7.477493088806961e-06, "Pd": 0.9809885931558935, "mIoU": 0.8106085616815231, "nIoU": 0.8159450040279641, "pixAcc": 0.8781592845916748, "threshold": 0.46}}, "loss": 1.836081366719309, "lr": 0.00010911396867937201, "seconds": 569.9236228466034}
+{"epoch": 2, "eval": {"NUAA-SIRST": {"Fa": 7.203089672703953e-06, "Pd": 0.9809885931558935, "mIoU": 0.8105751186665194, "nIoU": 0.816216091916868, "pixAcc": 0.8754172921180725, "threshold": 0.56}}, "loss": 1.8341850035230414, "lr": 8.061396867937201e-05, "seconds": 571.1185185909271}

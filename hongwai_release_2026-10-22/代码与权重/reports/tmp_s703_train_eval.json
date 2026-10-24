@@ -1,0 +1,60 @@
+{
+  "args": {
+    "dataset_dir": "/home/cx/hongwai/irstd-lab/datasets",
+    "dataset_name": "NUAA-SIRST",
+    "cache": "reports/fusion_cache_bgm_rpcanet_train_a/NUAA-SIRST__train.npz",
+    "checkpoint": "runs/strong_fusion_hfmlk_nuaa_4gpu/nuaa_strong_fusion_s703/best.pth.tar",
+    "teacher_mode": "strong_fusion",
+    "base_channels": 48,
+    "residual_scale": 0.32,
+    "thresholds": "0.472",
+    "tta": "none",
+    "eval_max_samples": 0,
+    "device": "cuda:0",
+    "output": "reports/tmp_s703_train_eval.json",
+    "save_maps": "reports/tmp_s703_train_maps.npz"
+  },
+  "checkpoint_best": {
+    "epoch": 2,
+    "mean_mIoU": 0.8115019421665948,
+    "eval": {
+      "NUAA-SIRST": {
+        "threshold": 0.46,
+        "pixAcc": 0.896638035774231,
+        "mIoU": 0.8115019421665948,
+        "nIoU": 0.8125005284109027,
+        "Pd": 0.9809885931558935,
+        "Fa": 9.123913585425007e-06
+      }
+    }
+  },
+  "best": {
+    "mode": "no_tta",
+    "threshold": 0.472,
+    "pixAcc": 0.954012930393219,
+    "mIoU": 0.891994266994267,
+    "nIoU": 0.8860501456780596,
+    "Pd": 1.0,
+    "Fa": 3.482119906241832e-07
+  },
+  "rows": [
+    {
+      "mode": "no_tta",
+      "threshold": 0.472,
+      "pixAcc": 0.954012930393219,
+      "mIoU": 0.891994266994267,
+      "nIoU": 0.8860501456780596,
+      "Pd": 1.0,
+      "Fa": 3.482119906241832e-07
+    },
+    {
+      "mode": "tta_1",
+      "threshold": 0.472,
+      "pixAcc": 0.954012930393219,
+      "mIoU": 0.891994266994267,
+      "nIoU": 0.8860501456780596,
+      "Pd": 1.0,
+      "Fa": 3.482119906241832e-07
+    }
+  ]
+}

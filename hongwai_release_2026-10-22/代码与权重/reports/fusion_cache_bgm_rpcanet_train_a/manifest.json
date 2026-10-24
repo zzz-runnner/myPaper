@@ -1,0 +1,53 @@
+{
+  "dataset_dir": "/home/cx/hongwai/irstd-lab/datasets",
+  "model_specs": [
+    "tpc_a|sct_tpc_dhif_refiner|/home/cx/hongwai/irstd-lab/runs/selected_checkpoints/our_method/NUAA-SIRST_TCD-SCTransNet-L_66_best.pth.tar|/home/cx/hongwai/irstd-lab/runs/tpc_dhif_teacher4/NUAA-SIRST_SCT-TPC-DHiF-A_gpu2/checkpoints/NUAA-SIRST/best_mIoU.pth.tar",
+    "tpc_b|sct_tpc_dhif_refiner|/home/cx/hongwai/irstd-lab/runs/selected_checkpoints/our_method/NUAA-SIRST_TCD-SCTransNet-L_66_best.pth.tar|/home/cx/hongwai/irstd-lab/runs/tpc_dhif_teacher4/NUAA-SIRST_SCT-TPC-DHiF-B_gpu3/checkpoints/NUAA-SIRST/best_mIoU.pth.tar",
+    "lca|sct_lca_refiner|/home/cx/hongwai/irstd-lab/runs/selected_checkpoints/our_method/NUAA-SIRST_TCD-SCTransNet-L_66_best.pth.tar|/home/cx/hongwai/irstd-lab/runs/selected_checkpoints/lca/NUAA-SIRST_SCT-LCA-B_epoch5_best.pth.tar"
+  ],
+  "official_bgm_specs": [
+    "bgm_nuaa|NUAA-SIRST|/home/cx/hongwai/irstd-lab/external/BGM/checkpoints_download/weights/BasicUNet_plus-2024-09-20-21-17-03-NUAA-SIRST/best_mIoU_on_NUAA-SIRST.pth.tar|0.25"
+  ],
+  "rpcanet_specs": [
+    "rpcanet_sirst_s3|rpcanet_pp_s3|/home/cx/hongwai/irstd-lab/external/RPCANet_hf/result/ISTD/SIRST/RPCANet++_s3.pkl|0.50|256"
+  ],
+  "background_fit_datasets": [
+    "IRSTD-1K",
+    "NUAA-SIRST",
+    "NUDT-SIRST",
+    "SIRST3"
+  ],
+  "weights": {
+    "tpc_a": 0.1899983435869217,
+    "tpc_b": 0.09598003327846527,
+    "lca": 0.10436037927865982,
+    "bgm_nuaa": 0.4004937410354614,
+    "rpcanet_sirst_s3": 0.17499732971191406,
+    "bg_anomaly": 0.034170228987932205
+  },
+  "gamma": 0.95,
+  "names": [
+    "strong_fusion",
+    "weighted_raw",
+    "tpc_a",
+    "tpc_b",
+    "lca",
+    "bgm_nuaa",
+    "rpcanet_sirst_s3",
+    "bg_anomaly"
+  ],
+  "splits": [
+    {
+      "dataset": "IRSTD-1K",
+      "split": "train",
+      "path": "reports/fusion_cache_bgm_rpcanet_train_a/IRSTD-1K__train.npz",
+      "samples": 800
+    },
+    {
+      "dataset": "NUAA-SIRST",
+      "split": "train",
+      "path": "reports/fusion_cache_bgm_rpcanet_train_a/NUAA-SIRST__train.npz",
+      "samples": 213
+    }
+  ]
+}
