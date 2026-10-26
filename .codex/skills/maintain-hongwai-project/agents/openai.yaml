@@ -1,0 +1,4 @@
+interface:
+  display_name: "维护红外小目标论文项目"
+  short_description: "恢复论文项目上下文，维护实验方案、结果证据与长期进度，控制毕业论文工作范围"
+  default_prompt: "使用 $maintain-hongwai-project 恢复论文项目上下文，核对当前结果与待办，完成本次任务并更新长期状态。"
